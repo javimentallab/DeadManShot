@@ -1,0 +1,11 @@
+<p>A dead man's switch for your phone. Press "I'm OK" once a day (or as often as you choose). If you stop, DeadManShot sends the email you prepared and can act on your computer.</p>
+<ul>
+<li><b>Daily check-in</b>: pick the interval, from 10 minutes to 3 days, and as many reminders as you like before the deadline. Each reminder has its own "I'm OK" button. Pause it for an hour or a month when you need to.</li>
+<li><b>Heart rate</b> (optional): with a watch paired with Gadgetbridge, it fires when your heart rate stays below a threshold, or when the watch stops sending it. You always get an alarm and ten minutes to answer first.</li>
+<li><b>Email</b>: recipients, subject, text and attachments, sent from your own account over SMTP with TLS. Presets for Gmail, Yahoo, iCloud and Proton Mail, and a test button that sends it to yourself.</li>
+<li><b>Your computer</b>, Windows or Linux, over SSH: wake it with Wake on LAN, run a command of your own, destroy an encryption key or shred a folder (two passes, in place), and shut it down.</li>
+</ul>
+<p>Destructive actions are guarded: drive roots, whole user folders and system folders are refused; links are not followed; anything that cannot be overwritten is left in place and reported; and the result of every action comes back as a notification. A "Fire now (test)" button lets you try the whole chain safely first.</p>
+<p>Nothing is collected. The app talks only to the mail server and the computer you set up. The mail and SSH passwords are encrypted with a key kept in the Android keystore.</p>
+<p>Open source under the MIT licence.</p>
+<p>Available in English, Spanish, Portuguese, French, German, Italian, Dutch, Polish, Russian, Ukrainian, Chinese, Japanese, Korean, Thai and Hindi.</p>

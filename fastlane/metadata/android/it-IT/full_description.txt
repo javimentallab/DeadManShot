@@ -1,0 +1,11 @@
+<p>Un dispositivo uomo morto per il tuo telefono. Tocca «Sto bene» una volta al giorno (o ogni quanto vuoi). Se smetti, DeadManShot invia l’email che hai preparato e può agire sul tuo computer.</p>
+<ul>
+<li><b>Conferma quotidiana</b>: scegli l’intervallo, da 10 minuti a 3 giorni, e tutti i promemoria che vuoi prima della scadenza. Ogni promemoria ha il suo pulsante «Sto bene». Mettila in pausa per un’ora o un mese quando serve.</li>
+<li><b>Battito</b> (facoltativo): con un orologio associato a Gadgetbridge, il dispositivo scatta quando il battito resta sotto una soglia o quando l’orologio smette di inviarlo. Prima suona sempre un allarme e hai dieci minuti per rispondere.</li>
+<li><b>Email</b>: destinatari, oggetto, testo e allegati, inviata dal tuo account tramite SMTP con TLS. Impostazioni pronte per Gmail, Yahoo, iCloud e Proton Mail, e un pulsante di prova che la invia a te stesso.</li>
+<li><b>Il tuo computer</b>, Windows o Linux, tramite SSH: accenderlo con Wake on LAN, eseguire un tuo comando, distruggere una chiave di cifratura o una cartella (sovrascritta due volte sul posto) e spegnerlo.</li>
+</ul>
+<p>Le azioni distruttive sono protette: le radici dei dischi, le intere cartelle utente e quelle di sistema vengono rifiutate; i collegamenti non vengono seguiti; ciò che non si può sovrascrivere resta dov’è e viene segnalato; e il risultato di ogni azione arriva come notifica. Il pulsante «Fai scattare ora (prova)» permette di provare prima tutta la catena in sicurezza.</p>
+<p>Non viene raccolto nulla. L’app comunica solo con il server di posta e il computer che configuri. Le password della posta e di SSH sono cifrate con una chiave conservata nel keystore di Android.</p>
+<p>Open source con licenza MIT.</p>
+<p>Disponibile in inglese, spagnolo, portoghese, francese, tedesco, italiano, olandese, polacco, russo, ucraino, cinese, giapponese, coreano, thailandese e hindi.</p>

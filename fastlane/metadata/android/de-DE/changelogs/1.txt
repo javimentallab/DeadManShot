@@ -1,0 +1,1 @@
+Erste öffentliche Version (Beta): tägliche Bestätigung mit Erinnerungen und Pause, Puls von einer Uhr über Gadgetbridge, E-Mail mit Anhängen und Aktionen auf einem Windows- oder Linux-Computer über SSH (Wake on LAN, eigener Befehl, Schlüssel vernichten, Ordner schreddern, herunterfahren).

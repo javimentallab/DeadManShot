@@ -1,0 +1,11 @@
+<p>Un dispositif d’homme mort pour votre téléphone. Appuyez sur « Je vais bien » une fois par jour (ou au rythme que vous choisissez). Si vous arrêtez, DeadManShot envoie l’e-mail que vous avez préparé et peut agir sur votre ordinateur.</p>
+<ul>
+<li><b>Confirmation quotidienne</b> : choisissez l’intervalle, de 10 minutes à 3 jours, et autant de rappels que vous voulez avant l’échéance. Chaque rappel a son propre bouton « Je vais bien ». Mettez-la en pause une heure ou un mois quand il le faut.</li>
+<li><b>Fréquence cardiaque</b> (facultatif) : avec une montre associée à Gadgetbridge, le dispositif se déclenche si votre pouls reste sous un seuil, ou si la montre cesse de l’envoyer. Vous avez toujours d’abord une alarme et dix minutes pour répondre.</li>
+<li><b>E-mail</b> : destinataires, objet, texte et pièces jointes, envoyé depuis votre propre compte par SMTP avec TLS. Réglages prêts à l’emploi pour Gmail, Yahoo, iCloud et Proton Mail, et un bouton de test qui vous l’envoie à vous-même.</li>
+<li><b>Votre ordinateur</b>, sous Windows ou Linux, par SSH : l’allumer avec Wake on LAN, exécuter votre propre commande, détruire une clé de chiffrement ou broyer un dossier (deux passes d’écrasement sur place), puis l’éteindre.</li>
+</ul>
+<p>Les actions destructrices sont encadrées : les racines de disque, les dossiers utilisateur entiers et les dossiers système sont refusés ; les liens ne sont pas suivis ; ce qui ne peut pas être écrasé reste en place et est signalé ; et le résultat de chaque action arrive sous forme de notification. Un bouton « Déclencher maintenant (test) » permet d’abord d’essayer toute la chaîne sans risque.</p>
+<p>Aucune donnée n’est collectée. L’application ne communique qu’avec le serveur de messagerie et l’ordinateur que vous configurez. Les mots de passe de messagerie et SSH sont chiffrés avec une clé conservée dans le Keystore Android.</p>
+<p>Logiciel libre sous licence MIT.</p>
+<p>Disponible en anglais, espagnol, portugais, français, allemand, italien, néerlandais, polonais, russe, ukrainien, chinois, japonais, coréen, thaï et hindi.</p>

@@ -1,0 +1,11 @@
+<p>Czuwak w Twoim telefonie. Naciśnij „Nic mi nie jest” raz dziennie (albo tak często, jak chcesz). Jeśli przestaniesz, DeadManShot wyśle przygotowany przez Ciebie e-mail i może wykonać działania na Twoim komputerze.</p>
+<ul>
+<li><b>Codzienne potwierdzenie</b>: wybierz odstęp, od 10 minut do 3 dni, i dowolną liczbę przypomnień przed terminem. Każde przypomnienie ma własny przycisk „Nic mi nie jest”. W razie potrzeby wstrzymaj je na godzinę lub na miesiąc.</li>
+<li><b>Tętno</b> (opcjonalnie): z zegarkiem sparowanym z Gadgetbridge czuwak zadziała, gdy tętno utrzymuje się poniżej progu albo gdy zegarek przestanie je przesyłać. Najpierw zawsze włącza się alarm i masz dziesięć minut na odpowiedź.</li>
+<li><b>E-mail</b>: odbiorcy, temat, treść i załączniki, wysyłane z Twojego własnego konta przez SMTP z TLS. Gotowe ustawienia dla Gmaila, Yahoo, iCloud i Proton Mail oraz przycisk testowy, który wysyła wiadomość do Ciebie.</li>
+<li><b>Twój komputer</b> z Windows lub Linuksem, przez SSH: włączenie go przez Wake on LAN, uruchomienie własnego polecenia, zniszczenie klucza szyfrowania lub folderu (folder jest dwukrotnie nadpisywany w miejscu) i wyłączenie go.</li>
+</ul>
+<p>Działania niszczące są zabezpieczone: katalogi główne dysków, całe foldery użytkownika i foldery systemowe są odrzucane; dowiązania nie są śledzone; to, czego nie da się nadpisać, zostaje na miejscu i jest zgłaszane; a wynik każdego działania przychodzi jako powiadomienie. Przycisk „Wyzwól teraz (test)” pozwala najpierw bezpiecznie wypróbować cały łańcuch.</p>
+<p>Nic nie jest zbierane. Aplikacja łączy się tylko z serwerem poczty i komputerem, które skonfigurujesz. Hasła do poczty i SSH są szyfrowane kluczem przechowywanym w magazynie kluczy Androida.</p>
+<p>Otwarte oprogramowanie na licencji MIT.</p>
+<p>Dostępna w językach: angielskim, hiszpańskim, portugalskim, francuskim, niemieckim, włoskim, niderlandzkim, polskim, rosyjskim, ukraińskim, chińskim, japońskim, koreańskim, tajskim i hindi.</p>

@@ -1,0 +1,1 @@
+Dead man's switch: miss your check-in and it emails and acts on your PC.

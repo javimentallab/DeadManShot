@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">DeadManShot</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_email">Email</string>
+    <string name="tab_pulse">Pulse</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Stopped</string>
+    <string name="status_running">Running</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_fired">Fired</string>
+    <string name="detail_off">Turn on \'In operation\' below to start. While it is stopped, nothing will be sent.</string>
+    <string name="detail_running">Next deadline: %1$s (%2$s left).</string>
+    <string name="detail_paused">Until %1$s (%2$s left). When the pause ends, the countdown starts again.</string>
+    <string name="fired_deadline">The deadline passed on %s.</string>
+    <string name="fired_heart_rate">Your heart rate fell below the threshold on %s.</string>
+    <string name="send_pending">Sending the email…</string>
+    <string name="send_sent">Email sent on %s.</string>
+    <string name="send_failed">The email could not be sent (%s). It will try again as soon as there is a connection.</string>
+    <string name="fired_reset">Press \'I\'m OK\' to start again.</string>
+
+    <string name="switch_label">In operation</string>
+    <string name="cannot_enable">Before switching it on, fill in:</string>
+    <string name="missing_recipient">a valid recipient</string>
+    <string name="missing_text">the subject or the text of the email</string>
+    <string name="missing_account">the sending account (server, user and password)</string>
+
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="pause_title">Pause for…</string>
+    <string name="pause_until">Paused until %s.</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="check_in">I\'m OK</string>
+    <string name="last_check_in">Last check-in: %s.</string>
+    <string name="never_checked_in">You have not checked in yet.</string>
+
+    <string name="permissions_title">Permissions</string>
+    <string name="perm_notifications">Notifications, for the reminders and the alarms.</string>
+    <string name="perm_exact">Exact alarms, so that the deadline is kept on time.</string>
+    <string name="perm_battery">Turn off battery optimisation for this app, so that Android does not stop it. In the list that opens, show all apps, find DeadManShot and choose not to optimise it.</string>
+    <string name="allow">Allow</string>
+
+    <string name="timing_title">Deadline</string>
+    <string name="interval_label">Press \'I\'m OK\' at least once every:</string>
+    <string name="reminder_label">Reminders before the deadline:</string>
+    <string name="reminder_multi_hint">Choose one, several or none. A notification will arrive at each one. Those as long as the interval or longer are not used.</string>
+
+    <string name="email_title">Email</string>
+    <string name="recipients">Recipients</string>
+    <string name="recipients_hint">Separate several addresses with commas.</string>
+    <string name="subject">Subject</string>
+    <string name="body">Text</string>
+    <string name="attachments">Attachments</string>
+    <string name="no_attachments">No attachments.</string>
+    <string name="add_attachment">Add file</string>
+    <string name="remove">Remove</string>
+
+    <string name="account_title">Sending account</string>
+    <string name="account_hint">The email goes out from your own account over SMTP. With Gmail, use an app password (Google Account, Security, App passwords), not your usual password.</string>
+    <string name="smtp_host">SMTP server</string>
+    <string name="smtp_port">Port</string>
+    <string name="security_ssl" translatable="false">SSL/TLS (465)</string>
+    <string name="security_starttls" translatable="false">STARTTLS (587)</string>
+    <string name="smtp_user">User (your email address)</string>
+    <string name="smtp_password">Password</string>
+    <string name="show_password">Show the password</string>
+    <string name="hide_password">Hide the password</string>
+    <string name="smtp_from">Sender address</string>
+    <string name="smtp_from_hint">Leave it blank to use the user.</string>
+    <string name="send_test">Send a test to my own address</string>
+    <string name="test_ok">Test sent to %s. Check your inbox.</string>
+    <string name="test_skipped">Attachments left out because they could not be read: %s</string>
+    <string name="test_failed">Could not send: %s</string>
+    <string name="test_subject_prefix">[Test]</string>
+
+    <string name="smtp_fill_preset">Fill with defaults…</string>
+    <string name="smtp_preset_title">Choose a provider</string>
+    <string name="smtp_preset_apply">Apply</string>
+    <string name="preset_gmail" translatable="false">Gmail</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Needs an app password.</string>
+    <string name="preset_yahoo" translatable="false">Yahoo</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Needs an app password.</string>
+    <string name="preset_icloud" translatable="false">iCloud</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Needs an app password.</string>
+    <string name="preset_proton" translatable="false">Proton Mail</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Needs an SMTP token (paid plan, own domain).</string>
+
+    <string name="channel_reminder">Reminders and alarms</string>
+    <string name="channel_result">Results</string>
+    <string name="reminder_title">Are you OK?</string>
+    <string name="reminder_text">Press \'I\'m OK\' before %1$s (%2$s) or the switch will fire.</string>
+    <string name="sent_title">Email sent</string>
+    <string name="sent_text">The email has been sent to the recipients.</string>
+    <string name="sent_text_skipped">The email has been sent, but without these attachments, which could not be read: %s</string>
+    <string name="failed_title">Email not sent</string>
+    <string name="failed_text">%s. It will try again on its own.</string>
+
+    <string name="pulse_title">Heart rate from the watch</string>
+    <string name="pulse_enable">Trigger when the heart rate falls below the threshold</string>
+    <string name="pulse_threshold">Threshold: %d bpm</string>
+    <string name="pulse_requirements_title">What you need</string>
+    <string name="pulse_requirements_body">1. A watch that measures your heart rate, paired with Gadgetbridge on this phone, with continuous heart-rate measurement turned on.\n2. In Gadgetbridge, turn on the automatic database export and choose where it goes.\n3. In Gadgetbridge, Settings → Intent API: allow the activity sync trigger and the database export.\n4. Below, choose that same export file.</string>
+    <string name="pulse_open_gadgetbridge">Open Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge is not installed. Install it from F-Droid first.</string>
+    <string name="pulse_choose_file">Choose the export file</string>
+    <string name="pulse_file">Export file: %s</string>
+    <string name="pulse_no_file">No export file chosen yet.</string>
+    <string name="pulse_no_signal_label">Also fire if the watch sends no heart rate for</string>
+    <string name="pulse_no_signal_off">Never</string>
+    <string name="pulse_no_signal_hint">This only counts when Gadgetbridge has exported recently, so a problem with the phone or the app never fires the switch.</string>
+    <string name="pulse_interval_label">Check every</string>
+    <string name="pulse_status_title">Last check</string>
+    <string name="pulse_last">Last reading: %1$d bpm, %2$s (checked: %3$s).</string>
+    <string name="pulse_never_checked">Not checked yet.</string>
+    <string name="pulse_no_reading">No reading from the watch (checked: %s).</string>
+    <string name="pulse_check_now">Check now</string>
+    <string name="pulse_check_hint">It takes about a minute: Gadgetbridge syncs the watch and exports first.</string>
+    <string name="pulse_err_no_file">Choose Gadgetbridge\'s export file in the Pulse tab.</string>
+    <string name="pulse_err_stale">Gadgetbridge has not exported recently, so the heart rate cannot be checked. Look at its Intent API settings and the automatic export.</string>
+    <string name="pulse_err_read">Could not read the export: %s</string>
+    <string name="pulse_problem_title">The heart rate cannot be checked</string>
+    <string name="pulse_alert_title">Is everything all right?</string>
+    <string name="pulse_alert_low">Your watch reads %1$d bpm. The switch fires at %2$s unless you press \'I\'m OK\'.</string>
+    <string name="pulse_alert_silent">Your watch has stopped sending your heart rate. The switch fires at %s unless you press \'I\'m OK\'.</string>
+    <string name="fired_no_pulse">The watch stopped sending your heart rate; the switch fired on %s.</string>
+    <string name="detail_pulse_alert">Watch alert: the switch fires at %s unless you press \'I\'m OK\'.</string>
+
+    <string name="pc_warning_title">Destructive actions</string>
+    <string name="pc_warning_body">These actions run on your PC when the switch fires. Test them once with a safe folder before trusting them.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Wake the PC first</string>
+    <string name="pc_mac">PC MAC address</string>
+    <string name="pc_broadcast">Broadcast address</string>
+    <string name="pc_broadcast_hint">Usually 255.255.255.255, or the LAN broadcast (e.g. 192.168.1.255).</string>
+    <string name="pc_wol_wait">Seconds to wait after WoL</string>
+    <string name="pc_wol_test">Send WoL now</string>
+    <string name="pc_wol_sent">Magic packet sent.</string>
+    <string name="pc_wol_failed">Could not send the magic packet: %s</string>
+
+    <string name="pc_ssh_title">SSH access</string>
+    <string name="pc_ssh_host">Host or IP</string>
+    <string name="pc_ssh_port">SSH port</string>
+    <string name="pc_ssh_user">SSH user</string>
+    <string name="pc_ssh_password">SSH password (if there is no key)</string>
+    <string name="pc_ssh_test">Test SSH</string>
+    <string name="pc_ssh_ok">SSH is OK (%s).</string>
+    <string name="pc_ssh_failed">SSH failed: %s</string>
+
+    <string name="pc_key_title">Destroy the key</string>
+    <string name="pc_key_enable">Destroy a key file or folder</string>
+    <string name="pc_key_body">Keep the sensitive folder encrypted (VeraCrypt, LUKS, EFS, 7-Zip AES…) with a key that lives at the path below. When the switch fires, the key is overwritten twice and deleted, leaving the data locked for good.</string>
+    <string name="pc_key_path">Key file or folder path on the PC</string>
+    <string name="pc_path_hint">Full Windows path, e.g. C:\\Users\\me\\Desktop\\test. Drive roots, whole user folders and system folders are refused.</string>
+
+    <string name="pc_shred_title">Shred a folder</string>
+    <string name="pc_shred_enable">Shred a folder</string>
+    <string name="pc_shred_body">Two passes over every file, written in place (zeros, then random data), and then the file is deleted. Anything that cannot be overwritten is left where it is and reported. Folders are removed once empty. On an SSD the firmware may keep old copies, so destroying the key above is safer.</string>
+    <string name="pc_folder">Folder on the PC</string>
+    <string name="pc_subdirs">Include subdirectories</string>
+
+    <string name="pc_shutdown_title">Shut down the PC</string>
+    <string name="pc_shutdown_enable">Force a shutdown</string>
+    <string name="pc_shutdown_body">After the other actions, send \"shutdown /s /f /t 0\" over SSH.</string>
+
+    <string name="pc_notification_title">PC actions</string>
+    <string name="pc_log_nothing">Nothing to do.</string>
+    <string name="pc_log_wol_ok">WoL packet sent.</string>
+    <string name="pc_log_wol_failed">WoL failed: %s</string>
+    <string name="pc_log_ssh_missing">SSH host, user, or key or password missing.</string>
+    <string name="pc_log_key_ok">Key destroyed: %1$s.</string>
+    <string name="pc_log_key_failed">Destroying the key failed: %s</string>
+    <string name="pc_log_key_unsafe">Key path refused as unsafe; nothing touched.</string>
+    <string name="pc_log_shred_ok">Folder destroyed: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Destroying the folder failed: %s</string>
+    <string name="pc_log_shred_unsafe">Folder path refused as unsafe; nothing touched.</string>
+    <string name="pc_log_shutdown_ok">Shutdown command sent.</string>
+    <string name="pc_log_shutdown_failed">Shutdown failed: %s</string>
+
+    <string name="remaining_dh" translatable="false">%1$d d %2$d h</string>
+    <string name="remaining_hm" translatable="false">%1$d h %2$d min</string>
+    <string name="remaining_m" translatable="false">%d min</string>
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="pc_log_not_found">The path does not exist on the PC.</string>
+    <string name="pc_log_is_link">The path is a link; it was not followed.</string>
+    <string name="pc_log_not_folder">The path is a file, not a folder.</string>
+    <string name="pc_log_partial">%1$s; anything that could not be overwritten was left in place.\n%2$s</string>
+    <string name="fired_manual">Fired by hand on %s.</string>
+    <string name="fire_now">Fire now (test)</string>
+    <string name="fire_now_title">Fire now?</string>
+    <string name="fire_now_body">The email will really go to %1$s, and these PC actions will run: %2$s. It is exactly as if the deadline had passed.</string>
+    <string name="fire_now_no_pc">none</string>
+    <string name="fire_now_confirm">Fire</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">destroy the key</string>
+    <string name="fire_action_shred">destroy the folder %s</string>
+    <string name="fire_action_shutdown">shut down</string>
+    <string name="pc_os_title">System of the PC</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Full path, e.g. /home/me/test. The root, whole home folders and system folders (/etc, /usr, /var…) are refused.</string>
+    <string name="pc_shutdown_body_linux">After the other actions, run \"sudo -n systemctl poweroff\" over SSH. The SSH user needs sudo without a password for that command, or polkit permission to power off.</string>
+    <string name="pc_log_no_shred">shred is not installed on the PC (it comes with coreutils).</string>
+    <string name="pc_log_exit">the command ended with code %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Run a command</string>
+    <string name="pc_cmd_enable">Run my command</string>
+    <string name="pc_cmd_body_windows">Right after Wake on LAN, this runs on the PC over SSH, in PowerShell, as the SSH user. It can have several lines. No window opens: what it prints shows up in the result notification.</string>
+    <string name="pc_cmd_body_linux">Right after Wake on LAN, this runs on the PC over SSH, in bash, as the SSH user. It can have several lines. No window opens: what it prints shows up in the result notification.</string>
+    <string name="pc_cmd_field">Command</string>
+    <string name="pc_log_cmd_ok">Command finished.\n%s</string>
+    <string name="pc_log_cmd_exit">The command ended with code %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Could not run the command: %s</string>
+    <string name="fire_action_cmd">run your command</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d file overwritten and deleted</item>
+        <item quantity="other">%d files overwritten and deleted</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d subfolder left untouched</item>
+        <item quantity="other">%d subfolders left untouched</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">only %d file was destroyed</item>
+        <item quantity="other">only %d files were destroyed</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">If the last reading is below the threshold, an alarm goes off and the switch fires %2$d minutes later unless you press \'I\'m OK\'. A normal reading after the alarm calls it off.</item>
+        <item quantity="other">If the last %1$d readings are below the threshold, an alarm goes off and the switch fires %2$d minutes later unless you press \'I\'m OK\'. A normal reading after the alarm calls it off.</item>
+    </plurals>
+    <string name="app_password_needed">This provider only accepts an app password: 16 letters that you create for this app. Your usual password is refused.</string>
+    <string name="app_password_open">Create an app password</string>
+    <string name="app_password_suspicious">This does not look like an app password (16 letters).</string>
+    <string name="proton_token_needed">Proton only sends over SMTP with an SMTP token, which exists for addresses on your own domain with a paid plan. Put the username and token that Proton gives you in User and Password.</string>
+    <string name="proton_token_open">Open Proton\'s instructions</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail and Microsoft 365 no longer accept a password for sending, and this app cannot sign in to Microsoft yet. Use another provider.</string>
+    <string name="err_app_password">The server asks for an app password, not your usual one. Create one with the button below the password and paste it there.</string>
+    <string name="err_bad_login">The server did not accept the user or the password. The user must be your full email address and, with Gmail, Yahoo or iCloud, the password an app password.</string>
+    <string name="err_microsoft">Microsoft refused the password: it no longer allows sending with one. Use another provider.</string>
+    <string name="pc_ssh_key_hint">Sign in with a key (safer, and no password needed) or with the password of that user on the PC.</string>
+    <string name="pc_ssh_key_generate">Create a key</string>
+    <string name="pc_ssh_key_copy">Copy the public key</string>
+    <string name="pc_ssh_key_delete">Delete the key</string>
+    <string name="pc_ssh_key_copied">Public key copied.</string>
+    <string name="pc_ssh_key_where_windows">On the PC, add the public key to C:\\ProgramData\\ssh\\administrators_authorized_keys if the user is an administrator, or else to .ssh\\authorized_keys in the user\'s folder.</string>
+    <string name="pc_ssh_key_where_linux">On the PC, add the public key to ~/.ssh/authorized_keys of that user.</string>
+</resources>

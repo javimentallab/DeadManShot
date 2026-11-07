@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">होम</string>
+    <string name="tab_email">ईमेल</string>
+    <string name="tab_pulse">पल्स</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">बंद</string>
+    <string name="status_running">चल रहा है</string>
+    <string name="status_paused">रुका हुआ</string>
+    <string name="status_fired">ट्रिगर हुआ</string>
+    <string name="detail_off">शुरू करने के लिए नीचे “चालू” को ऑन करें। जब तक यह बंद है, कुछ भी नहीं भेजा जाएगा।</string>
+    <string name="detail_running">अगली समय-सीमा: %1$s (%2$s बाकी)।</string>
+    <string name="detail_paused">%1$s तक (%2$s बाकी)। विराम खत्म होने पर उलटी गिनती फिर से शुरू होगी।</string>
+    <string name="fired_deadline">समय-सीमा %s को निकल गई।</string>
+    <string name="fired_heart_rate">%s को आपकी हृदय गति सीमा से नीचे चली गई।</string>
+    <string name="send_pending">ईमेल भेजा जा रहा है…</string>
+    <string name="send_sent">ईमेल %s को भेजा गया।</string>
+    <string name="send_failed">ईमेल नहीं भेजा जा सका (%s)। कनेक्शन मिलते ही फिर से कोशिश की जाएगी।</string>
+    <string name="fired_reset">फिर से शुरू करने के लिए “मैं ठीक हूँ” दबाएँ।</string>
+
+    <string name="switch_label">चालू</string>
+    <string name="cannot_enable">चालू करने से पहले ये भरें:</string>
+    <string name="missing_recipient">एक मान्य प्राप्तकर्ता</string>
+    <string name="missing_text">ईमेल का विषय या टेक्स्ट</string>
+    <string name="missing_account">भेजने वाला खाता (सर्वर, यूज़र और पासवर्ड)</string>
+
+    <string name="pause">रोकें</string>
+    <string name="resume">फिर शुरू करें</string>
+    <string name="pause_title">इतनी देर के लिए रोकें…</string>
+    <string name="pause_until">%s तक रुका हुआ।</string>
+    <string name="cancel">रद्द करें</string>
+
+    <string name="check_in">मैं ठीक हूँ</string>
+    <string name="last_check_in">पिछली पुष्टि: %s।</string>
+    <string name="never_checked_in">आपने अभी तक पुष्टि नहीं की है।</string>
+
+    <string name="permissions_title">अनुमतियाँ</string>
+    <string name="perm_notifications">सूचनाएँ, रिमाइंडर और अलार्म के लिए।</string>
+    <string name="perm_exact">सटीक अलार्म, ताकि समय-सीमा ठीक समय पर लागू हो।</string>
+    <string name="perm_battery">इस ऐप के लिए बैटरी ऑप्टिमाइज़ेशन बंद करें, ताकि Android इसे बंद न करे। खुलने वाली सूची में सभी ऐप दिखाएँ, DeadManShot ढूँढें और इसे ऑप्टिमाइज़ न करना चुनें।</string>
+    <string name="allow">अनुमति दें</string>
+
+    <string name="timing_title">समय-सीमा</string>
+    <string name="interval_label">कम से कम इतने समय में एक बार “मैं ठीक हूँ” दबाएँ:</string>
+    <string name="reminder_label">समय-सीमा से पहले रिमाइंडर:</string>
+    <string name="reminder_multi_hint">एक, कई या कोई भी नहीं चुनें। हर एक पर एक सूचना आएगी। जो अंतराल जितने या उससे लंबे हैं, वे इस्तेमाल नहीं होंगे।</string>
+
+    <string name="email_title">ईमेल</string>
+    <string name="recipients">प्राप्तकर्ता</string>
+    <string name="recipients_hint">कई पतों को कॉमा से अलग करें।</string>
+    <string name="subject">विषय</string>
+    <string name="body">टेक्स्ट</string>
+    <string name="attachments">अटैचमेंट</string>
+    <string name="no_attachments">कोई अटैचमेंट नहीं।</string>
+    <string name="add_attachment">फ़ाइल जोड़ें</string>
+    <string name="remove">हटाएँ</string>
+
+    <string name="account_title">भेजने वाला खाता</string>
+    <string name="account_hint">ईमेल SMTP के ज़रिए आपके अपने खाते से जाता है। Gmail के साथ ऐप पासवर्ड इस्तेमाल करें (Google खाता, सुरक्षा, ऐप पासवर्ड), अपना सामान्य पासवर्ड नहीं।</string>
+    <string name="smtp_host">SMTP सर्वर</string>
+    <string name="smtp_port">पोर्ट</string>
+    <string name="smtp_user">उपयोगकर्ता (आपका ईमेल पता)</string>
+    <string name="smtp_password">पासवर्ड</string>
+    <string name="show_password">पासवर्ड दिखाएँ</string>
+    <string name="hide_password">पासवर्ड छिपाएँ</string>
+    <string name="smtp_from">भेजने वाले का पता</string>
+    <string name="smtp_from_hint">यूज़र इस्तेमाल करने के लिए खाली छोड़ दें।</string>
+    <string name="send_test">अपने पते पर टेस्ट भेजें</string>
+    <string name="test_ok">टेस्ट %s पर भेजा गया। अपना इनबॉक्स देखें।</string>
+    <string name="test_skipped">ये अटैचमेंट पढ़े नहीं जा सके, इसलिए छोड़ दिए गए: %s</string>
+    <string name="test_failed">भेजा नहीं जा सका: %s</string>
+    <string name="test_subject_prefix">[टेस्ट]</string>
+
+    <string name="smtp_fill_preset">डिफ़ॉल्ट मान भरें…</string>
+    <string name="smtp_preset_title">प्रोवाइडर चुनें</string>
+    <string name="smtp_preset_apply">लागू करें</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL। ऐप पासवर्ड चाहिए।</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL। ऐप पासवर्ड चाहिए।</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS। ऐप पासवर्ड चाहिए।</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS। SMTP टोकन चाहिए (सशुल्क प्लान, अपना डोमेन)।</string>
+
+    <string name="channel_reminder">रिमाइंडर और अलार्म</string>
+    <string name="channel_result">नतीजे</string>
+    <string name="reminder_title">क्या आप ठीक हैं?</string>
+    <string name="reminder_text">%1$s (%2$s) से पहले “मैं ठीक हूँ” दबाएँ, वरना तंत्र ट्रिगर हो जाएगा।</string>
+    <string name="sent_title">ईमेल भेजा गया</string>
+    <string name="sent_text">ईमेल प्राप्तकर्ताओं को भेज दिया गया है।</string>
+    <string name="sent_text_skipped">ईमेल भेज दिया गया है, लेकिन इन अटैचमेंट के बिना, जो पढ़े नहीं जा सके: %s</string>
+    <string name="failed_title">ईमेल नहीं भेजा गया</string>
+    <string name="failed_text">%s। ऐप अपने आप फिर से कोशिश करेगा।</string>
+
+    <string name="pulse_title">घड़ी से हृदय गति</string>
+    <string name="pulse_enable">हृदय गति सीमा से नीचे जाने पर तंत्र ट्रिगर करें</string>
+    <string name="pulse_threshold">सीमा: %d bpm</string>
+    <string name="pulse_requirements_title">आपको क्या चाहिए</string>
+    <string name="pulse_requirements_body">1. हृदय गति मापने वाली घड़ी, जो इस फ़ोन पर Gadgetbridge से पेयर हो और जिसमें लगातार हृदय गति मापना चालू हो।\n2. Gadgetbridge में ऑटोमैटिक डेटाबेस एक्सपोर्ट चालू करें और चुनें कि वह कहाँ सेव हो।\n3. Gadgetbridge में, सेटिंग्स → Intent API: गतिविधि सिंक ट्रिगर और डेटाबेस एक्सपोर्ट की अनुमति दें।\n4. नीचे वही एक्सपोर्ट फ़ाइल चुनें।</string>
+    <string name="pulse_open_gadgetbridge">Gadgetbridge खोलें</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge इंस्टॉल नहीं है। पहले इसे F-Droid से इंस्टॉल करें।</string>
+    <string name="pulse_choose_file">एक्सपोर्ट फ़ाइल चुनें</string>
+    <string name="pulse_file">एक्सपोर्ट फ़ाइल: %s</string>
+    <string name="pulse_no_file">अभी कोई एक्सपोर्ट फ़ाइल नहीं चुनी गई।</string>
+    <string name="pulse_no_signal_label">अगर घड़ी इतनी देर तक हृदय गति न भेजे, तब भी ट्रिगर करें</string>
+    <string name="pulse_no_signal_off">कभी नहीं</string>
+    <string name="pulse_no_signal_hint">यह तभी गिना जाता है जब Gadgetbridge ने हाल ही में एक्सपोर्ट किया हो, ताकि फ़ोन या ऐप की कोई गड़बड़ी तंत्र को कभी ट्रिगर न करे।</string>
+    <string name="pulse_interval_label">इतने समय पर जाँचें</string>
+    <string name="pulse_status_title">पिछली जाँच</string>
+    <string name="pulse_last">पिछली रीडिंग: %1$d bpm, %2$s (जाँचा गया: %3$s)।</string>
+    <string name="pulse_never_checked">अभी तक जाँचा नहीं गया।</string>
+    <string name="pulse_no_reading">घड़ी से कोई रीडिंग नहीं (जाँचा गया: %s)।</string>
+    <string name="pulse_check_now">अभी जाँचें</string>
+    <string name="pulse_check_hint">इसमें करीब एक मिनट लगता है: Gadgetbridge पहले घड़ी को सिंक करता है और एक्सपोर्ट करता है।</string>
+    <string name="pulse_err_no_file">पल्स टैब में Gadgetbridge की एक्सपोर्ट फ़ाइल चुनें।</string>
+    <string name="pulse_err_stale">Gadgetbridge ने हाल में एक्सपोर्ट नहीं किया है, इसलिए हृदय गति जाँची नहीं जा सकती। उसकी Intent API सेटिंग्स और ऑटोमैटिक एक्सपोर्ट देखें।</string>
+    <string name="pulse_err_read">एक्सपोर्ट पढ़ा नहीं जा सका: %s</string>
+    <string name="pulse_problem_title">हृदय गति की जाँच नहीं हो पा रही है</string>
+    <string name="pulse_alert_title">क्या सब ठीक है?</string>
+    <string name="pulse_alert_low">आपकी घड़ी %1$d bpm दिखा रही है। अगर आप “मैं ठीक हूँ” नहीं दबाते, तो तंत्र %2$s पर ट्रिगर हो जाएगा।</string>
+    <string name="pulse_alert_silent">आपकी घड़ी ने आपकी हृदय गति भेजना बंद कर दिया है। अगर आप “मैं ठीक हूँ” नहीं दबाते, तो तंत्र %s पर ट्रिगर हो जाएगा।</string>
+    <string name="fired_no_pulse">घड़ी ने आपकी हृदय गति भेजना बंद कर दिया; तंत्र %s को ट्रिगर हुआ।</string>
+    <string name="detail_pulse_alert">घड़ी का अलर्ट: अगर आप “मैं ठीक हूँ” नहीं दबाते, तो तंत्र %s पर ट्रिगर हो जाएगा।</string>
+
+    <string name="pc_warning_title">विनाशकारी कार्रवाइयाँ</string>
+    <string name="pc_warning_body">तंत्र ट्रिगर होने पर ये कार्रवाइयाँ आपके PC पर चलती हैं। इन पर भरोसा करने से पहले किसी सुरक्षित फ़ोल्डर के साथ एक बार इन्हें टेस्ट करें।</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">पहले PC को जगाएँ</string>
+    <string name="pc_mac">PC का MAC पता</string>
+    <string name="pc_broadcast">ब्रॉडकास्ट पता</string>
+    <string name="pc_broadcast_hint">आमतौर पर 255.255.255.255, या LAN का ब्रॉडकास्ट पता (जैसे 192.168.1.255)।</string>
+    <string name="pc_wol_wait">WoL के बाद इंतज़ार (सेकंड)</string>
+    <string name="pc_wol_test">अभी WoL भेजें</string>
+    <string name="pc_wol_sent">मैजिक पैकेट भेजा गया।</string>
+    <string name="pc_wol_failed">मैजिक पैकेट नहीं भेजा जा सका: %s</string>
+
+    <string name="pc_ssh_title">SSH एक्सेस</string>
+    <string name="pc_ssh_host">होस्ट या IP</string>
+    <string name="pc_ssh_port">SSH पोर्ट</string>
+    <string name="pc_ssh_user">SSH यूज़र</string>
+    <string name="pc_ssh_password">SSH पासवर्ड (अगर कुंजी नहीं है)</string>
+    <string name="pc_ssh_test">SSH टेस्ट करें</string>
+    <string name="pc_ssh_ok">SSH ठीक है (%s)।</string>
+    <string name="pc_ssh_failed">SSH विफल: %s</string>
+
+    <string name="pc_key_title">कुंजी नष्ट करें</string>
+    <string name="pc_key_enable">कुंजी फ़ाइल या फ़ोल्डर नष्ट करें</string>
+    <string name="pc_key_body">संवेदनशील फ़ोल्डर को एन्क्रिप्ट करके रखें (VeraCrypt, LUKS, EFS, 7-Zip AES…), ऐसी कुंजी से जो नीचे दिए पाथ पर हो। तंत्र ट्रिगर होने पर कुंजी को दो बार ओवरराइट करके डिलीट कर दिया जाता है, जिससे डेटा हमेशा के लिए लॉक हो जाता है।</string>
+    <string name="pc_key_path">PC पर कुंजी फ़ाइल या फ़ोल्डर का पाथ</string>
+    <string name="pc_path_hint">पूरा Windows पाथ, जैसे C:\\Users\\me\\Desktop\\test। ड्राइव रूट, पूरे यूज़र फ़ोल्डर और सिस्टम फ़ोल्डर स्वीकार नहीं किए जाते।</string>
+
+    <string name="pc_shred_title">फ़ोल्डर श्रेड करें</string>
+    <string name="pc_shred_enable">फ़ोल्डर श्रेड करें</string>
+    <string name="pc_shred_body">हर फ़ाइल पर उसी जगह दो बार लिखा जाता है (पहले शून्य, फिर रैंडम डेटा), फिर फ़ाइल डिलीट कर दी जाती है। जिसे ओवरराइट नहीं किया जा सकता, वह जहाँ है वहीं छोड़ दिया जाता है और उसकी रिपोर्ट दी जाती है। खाली होने पर फ़ोल्डर हटा दिए जाते हैं। SSD पर फ़र्मवेयर पुरानी कॉपियाँ रख सकता है, इसलिए ऊपर वाली कुंजी नष्ट करना ज़्यादा सुरक्षित है।</string>
+    <string name="pc_folder">PC पर फ़ोल्डर</string>
+    <string name="pc_subdirs">सब-फ़ोल्डर भी शामिल करें</string>
+
+    <string name="pc_shutdown_title">PC बंद करें</string>
+    <string name="pc_shutdown_enable">ज़बरदस्ती बंद करें</string>
+    <string name="pc_shutdown_body">बाकी कार्रवाइयों के बाद SSH से “shutdown /s /f /t 0” भेजें।</string>
+
+    <string name="pc_notification_title">PC कार्रवाइयाँ</string>
+    <string name="pc_log_nothing">करने को कुछ नहीं।</string>
+    <string name="pc_log_wol_ok">WoL पैकेट भेजा गया।</string>
+    <string name="pc_log_wol_failed">WoL विफल: %s</string>
+    <string name="pc_log_ssh_missing">SSH होस्ट, उपयोगकर्ता, या कुंजी या पासवर्ड नहीं है।</string>
+    <string name="pc_log_key_ok">कुंजी नष्ट की गई: %1$s।</string>
+    <string name="pc_log_key_failed">कुंजी नष्ट नहीं हो सकी: %s</string>
+    <string name="pc_log_key_unsafe">कुंजी का पाथ असुरक्षित होने के कारण अस्वीकार किया गया; कुछ भी नहीं छुआ गया।</string>
+    <string name="pc_log_shred_ok">फ़ोल्डर नष्ट किया गया: %1$s; %2$s।</string>
+    <string name="pc_log_shred_failed">फ़ोल्डर नष्ट नहीं हो सका: %s</string>
+    <string name="pc_log_shred_unsafe">फ़ोल्डर का पाथ असुरक्षित होने के कारण अस्वीकार किया गया; कुछ भी नहीं छुआ गया।</string>
+    <string name="pc_log_shutdown_ok">बंद करने का कमांड भेजा गया।</string>
+    <string name="pc_log_shutdown_failed">PC बंद नहीं हो सका: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d मिनट</item>
+        <item quantity="other">%d मिनट</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d घंटा</item>
+        <item quantity="other">%d घंटे</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d दिन</item>
+        <item quantity="other">%d दिन</item>
+    </plurals>
+    <string name="pc_log_not_found">यह पाथ PC पर मौजूद नहीं है।</string>
+    <string name="pc_log_is_link">यह पाथ एक लिंक है; इसे फ़ॉलो नहीं किया गया।</string>
+    <string name="pc_log_not_folder">यह पाथ एक फ़ाइल है, फ़ोल्डर नहीं।</string>
+    <string name="pc_log_partial">%1$s; जो ओवरराइट नहीं हो सका, उसे वहीं छोड़ दिया गया।\n%2$s</string>
+    <string name="fired_manual">%s को हाथ से ट्रिगर किया गया।</string>
+    <string name="fire_now">अभी ट्रिगर करें (टेस्ट)</string>
+    <string name="fire_now_title">अभी ट्रिगर करें?</string>
+    <string name="fire_now_body">ईमेल सच में %1$s को जाएगा, और ये PC कार्रवाइयाँ चलेंगी: %2$s। यह बिल्कुल वैसा ही है जैसे समय-सीमा निकल गई हो।</string>
+    <string name="fire_now_no_pc">कोई नहीं</string>
+    <string name="fire_now_confirm">ट्रिगर करें</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">कुंजी नष्ट करना</string>
+    <string name="fire_action_shred">फ़ोल्डर %s नष्ट करना</string>
+    <string name="fire_action_shutdown">PC बंद करना</string>
+    <string name="pc_os_title">PC का सिस्टम</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">पूरा पाथ, जैसे /home/me/test। रूट, पूरे होम फ़ोल्डर और सिस्टम फ़ोल्डर (/etc, /usr, /var…) स्वीकार नहीं किए जाते।</string>
+    <string name="pc_shutdown_body_linux">बाकी कार्रवाइयों के बाद SSH से “sudo -n systemctl poweroff” चलाएँ। SSH यूज़र को इस कमांड के लिए बिना पासवर्ड वाला sudo चाहिए, या बंद करने की polkit अनुमति।</string>
+    <string name="pc_log_no_shred">PC पर shred इंस्टॉल नहीं है (यह coreutils के साथ आता है)।</string>
+    <string name="pc_log_exit">कमांड कोड %1$d के साथ खत्म हुआ।\n%2$s</string>
+    <string name="pc_cmd_title">कमांड चलाएँ</string>
+    <string name="pc_cmd_enable">मेरा कमांड चलाएँ</string>
+    <string name="pc_cmd_body_windows">Wake on LAN के तुरंत बाद यह PC पर SSH से, PowerShell में, SSH यूज़र के रूप में चलता है। इसमें कई लाइनें हो सकती हैं। कोई विंडो नहीं खुलती: जो यह प्रिंट करता है, वह नतीजे की सूचना में दिखता है।</string>
+    <string name="pc_cmd_body_linux">Wake on LAN के तुरंत बाद यह PC पर SSH से, bash में, SSH यूज़र के रूप में चलता है। इसमें कई लाइनें हो सकती हैं। कोई विंडो नहीं खुलती: जो यह प्रिंट करता है, वह नतीजे की सूचना में दिखता है।</string>
+    <string name="pc_cmd_field">कमांड</string>
+    <string name="pc_log_cmd_ok">कमांड पूरा हुआ।\n%s</string>
+    <string name="pc_log_cmd_exit">कमांड कोड %1$d के साथ खत्म हुआ।\n%2$s</string>
+    <string name="pc_log_cmd_failed">कमांड नहीं चल सका: %s</string>
+    <string name="fire_action_cmd">आपका कमांड चलाना</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d फ़ाइल ओवरराइट करके डिलीट की गई</item>
+        <item quantity="other">%d फ़ाइलें ओवरराइट करके डिलीट की गईं</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d सब-फ़ोल्डर को छुआ नहीं गया</item>
+        <item quantity="other">%d सब-फ़ोल्डरों को छुआ नहीं गया</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">सिर्फ़ %d फ़ाइल नष्ट हुई</item>
+        <item quantity="other">सिर्फ़ %d फ़ाइलें नष्ट हुईं</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">अगर आखिरी रीडिंग सीमा से नीचे है, तो अलार्म बजेगा और अगर आप “मैं ठीक हूँ” नहीं दबाते, तो तंत्र %2$d मिनट बाद ट्रिगर हो जाएगा। अलार्म के बाद एक सामान्य रीडिंग इसे रद्द कर देती है।</item>
+        <item quantity="other">अगर आखिरी %1$d रीडिंग सीमा से नीचे हैं, तो अलार्म बजेगा और अगर आप “मैं ठीक हूँ” नहीं दबाते, तो तंत्र %2$d मिनट बाद ट्रिगर हो जाएगा। अलार्म के बाद एक सामान्य रीडिंग इसे रद्द कर देती है।</item>
+    </plurals>
+    <string name="app_password_needed">यह सेवा केवल ऐप पासवर्ड स्वीकार करती है: 16 अक्षर, जो आप इस ऐप के लिए बनाते हैं। आपका सामान्य पासवर्ड अस्वीकार कर दिया जाता है।</string>
+    <string name="app_password_open">ऐप पासवर्ड बनाएँ</string>
+    <string name="app_password_suspicious">यह ऐप पासवर्ड (16 अक्षर) जैसा नहीं लगता।</string>
+    <string name="proton_token_needed">Proton केवल SMTP टोकन से SMTP द्वारा भेजता है, जो सशुल्क प्लान में अपने डोमेन वाले पतों के लिए उपलब्ध है। Proton से मिला उपयोगकर्ता नाम और टोकन उपयोगकर्ता और पासवर्ड में डालें।</string>
+    <string name="proton_token_open">Proton के निर्देश खोलें</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail और Microsoft 365 अब भेजने के लिए पासवर्ड स्वीकार नहीं करते, और यह ऐप अभी Microsoft में साइन इन नहीं कर सकता। कोई दूसरी सेवा इस्तेमाल करें।</string>
+    <string name="err_app_password">सर्वर सामान्य पासवर्ड नहीं, बल्कि ऐप पासवर्ड माँग रहा है। पासवर्ड के नीचे वाले बटन से एक बनाएँ और उसे वहीं चिपकाएँ।</string>
+    <string name="err_bad_login">सर्वर ने उपयोगकर्ता या पासवर्ड स्वीकार नहीं किया। उपयोगकर्ता आपका पूरा ईमेल पता होना चाहिए, और Gmail, Yahoo या iCloud के साथ पासवर्ड ऐप पासवर्ड होना चाहिए।</string>
+    <string name="err_microsoft">Microsoft ने पासवर्ड अस्वीकार कर दिया: अब पासवर्ड से भेजने की अनुमति नहीं है। कोई दूसरी सेवा इस्तेमाल करें।</string>
+    <string name="pc_ssh_key_hint">कुंजी से साइन इन करें (ज़्यादा सुरक्षित, पासवर्ड की ज़रूरत नहीं) या PC पर उस उपयोगकर्ता के पासवर्ड से।</string>
+    <string name="pc_ssh_key_generate">कुंजी बनाएँ</string>
+    <string name="pc_ssh_key_copy">सार्वजनिक कुंजी कॉपी करें</string>
+    <string name="pc_ssh_key_delete">कुंजी हटाएँ</string>
+    <string name="pc_ssh_key_copied">सार्वजनिक कुंजी कॉपी हो गई।</string>
+    <string name="pc_ssh_key_where_windows">PC पर, अगर उपयोगकर्ता व्यवस्थापक है तो सार्वजनिक कुंजी C:\\ProgramData\\ssh\\administrators_authorized_keys में जोड़ें, नहीं तो उपयोगकर्ता के फ़ोल्डर में .ssh\\authorized_keys में।</string>
+    <string name="pc_ssh_key_where_linux">PC पर, उस उपयोगकर्ता की ~/.ssh/authorized_keys में सार्वजनिक कुंजी जोड़ें।</string>
+</resources>

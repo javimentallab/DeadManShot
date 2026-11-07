@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">홈</string>
+    <string name="tab_email">이메일</string>
+    <string name="tab_pulse">심박</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">중지됨</string>
+    <string name="status_running">실행 중</string>
+    <string name="status_paused">일시 중지됨</string>
+    <string name="status_fired">작동됨</string>
+    <string name="detail_off">시작하려면 아래의 ‘실행 중’을 켜세요. 중지된 동안에는 아무것도 보내지 않아요.</string>
+    <string name="detail_running">다음 기한: %1$s(%2$s 남음).</string>
+    <string name="detail_paused">%1$s까지(%2$s 남음). 일시 중지가 끝나면 카운트다운이 다시 시작돼요.</string>
+    <string name="fired_deadline">%s에 기한이 지났어요.</string>
+    <string name="fired_heart_rate">%s에 심박수가 기준값 아래로 떨어졌어요.</string>
+    <string name="send_pending">이메일 보내는 중…</string>
+    <string name="send_sent">%s에 이메일을 보냈어요.</string>
+    <string name="send_failed">이메일을 보내지 못했어요(%s). 연결되는 대로 다시 시도해요.</string>
+    <string name="fired_reset">다시 시작하려면 ‘괜찮아요’를 누르세요.</string>
+
+    <string name="switch_label">실행 중</string>
+    <string name="cannot_enable">켜기 전에 다음을 입력하세요:</string>
+    <string name="missing_recipient">올바른 받는 사람</string>
+    <string name="missing_text">이메일 제목 또는 내용</string>
+    <string name="missing_account">보내는 계정(서버, 사용자, 비밀번호)</string>
+
+    <string name="pause">일시 중지</string>
+    <string name="resume">재개</string>
+    <string name="pause_title">일시 중지 기간…</string>
+    <string name="pause_until">%s까지 일시 중지 중이에요.</string>
+    <string name="cancel">취소</string>
+
+    <string name="check_in">괜찮아요</string>
+    <string name="last_check_in">마지막 안부 알림: %s.</string>
+    <string name="never_checked_in">아직 안부를 알린 적이 없어요.</string>
+
+    <string name="permissions_title">권한</string>
+    <string name="perm_notifications">알림: 리마인더와 알람에 필요해요.</string>
+    <string name="perm_exact">정확한 알람: 기한을 제시간에 지키는 데 필요해요.</string>
+    <string name="perm_battery">이 앱의 배터리 최적화를 꺼서 Android가 앱을 멈추지 않게 하세요. 열리는 목록에서 모든 앱을 표시하고 DeadManShot을 찾아 최적화하지 않음을 선택하세요.</string>
+    <string name="allow">허용</string>
+
+    <string name="timing_title">기한</string>
+    <string name="interval_label">최소한 다음 간격마다 ‘괜찮아요’를 누르세요:</string>
+    <string name="reminder_label">기한 전 리마인더:</string>
+    <string name="reminder_multi_hint">하나, 여러 개 또는 선택 안 함을 고를 수 있어요. 각 시점마다 알림이 와요. 간격과 같거나 더 긴 것은 사용하지 않아요.</string>
+
+    <string name="email_title">이메일</string>
+    <string name="recipients">받는 사람</string>
+    <string name="recipients_hint">여러 주소는 쉼표로 구분하세요.</string>
+    <string name="subject">제목</string>
+    <string name="body">내용</string>
+    <string name="attachments">첨부 파일</string>
+    <string name="no_attachments">첨부 파일이 없어요.</string>
+    <string name="add_attachment">파일 추가</string>
+    <string name="remove">삭제</string>
+
+    <string name="account_title">보내는 계정</string>
+    <string name="account_hint">이메일은 내 계정에서 SMTP로 보내져요. Gmail은 평소 비밀번호가 아닌 앱 비밀번호(Google 계정, 보안, 앱 비밀번호)를 사용하세요.</string>
+    <string name="smtp_host">SMTP 서버</string>
+    <string name="smtp_port">포트</string>
+    <string name="smtp_user">사용자(이메일 주소)</string>
+    <string name="smtp_password">비밀번호</string>
+    <string name="show_password">비밀번호 표시</string>
+    <string name="hide_password">비밀번호 숨기기</string>
+    <string name="smtp_from">보내는 사람 주소</string>
+    <string name="smtp_from_hint">비워 두면 사용자를 써요.</string>
+    <string name="send_test">내 주소로 테스트 보내기</string>
+    <string name="test_ok">%s(으)로 테스트를 보냈어요. 받은편지함을 확인하세요.</string>
+    <string name="test_skipped">읽을 수 없어 제외한 첨부 파일: %s</string>
+    <string name="test_failed">보내지 못했어요: %s</string>
+    <string name="test_subject_prefix">[테스트]</string>
+
+    <string name="smtp_fill_preset">기본값으로 채우기…</string>
+    <string name="smtp_preset_title">제공업체 선택</string>
+    <string name="smtp_preset_apply">적용</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. 앱 비밀번호가 필요해요.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. 앱 비밀번호가 필요해요.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. 앱 비밀번호가 필요해요.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. SMTP 토큰이 필요해요(유료 요금제, 자체 도메인).</string>
+
+    <string name="channel_reminder">리마인더와 알람</string>
+    <string name="channel_result">결과</string>
+    <string name="reminder_title">괜찮으세요?</string>
+    <string name="reminder_text">%1$s(%2$s) 전에 ‘괜찮아요’를 누르세요. 누르지 않으면 데드맨 스위치가 작동해요.</string>
+    <string name="sent_title">이메일 보냄</string>
+    <string name="sent_text">받는 사람에게 이메일을 보냈어요.</string>
+    <string name="sent_text_skipped">이메일을 보냈지만, 읽을 수 없는 다음 첨부 파일은 빠졌어요: %s</string>
+    <string name="failed_title">이메일 보내지 못함</string>
+    <string name="failed_text">%s. 자동으로 다시 시도해요.</string>
+
+    <string name="pulse_title">시계의 심박수</string>
+    <string name="pulse_enable">심박수가 기준값 아래로 떨어지면 작동</string>
+    <string name="pulse_threshold">기준값: %d bpm</string>
+    <string name="pulse_requirements_title">필요한 것</string>
+    <string name="pulse_requirements_body">1. 심박수를 측정하는 시계. 이 휴대전화의 Gadgetbridge와 페어링하고 연속 심박수 측정을 켜 두세요.\n2. Gadgetbridge에서 데이터베이스 자동 내보내기를 켜고 저장 위치를 고르세요.\n3. Gadgetbridge의 설정 → Intent API에서 활동 동기화 트리거와 데이터베이스 내보내기를 허용하세요.\n4. 아래에서 같은 내보내기 파일을 고르세요.</string>
+    <string name="pulse_open_gadgetbridge">Gadgetbridge 열기</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge가 설치되어 있지 않아요. 먼저 F-Droid에서 설치하세요.</string>
+    <string name="pulse_choose_file">내보내기 파일 선택</string>
+    <string name="pulse_file">내보내기 파일: %s</string>
+    <string name="pulse_no_file">아직 내보내기 파일을 고르지 않았어요.</string>
+    <string name="pulse_no_signal_label">다음 시간 동안 시계에서 심박수가 오지 않아도 작동</string>
+    <string name="pulse_no_signal_off">안 함</string>
+    <string name="pulse_no_signal_hint">Gadgetbridge가 최근에 내보낸 경우에만 계산하므로, 휴대전화나 앱에 문제가 생겨도 데드맨 스위치가 작동하지 않아요.</string>
+    <string name="pulse_interval_label">확인 간격</string>
+    <string name="pulse_status_title">마지막 확인</string>
+    <string name="pulse_last">마지막 측정값: %1$d bpm, %2$s(확인: %3$s).</string>
+    <string name="pulse_never_checked">아직 확인하지 않았어요.</string>
+    <string name="pulse_no_reading">시계에서 받은 측정값이 없어요(확인: %s).</string>
+    <string name="pulse_check_now">지금 확인</string>
+    <string name="pulse_check_hint">1분 정도 걸려요. Gadgetbridge가 먼저 시계를 동기화하고 내보내요.</string>
+    <string name="pulse_err_no_file">심박 탭에서 Gadgetbridge 내보내기 파일을 고르세요.</string>
+    <string name="pulse_err_stale">Gadgetbridge가 최근에 내보내지 않아 심박수를 확인할 수 없어요. Intent API 설정과 자동 내보내기를 확인하세요.</string>
+    <string name="pulse_err_read">내보내기 파일을 읽지 못했어요: %s</string>
+    <string name="pulse_problem_title">심박수를 확인할 수 없어요</string>
+    <string name="pulse_alert_title">별일 없으세요?</string>
+    <string name="pulse_alert_low">시계 측정값이 %1$d bpm이에요. ‘괜찮아요’를 누르지 않으면 %2$s에 데드맨 스위치가 작동해요.</string>
+    <string name="pulse_alert_silent">시계가 심박수를 보내지 않고 있어요. ‘괜찮아요’를 누르지 않으면 %s에 데드맨 스위치가 작동해요.</string>
+    <string name="fired_no_pulse">시계가 심박수를 보내지 않아 %s에 데드맨 스위치가 작동했어요.</string>
+    <string name="detail_pulse_alert">시계 경고: ‘괜찮아요’를 누르지 않으면 %s에 데드맨 스위치가 작동해요.</string>
+
+    <string name="pc_warning_title">파괴적인 작업</string>
+    <string name="pc_warning_body">이 작업들은 데드맨 스위치가 작동하면 PC에서 실행돼요. 믿고 쓰기 전에 지워져도 되는 폴더로 한 번 테스트하세요.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">먼저 PC 켜기</string>
+    <string name="pc_mac">PC MAC 주소</string>
+    <string name="pc_broadcast">브로드캐스트 주소</string>
+    <string name="pc_broadcast_hint">보통 255.255.255.255 또는 LAN 브로드캐스트 주소(예: 192.168.1.255)예요.</string>
+    <string name="pc_wol_wait">WoL 후 대기 시간(초)</string>
+    <string name="pc_wol_test">지금 WoL 보내기</string>
+    <string name="pc_wol_sent">매직 패킷을 보냈어요.</string>
+    <string name="pc_wol_failed">매직 패킷을 보내지 못했어요: %s</string>
+
+    <string name="pc_ssh_title">SSH 접속</string>
+    <string name="pc_ssh_host">호스트 또는 IP</string>
+    <string name="pc_ssh_port">SSH 포트</string>
+    <string name="pc_ssh_user">SSH 사용자</string>
+    <string name="pc_ssh_password">SSH 비밀번호(키가 없을 때)</string>
+    <string name="pc_ssh_test">SSH 테스트</string>
+    <string name="pc_ssh_ok">SSH 정상(%s).</string>
+    <string name="pc_ssh_failed">SSH 실패: %s</string>
+
+    <string name="pc_key_title">키 파기</string>
+    <string name="pc_key_enable">키 파일 또는 폴더 파기</string>
+    <string name="pc_key_body">민감한 폴더는 아래 경로에 있는 키로 암호화해 두세요(VeraCrypt, LUKS, EFS, 7-Zip AES…). 데드맨 스위치가 작동하면 키를 두 번 덮어쓴 뒤 삭제해서, 데이터가 영구히 잠겨요.</string>
+    <string name="pc_key_path">PC의 키 파일 또는 폴더 경로</string>
+    <string name="pc_path_hint">Windows 전체 경로(예: C:\\Users\\me\\Desktop\\test). 드라이브 루트, 사용자 폴더 전체, 시스템 폴더는 거부돼요.</string>
+
+    <string name="pc_shred_title">폴더 완전 삭제</string>
+    <string name="pc_shred_enable">폴더 완전 삭제</string>
+    <string name="pc_shred_body">모든 파일을 제자리에서 두 번 덮어쓴 뒤(0, 그다음 무작위 데이터) 삭제해요. 덮어쓸 수 없는 것은 그대로 두고 알려 줘요. 폴더는 비면 삭제돼요. SSD에서는 펌웨어가 예전 사본을 남길 수 있으니, 위의 키를 파기하는 편이 더 안전해요.</string>
+    <string name="pc_folder">PC의 폴더</string>
+    <string name="pc_subdirs">하위 폴더 포함</string>
+
+    <string name="pc_shutdown_title">PC 종료</string>
+    <string name="pc_shutdown_enable">강제 종료</string>
+    <string name="pc_shutdown_body">다른 작업이 끝나면 SSH로 “shutdown /s /f /t 0”을 보내요.</string>
+
+    <string name="pc_notification_title">PC 작업</string>
+    <string name="pc_log_nothing">할 일이 없어요.</string>
+    <string name="pc_log_wol_ok">WoL 패킷을 보냈어요.</string>
+    <string name="pc_log_wol_failed">WoL 실패: %s</string>
+    <string name="pc_log_ssh_missing">SSH 호스트, 사용자, 또는 키나 비밀번호가 없어요.</string>
+    <string name="pc_log_key_ok">키를 파기했어요: %1$s.</string>
+    <string name="pc_log_key_failed">키 파기 실패: %s</string>
+    <string name="pc_log_key_unsafe">안전하지 않은 키 경로라 거부했어요. 아무것도 건드리지 않았어요.</string>
+    <string name="pc_log_shred_ok">폴더를 파기했어요: %1$s, %2$s.</string>
+    <string name="pc_log_shred_failed">폴더 파기 실패: %s</string>
+    <string name="pc_log_shred_unsafe">안전하지 않은 폴더 경로라 거부했어요. 아무것도 건드리지 않았어요.</string>
+    <string name="pc_log_shutdown_ok">종료 명령을 보냈어요.</string>
+    <string name="pc_log_shutdown_failed">종료 실패: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d일</item>
+    </plurals>
+    <string name="pc_log_not_found">PC에 해당 경로가 없어요.</string>
+    <string name="pc_log_is_link">경로가 링크예요. 따라가지 않았어요.</string>
+    <string name="pc_log_not_folder">경로가 폴더가 아니라 파일이에요.</string>
+    <string name="pc_log_partial">%1$s. 덮어쓸 수 없던 것은 그대로 두었어요.\n%2$s</string>
+    <string name="fired_manual">%s에 수동으로 작동했어요.</string>
+    <string name="fire_now">지금 작동(테스트)</string>
+    <string name="fire_now_title">지금 작동할까요?</string>
+    <string name="fire_now_body">이메일이 실제로 %1$s에게 보내지고, 다음 PC 작업이 실행돼요: %2$s. 기한이 지난 것과 똑같아요.</string>
+    <string name="fire_now_no_pc">없음</string>
+    <string name="fire_now_confirm">작동</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">키 파기</string>
+    <string name="fire_action_shred">%s 폴더 파기</string>
+    <string name="fire_action_shutdown">PC 종료</string>
+    <string name="pc_os_title">PC 운영체제</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">전체 경로(예: /home/me/test). 루트, 홈 폴더 전체, 시스템 폴더(/etc, /usr, /var…)는 거부돼요.</string>
+    <string name="pc_shutdown_body_linux">다른 작업이 끝나면 SSH로 “sudo -n systemctl poweroff”를 실행해요. SSH 사용자는 이 명령을 비밀번호 없이 sudo로 실행할 수 있거나, 전원을 끌 수 있는 polkit 권한이 있어야 해요.</string>
+    <string name="pc_log_no_shred">PC에 shred가 설치되어 있지 않아요(coreutils에 들어 있어요).</string>
+    <string name="pc_log_exit">명령이 코드 %1$d(으)로 끝났어요.\n%2$s</string>
+    <string name="pc_cmd_title">명령 실행</string>
+    <string name="pc_cmd_enable">내 명령 실행</string>
+    <string name="pc_cmd_body_windows">Wake on LAN 직후 PC에서 SSH를 통해 PowerShell로, SSH 사용자 권한으로 실행돼요. 여러 줄도 쓸 수 있어요. 창은 열리지 않으며, 출력 내용은 결과 알림에 표시돼요.</string>
+    <string name="pc_cmd_body_linux">Wake on LAN 직후 PC에서 SSH를 통해 bash로, SSH 사용자 권한으로 실행돼요. 여러 줄도 쓸 수 있어요. 창은 열리지 않으며, 출력 내용은 결과 알림에 표시돼요.</string>
+    <string name="pc_cmd_field">명령</string>
+    <string name="pc_log_cmd_ok">명령을 마쳤어요.\n%s</string>
+    <string name="pc_log_cmd_exit">명령이 코드 %1$d(으)로 끝났어요.\n%2$s</string>
+    <string name="pc_log_cmd_failed">명령을 실행하지 못했어요: %s</string>
+    <string name="fire_action_cmd">내 명령 실행</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="other">파일 %d개를 덮어쓰고 삭제함</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="other">하위 폴더 %d개는 건드리지 않음</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="other">파일 %d개만 파기됨</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="other">최근 %1$d번의 측정값이 기준값보다 낮으면 알람이 울리고, ‘괜찮아요’를 누르지 않으면 %2$d분 후 데드맨 스위치가 작동해요. 알람 후 정상 측정값이 나오면 취소돼요.</item>
+    </plurals>
+    <string name="app_password_needed">이 서비스는 앱 비밀번호만 받아요. 이 앱용으로 만드는 16자리 영문자예요. 평소 비밀번호는 거부돼요.</string>
+    <string name="app_password_open">앱 비밀번호 만들기</string>
+    <string name="app_password_suspicious">앱 비밀번호(16자리 영문자)로 보이지 않아요.</string>
+    <string name="proton_token_needed">Proton은 SMTP 토큰이 있어야만 SMTP로 보낼 수 있어요. 토큰은 유료 요금제의 자체 도메인 주소에만 있어요. Proton이 알려 주는 사용자 이름과 토큰을 사용자와 비밀번호에 넣으세요.</string>
+    <string name="proton_token_open">Proton 안내 열기</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail, Microsoft 365는 더 이상 비밀번호로 보내기를 허용하지 않고, 이 앱은 아직 Microsoft에 로그인할 수 없어요. 다른 서비스를 사용하세요.</string>
+    <string name="err_app_password">서버가 평소 비밀번호가 아니라 앱 비밀번호를 요구해요. 비밀번호 아래 버튼으로 만들어서 거기에 붙여 넣으세요.</string>
+    <string name="err_bad_login">서버가 사용자 또는 비밀번호를 받아들이지 않았어요. 사용자는 전체 이메일 주소여야 하고, Gmail·Yahoo·iCloud에서는 비밀번호가 앱 비밀번호여야 해요.</string>
+    <string name="err_microsoft">Microsoft가 비밀번호를 거부했어요. 이제 비밀번호로는 보낼 수 없어요. 다른 서비스를 사용하세요.</string>
+    <string name="pc_ssh_key_hint">키로 로그인하거나(더 안전하고 비밀번호 불필요) PC의 해당 사용자 비밀번호를 쓰세요.</string>
+    <string name="pc_ssh_key_generate">키 만들기</string>
+    <string name="pc_ssh_key_copy">공개 키 복사</string>
+    <string name="pc_ssh_key_delete">키 삭제</string>
+    <string name="pc_ssh_key_copied">공개 키를 복사했어요.</string>
+    <string name="pc_ssh_key_where_windows">PC에서 사용자가 관리자이면 C:\\ProgramData\\ssh\\administrators_authorized_keys에, 아니면 사용자 폴더의 .ssh\\authorized_keys에 공개 키를 추가하세요.</string>
+    <string name="pc_ssh_key_where_linux">PC에서 해당 사용자의 ~/.ssh/authorized_keys에 공개 키를 추가하세요.</string>
+</resources>

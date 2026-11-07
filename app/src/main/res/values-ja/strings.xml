@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">ホーム</string>
+    <string name="tab_email">メール</string>
+    <string name="tab_pulse">心拍</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">停止中</string>
+    <string name="status_running">稼働中</string>
+    <string name="status_paused">一時停止中</string>
+    <string name="status_fired">作動済み</string>
+    <string name="detail_off">開始するには、下の「稼働中」をオンにしてください。停止中は何も送信されません。</string>
+    <string name="detail_running">次の期限：%1$s（残り %2$s）。</string>
+    <string name="detail_paused">%1$s まで（残り %2$s）。一時停止が終わると、カウントダウンが再び始まります。</string>
+    <string name="fired_deadline">期限が %s に過ぎました。</string>
+    <string name="fired_heart_rate">%s に心拍数がしきい値を下回りました。</string>
+    <string name="send_pending">メールを送信しています…</string>
+    <string name="send_sent">%s にメールを送信しました。</string>
+    <string name="send_failed">メールを送信できませんでした（%s）。接続が回復しだい再試行します。</string>
+    <string name="fired_reset">再開するには「無事です」を押してください。</string>
+
+    <string name="switch_label">稼働中</string>
+    <string name="cannot_enable">オンにする前に、次を入力してください：</string>
+    <string name="missing_recipient">有効な宛先</string>
+    <string name="missing_text">メールの件名または本文</string>
+    <string name="missing_account">送信アカウント（サーバー、ユーザー、パスワード）</string>
+
+    <string name="pause">一時停止</string>
+    <string name="resume">再開</string>
+    <string name="pause_title">一時停止する期間…</string>
+    <string name="pause_until">%s まで一時停止中です。</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="check_in">無事です</string>
+    <string name="last_check_in">前回の安否報告：%s。</string>
+    <string name="never_checked_in">まだ一度も安否報告をしていません。</string>
+
+    <string name="permissions_title">権限</string>
+    <string name="perm_notifications">通知（リマインダーとアラームのため）。</string>
+    <string name="perm_exact">正確なアラーム（期限を時間どおりに守るため）。</string>
+    <string name="perm_battery">このアプリのバッテリー最適化をオフにして、Android に停止されないようにします。開いたリストですべてのアプリを表示し、DeadManShot を探して、最適化しないを選んでください。</string>
+    <string name="allow">許可</string>
+
+    <string name="timing_title">期限</string>
+    <string name="interval_label">少なくとも次の間隔ごとに「無事です」を押す：</string>
+    <string name="reminder_label">期限前のリマインダー：</string>
+    <string name="reminder_multi_hint">1つ、複数、またはなしを選べます。それぞれの時点で通知が届きます。間隔と同じかそれより長いものは使われません。</string>
+
+    <string name="email_title">メール</string>
+    <string name="recipients">宛先</string>
+    <string name="recipients_hint">複数のアドレスはカンマで区切ってください。</string>
+    <string name="subject">件名</string>
+    <string name="body">本文</string>
+    <string name="attachments">添付ファイル</string>
+    <string name="no_attachments">添付ファイルはありません。</string>
+    <string name="add_attachment">ファイルを追加</string>
+    <string name="remove">削除</string>
+
+    <string name="account_title">送信アカウント</string>
+    <string name="account_hint">メールはご自身のアカウントから SMTP で送信されます。Gmail の場合は、普段のパスワードではなくアプリ パスワード（Google アカウント、セキュリティ、アプリ パスワード）を使ってください。</string>
+    <string name="smtp_host">SMTP サーバー</string>
+    <string name="smtp_port">ポート</string>
+    <string name="smtp_user">ユーザー（メールアドレス）</string>
+    <string name="smtp_password">パスワード</string>
+    <string name="show_password">パスワードを表示</string>
+    <string name="hide_password">パスワードを隠す</string>
+    <string name="smtp_from">送信元アドレス</string>
+    <string name="smtp_from_hint">空欄にするとユーザーを使います。</string>
+    <string name="send_test">自分のアドレスにテストを送信</string>
+    <string name="test_ok">%s にテストを送信しました。受信トレイを確認してください。</string>
+    <string name="test_skipped">読み込めなかったため除外した添付ファイル：%s</string>
+    <string name="test_failed">送信できませんでした：%s</string>
+    <string name="test_subject_prefix">[テスト]</string>
+
+    <string name="smtp_fill_preset">既定値で入力…</string>
+    <string name="smtp_preset_title">プロバイダーを選択</string>
+    <string name="smtp_preset_apply">適用</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL。アプリ パスワードが必要です。</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL。アプリ パスワードが必要です。</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS。アプリ パスワードが必要です。</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS。SMTP トークンが必要です（有料プラン、独自ドメイン）。</string>
+
+    <string name="channel_reminder">リマインダーとアラーム</string>
+    <string name="channel_result">結果</string>
+    <string name="reminder_title">大丈夫ですか？</string>
+    <string name="reminder_text">%1$s（%2$s）までに「無事です」を押してください。押さないとデッドマンスイッチが作動します。</string>
+    <string name="sent_title">メールを送信しました</string>
+    <string name="sent_text">宛先にメールを送信しました。</string>
+    <string name="sent_text_skipped">メールを送信しましたが、読み込めなかった次の添付ファイルは含まれていません：%s</string>
+    <string name="failed_title">メール未送信</string>
+    <string name="failed_text">%s。自動で再試行します。</string>
+
+    <string name="pulse_title">時計の心拍数</string>
+    <string name="pulse_enable">心拍数がしきい値を下回ったら作動</string>
+    <string name="pulse_threshold">しきい値：%d bpm</string>
+    <string name="pulse_requirements_title">必要なもの</string>
+    <string name="pulse_requirements_body">1. 心拍数を測定できる時計。このスマートフォンの Gadgetbridge とペアリングし、心拍数の連続測定をオンにしておきます。\n2. Gadgetbridge で、データベースの自動エクスポートをオンにし、保存先を選びます。\n3. Gadgetbridge の「設定 → Intent API」で、アクティビティ同期のトリガーとデータベースのエクスポートを許可します。\n4. 下で、同じエクスポート ファイルを選びます。</string>
+    <string name="pulse_open_gadgetbridge">Gadgetbridge を開く</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge がインストールされていません。先に F-Droid からインストールしてください。</string>
+    <string name="pulse_choose_file">エクスポート ファイルを選択</string>
+    <string name="pulse_file">エクスポート ファイル：%s</string>
+    <string name="pulse_no_file">エクスポート ファイルがまだ選択されていません。</string>
+    <string name="pulse_no_signal_label">次の時間、時計から心拍数が届かないときも作動</string>
+    <string name="pulse_no_signal_off">しない</string>
+    <string name="pulse_no_signal_hint">Gadgetbridge が最近エクスポートしている場合にのみカウントされるため、スマートフォンやアプリの不具合でデッドマンスイッチが作動することはありません。</string>
+    <string name="pulse_interval_label">確認の間隔</string>
+    <string name="pulse_status_title">前回の確認</string>
+    <string name="pulse_last">前回の測定値：%1$d bpm、%2$s（確認：%3$s）。</string>
+    <string name="pulse_never_checked">まだ確認していません。</string>
+    <string name="pulse_no_reading">時計からの測定値がありません（確認：%s）。</string>
+    <string name="pulse_check_now">今すぐ確認</string>
+    <string name="pulse_check_hint">1分ほどかかります。先に Gadgetbridge が時計を同期してエクスポートします。</string>
+    <string name="pulse_err_no_file">「心拍」タブで Gadgetbridge のエクスポート ファイルを選んでください。</string>
+    <string name="pulse_err_stale">Gadgetbridge が最近エクスポートしていないため、心拍数を確認できません。Intent API の設定と自動エクスポートを確認してください。</string>
+    <string name="pulse_err_read">エクスポートを読み込めませんでした：%s</string>
+    <string name="pulse_problem_title">心拍数を確認できません</string>
+    <string name="pulse_alert_title">異常はありませんか？</string>
+    <string name="pulse_alert_low">時計の値は %1$d bpm です。「無事です」を押さないと、%2$s にデッドマンスイッチが作動します。</string>
+    <string name="pulse_alert_silent">時計から心拍数が届かなくなりました。「無事です」を押さないと、%s にデッドマンスイッチが作動します。</string>
+    <string name="fired_no_pulse">時計から心拍数が届かなくなり、%s にデッドマンスイッチが作動しました。</string>
+    <string name="detail_pulse_alert">時計のアラート：「無事です」を押さないと、%s にデッドマンスイッチが作動します。</string>
+
+    <string name="pc_warning_title">破壊的な操作</string>
+    <string name="pc_warning_body">これらの操作は、デッドマンスイッチが作動したときに PC で実行されます。信頼する前に、消えても困らないフォルダーで一度テストしてください。</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">先に PC を起動</string>
+    <string name="pc_mac">PC の MAC アドレス</string>
+    <string name="pc_broadcast">ブロードキャスト アドレス</string>
+    <string name="pc_broadcast_hint">通常は 255.255.255.255、または LAN のブロードキャスト（例：192.168.1.255）。</string>
+    <string name="pc_wol_wait">WoL 後の待機秒数</string>
+    <string name="pc_wol_test">今すぐ WoL を送信</string>
+    <string name="pc_wol_sent">マジックパケットを送信しました。</string>
+    <string name="pc_wol_failed">マジックパケットを送信できませんでした：%s</string>
+
+    <string name="pc_ssh_title">SSH 接続</string>
+    <string name="pc_ssh_host">ホストまたは IP</string>
+    <string name="pc_ssh_port">SSH ポート</string>
+    <string name="pc_ssh_user">SSH ユーザー</string>
+    <string name="pc_ssh_password">SSH パスワード（鍵がない場合）</string>
+    <string name="pc_ssh_test">SSH をテスト</string>
+    <string name="pc_ssh_ok">SSH は正常です（%s）。</string>
+    <string name="pc_ssh_failed">SSH に失敗しました：%s</string>
+
+    <string name="pc_key_title">鍵を破棄</string>
+    <string name="pc_key_enable">鍵ファイルまたはフォルダーを破棄</string>
+    <string name="pc_key_body">機密フォルダーは、下のパスにある鍵で暗号化しておきます（VeraCrypt、LUKS、EFS、7-Zip AES…）。デッドマンスイッチが作動すると、鍵が2回上書きされてから削除され、データは永久にロックされます。</string>
+    <string name="pc_key_path">PC 上の鍵ファイルまたはフォルダーのパス</string>
+    <string name="pc_path_hint">Windows のフルパス。例：C:\\Users\\me\\Desktop\\test。ドライブのルート、ユーザー フォルダー全体、システム フォルダーは拒否されます。</string>
+
+    <string name="pc_shred_title">フォルダーを完全消去</string>
+    <string name="pc_shred_enable">フォルダーを完全消去</string>
+    <string name="pc_shred_body">各ファイルをその場で2回上書きし（ゼロ、次にランダムデータ）、その後ファイルを削除します。上書きできないものはそのまま残して報告します。フォルダーは空になると削除されます。SSD ではファームウェアが古いコピーを残すことがあるため、上の鍵を破棄するほうが安全です。</string>
+    <string name="pc_folder">PC 上のフォルダー</string>
+    <string name="pc_subdirs">サブフォルダーを含める</string>
+
+    <string name="pc_shutdown_title">PC をシャットダウン</string>
+    <string name="pc_shutdown_enable">強制シャットダウン</string>
+    <string name="pc_shutdown_body">他の操作の後、SSH で「shutdown /s /f /t 0」を送信します。</string>
+
+    <string name="pc_notification_title">PC の操作</string>
+    <string name="pc_log_nothing">何もすることはありません。</string>
+    <string name="pc_log_wol_ok">WoL パケットを送信しました。</string>
+    <string name="pc_log_wol_failed">WoL に失敗しました：%s</string>
+    <string name="pc_log_ssh_missing">SSH のホスト、ユーザー、または鍵かパスワードがありません。</string>
+    <string name="pc_log_key_ok">鍵を破棄しました：%1$s。</string>
+    <string name="pc_log_key_failed">鍵の破棄に失敗しました：%s</string>
+    <string name="pc_log_key_unsafe">鍵のパスが安全でないため拒否しました。何も変更していません。</string>
+    <string name="pc_log_shred_ok">フォルダーを破棄しました：%1$s、%2$s。</string>
+    <string name="pc_log_shred_failed">フォルダーの破棄に失敗しました：%s</string>
+    <string name="pc_log_shred_unsafe">フォルダーのパスが安全でないため拒否しました。何も変更していません。</string>
+    <string name="pc_log_shutdown_ok">シャットダウン コマンドを送信しました。</string>
+    <string name="pc_log_shutdown_failed">シャットダウンに失敗しました：%s</string>
+
+    <plurals name="minutes">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d 時間</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <string name="pc_log_not_found">パスが PC 上に存在しません。</string>
+    <string name="pc_log_is_link">パスはリンクです。リンク先はたどっていません。</string>
+    <string name="pc_log_not_folder">パスはファイルで、フォルダーではありません。</string>
+    <string name="pc_log_partial">%1$s。上書きできなかったものはそのまま残しました。\n%2$s</string>
+    <string name="fired_manual">%s に手動で作動しました。</string>
+    <string name="fire_now">今すぐ作動（テスト）</string>
+    <string name="fire_now_title">今すぐ作動しますか？</string>
+    <string name="fire_now_body">メールが実際に %1$s に送信され、次の PC の操作が実行されます：%2$s。期限が過ぎた場合とまったく同じです。</string>
+    <string name="fire_now_no_pc">なし</string>
+    <string name="fire_now_confirm">作動</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">鍵を破棄</string>
+    <string name="fire_action_shred">フォルダー %s を破棄</string>
+    <string name="fire_action_shutdown">シャットダウン</string>
+    <string name="pc_os_title">PC のシステム</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">フルパス。例：/home/me/test。ルート、ホーム フォルダー全体、システム フォルダー（/etc、/usr、/var…）は拒否されます。</string>
+    <string name="pc_shutdown_body_linux">他の操作の後、SSH で「sudo -n systemctl poweroff」を実行します。SSH ユーザーには、このコマンドをパスワードなしで sudo できる設定か、電源を切るための polkit の権限が必要です。</string>
+    <string name="pc_log_no_shred">PC に shred がインストールされていません（coreutils に含まれています）。</string>
+    <string name="pc_log_exit">コマンドはコード %1$d で終了しました。\n%2$s</string>
+    <string name="pc_cmd_title">コマンドを実行</string>
+    <string name="pc_cmd_enable">自分のコマンドを実行</string>
+    <string name="pc_cmd_body_windows">Wake on LAN の直後に、SSH 経由で PC の PowerShell で SSH ユーザーとして実行されます。複数行にできます。ウィンドウは開きません。出力は結果の通知に表示されます。</string>
+    <string name="pc_cmd_body_linux">Wake on LAN の直後に、SSH 経由で PC の bash で SSH ユーザーとして実行されます。複数行にできます。ウィンドウは開きません。出力は結果の通知に表示されます。</string>
+    <string name="pc_cmd_field">コマンド</string>
+    <string name="pc_log_cmd_ok">コマンドが完了しました。\n%s</string>
+    <string name="pc_log_cmd_exit">コマンドはコード %1$d で終了しました。\n%2$s</string>
+    <string name="pc_log_cmd_failed">コマンドを実行できませんでした：%s</string>
+    <string name="fire_action_cmd">指定したコマンドを実行</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="other">%d 個のファイルを上書きして削除</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="other">%d 個のサブフォルダーは変更なし</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="other">破棄できたのは %d 個のファイルのみ</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="other">直近 %1$d 回の測定値がしきい値を下回ると、アラームが鳴り、「無事です」を押さない限り %2$d 分後にデッドマンスイッチが作動します。アラームの後に正常な測定値が出れば取り消されます。</item>
+    </plurals>
+    <string name="app_password_needed">このサービスではアプリパスワードしか使えません。このアプリ用に作成する 16 文字の英字です。通常のパスワードは拒否されます。</string>
+    <string name="app_password_open">アプリパスワードを作成</string>
+    <string name="app_password_suspicious">アプリパスワード（16 文字の英字）ではないようです。</string>
+    <string name="proton_token_needed">Proton は SMTP トークンでのみ SMTP 送信できます。トークンは有料プランの独自ドメインのアドレスでのみ使えます。Proton が表示するユーザー名とトークンを「ユーザー」と「パスワード」に入力してください。</string>
+    <string name="proton_token_open">Proton の説明を開く</string>
+    <string name="microsoft_unsupported">Outlook・Hotmail・Microsoft 365 はパスワードでの送信を受け付けなくなりました。このアプリはまだ Microsoft にサインインできません。別のサービスを使ってください。</string>
+    <string name="err_app_password">サーバーは通常のパスワードではなく、アプリパスワードを求めています。パスワード欄の下のボタンで作成し、そこに貼り付けてください。</string>
+    <string name="err_bad_login">サーバーがユーザーまたはパスワードを受け付けませんでした。ユーザーはメールアドレス全体、パスワードは Gmail・Yahoo・iCloud の場合アプリパスワードにしてください。</string>
+    <string name="err_microsoft">Microsoft がパスワードを拒否しました。パスワードでの送信はできなくなっています。別のサービスを使ってください。</string>
+    <string name="pc_ssh_key_hint">鍵でサインイン（より安全でパスワード不要）するか、PC のそのユーザーのパスワードを使います。</string>
+    <string name="pc_ssh_key_generate">鍵を作成</string>
+    <string name="pc_ssh_key_copy">公開鍵をコピー</string>
+    <string name="pc_ssh_key_delete">鍵を削除</string>
+    <string name="pc_ssh_key_copied">公開鍵をコピーしました。</string>
+    <string name="pc_ssh_key_where_windows">PC で、ユーザーが管理者なら公開鍵を C:\\ProgramData\\ssh\\administrators_authorized_keys に、そうでなければユーザーフォルダーの .ssh\\authorized_keys に追加してください。</string>
+    <string name="pc_ssh_key_where_linux">PC で、そのユーザーの ~/.ssh/authorized_keys に公開鍵を追加してください。</string>
+</resources>

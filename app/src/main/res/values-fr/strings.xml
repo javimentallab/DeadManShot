@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Accueil</string>
+    <string name="tab_email">E-mail</string>
+    <string name="tab_pulse">Pouls</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Arrêté</string>
+    <string name="status_running">En marche</string>
+    <string name="status_paused">En pause</string>
+    <string name="status_fired">Déclenché</string>
+    <string name="detail_off">Activez l’interrupteur pour démarrer. Tant qu’il est arrêté, rien n’est envoyé.</string>
+    <string name="detail_running">Prochaine échéance : %1$s (il reste %2$s).</string>
+    <string name="detail_paused">Jusqu’à %1$s (il reste %2$s). À la fin de la pause, le compte à rebours recommence.</string>
+    <string name="fired_deadline">L’échéance est passée le %s.</string>
+    <string name="fired_heart_rate">Votre fréquence cardiaque est passée sous le seuil le %s.</string>
+    <string name="send_pending">Envoi de l’e-mail…</string>
+    <string name="send_sent">E-mail envoyé le %s.</string>
+    <string name="send_failed">Impossible d’envoyer l’e-mail (%s). Un nouvel essai aura lieu dès qu’il y aura une connexion.</string>
+    <string name="fired_reset">Appuyez sur « Je vais bien » pour recommencer.</string>
+
+    <string name="switch_label">En marche</string>
+    <string name="cannot_enable">Avant de l’activer, renseignez :</string>
+    <string name="missing_recipient">un destinataire valide</string>
+    <string name="missing_text">l’objet ou le texte de l’e-mail</string>
+    <string name="missing_account">le compte d’envoi (serveur, utilisateur et mot de passe)</string>
+
+    <string name="pause">Pause</string>
+    <string name="resume">Reprendre</string>
+    <string name="pause_title">Mettre en pause pendant…</string>
+    <string name="pause_until">En pause jusqu’à %s.</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="check_in">Je vais bien</string>
+    <string name="last_check_in">Dernière confirmation : %s.</string>
+    <string name="never_checked_in">Vous n’avez encore jamais confirmé.</string>
+
+    <string name="permissions_title">Autorisations</string>
+    <string name="perm_notifications">Notifications, pour les rappels et les alarmes.</string>
+    <string name="perm_exact">Alarmes exactes, pour que l’échéance soit respectée à l’heure.</string>
+    <string name="perm_battery">Désactivez l’optimisation de la batterie pour cette application, afin qu’Android ne l’arrête pas. Dans la liste qui s’ouvre, affichez toutes les applications, trouvez DeadManShot et choisissez de ne pas l’optimiser.</string>
+    <string name="allow">Autoriser</string>
+
+    <string name="timing_title">Échéance</string>
+    <string name="interval_label">Appuyez sur « Je vais bien » au moins une fois par intervalle de :</string>
+    <string name="reminder_label">Rappels avant l’échéance :</string>
+    <string name="reminder_multi_hint">Choisissez-en un, plusieurs ou aucun. Une notification arrivera à chacun. Ceux qui durent autant que l’intervalle, ou plus, ne sont pas utilisés.</string>
+
+    <string name="email_title">E-mail</string>
+    <string name="recipients">Destinataires</string>
+    <string name="recipients_hint">Séparez plusieurs adresses par des virgules.</string>
+    <string name="subject">Objet</string>
+    <string name="body">Texte</string>
+    <string name="attachments">Pièces jointes</string>
+    <string name="no_attachments">Aucune pièce jointe.</string>
+    <string name="add_attachment">Ajouter un fichier</string>
+    <string name="remove">Retirer</string>
+
+    <string name="account_title">Compte d’envoi</string>
+    <string name="account_hint">L’e-mail part de votre propre compte, par SMTP. Avec Gmail, utilisez un mot de passe d’application (Compte Google, Sécurité, Mots de passe des applications), pas votre mot de passe habituel.</string>
+    <string name="smtp_host">Serveur SMTP</string>
+    <string name="smtp_port">Port</string>
+    <string name="smtp_user">Utilisateur (votre adresse e-mail)</string>
+    <string name="smtp_password">Mot de passe</string>
+    <string name="show_password">Afficher le mot de passe</string>
+    <string name="hide_password">Masquer le mot de passe</string>
+    <string name="smtp_from">Adresse de l’expéditeur</string>
+    <string name="smtp_from_hint">Laissez vide pour utiliser l’utilisateur.</string>
+    <string name="send_test">Envoyer un test à ma propre adresse</string>
+    <string name="test_ok">Test envoyé à %s. Vérifiez votre boîte de réception.</string>
+    <string name="test_skipped">Pièces jointes laissées de côté, car illisibles : %s</string>
+    <string name="test_failed">Envoi impossible : %s</string>
+    <string name="test_subject_prefix">[Test]</string>
+
+    <string name="smtp_fill_preset">Valeurs par défaut…</string>
+    <string name="smtp_preset_title">Choisissez un fournisseur</string>
+    <string name="smtp_preset_apply">Appliquer</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Nécessite un mot de passe d’application.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Nécessite un mot de passe d’application.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Nécessite un mot de passe d’application.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Nécessite un jeton SMTP (offre payante, domaine propre).</string>
+
+    <string name="channel_reminder">Rappels et alarmes</string>
+    <string name="channel_result">Résultats</string>
+    <string name="reminder_title">Tout va bien ?</string>
+    <string name="reminder_text">Appuyez sur « Je vais bien » avant %1$s (%2$s), sinon le dispositif se déclenchera.</string>
+    <string name="sent_title">E-mail envoyé</string>
+    <string name="sent_text">L’e-mail a été envoyé aux destinataires.</string>
+    <string name="sent_text_skipped">L’e-mail a été envoyé, mais sans ces pièces jointes, qui n’ont pas pu être lues : %s</string>
+    <string name="failed_title">E-mail non envoyé</string>
+    <string name="failed_text">%s. Un nouvel essai aura lieu automatiquement.</string>
+
+    <string name="pulse_title">Fréquence cardiaque de la montre</string>
+    <string name="pulse_enable">Déclencher si la fréquence cardiaque passe sous le seuil</string>
+    <string name="pulse_threshold">Seuil : %d bpm</string>
+    <string name="pulse_requirements_title">Ce qu’il vous faut</string>
+    <string name="pulse_requirements_body">1. Une montre qui mesure la fréquence cardiaque, associée à Gadgetbridge sur ce téléphone, avec la mesure continue de la fréquence cardiaque activée.\n2. Dans Gadgetbridge, activez l’export automatique de la base de données et choisissez sa destination.\n3. Dans Gadgetbridge, Paramètres → Intent API : autorisez le déclencheur de synchronisation d’activité et l’export de la base de données.\n4. Ci-dessous, choisissez ce même fichier d’export.</string>
+    <string name="pulse_open_gadgetbridge">Ouvrir Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge n’est pas installé. Installez-le d’abord depuis F-Droid.</string>
+    <string name="pulse_choose_file">Choisir le fichier d’export</string>
+    <string name="pulse_file">Fichier d’export : %s</string>
+    <string name="pulse_no_file">Aucun fichier d’export choisi pour l’instant.</string>
+    <string name="pulse_no_signal_label">Déclencher aussi si la montre n’envoie aucune fréquence cardiaque pendant</string>
+    <string name="pulse_no_signal_off">Jamais</string>
+    <string name="pulse_no_signal_hint">Cela ne compte que si Gadgetbridge a exporté récemment : un problème du téléphone ou de l’application ne déclenche donc jamais le dispositif.</string>
+    <string name="pulse_interval_label">Intervalle de vérification</string>
+    <string name="pulse_status_title">Dernière vérification</string>
+    <string name="pulse_last">Dernière mesure : %1$d bpm, %2$s (vérifié : %3$s).</string>
+    <string name="pulse_never_checked">Pas encore vérifié.</string>
+    <string name="pulse_no_reading">Aucune mesure de la montre (vérifié : %s).</string>
+    <string name="pulse_check_now">Vérifier maintenant</string>
+    <string name="pulse_check_hint">Cela prend environ une minute : Gadgetbridge synchronise d’abord la montre, puis exporte.</string>
+    <string name="pulse_err_no_file">Choisissez le fichier d’export de Gadgetbridge dans l’onglet Pouls.</string>
+    <string name="pulse_err_stale">Gadgetbridge n’a pas exporté récemment : impossible de vérifier la fréquence cardiaque. Vérifiez ses paramètres Intent API et l’export automatique.</string>
+    <string name="pulse_err_read">Impossible de lire l’export : %s</string>
+    <string name="pulse_problem_title">Impossible de vérifier le rythme cardiaque</string>
+    <string name="pulse_alert_title">Tout va bien ?</string>
+    <string name="pulse_alert_low">Votre montre indique %1$d bpm. Le dispositif se déclenche à %2$s, sauf si vous appuyez sur « Je vais bien ».</string>
+    <string name="pulse_alert_silent">Votre montre n’envoie plus votre fréquence cardiaque. Le dispositif se déclenche à %s, sauf si vous appuyez sur « Je vais bien ».</string>
+    <string name="fired_no_pulse">La montre a cessé d’envoyer votre fréquence cardiaque ; le dispositif s’est déclenché le %s.</string>
+    <string name="detail_pulse_alert">Alerte de la montre : le dispositif se déclenche à %s, sauf si vous appuyez sur « Je vais bien ».</string>
+
+    <string name="pc_warning_title">Actions destructrices</string>
+    <string name="pc_warning_body">Ces actions s’exécutent sur votre PC quand le dispositif se déclenche. Testez-les une fois avec un dossier sans importance avant de vous y fier.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Allumer d’abord le PC</string>
+    <string name="pc_mac">Adresse MAC du PC</string>
+    <string name="pc_broadcast">Adresse de diffusion</string>
+    <string name="pc_broadcast_hint">En général 255.255.255.255, ou l’adresse de diffusion du LAN (ex. 192.168.1.255).</string>
+    <string name="pc_wol_wait">Secondes d’attente après le WoL</string>
+    <string name="pc_wol_test">Envoyer le WoL maintenant</string>
+    <string name="pc_wol_sent">Paquet magique envoyé.</string>
+    <string name="pc_wol_failed">Impossible d’envoyer le paquet magique : %s</string>
+
+    <string name="pc_ssh_title">Accès SSH</string>
+    <string name="pc_ssh_host">Hôte ou IP</string>
+    <string name="pc_ssh_port">Port SSH</string>
+    <string name="pc_ssh_user">Utilisateur SSH</string>
+    <string name="pc_ssh_password">Mot de passe SSH (sans clé)</string>
+    <string name="pc_ssh_test">Tester SSH</string>
+    <string name="pc_ssh_ok">SSH OK (%s).</string>
+    <string name="pc_ssh_failed">Échec SSH : %s</string>
+
+    <string name="pc_key_title">Détruire la clé</string>
+    <string name="pc_key_enable">Détruire un fichier ou un dossier de clé</string>
+    <string name="pc_key_body">Gardez le dossier sensible chiffré (VeraCrypt, LUKS, EFS, 7-Zip AES…) avec une clé placée au chemin ci-dessous. Quand le dispositif se déclenche, la clé est écrasée deux fois puis supprimée, et les données restent verrouillées pour de bon.</string>
+    <string name="pc_key_path">Chemin du fichier ou du dossier de clé sur le PC</string>
+    <string name="pc_path_hint">Chemin Windows complet, ex. C:\\Users\\moi\\Desktop\\test. Les racines de lecteur, les dossiers utilisateur entiers et les dossiers système sont refusés.</string>
+
+    <string name="pc_shred_title">Broyer un dossier</string>
+    <string name="pc_shred_enable">Broyer un dossier</string>
+    <string name="pc_shred_body">Deux passes sur chaque fichier, écrites sur place (des zéros, puis des données aléatoires), puis le fichier est supprimé. Ce qui ne peut pas être écrasé reste en place et est signalé. Les dossiers sont supprimés une fois vides. Sur un SSD, le micrologiciel peut garder d’anciennes copies : détruire la clé ci-dessus est donc plus sûr.</string>
+    <string name="pc_folder">Dossier sur le PC</string>
+    <string name="pc_subdirs">Inclure les sous-dossiers</string>
+
+    <string name="pc_shutdown_title">Éteindre le PC</string>
+    <string name="pc_shutdown_enable">Forcer l’arrêt</string>
+    <string name="pc_shutdown_body">Après les autres actions, envoyer « shutdown /s /f /t 0 » par SSH.</string>
+
+    <string name="pc_notification_title">Actions sur le PC</string>
+    <string name="pc_log_nothing">Rien à faire.</string>
+    <string name="pc_log_wol_ok">Paquet WoL envoyé.</string>
+    <string name="pc_log_wol_failed">Échec du WoL : %s</string>
+    <string name="pc_log_ssh_missing">Hôte, utilisateur, ou clé ou mot de passe SSH manquant.</string>
+    <string name="pc_log_key_ok">Clé détruite : %1$s.</string>
+    <string name="pc_log_key_failed">Échec de la destruction de la clé : %s</string>
+    <string name="pc_log_key_unsafe">Chemin de la clé refusé, car dangereux ; rien n’a été touché.</string>
+    <string name="pc_log_shred_ok">Dossier détruit : %1$s ; %2$s.</string>
+    <string name="pc_log_shred_failed">Échec de la destruction du dossier : %s</string>
+    <string name="pc_log_shred_unsafe">Chemin du dossier refusé, car dangereux ; rien n’a été touché.</string>
+    <string name="pc_log_shutdown_ok">Commande d’arrêt envoyée.</string>
+    <string name="pc_log_shutdown_failed">Échec de l’arrêt : %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d heure</item>
+        <item quantity="many">%d heures</item>
+        <item quantity="other">%d heures</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d jour</item>
+        <item quantity="many">%d jours</item>
+        <item quantity="other">%d jours</item>
+    </plurals>
+    <string name="pc_log_not_found">Le chemin n’existe pas sur le PC.</string>
+    <string name="pc_log_is_link">Le chemin est un lien ; il n’a pas été suivi.</string>
+    <string name="pc_log_not_folder">Le chemin est un fichier, pas un dossier.</string>
+    <string name="pc_log_partial">%1$s ; ce qui n’a pas pu être écrasé a été laissé en place.\n%2$s</string>
+    <string name="fired_manual">Déclenché à la main le %s.</string>
+    <string name="fire_now">Déclencher maintenant (test)</string>
+    <string name="fire_now_title">Déclencher maintenant ?</string>
+    <string name="fire_now_body">L’e-mail partira réellement à %1$s, et ces actions s’exécuteront sur le PC : %2$s. C’est exactement comme si l’échéance était passée.</string>
+    <string name="fire_now_no_pc">aucune</string>
+    <string name="fire_now_confirm">Déclencher</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">détruire la clé</string>
+    <string name="fire_action_shred">détruire le dossier %s</string>
+    <string name="fire_action_shutdown">éteindre le PC</string>
+    <string name="pc_os_title">Système du PC</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Chemin complet, ex. /home/moi/test. La racine, les dossiers personnels entiers et les dossiers système (/etc, /usr, /var…) sont refusés.</string>
+    <string name="pc_shutdown_body_linux">Après les autres actions, exécuter « sudo -n systemctl poweroff » par SSH. L’utilisateur SSH doit pouvoir lancer cette commande avec sudo sans mot de passe, ou avoir l’autorisation polkit d’éteindre.</string>
+    <string name="pc_log_no_shred">shred n’est pas installé sur le PC (il est fourni avec coreutils).</string>
+    <string name="pc_log_exit">la commande s’est terminée avec le code %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Exécuter une commande</string>
+    <string name="pc_cmd_enable">Exécuter ma commande</string>
+    <string name="pc_cmd_body_windows">Juste après le Wake on LAN, ceci s’exécute sur le PC par SSH, dans PowerShell, sous l’utilisateur SSH. Plusieurs lignes sont possibles. Aucune fenêtre ne s’ouvre : ce qu’elle affiche apparaît dans la notification de résultat.</string>
+    <string name="pc_cmd_body_linux">Juste après le Wake on LAN, ceci s’exécute sur le PC par SSH, dans bash, sous l’utilisateur SSH. Plusieurs lignes sont possibles. Aucune fenêtre ne s’ouvre : ce qu’elle affiche apparaît dans la notification de résultat.</string>
+    <string name="pc_cmd_field">Commande</string>
+    <string name="pc_log_cmd_ok">Commande terminée.\n%s</string>
+    <string name="pc_log_cmd_exit">La commande s’est terminée avec le code %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Impossible d’exécuter la commande : %s</string>
+    <string name="fire_action_cmd">exécuter votre commande</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d fichier écrasé et supprimé</item>
+        <item quantity="many">%d fichiers écrasés et supprimés</item>
+        <item quantity="other">%d fichiers écrasés et supprimés</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d sous-dossier laissé intact</item>
+        <item quantity="many">%d sous-dossiers laissés intacts</item>
+        <item quantity="other">%d sous-dossiers laissés intacts</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">seul %d fichier a été détruit</item>
+        <item quantity="many">seuls %d fichiers ont été détruits</item>
+        <item quantity="other">seuls %d fichiers ont été détruits</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Si la dernière mesure est sous le seuil, une alarme sonne et le dispositif se déclenche %2$d minutes plus tard, sauf si vous appuyez sur « Je vais bien ». Une mesure normale après l’alarme l’annule.</item>
+        <item quantity="many">Si les %1$d dernières mesures sont sous le seuil, une alarme sonne et le dispositif se déclenche %2$d minutes plus tard, sauf si vous appuyez sur « Je vais bien ». Une mesure normale après l’alarme l’annule.</item>
+        <item quantity="other">Si les %1$d dernières mesures sont sous le seuil, une alarme sonne et le dispositif se déclenche %2$d minutes plus tard, sauf si vous appuyez sur « Je vais bien ». Une mesure normale après l’alarme l’annule.</item>
+    </plurals>
+    <string name="app_password_needed">Ce fournisseur n’accepte qu’un mot de passe d’application : 16 lettres que vous créez pour cette appli. Votre mot de passe habituel est refusé.</string>
+    <string name="app_password_open">Créer un mot de passe d’application</string>
+    <string name="app_password_suspicious">Cela ne ressemble pas à un mot de passe d’application (16 lettres).</string>
+    <string name="proton_token_needed">Proton n’envoie par SMTP qu’avec un jeton SMTP, disponible pour les adresses sur votre propre domaine avec une offre payante. Saisissez dans Utilisateur et Mot de passe le nom d’utilisateur et le jeton fournis par Proton.</string>
+    <string name="proton_token_open">Ouvrir les instructions de Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail et Microsoft 365 n’acceptent plus de mot de passe pour l’envoi, et cette appli ne sait pas encore se connecter à Microsoft. Utilisez un autre fournisseur.</string>
+    <string name="err_app_password">Le serveur demande un mot de passe d’application, pas votre mot de passe habituel. Créez-en un avec le bouton sous le mot de passe et collez-le à cet endroit.</string>
+    <string name="err_bad_login">Le serveur n’a pas accepté l’utilisateur ou le mot de passe. L’utilisateur doit être votre adresse e-mail complète et, avec Gmail, Yahoo ou iCloud, le mot de passe un mot de passe d’application.</string>
+    <string name="err_microsoft">Microsoft a refusé le mot de passe : l’envoi avec un mot de passe n’est plus autorisé. Utilisez un autre fournisseur.</string>
+    <string name="pc_ssh_key_hint">Connectez-vous avec une clé (plus sûr, sans mot de passe) ou avec le mot de passe de cet utilisateur sur le PC.</string>
+    <string name="pc_ssh_key_generate">Créer une clé</string>
+    <string name="pc_ssh_key_copy">Copier la clé publique</string>
+    <string name="pc_ssh_key_delete">Supprimer la clé</string>
+    <string name="pc_ssh_key_copied">Clé publique copiée.</string>
+    <string name="pc_ssh_key_where_windows">Sur le PC, ajoutez la clé publique à C:\\ProgramData\\ssh\\administrators_authorized_keys si l’utilisateur est administrateur, sinon à .ssh\\authorized_keys dans son dossier.</string>
+    <string name="pc_ssh_key_where_linux">Sur le PC, ajoutez la clé publique à ~/.ssh/authorized_keys de cet utilisateur.</string>
+</resources>

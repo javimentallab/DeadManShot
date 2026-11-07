@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sending the email and the commands to your PC over SSH. Nothing else. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- The reminder before the deadline, and word that the email went out. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Alarms do not survive a restart: they are set again on boot. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Without it Android may move the deadline by hours. Granted by the user. -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <!-- To find Gadgetbridge, ask it to sync and export, and open it. -->
+    <queries>
+        <package android:name="nodomain.freeyourgadget.gadgetbridge" />
+        <package android:name="nodomain.freeyourgadget.gadgetbridge.nightly" />
+        <package android:name="com.espruino.gadgetbridge.banglejs" />
+    </queries>
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeadManShot">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".core.AlarmReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".core.CheckInReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".core.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

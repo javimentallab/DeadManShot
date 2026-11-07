@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Home</string>
+    <string name="tab_email">Email</string>
+    <string name="tab_pulse">Battito</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Fermo</string>
+    <string name="status_running">In funzione</string>
+    <string name="status_paused">In pausa</string>
+    <string name="status_fired">Scattato</string>
+    <string name="detail_off">Attiva l’interruttore per iniziare. Finché è fermo, non verrà inviato nulla.</string>
+    <string name="detail_running">Prossima scadenza: %1$s (mancano %2$s).</string>
+    <string name="detail_paused">Fino a %1$s (mancano %2$s). Al termine della pausa, il conto alla rovescia ricomincia.</string>
+    <string name="fired_deadline">La scadenza è passata il %s.</string>
+    <string name="fired_heart_rate">Il tuo battito è sceso sotto la soglia il %s.</string>
+    <string name="send_pending">Invio dell’email…</string>
+    <string name="send_sent">Email inviata il %s.</string>
+    <string name="send_failed">Impossibile inviare l’email (%s). Riproverà appena ci sarà connessione.</string>
+    <string name="fired_reset">Tocca «Sto bene» per ricominciare.</string>
+
+    <string name="switch_label">In funzione</string>
+    <string name="cannot_enable">Prima di attivarlo, compila:</string>
+    <string name="missing_recipient">un destinatario valido</string>
+    <string name="missing_text">l’oggetto o il testo dell’email</string>
+    <string name="missing_account">l’account di invio (server, utente e password)</string>
+
+    <string name="pause">Pausa</string>
+    <string name="resume">Riprendi</string>
+    <string name="pause_title">Metti in pausa per…</string>
+    <string name="pause_until">In pausa fino a %s.</string>
+    <string name="cancel">Annulla</string>
+
+    <string name="check_in">Sto bene</string>
+    <string name="last_check_in">Ultima conferma: %s.</string>
+    <string name="never_checked_in">Non hai ancora confermato.</string>
+
+    <string name="permissions_title">Autorizzazioni</string>
+    <string name="perm_notifications">Notifiche, per i promemoria e gli allarmi.</string>
+    <string name="perm_exact">Sveglie esatte, perché la scadenza venga rispettata in orario.</string>
+    <string name="perm_battery">Disattiva l’ottimizzazione della batteria per questa app, così Android non la interrompe. Nell’elenco che si apre, mostra tutte le app, trova DeadManShot e scegli di non ottimizzarla.</string>
+    <string name="allow">Consenti</string>
+
+    <string name="timing_title">Scadenza</string>
+    <string name="interval_label">Tocca «Sto bene» almeno una volta ogni:</string>
+    <string name="reminder_label">Promemoria prima della scadenza:</string>
+    <string name="reminder_multi_hint">Scegline uno, diversi o nessuno. A ognuno arriverà una notifica. Quelli lunghi quanto l’intervallo o di più non vengono usati.</string>
+
+    <string name="email_title">Email</string>
+    <string name="recipients">Destinatari</string>
+    <string name="recipients_hint">Separa più indirizzi con virgole.</string>
+    <string name="subject">Oggetto</string>
+    <string name="body">Testo</string>
+    <string name="attachments">Allegati</string>
+    <string name="no_attachments">Nessun allegato.</string>
+    <string name="add_attachment">Aggiungi file</string>
+    <string name="remove">Rimuovi</string>
+
+    <string name="account_title">Account di invio</string>
+    <string name="account_hint">L’email parte dal tuo account tramite SMTP. Con Gmail, usa una password per le app (Account Google, Sicurezza, Password per le app), non la tua password abituale.</string>
+    <string name="smtp_host">Server SMTP</string>
+    <string name="smtp_port">Porta</string>
+    <string name="smtp_user">Utente (il tuo indirizzo email)</string>
+    <string name="smtp_password">Password</string>
+    <string name="show_password">Mostra la password</string>
+    <string name="hide_password">Nascondi la password</string>
+    <string name="smtp_from">Indirizzo del mittente</string>
+    <string name="smtp_from_hint">Lascia vuoto per usare l’utente.</string>
+    <string name="send_test">Invia una prova al mio indirizzo</string>
+    <string name="test_ok">Prova inviata a %s. Controlla la posta in arrivo.</string>
+    <string name="test_skipped">Allegati esclusi perché non leggibili: %s</string>
+    <string name="test_failed">Invio non riuscito: %s</string>
+    <string name="test_subject_prefix">[Prova]</string>
+
+    <string name="smtp_fill_preset">Compila con i valori predefiniti…</string>
+    <string name="smtp_preset_title">Scegli un provider</string>
+    <string name="smtp_preset_apply">Applica</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Serve una password per le app.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Serve una password per le app.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Serve una password per le app.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Serve un token SMTP (piano a pagamento, dominio proprio).</string>
+
+    <string name="channel_reminder">Promemoria e allarmi</string>
+    <string name="channel_result">Risultati</string>
+    <string name="reminder_title">Stai bene?</string>
+    <string name="reminder_text">Tocca «Sto bene» prima di %1$s (%2$s), altrimenti il dispositivo scatterà.</string>
+    <string name="sent_title">Email inviata</string>
+    <string name="sent_text">L’email è stata inviata ai destinatari.</string>
+    <string name="sent_text_skipped">L’email è stata inviata, ma senza questi allegati, che non si sono potuti leggere: %s</string>
+    <string name="failed_title">Email non inviata</string>
+    <string name="failed_text">%s. Riproverà da solo.</string>
+
+    <string name="pulse_title">Battito dall’orologio</string>
+    <string name="pulse_enable">Fai scattare quando il battito scende sotto la soglia</string>
+    <string name="pulse_threshold">Soglia: %d bpm</string>
+    <string name="pulse_requirements_title">Cosa serve</string>
+    <string name="pulse_requirements_body">1. Un orologio che misura il battito, associato a Gadgetbridge su questo telefono, con la misurazione continua del battito attiva.\n2. In Gadgetbridge, attiva l’esportazione automatica del database e scegli dove salvarla.\n3. In Gadgetbridge, Impostazioni → Intent API: consenti l’attivazione della sincronizzazione delle attività e l’esportazione del database.\n4. Qui sotto, scegli lo stesso file esportato.</string>
+    <string name="pulse_open_gadgetbridge">Apri Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge non è installato. Installalo prima da F-Droid.</string>
+    <string name="pulse_choose_file">Scegli il file esportato</string>
+    <string name="pulse_file">File esportato: %s</string>
+    <string name="pulse_no_file">Nessun file esportato scelto.</string>
+    <string name="pulse_no_signal_label">Fai scattare anche se l’orologio non invia il battito per</string>
+    <string name="pulse_no_signal_off">Mai</string>
+    <string name="pulse_no_signal_hint">Conta solo se Gadgetbridge ha esportato di recente, quindi un problema del telefono o dell’app non fa mai scattare il dispositivo.</string>
+    <string name="pulse_interval_label">Controlla ogni</string>
+    <string name="pulse_status_title">Ultimo controllo</string>
+    <string name="pulse_last">Ultima misura: %1$d bpm, %2$s (controllato: %3$s).</string>
+    <string name="pulse_never_checked">Non ancora controllato.</string>
+    <string name="pulse_no_reading">Nessuna misura dall’orologio (controllato: %s).</string>
+    <string name="pulse_check_now">Controlla ora</string>
+    <string name="pulse_check_hint">Ci vuole circa un minuto: prima Gadgetbridge sincronizza l’orologio ed esporta.</string>
+    <string name="pulse_err_no_file">Scegli il file esportato da Gadgetbridge nella scheda Battito.</string>
+    <string name="pulse_err_stale">Gadgetbridge non ha esportato di recente, quindi non è possibile controllare il battito. Verifica le sue impostazioni Intent API e l’esportazione automatica.</string>
+    <string name="pulse_err_read">Impossibile leggere l’esportazione: %s</string>
+    <string name="pulse_problem_title">Impossibile controllare il battito</string>
+    <string name="pulse_alert_title">Va tutto bene?</string>
+    <string name="pulse_alert_low">Il tuo orologio segna %1$d bpm. Il dispositivo scatta alle %2$s, a meno che tu non tocchi «Sto bene».</string>
+    <string name="pulse_alert_silent">Il tuo orologio ha smesso di inviare il battito. Il dispositivo scatta alle %s, a meno che tu non tocchi «Sto bene».</string>
+    <string name="fired_no_pulse">L’orologio ha smesso di inviare il battito; il dispositivo è scattato il %s.</string>
+    <string name="detail_pulse_alert">Allerta dell’orologio: il dispositivo scatta alle %s, a meno che tu non tocchi «Sto bene».</string>
+
+    <string name="pc_warning_title">Azioni distruttive</string>
+    <string name="pc_warning_body">Queste azioni vengono eseguite sul tuo PC quando il dispositivo scatta. Provale una volta con una cartella di prova prima di fidarti.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Accendi prima il PC</string>
+    <string name="pc_mac">Indirizzo MAC del PC</string>
+    <string name="pc_broadcast">Indirizzo di broadcast</string>
+    <string name="pc_broadcast_hint">Di solito 255.255.255.255, oppure il broadcast della LAN (es. 192.168.1.255).</string>
+    <string name="pc_wol_wait">Secondi di attesa dopo il WoL</string>
+    <string name="pc_wol_test">Invia WoL ora</string>
+    <string name="pc_wol_sent">Magic packet inviato.</string>
+    <string name="pc_wol_failed">Impossibile inviare il magic packet: %s</string>
+
+    <string name="pc_ssh_title">Accesso SSH</string>
+    <string name="pc_ssh_host">Host o IP</string>
+    <string name="pc_ssh_port">Porta SSH</string>
+    <string name="pc_ssh_user">Utente SSH</string>
+    <string name="pc_ssh_password">Password SSH (se non c’è una chiave)</string>
+    <string name="pc_ssh_test">Prova SSH</string>
+    <string name="pc_ssh_ok">SSH funziona (%s).</string>
+    <string name="pc_ssh_failed">SSH non riuscito: %s</string>
+
+    <string name="pc_key_title">Distruggi la chiave</string>
+    <string name="pc_key_enable">Distruggi un file o una cartella di chiave</string>
+    <string name="pc_key_body">Tieni cifrata la cartella sensibile (VeraCrypt, LUKS, EFS, 7-Zip AES…) con una chiave che si trova nel percorso qui sotto. Quando il dispositivo scatta, la chiave viene sovrascritta due volte ed eliminata, e i dati restano bloccati per sempre.</string>
+    <string name="pc_key_path">Percorso del file o della cartella di chiave sul PC</string>
+    <string name="pc_path_hint">Percorso completo di Windows, es. C:\\Users\\io\\Desktop\\test. Le radici delle unità, le cartelle utente intere e le cartelle di sistema vengono rifiutate.</string>
+
+    <string name="pc_shred_title">Distruggi una cartella</string>
+    <string name="pc_shred_enable">Distruggi una cartella</string>
+    <string name="pc_shred_body">Due passate su ogni file, scritte sul posto (zeri, poi dati casuali), dopodiché il file viene eliminato. Ciò che non si può sovrascrivere resta dov’è e viene segnalato. Le cartelle vengono rimosse quando sono vuote. Su un SSD il firmware può conservare vecchie copie, quindi distruggere la chiave qui sopra è più sicuro.</string>
+    <string name="pc_folder">Cartella sul PC</string>
+    <string name="pc_subdirs">Includi le sottocartelle</string>
+
+    <string name="pc_shutdown_title">Spegni il PC</string>
+    <string name="pc_shutdown_enable">Forza lo spegnimento</string>
+    <string name="pc_shutdown_body">Dopo le altre azioni, invia «shutdown /s /f /t 0» tramite SSH.</string>
+
+    <string name="pc_notification_title">Azioni sul PC</string>
+    <string name="pc_log_nothing">Niente da fare.</string>
+    <string name="pc_log_wol_ok">Pacchetto WoL inviato.</string>
+    <string name="pc_log_wol_failed">WoL non riuscito: %s</string>
+    <string name="pc_log_ssh_missing">Manca l’host, l’utente, o la chiave o password SSH.</string>
+    <string name="pc_log_key_ok">Chiave distrutta: %1$s.</string>
+    <string name="pc_log_key_failed">Distruzione della chiave non riuscita: %s</string>
+    <string name="pc_log_key_unsafe">Percorso della chiave rifiutato perché non sicuro; nulla è stato toccato.</string>
+    <string name="pc_log_shred_ok">Cartella distrutta: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Distruzione della cartella non riuscita: %s</string>
+    <string name="pc_log_shred_unsafe">Percorso della cartella rifiutato perché non sicuro; nulla è stato toccato.</string>
+    <string name="pc_log_shutdown_ok">Comando di spegnimento inviato.</string>
+    <string name="pc_log_shutdown_failed">Spegnimento non riuscito: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="many">%d minuti</item>
+        <item quantity="other">%d minuti</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d ora</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d giorno</item>
+        <item quantity="many">%d giorni</item>
+        <item quantity="other">%d giorni</item>
+    </plurals>
+    <string name="pc_log_not_found">Il percorso non esiste sul PC.</string>
+    <string name="pc_log_is_link">Il percorso è un collegamento; non è stato seguito.</string>
+    <string name="pc_log_not_folder">Il percorso è un file, non una cartella.</string>
+    <string name="pc_log_partial">%1$s; ciò che non si è potuto sovrascrivere è rimasto al suo posto.\n%2$s</string>
+    <string name="fired_manual">Fatto scattare a mano il %s.</string>
+    <string name="fire_now">Fai scattare ora (prova)</string>
+    <string name="fire_now_title">Far scattare ora?</string>
+    <string name="fire_now_body">L’email verrà davvero inviata a %1$s e verranno eseguite queste azioni sul PC: %2$s. È esattamente come se la scadenza fosse passata.</string>
+    <string name="fire_now_no_pc">nessuna</string>
+    <string name="fire_now_confirm">Fai scattare</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">distruggere la chiave</string>
+    <string name="fire_action_shred">distruggere la cartella %s</string>
+    <string name="fire_action_shutdown">spegnere il PC</string>
+    <string name="pc_os_title">Sistema del PC</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Percorso completo, es. /home/io/test. La radice, le cartelle home intere e le cartelle di sistema (/etc, /usr, /var…) vengono rifiutate.</string>
+    <string name="pc_shutdown_body_linux">Dopo le altre azioni, esegui «sudo -n systemctl poweroff» tramite SSH. L’utente SSH deve poter usare sudo senza password per quel comando, oppure avere il permesso polkit per spegnere.</string>
+    <string name="pc_log_no_shred">shred non è installato sul PC (fa parte di coreutils).</string>
+    <string name="pc_log_exit">il comando è terminato con il codice %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Esegui un comando</string>
+    <string name="pc_cmd_enable">Esegui il mio comando</string>
+    <string name="pc_cmd_body_windows">Subito dopo il Wake on LAN, viene eseguito sul PC tramite SSH, in PowerShell, come utente SSH. Può avere più righe. Non si apre nessuna finestra: ciò che stampa compare nella notifica del risultato.</string>
+    <string name="pc_cmd_body_linux">Subito dopo il Wake on LAN, viene eseguito sul PC tramite SSH, in bash, come utente SSH. Può avere più righe. Non si apre nessuna finestra: ciò che stampa compare nella notifica del risultato.</string>
+    <string name="pc_cmd_field">Comando</string>
+    <string name="pc_log_cmd_ok">Comando terminato.\n%s</string>
+    <string name="pc_log_cmd_exit">Il comando è terminato con il codice %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Impossibile eseguire il comando: %s</string>
+    <string name="fire_action_cmd">eseguire il tuo comando</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d file sovrascritto ed eliminato</item>
+        <item quantity="many">%d file sovrascritti ed eliminati</item>
+        <item quantity="other">%d file sovrascritti ed eliminati</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d sottocartella lasciata intatta</item>
+        <item quantity="many">%d sottocartelle lasciate intatte</item>
+        <item quantity="other">%d sottocartelle lasciate intatte</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">è stato distrutto solo %d file</item>
+        <item quantity="many">sono stati distrutti solo %d file</item>
+        <item quantity="other">sono stati distrutti solo %d file</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Se l’ultima misura è sotto la soglia, suona un allarme e il dispositivo scatta %2$d minuti dopo, a meno che tu non tocchi «Sto bene». Una misura normale dopo l’allarme lo annulla.</item>
+        <item quantity="many">Se le ultime %1$d misure sono sotto la soglia, suona un allarme e il dispositivo scatta %2$d minuti dopo, a meno che tu non tocchi «Sto bene». Una misura normale dopo l’allarme lo annulla.</item>
+        <item quantity="other">Se le ultime %1$d misure sono sotto la soglia, suona un allarme e il dispositivo scatta %2$d minuti dopo, a meno che tu non tocchi «Sto bene». Una misura normale dopo l’allarme lo annulla.</item>
+    </plurals>
+    <string name="app_password_needed">Questo provider accetta solo una password per le app: 16 lettere che crei per questa app. La tua password abituale viene rifiutata.</string>
+    <string name="app_password_open">Crea una password per le app</string>
+    <string name="app_password_suspicious">Non sembra una password per le app (16 lettere).</string>
+    <string name="proton_token_needed">Proton invia via SMTP solo con un token SMTP, disponibile per gli indirizzi con dominio proprio in un piano a pagamento. Inserisci in Utente e Password il nome utente e il token forniti da Proton.</string>
+    <string name="proton_token_open">Apri le istruzioni di Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail e Microsoft 365 non accettano più una password per l’invio e questa app non sa ancora accedere a Microsoft. Usa un altro provider.</string>
+    <string name="err_app_password">Il server chiede una password per le app, non quella abituale. Creala con il pulsante sotto la password e incollala lì.</string>
+    <string name="err_bad_login">Il server non ha accettato l’utente o la password. L’utente deve essere il tuo indirizzo email completo e la password, con Gmail, Yahoo o iCloud, una password per le app.</string>
+    <string name="err_microsoft">Microsoft ha rifiutato la password: non consente più l’invio con una password. Usa un altro provider.</string>
+    <string name="pc_ssh_key_hint">Accedi con una chiave (più sicuro, senza password) o con la password di quell’utente sul PC.</string>
+    <string name="pc_ssh_key_generate">Crea una chiave</string>
+    <string name="pc_ssh_key_copy">Copia la chiave pubblica</string>
+    <string name="pc_ssh_key_delete">Elimina la chiave</string>
+    <string name="pc_ssh_key_copied">Chiave pubblica copiata.</string>
+    <string name="pc_ssh_key_where_windows">Sul PC, aggiungi la chiave pubblica a C:\\ProgramData\\ssh\\administrators_authorized_keys se l’utente è amministratore, altrimenti a .ssh\\authorized_keys nella cartella dell’utente.</string>
+    <string name="pc_ssh_key_where_linux">Sul PC, aggiungi la chiave pubblica a ~/.ssh/authorized_keys di quell’utente.</string>
+</resources>

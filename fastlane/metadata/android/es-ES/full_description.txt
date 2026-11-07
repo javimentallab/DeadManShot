@@ -1,0 +1,11 @@
+<p>Una palanca del hombre muerto para el móvil. Pulsa «Estoy bien» una vez al día (o cada cuanto elijas). Si dejas de hacerlo, DeadManShot envía el correo que hayas preparado y puede actuar sobre tu ordenador.</p>
+<ul>
+<li><b>Confirmación diaria</b>: elige el intervalo, de 10 minutos a 3 días, y tantos recordatorios como quieras antes del plazo. Cada recordatorio lleva su propio botón «Estoy bien». Puedes pausarla una hora o un mes cuando haga falta.</li>
+<li><b>Pulso</b> (opcional): con un reloj vinculado a Gadgetbridge, salta si el pulso se queda por debajo de un umbral o si el reloj deja de mandarlo. Antes siempre suena una alarma y tienes diez minutos para responder.</li>
+<li><b>Correo</b>: destinatarios, asunto, texto y adjuntos, enviado desde tu propia cuenta por SMTP con TLS. Ajustes ya preparados para Gmail, Yahoo, iCloud y Proton Mail, y un botón para enviarte una prueba.</li>
+<li><b>Tu ordenador</b>, Windows o Linux, por SSH: encenderlo con Wake on LAN, ejecutar un comando tuyo, destruir una clave de cifrado o borrar una carpeta a fondo (dos pasadas, escritas encima) y apagarlo.</li>
+</ul>
+<p>Las acciones destructivas van protegidas: se rechazan las raíces de disco, las carpetas de usuario enteras y las del sistema; los enlaces no se siguen; lo que no se pueda sobrescribir se deja donde está y se avisa; y el resultado de cada acción llega como notificación. El botón «Disparar ahora (prueba)» deja probar antes toda la cadena sin riesgo.</p>
+<p>No recoge nada. La aplicación solo habla con el servidor de correo y el ordenador que configures. Las contraseñas del correo y del SSH se guardan cifradas con una clave del almacén de claves de Android.</p>
+<p>Código abierto con licencia MIT.</p>
+<p>Disponible en inglés, español, portugués, francés, alemán, italiano, neerlandés, polaco, ruso, ucraniano, chino, japonés, coreano, tailandés e hindi.</p>

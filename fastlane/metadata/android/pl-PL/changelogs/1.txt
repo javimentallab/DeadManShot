@@ -1,0 +1,1 @@
+Pierwsza wersja publiczna (beta): codzienne potwierdzenie z przypomnieniami i wstrzymaniem, tętno z zegarka przez Gadgetbridge, e-mail z załącznikami i działania na komputerze z Windows lub Linuksem przez SSH (Wake on LAN, własne polecenie, zniszczenie klucza, zniszczenie folderu, wyłączenie).

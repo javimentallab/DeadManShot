@@ -1,0 +1,123 @@
+DeadManShot
+Copyright (c) 2026 javimentallab
+Licensed under the MIT License (see LICENSE).
+
+Third-party software in the APK
+-------------------------------
+The release APK contains the libraries below, each under its own licence. The list is
+the release runtime classpath (app/gradle.lockfile). R8 removes unused code, so not
+every class of these libraries ends up in the APK.
+
+Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+  AndroidX, Copyright The Android Open Source Project
+  https://developer.android.com/jetpack/androidx
+    activity, annotation, arch.core, autofill, collection, concurrent-futures, core,
+    customview, emoji2, graphics-path, interpolator, lifecycle, profileinstaller, room,
+    savedstate, sqlite, startup, tracing, versionedparcelable, work
+
+  Jetpack Compose, Copyright The Android Open Source Project
+  https://developer.android.com/jetpack/compose
+    animation, foundation, material, material-icons-core, material-icons-extended,
+    material-ripple, material3, runtime, ui
+
+  Kotlin standard library
+  Copyright 2010-2024 JetBrains s.r.o and respective authors and developers
+  https://github.com/JetBrains/kotlin
+
+  kotlinx.coroutines, Copyright JetBrains s.r.o and contributors
+  https://github.com/Kotlin/kotlinx.coroutines
+
+  JetBrains Java Annotations, Copyright JetBrains s.r.o
+  https://github.com/JetBrains/java-annotations
+
+  Guava ListenableFuture, Copyright The Guava Authors
+  https://github.com/google/guava
+
+JSch (com.github.mwiede:jsch 0.2.21), SSH client
+https://github.com/mwiede/jsch
+
+  Revised BSD License (JSch):
+
+  JSch 0.0.* was released under the GNU LGPL license.  Later, we have switched 
+  over to a BSD-style license. 
+
+  ------------------------------------------------------------------------------
+  Copyright (c) 2002-2015 Atsuhiko Yamanaka, JCraft,Inc. 
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright 
+       notice, this list of conditions and the following disclaimer in 
+       the documentation and/or other materials provided with the distribution.
+
+    3. The names of the authors may not be used to endorse or promote products
+       derived from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+  INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+  FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,
+  INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+  OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  Revised BSD License (JZlib, included in JSch):
+
+  JZlib 0.0.* were released under the GNU LGPL license.  Later, we have switched 
+  over to a BSD-style license. 
+
+  ------------------------------------------------------------------------------
+  Copyright (c) 2000-2011 ymnk, JCraft,Inc. All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright 
+       notice, this list of conditions and the following disclaimer in 
+       the documentation and/or other materials provided with the distribution.
+
+    3. The names of the authors may not be used to endorse or promote products
+       derived from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+  INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+  FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,
+  INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+  OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  ISC License (jBCrypt, included in JSch):
+
+  jBCrypt is subject to the following license:
+
+  /*
+   * Copyright (c) 2006 Damien Miller <djm@mindrot.org>
+   *
+   * Permission to use, copy, modify, and distribute this software for any
+   * purpose with or without fee is hereby granted, provided that the above
+   * copyright notice and this permission notice appear in all copies.
+   *
+   * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+   * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+   * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+   * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+   * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+   * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+   * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+   */

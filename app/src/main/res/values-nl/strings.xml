@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Start</string>
+    <string name="tab_email">E-mail</string>
+    <string name="tab_pulse">Hartslag</string>
+    <string name="tab_pc">Pc</string>
+
+    <string name="status_off">Gestopt</string>
+    <string name="status_running">Actief</string>
+    <string name="status_paused">Gepauzeerd</string>
+    <string name="status_fired">Afgegaan</string>
+    <string name="detail_off">Zet de schakelaar aan om te beginnen. Zolang hij uit staat, wordt er niets verstuurd.</string>
+    <string name="detail_running">Volgende deadline: %1$s (nog %2$s).</string>
+    <string name="detail_paused">Tot %1$s (nog %2$s). Als de pauze afloopt, begint het aftellen opnieuw.</string>
+    <string name="fired_deadline">De deadline is verstreken op %s.</string>
+    <string name="fired_heart_rate">Je hartslag zakte onder de drempel op %s.</string>
+    <string name="send_pending">E-mail wordt verstuurd…</string>
+    <string name="send_sent">E-mail verstuurd op %s.</string>
+    <string name="send_failed">De e-mail kon niet worden verstuurd (%s). Er wordt opnieuw geprobeerd zodra er verbinding is.</string>
+    <string name="fired_reset">Tik op ‘Alles goed’ om opnieuw te beginnen.</string>
+
+    <string name="switch_label">Actief</string>
+    <string name="cannot_enable">Vul dit in voordat je hem aanzet:</string>
+    <string name="missing_recipient">een geldige ontvanger</string>
+    <string name="missing_text">het onderwerp of de tekst van de e-mail</string>
+    <string name="missing_account">het verzendaccount (server, gebruiker en wachtwoord)</string>
+
+    <string name="pause">Pauzeren</string>
+    <string name="resume">Hervatten</string>
+    <string name="pause_title">Pauzeren voor…</string>
+    <string name="pause_until">Gepauzeerd tot %s.</string>
+    <string name="cancel">Annuleren</string>
+
+    <string name="check_in">Alles goed</string>
+    <string name="last_check_in">Laatste bevestiging: %s.</string>
+    <string name="never_checked_in">Je hebt nog niet bevestigd.</string>
+
+    <string name="permissions_title">Rechten</string>
+    <string name="perm_notifications">Meldingen, voor de herinneringen en de alarmen.</string>
+    <string name="perm_exact">Exacte alarmen, zodat de deadline op tijd wordt gehaald.</string>
+    <string name="perm_battery">Zet de batterijoptimalisatie voor deze app uit, zodat Android hem niet stopt. Toon in de lijst die opent alle apps, zoek DeadManShot en kies ervoor hem niet te optimaliseren.</string>
+    <string name="allow">Toestaan</string>
+
+    <string name="timing_title">Deadline</string>
+    <string name="interval_label">Tik minstens één keer op ‘Alles goed’ per:</string>
+    <string name="reminder_label">Herinneringen vóór de deadline:</string>
+    <string name="reminder_multi_hint">Kies er één, meerdere of geen. Bij elke herinnering komt een melding. Herinneringen die even lang of langer zijn dan het interval, worden niet gebruikt.</string>
+
+    <string name="email_title">E-mail</string>
+    <string name="recipients">Ontvangers</string>
+    <string name="recipients_hint">Scheid meerdere adressen met komma’s.</string>
+    <string name="subject">Onderwerp</string>
+    <string name="body">Tekst</string>
+    <string name="attachments">Bijlagen</string>
+    <string name="no_attachments">Geen bijlagen.</string>
+    <string name="add_attachment">Bestand toevoegen</string>
+    <string name="remove">Verwijderen</string>
+
+    <string name="account_title">Verzendaccount</string>
+    <string name="account_hint">De e-mail gaat via SMTP vanaf je eigen account. Gebruik bij Gmail een app-wachtwoord (Google-account, Beveiliging, App-wachtwoorden), niet je gewone wachtwoord.</string>
+    <string name="smtp_host">SMTP-server</string>
+    <string name="smtp_port">Poort</string>
+    <string name="smtp_user">Gebruiker (je e-mailadres)</string>
+    <string name="smtp_password">Wachtwoord</string>
+    <string name="show_password">Wachtwoord tonen</string>
+    <string name="hide_password">Wachtwoord verbergen</string>
+    <string name="smtp_from">Afzenderadres</string>
+    <string name="smtp_from_hint">Laat leeg om de gebruiker te gebruiken.</string>
+    <string name="send_test">Een test naar mijn eigen adres sturen</string>
+    <string name="test_ok">Test verstuurd naar %s. Kijk in je inbox.</string>
+    <string name="test_skipped">Bijlagen weggelaten omdat ze niet gelezen konden worden: %s</string>
+    <string name="test_failed">Versturen mislukt: %s</string>
+    <string name="test_subject_prefix">[Test]</string>
+
+    <string name="smtp_fill_preset">Standaardwaarden invullen…</string>
+    <string name="smtp_preset_title">Kies een provider</string>
+    <string name="smtp_preset_apply">Toepassen</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Vereist een app-wachtwoord.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Vereist een app-wachtwoord.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Vereist een app-wachtwoord.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Vereist een SMTP-token (betaald abonnement, eigen domein).</string>
+
+    <string name="channel_reminder">Herinneringen en alarmen</string>
+    <string name="channel_result">Resultaten</string>
+    <string name="reminder_title">Gaat het goed?</string>
+    <string name="reminder_text">Tik vóór %1$s (%2$s) op ‘Alles goed’, anders gaat de dodemansknop af.</string>
+    <string name="sent_title">E-mail verstuurd</string>
+    <string name="sent_text">De e-mail is naar de ontvangers verstuurd.</string>
+    <string name="sent_text_skipped">De e-mail is verstuurd, maar zonder deze bijlagen, die niet gelezen konden worden: %s</string>
+    <string name="failed_title">E-mail niet verstuurd</string>
+    <string name="failed_text">%s. Er wordt automatisch opnieuw geprobeerd.</string>
+
+    <string name="pulse_title">Hartslag van het horloge</string>
+    <string name="pulse_enable">Afgaan als de hartslag onder de drempel zakt</string>
+    <string name="pulse_threshold">Drempel: %d bpm</string>
+    <string name="pulse_requirements_title">Wat je nodig hebt</string>
+    <string name="pulse_requirements_body">1. Een horloge dat je hartslag meet, gekoppeld aan Gadgetbridge op deze telefoon, met continue hartslagmeting aan.\n2. Zet in Gadgetbridge de automatische database-export aan en kies waar die terechtkomt.\n3. In Gadgetbridge, Instellingen → Intent API: sta de trigger voor activiteitssynchronisatie en de database-export toe.\n4. Kies hieronder datzelfde exportbestand.</string>
+    <string name="pulse_open_gadgetbridge">Gadgetbridge openen</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge is niet geïnstalleerd. Installeer het eerst via F-Droid.</string>
+    <string name="pulse_choose_file">Exportbestand kiezen</string>
+    <string name="pulse_file">Exportbestand: %s</string>
+    <string name="pulse_no_file">Nog geen exportbestand gekozen.</string>
+    <string name="pulse_no_signal_label">Ook afgaan als het horloge geen hartslag stuurt gedurende</string>
+    <string name="pulse_no_signal_off">Nooit</string>
+    <string name="pulse_no_signal_hint">Dit telt alleen als Gadgetbridge onlangs heeft geëxporteerd, dus een probleem met de telefoon of de app laat de dodemansknop nooit afgaan.</string>
+    <string name="pulse_interval_label">Controleren elke</string>
+    <string name="pulse_status_title">Laatste controle</string>
+    <string name="pulse_last">Laatste meting: %1$d bpm, %2$s (gecontroleerd: %3$s).</string>
+    <string name="pulse_never_checked">Nog niet gecontroleerd.</string>
+    <string name="pulse_no_reading">Geen meting van het horloge (gecontroleerd: %s).</string>
+    <string name="pulse_check_now">Nu controleren</string>
+    <string name="pulse_check_hint">Dit duurt ongeveer een minuut: Gadgetbridge synchroniseert eerst het horloge en exporteert.</string>
+    <string name="pulse_err_no_file">Kies het exportbestand van Gadgetbridge op het tabblad Hartslag.</string>
+    <string name="pulse_err_stale">Gadgetbridge heeft onlangs niet geëxporteerd, dus de hartslag kan niet worden gecontroleerd. Controleer de Intent API-instellingen en de automatische export van Gadgetbridge.</string>
+    <string name="pulse_err_read">Kan de export niet lezen: %s</string>
+    <string name="pulse_problem_title">Hartslag kan niet worden gecontroleerd</string>
+    <string name="pulse_alert_title">Is alles in orde?</string>
+    <string name="pulse_alert_low">Je horloge meet %1$d bpm. De dodemansknop gaat om %2$s af, tenzij je op ‘Alles goed’ tikt.</string>
+    <string name="pulse_alert_silent">Je horloge stuurt je hartslag niet meer. De dodemansknop gaat om %s af, tenzij je op ‘Alles goed’ tikt.</string>
+    <string name="fired_no_pulse">Het horloge stuurde je hartslag niet meer; de dodemansknop ging af op %s.</string>
+    <string name="detail_pulse_alert">Horlogewaarschuwing: de dodemansknop gaat om %s af, tenzij je op ‘Alles goed’ tikt.</string>
+
+    <string name="pc_warning_title">Destructieve acties</string>
+    <string name="pc_warning_body">Deze acties worden op je pc uitgevoerd als de dodemansknop afgaat. Test ze één keer met een onbelangrijke map voordat je erop vertrouwt.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Eerst de pc wekken</string>
+    <string name="pc_mac">MAC-adres van de pc</string>
+    <string name="pc_broadcast">Broadcastadres</string>
+    <string name="pc_broadcast_hint">Meestal 255.255.255.255, of de broadcast van het LAN (bijv. 192.168.1.255).</string>
+    <string name="pc_wol_wait">Seconden wachten na WoL</string>
+    <string name="pc_wol_test">WoL nu versturen</string>
+    <string name="pc_wol_sent">Magic packet verstuurd.</string>
+    <string name="pc_wol_failed">Kan het magic packet niet versturen: %s</string>
+
+    <string name="pc_ssh_title">SSH-toegang</string>
+    <string name="pc_ssh_host">Host of IP</string>
+    <string name="pc_ssh_port">SSH-poort</string>
+    <string name="pc_ssh_user">SSH-gebruiker</string>
+    <string name="pc_ssh_password">SSH-wachtwoord (als er geen sleutel is)</string>
+    <string name="pc_ssh_test">SSH testen</string>
+    <string name="pc_ssh_ok">SSH werkt (%s).</string>
+    <string name="pc_ssh_failed">SSH mislukt: %s</string>
+
+    <string name="pc_key_title">De sleutel vernietigen</string>
+    <string name="pc_key_enable">Een sleutelbestand of -map vernietigen</string>
+    <string name="pc_key_body">Houd de gevoelige map versleuteld (VeraCrypt, LUKS, EFS, 7-Zip AES…) met een sleutel die op het pad hieronder staat. Als de dodemansknop afgaat, wordt de sleutel twee keer overschreven en verwijderd, en blijven de gegevens voorgoed op slot.</string>
+    <string name="pc_key_path">Pad van het sleutelbestand of de sleutelmap op de pc</string>
+    <string name="pc_path_hint">Volledig Windows-pad, bijv. C:\\Users\\ik\\Desktop\\test. Stationsroots, complete gebruikersmappen en systeemmappen worden geweigerd.</string>
+
+    <string name="pc_shred_title">Een map vernietigen</string>
+    <string name="pc_shred_enable">Een map vernietigen</string>
+    <string name="pc_shred_body">Twee overschrijfrondes over elk bestand, ter plekke (nullen, daarna willekeurige gegevens), en daarna wordt het bestand verwijderd. Wat niet overschreven kan worden, blijft staan en wordt gemeld. Mappen worden verwijderd zodra ze leeg zijn. Op een SSD kan de firmware oude kopieën bewaren, dus de sleutel hierboven vernietigen is veiliger.</string>
+    <string name="pc_folder">Map op de pc</string>
+    <string name="pc_subdirs">Submappen meenemen</string>
+
+    <string name="pc_shutdown_title">De pc afsluiten</string>
+    <string name="pc_shutdown_enable">Afsluiten forceren</string>
+    <string name="pc_shutdown_body">Na de andere acties ‘shutdown /s /f /t 0’ via SSH sturen.</string>
+
+    <string name="pc_notification_title">Pc-acties</string>
+    <string name="pc_log_nothing">Niets te doen.</string>
+    <string name="pc_log_wol_ok">WoL-pakket verstuurd.</string>
+    <string name="pc_log_wol_failed">WoL mislukt: %s</string>
+    <string name="pc_log_ssh_missing">SSH-host, gebruiker, of sleutel of wachtwoord ontbreekt.</string>
+    <string name="pc_log_key_ok">Sleutel vernietigd: %1$s.</string>
+    <string name="pc_log_key_failed">Sleutel vernietigen mislukt: %s</string>
+    <string name="pc_log_key_unsafe">Sleutelpad geweigerd als onveilig; niets aangeraakt.</string>
+    <string name="pc_log_shred_ok">Map vernietigd: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Map vernietigen mislukt: %s</string>
+    <string name="pc_log_shred_unsafe">Mappad geweigerd als onveilig; niets aangeraakt.</string>
+    <string name="pc_log_shutdown_ok">Afsluitopdracht verstuurd.</string>
+    <string name="pc_log_shutdown_failed">Afsluiten mislukt: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dagen</item>
+    </plurals>
+    <string name="pc_log_not_found">Het pad bestaat niet op de pc.</string>
+    <string name="pc_log_is_link">Het pad is een link; die is niet gevolgd.</string>
+    <string name="pc_log_not_folder">Het pad is een bestand, geen map.</string>
+    <string name="pc_log_partial">%1$s; wat niet overschreven kon worden, is blijven staan.\n%2$s</string>
+    <string name="fired_manual">Met de hand afgegaan op %s.</string>
+    <string name="fire_now">Nu laten afgaan (test)</string>
+    <string name="fire_now_title">Nu laten afgaan?</string>
+    <string name="fire_now_body">De e-mail gaat echt naar %1$s, en deze pc-acties worden uitgevoerd: %2$s. Het is precies alsof de deadline is verstreken.</string>
+    <string name="fire_now_no_pc">geen</string>
+    <string name="fire_now_confirm">Laten afgaan</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">de sleutel vernietigen</string>
+    <string name="fire_action_shred">de map %s vernietigen</string>
+    <string name="fire_action_shutdown">afsluiten</string>
+    <string name="pc_os_title">Systeem van de pc</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Volledig pad, bijv. /home/ik/test. De root, complete thuismappen en systeemmappen (/etc, /usr, /var…) worden geweigerd.</string>
+    <string name="pc_shutdown_body_linux">Na de andere acties ‘sudo -n systemctl poweroff’ via SSH uitvoeren. De SSH-gebruiker heeft voor die opdracht sudo zonder wachtwoord nodig, of polkit-toestemming om uit te schakelen.</string>
+    <string name="pc_log_no_shred">shred is niet geïnstalleerd op de pc (het hoort bij coreutils).</string>
+    <string name="pc_log_exit">de opdracht eindigde met code %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Een opdracht uitvoeren</string>
+    <string name="pc_cmd_enable">Mijn opdracht uitvoeren</string>
+    <string name="pc_cmd_body_windows">Direct na Wake on LAN wordt dit via SSH op de pc uitgevoerd, in PowerShell, als de SSH-gebruiker. Meerdere regels zijn mogelijk. Er opent geen venster: wat de opdracht uitvoert, verschijnt in de resultaatmelding.</string>
+    <string name="pc_cmd_body_linux">Direct na Wake on LAN wordt dit via SSH op de pc uitgevoerd, in bash, als de SSH-gebruiker. Meerdere regels zijn mogelijk. Er opent geen venster: wat de opdracht uitvoert, verschijnt in de resultaatmelding.</string>
+    <string name="pc_cmd_field">Opdracht</string>
+    <string name="pc_log_cmd_ok">Opdracht voltooid.\n%s</string>
+    <string name="pc_log_cmd_exit">De opdracht eindigde met code %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Kan de opdracht niet uitvoeren: %s</string>
+    <string name="fire_action_cmd">je opdracht uitvoeren</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d bestand overschreven en verwijderd</item>
+        <item quantity="other">%d bestanden overschreven en verwijderd</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d submap onaangeroerd gelaten</item>
+        <item quantity="other">%d submappen onaangeroerd gelaten</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">slechts %d bestand vernietigd</item>
+        <item quantity="other">slechts %d bestanden vernietigd</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Als de laatste meting onder de drempel ligt, gaat er een alarm af en gaat de dodemansknop %2$d minuten later af, tenzij je op ‘Alles goed’ tikt. Een normale meting na het alarm annuleert het.</item>
+        <item quantity="other">Als de laatste %1$d metingen onder de drempel liggen, gaat er een alarm af en gaat de dodemansknop %2$d minuten later af, tenzij je op ‘Alles goed’ tikt. Een normale meting na het alarm annuleert het.</item>
+    </plurals>
+    <string name="app_password_needed">Deze provider accepteert alleen een app-wachtwoord: 16 letters die je voor deze app aanmaakt. Je gewone wachtwoord wordt geweigerd.</string>
+    <string name="app_password_open">App-wachtwoord aanmaken</string>
+    <string name="app_password_suspicious">Dit lijkt geen app-wachtwoord (16 letters).</string>
+    <string name="proton_token_needed">Proton verstuurt via SMTP alleen met een SMTP-token, dat bestaat voor adressen op je eigen domein met een betaald abonnement. Vul de gebruikersnaam en het token van Proton in bij Gebruiker en Wachtwoord.</string>
+    <string name="proton_token_open">Instructies van Proton openen</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail en Microsoft 365 accepteren geen wachtwoord meer om te verzenden, en deze app kan nog niet bij Microsoft inloggen. Gebruik een andere provider.</string>
+    <string name="err_app_password">De server vraagt om een app-wachtwoord, niet je gewone wachtwoord. Maak er een aan met de knop onder het wachtwoord en plak het daar.</string>
+    <string name="err_bad_login">De server heeft de gebruiker of het wachtwoord niet geaccepteerd. De gebruiker moet je volledige e-mailadres zijn en het wachtwoord bij Gmail, Yahoo of iCloud een app-wachtwoord.</string>
+    <string name="err_microsoft">Microsoft heeft het wachtwoord geweigerd: verzenden met een wachtwoord mag niet meer. Gebruik een andere provider.</string>
+    <string name="pc_ssh_key_hint">Log in met een sleutel (veiliger, zonder wachtwoord) of met het wachtwoord van die gebruiker op de pc.</string>
+    <string name="pc_ssh_key_generate">Sleutel aanmaken</string>
+    <string name="pc_ssh_key_copy">Openbare sleutel kopiëren</string>
+    <string name="pc_ssh_key_delete">Sleutel verwijderen</string>
+    <string name="pc_ssh_key_copied">Openbare sleutel gekopieerd.</string>
+    <string name="pc_ssh_key_where_windows">Voeg op de pc de openbare sleutel toe aan C:\\ProgramData\\ssh\\administrators_authorized_keys als de gebruiker beheerder is, en anders aan .ssh\\authorized_keys in de map van de gebruiker.</string>
+    <string name="pc_ssh_key_where_linux">Voeg op de pc de openbare sleutel toe aan ~/.ssh/authorized_keys van die gebruiker.</string>
+</resources>

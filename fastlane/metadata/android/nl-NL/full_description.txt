@@ -1,0 +1,11 @@
+<p>Een dodemansknop voor je telefoon. Tik één keer per dag (of zo vaak als je wilt) op ‘Alles goed’. Stop je daarmee, dan verstuurt DeadManShot de e-mail die je hebt voorbereid en kan het acties uitvoeren op je computer.</p>
+<ul>
+<li><b>Dagelijkse bevestiging</b>: kies het interval, van 10 minuten tot 3 dagen, en zoveel herinneringen als je wilt vóór de deadline. Elke herinnering heeft een eigen knop ‘Alles goed’. Pauzeer het een uur of een maand wanneer dat nodig is.</li>
+<li><b>Hartslag</b> (optioneel): met een horloge dat aan Gadgetbridge is gekoppeld, gaat de dodemansknop af als je hartslag onder een drempel blijft of als het horloge hem niet meer doorgeeft. Je krijgt altijd eerst een alarm en tien minuten om te reageren.</li>
+<li><b>E-mail</b>: ontvangers, onderwerp, tekst en bijlagen, verstuurd vanaf je eigen account via SMTP met TLS. Kant-en-klare instellingen voor Gmail, Yahoo, iCloud en Proton Mail, en een testknop die de e-mail naar jezelf stuurt.</li>
+<li><b>Je computer</b>, Windows of Linux, via SSH: hem wekken met Wake on LAN, een eigen opdracht uitvoeren, een encryptiesleutel of een map vernietigen (de map wordt twee keer ter plekke overschreven) en hem afsluiten.</li>
+</ul>
+<p>Destructieve acties zijn beveiligd: de hoofdmap van een station, complete gebruikersmappen en systeemmappen worden geweigerd; koppelingen worden niet gevolgd; wat niet kan worden overschreven, blijft staan en wordt gemeld; en het resultaat van elke actie komt binnen als melding. Met de knop ‘Nu laten afgaan (test)’ kun je eerst de hele keten veilig uitproberen.</p>
+<p>Er wordt niets verzameld. De app praat alleen met de mailserver en de computer die je instelt. De wachtwoorden voor mail en SSH worden versleuteld met een sleutel die in de Android-keystore wordt bewaard.</p>
+<p>Open source onder de MIT-licentie.</p>
+<p>Beschikbaar in het Engels, Spaans, Portugees, Frans, Duits, Italiaans, Nederlands, Pools, Russisch, Oekraïens, Chinees, Japans, Koreaans, Thai en Hindi.</p>

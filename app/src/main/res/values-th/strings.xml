@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">หน้าหลัก</string>
+    <string name="tab_email">อีเมล</string>
+    <string name="tab_pulse">ชีพจร</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">หยุดอยู่</string>
+    <string name="status_running">กำลังนับถอยหลัง</string>
+    <string name="status_paused">หยุดชั่วคราว</string>
+    <string name="status_fired">กลไกทำงานแล้ว</string>
+    <string name="detail_off">เปิด “เปิดใช้งาน” ด้านล่างเพื่อเริ่ม ระหว่างที่หยุดอยู่จะไม่มีการส่งสิ่งใด</string>
+    <string name="detail_running">กำหนดถัดไป: %1$s (เหลือ %2$s)</string>
+    <string name="detail_paused">จนถึง %1$s (เหลือ %2$s) เมื่อหมดช่วงหยุดชั่วคราว การนับถอยหลังจะเริ่มใหม่</string>
+    <string name="fired_deadline">เลยกำหนดเมื่อ %s</string>
+    <string name="fired_heart_rate">อัตราการเต้นของหัวใจของคุณต่ำกว่าเกณฑ์เมื่อ %s</string>
+    <string name="send_pending">กำลังส่งอีเมล…</string>
+    <string name="send_sent">ส่งอีเมลแล้วเมื่อ %s</string>
+    <string name="send_failed">ส่งอีเมลไม่ได้ (%s) จะลองใหม่ทันทีที่มีการเชื่อมต่อ</string>
+    <string name="fired_reset">กด “ฉันสบายดี” เพื่อเริ่มใหม่</string>
+
+    <string name="switch_label">เปิดใช้งาน</string>
+    <string name="cannot_enable">ก่อนเปิด โปรดกรอก:</string>
+    <string name="missing_recipient">ผู้รับที่ถูกต้อง</string>
+    <string name="missing_text">หัวเรื่องหรือข้อความของอีเมล</string>
+    <string name="missing_account">บัญชีผู้ส่ง (เซิร์ฟเวอร์ ชื่อผู้ใช้ และรหัสผ่าน)</string>
+
+    <string name="pause">หยุดชั่วคราว</string>
+    <string name="resume">ทำต่อ</string>
+    <string name="pause_title">หยุดชั่วคราวเป็นเวลา…</string>
+    <string name="pause_until">หยุดชั่วคราวจนถึง %s</string>
+    <string name="cancel">ยกเลิก</string>
+
+    <string name="check_in">ฉันสบายดี</string>
+    <string name="last_check_in">ยืนยันล่าสุด: %s</string>
+    <string name="never_checked_in">คุณยังไม่เคยยืนยัน</string>
+
+    <string name="permissions_title">สิทธิ์</string>
+    <string name="perm_notifications">การแจ้งเตือน สำหรับคำเตือนและสัญญาณเตือน</string>
+    <string name="perm_exact">การปลุกที่แม่นยำ เพื่อให้กำหนดเวลาเป็นไปตรงเวลา</string>
+    <string name="perm_battery">ปิดการเพิ่มประสิทธิภาพแบตเตอรี่สำหรับแอปนี้ เพื่อไม่ให้ Android หยุดแอป ในรายการที่เปิดขึ้น ให้แสดงแอปทั้งหมด หา DeadManShot แล้วเลือกไม่เพิ่มประสิทธิภาพ</string>
+    <string name="allow">อนุญาต</string>
+
+    <string name="timing_title">กำหนดเวลา</string>
+    <string name="interval_label">กด “ฉันสบายดี” อย่างน้อยหนึ่งครั้งทุก:</string>
+    <string name="reminder_label">การเตือนก่อนถึงกำหนด:</string>
+    <string name="reminder_multi_hint">เลือกหนึ่งรายการ หลายรายการ หรือไม่เลือกเลยก็ได้ จะมีการแจ้งเตือนตามแต่ละรายการ รายการที่ยาวเท่ากับช่วงเวลาหรือนานกว่าจะไม่ถูกใช้</string>
+
+    <string name="email_title">อีเมล</string>
+    <string name="recipients">ผู้รับ</string>
+    <string name="recipients_hint">คั่นหลายที่อยู่ด้วยเครื่องหมายจุลภาค</string>
+    <string name="subject">หัวเรื่อง</string>
+    <string name="body">ข้อความ</string>
+    <string name="attachments">ไฟล์แนบ</string>
+    <string name="no_attachments">ไม่มีไฟล์แนบ</string>
+    <string name="add_attachment">เพิ่มไฟล์</string>
+    <string name="remove">นำออก</string>
+
+    <string name="account_title">บัญชีผู้ส่ง</string>
+    <string name="account_hint">อีเมลจะส่งออกจากบัญชีของคุณเองผ่าน SMTP หากใช้ Gmail ให้ใช้รหัสผ่านสำหรับแอป (บัญชี Google, ความปลอดภัย, รหัสผ่านสำหรับแอป) ไม่ใช่รหัสผ่านปกติ</string>
+    <string name="smtp_host">เซิร์ฟเวอร์ SMTP</string>
+    <string name="smtp_port">พอร์ต</string>
+    <string name="smtp_user">ผู้ใช้ (ที่อยู่อีเมลของคุณ)</string>
+    <string name="smtp_password">รหัสผ่าน</string>
+    <string name="show_password">แสดงรหัสผ่าน</string>
+    <string name="hide_password">ซ่อนรหัสผ่าน</string>
+    <string name="smtp_from">ที่อยู่ผู้ส่ง</string>
+    <string name="smtp_from_hint">เว้นว่างไว้เพื่อใช้ชื่อผู้ใช้</string>
+    <string name="send_test">ส่งอีเมลทดสอบถึงที่อยู่ของฉัน</string>
+    <string name="test_ok">ส่งอีเมลทดสอบถึง %s แล้ว โปรดตรวจสอบกล่องจดหมาย</string>
+    <string name="test_skipped">ไม่ได้แนบไฟล์ต่อไปนี้เพราะอ่านไม่ได้: %s</string>
+    <string name="test_failed">ส่งไม่ได้: %s</string>
+    <string name="test_subject_prefix">[ทดสอบ]</string>
+
+    <string name="smtp_fill_preset">กรอกค่าเริ่มต้น…</string>
+    <string name="smtp_preset_title">เลือกผู้ให้บริการ</string>
+    <string name="smtp_preset_apply">ใช้</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL ต้องใช้รหัสผ่านสำหรับแอป</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL ต้องใช้รหัสผ่านสำหรับแอป</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS ต้องใช้รหัสผ่านสำหรับแอป</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS ต้องใช้โทเค็น SMTP (แพ็กเกจแบบชำระเงิน, โดเมนของคุณเอง)</string>
+
+    <string name="channel_reminder">คำเตือนและสัญญาณเตือน</string>
+    <string name="channel_result">ผลลัพธ์</string>
+    <string name="reminder_title">คุณสบายดีไหม</string>
+    <string name="reminder_text">กด “ฉันสบายดี” ก่อน %1$s (%2$s) ไม่เช่นนั้นกลไกจะทำงาน</string>
+    <string name="sent_title">ส่งอีเมลแล้ว</string>
+    <string name="sent_text">ส่งอีเมลถึงผู้รับแล้ว</string>
+    <string name="sent_text_skipped">ส่งอีเมลแล้ว แต่ไม่มีไฟล์แนบต่อไปนี้ซึ่งอ่านไม่ได้: %s</string>
+    <string name="failed_title">ส่งอีเมลไม่สำเร็จ</string>
+    <string name="failed_text">%s จะลองใหม่โดยอัตโนมัติ</string>
+
+    <string name="pulse_title">อัตราการเต้นของหัวใจจากนาฬิกา</string>
+    <string name="pulse_enable">ให้กลไกทำงานเมื่ออัตราการเต้นของหัวใจต่ำกว่าเกณฑ์</string>
+    <string name="pulse_threshold">เกณฑ์: %d ครั้ง/นาที</string>
+    <string name="pulse_requirements_title">สิ่งที่ต้องมี</string>
+    <string name="pulse_requirements_body">1. นาฬิกาที่วัดอัตราการเต้นของหัวใจได้ จับคู่กับ Gadgetbridge บนโทรศัพท์เครื่องนี้ และเปิดการวัดอัตราการเต้นของหัวใจต่อเนื่องไว้\n2. ใน Gadgetbridge ให้เปิดการส่งออกฐานข้อมูลอัตโนมัติและเลือกตำแหน่งที่จะบันทึก\n3. ใน Gadgetbridge ไปที่การตั้งค่า → Intent API: อนุญาตทริกเกอร์การซิงค์กิจกรรมและการส่งออกฐานข้อมูล\n4. ด้านล่าง ให้เลือกไฟล์ส่งออกเดียวกันนั้น</string>
+    <string name="pulse_open_gadgetbridge">เปิด Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">ยังไม่ได้ติดตั้ง Gadgetbridge โปรดติดตั้งจาก F-Droid ก่อน</string>
+    <string name="pulse_choose_file">เลือกไฟล์ส่งออก</string>
+    <string name="pulse_file">ไฟล์ส่งออก: %s</string>
+    <string name="pulse_no_file">ยังไม่ได้เลือกไฟล์ส่งออก</string>
+    <string name="pulse_no_signal_label">ให้กลไกทำงานด้วย หากนาฬิกาไม่ส่งอัตราการเต้นของหัวใจเป็นเวลา</string>
+    <string name="pulse_no_signal_off">ไม่ใช้</string>
+    <string name="pulse_no_signal_hint">จะนับเฉพาะเมื่อ Gadgetbridge ส่งออกเมื่อเร็วๆ นี้ ปัญหาของโทรศัพท์หรือแอปจึงไม่มีทางทำให้กลไกทำงาน</string>
+    <string name="pulse_interval_label">ตรวจสอบทุก</string>
+    <string name="pulse_status_title">การตรวจสอบล่าสุด</string>
+    <string name="pulse_last">ค่าล่าสุด: %1$d ครั้ง/นาที เมื่อ %2$s (ตรวจสอบเมื่อ: %3$s)</string>
+    <string name="pulse_never_checked">ยังไม่ได้ตรวจสอบ</string>
+    <string name="pulse_no_reading">ไม่มีค่าจากนาฬิกา (ตรวจสอบเมื่อ: %s)</string>
+    <string name="pulse_check_now">ตรวจสอบตอนนี้</string>
+    <string name="pulse_check_hint">ใช้เวลาประมาณหนึ่งนาที: Gadgetbridge จะซิงค์นาฬิกาและส่งออกข้อมูลก่อน</string>
+    <string name="pulse_err_no_file">เลือกไฟล์ส่งออกของ Gadgetbridge ในแท็บชีพจร</string>
+    <string name="pulse_err_stale">Gadgetbridge ไม่ได้ส่งออกเมื่อเร็วๆ นี้ จึงตรวจสอบอัตราการเต้นของหัวใจไม่ได้ โปรดดูการตั้งค่า Intent API และการส่งออกอัตโนมัติของแอป</string>
+    <string name="pulse_err_read">อ่านไฟล์ส่งออกไม่ได้: %s</string>
+    <string name="pulse_problem_title">ตรวจสอบอัตราการเต้นของหัวใจไม่ได้</string>
+    <string name="pulse_alert_title">ทุกอย่างเรียบร้อยดีไหม</string>
+    <string name="pulse_alert_low">นาฬิกาของคุณวัดได้ %1$d ครั้ง/นาที กลไกจะทำงานเวลา %2$s เว้นแต่คุณกด “ฉันสบายดี”</string>
+    <string name="pulse_alert_silent">นาฬิกาของคุณหยุดส่งอัตราการเต้นของหัวใจ กลไกจะทำงานเวลา %s เว้นแต่คุณกด “ฉันสบายดี”</string>
+    <string name="fired_no_pulse">นาฬิกาหยุดส่งอัตราการเต้นของหัวใจของคุณ กลไกทำงานเมื่อ %s</string>
+    <string name="detail_pulse_alert">การแจ้งเตือนจากนาฬิกา: กลไกจะทำงานเวลา %s เว้นแต่คุณกด “ฉันสบายดี”</string>
+
+    <string name="pc_warning_title">การกระทำที่ทำลายข้อมูล</string>
+    <string name="pc_warning_body">การกระทำเหล่านี้จะถูกเรียกใช้บนคอมพิวเตอร์ของคุณเมื่อกลไกทำงาน โปรดทดสอบหนึ่งครั้งกับโฟลเดอร์ที่ไม่สำคัญก่อนจะไว้ใจ</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">ปลุกคอมพิวเตอร์ก่อน</string>
+    <string name="pc_mac">ที่อยู่ MAC ของคอมพิวเตอร์</string>
+    <string name="pc_broadcast">ที่อยู่บรอดแคสต์</string>
+    <string name="pc_broadcast_hint">ปกติคือ 255.255.255.255 หรือที่อยู่บรอดแคสต์ของ LAN (เช่น 192.168.1.255)</string>
+    <string name="pc_wol_wait">จำนวนวินาทีที่รอหลัง WoL</string>
+    <string name="pc_wol_test">ส่ง WoL ตอนนี้</string>
+    <string name="pc_wol_sent">ส่ง magic packet แล้ว</string>
+    <string name="pc_wol_failed">ส่ง magic packet ไม่ได้: %s</string>
+
+    <string name="pc_ssh_title">การเข้าถึง SSH</string>
+    <string name="pc_ssh_host">โฮสต์หรือ IP</string>
+    <string name="pc_ssh_port">พอร์ต SSH</string>
+    <string name="pc_ssh_user">ผู้ใช้ SSH</string>
+    <string name="pc_ssh_password">รหัสผ่าน SSH (หากไม่มีคีย์)</string>
+    <string name="pc_ssh_test">ทดสอบ SSH</string>
+    <string name="pc_ssh_ok">SSH ใช้งานได้ (%s)</string>
+    <string name="pc_ssh_failed">SSH ล้มเหลว: %s</string>
+
+    <string name="pc_key_title">ทำลายคีย์</string>
+    <string name="pc_key_enable">ทำลายไฟล์หรือโฟลเดอร์คีย์</string>
+    <string name="pc_key_body">เก็บโฟลเดอร์ที่มีข้อมูลสำคัญไว้แบบเข้ารหัส (VeraCrypt, LUKS, EFS, 7-Zip AES…) ด้วยคีย์ที่อยู่ในพาธด้านล่าง เมื่อกลไกทำงาน คีย์จะถูกเขียนทับสองครั้งแล้วลบทิ้ง ทำให้ข้อมูลถูกล็อกไว้ถาวร</string>
+    <string name="pc_key_path">พาธของไฟล์หรือโฟลเดอร์คีย์บนคอมพิวเตอร์</string>
+    <string name="pc_path_hint">พาธ Windows แบบเต็ม เช่น C:\\Users\\me\\Desktop\\test ระบบจะปฏิเสธรากของไดรฟ์ โฟลเดอร์ผู้ใช้ทั้งโฟลเดอร์ และโฟลเดอร์ระบบ</string>
+
+    <string name="pc_shred_title">ทำลายโฟลเดอร์</string>
+    <string name="pc_shred_enable">ทำลายโฟลเดอร์</string>
+    <string name="pc_shred_body">เขียนทับทุกไฟล์ในตำแหน่งเดิมสองรอบ (ศูนย์ แล้วตามด้วยข้อมูลสุ่ม) จากนั้นจึงลบไฟล์ สิ่งที่เขียนทับไม่ได้จะถูกปล่อยไว้ที่เดิมและรายงานให้ทราบ โฟลเดอร์จะถูกลบเมื่อว่างแล้ว บน SSD เฟิร์มแวร์อาจเก็บสำเนาเก่าไว้ การทำลายคีย์ด้านบนจึงปลอดภัยกว่า</string>
+    <string name="pc_folder">โฟลเดอร์บนคอมพิวเตอร์</string>
+    <string name="pc_subdirs">รวมโฟลเดอร์ย่อย</string>
+
+    <string name="pc_shutdown_title">ปิดคอมพิวเตอร์</string>
+    <string name="pc_shutdown_enable">บังคับปิดเครื่อง</string>
+    <string name="pc_shutdown_body">หลังการกระทำอื่นๆ ให้ส่ง “shutdown /s /f /t 0” ผ่าน SSH</string>
+
+    <string name="pc_notification_title">การกระทำบนคอมพิวเตอร์</string>
+    <string name="pc_log_nothing">ไม่มีอะไรต้องทำ</string>
+    <string name="pc_log_wol_ok">ส่งแพ็กเก็ต WoL แล้ว</string>
+    <string name="pc_log_wol_failed">WoL ล้มเหลว: %s</string>
+    <string name="pc_log_ssh_missing">ไม่มีโฮสต์ ผู้ใช้ หรือคีย์หรือรหัสผ่าน SSH</string>
+    <string name="pc_log_key_ok">ทำลายคีย์แล้ว: %1$s</string>
+    <string name="pc_log_key_failed">ทำลายคีย์ไม่สำเร็จ: %s</string>
+    <string name="pc_log_key_unsafe">ปฏิเสธพาธคีย์เพราะไม่ปลอดภัย ไม่มีการแตะต้องสิ่งใด</string>
+    <string name="pc_log_shred_ok">ทำลายโฟลเดอร์แล้ว: %1$s (%2$s)</string>
+    <string name="pc_log_shred_failed">ทำลายโฟลเดอร์ไม่สำเร็จ: %s</string>
+    <string name="pc_log_shred_unsafe">ปฏิเสธพาธโฟลเดอร์เพราะไม่ปลอดภัย ไม่มีการแตะต้องสิ่งใด</string>
+    <string name="pc_log_shutdown_ok">ส่งคำสั่งปิดเครื่องแล้ว</string>
+    <string name="pc_log_shutdown_failed">ปิดเครื่องไม่สำเร็จ: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <string name="pc_log_not_found">ไม่มีพาธนี้บนคอมพิวเตอร์</string>
+    <string name="pc_log_is_link">พาธนี้เป็นลิงก์ จึงไม่ได้ตามไป</string>
+    <string name="pc_log_not_folder">พาธนี้เป็นไฟล์ ไม่ใช่โฟลเดอร์</string>
+    <string name="pc_log_partial">%1$s ส่วนที่เขียนทับไม่ได้ยังอยู่ที่เดิม\n%2$s</string>
+    <string name="fired_manual">สั่งให้กลไกทำงานด้วยตนเองเมื่อ %s</string>
+    <string name="fire_now">สั่งให้ทำงานตอนนี้ (ทดสอบ)</string>
+    <string name="fire_now_title">สั่งให้กลไกทำงานตอนนี้ไหม</string>
+    <string name="fire_now_body">อีเมลจะถูกส่งถึง %1$s จริงๆ และการกระทำต่อไปนี้จะถูกเรียกใช้บนคอมพิวเตอร์: %2$s เหมือนกับเลยกำหนดแล้วทุกประการ</string>
+    <string name="fire_now_no_pc">ไม่มี</string>
+    <string name="fire_now_confirm">สั่งทำงาน</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">ทำลายคีย์</string>
+    <string name="fire_action_shred">ทำลายโฟลเดอร์ %s</string>
+    <string name="fire_action_shutdown">ปิดเครื่อง</string>
+    <string name="pc_os_title">ระบบปฏิบัติการของคอมพิวเตอร์</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">พาธแบบเต็ม เช่น /home/me/test ระบบจะปฏิเสธราก โฟลเดอร์ home ทั้งโฟลเดอร์ และโฟลเดอร์ระบบ (/etc, /usr, /var…)</string>
+    <string name="pc_shutdown_body_linux">หลังการกระทำอื่นๆ ให้เรียกใช้ “sudo -n systemctl poweroff” ผ่าน SSH ผู้ใช้ SSH ต้องใช้ sudo กับคำสั่งนี้ได้โดยไม่ต้องใส่รหัสผ่าน หรือมีสิทธิ์ polkit ในการปิดเครื่อง</string>
+    <string name="pc_log_no_shred">ไม่ได้ติดตั้ง shred บนคอมพิวเตอร์ (มาพร้อมกับ coreutils)</string>
+    <string name="pc_log_exit">คำสั่งจบด้วยรหัส %1$d\n%2$s</string>
+    <string name="pc_cmd_title">เรียกใช้คำสั่ง</string>
+    <string name="pc_cmd_enable">เรียกใช้คำสั่งของฉัน</string>
+    <string name="pc_cmd_body_windows">ทันทีหลัง Wake on LAN คำสั่งนี้จะถูกเรียกใช้บนคอมพิวเตอร์ผ่าน SSH ใน PowerShell ในฐานะผู้ใช้ SSH เขียนได้หลายบรรทัด จะไม่มีหน้าต่างเปิดขึ้น สิ่งที่คำสั่งแสดงผลจะปรากฏในการแจ้งเตือนผลลัพธ์</string>
+    <string name="pc_cmd_body_linux">ทันทีหลัง Wake on LAN คำสั่งนี้จะถูกเรียกใช้บนคอมพิวเตอร์ผ่าน SSH ใน bash ในฐานะผู้ใช้ SSH เขียนได้หลายบรรทัด จะไม่มีหน้าต่างเปิดขึ้น สิ่งที่คำสั่งแสดงผลจะปรากฏในการแจ้งเตือนผลลัพธ์</string>
+    <string name="pc_cmd_field">คำสั่ง</string>
+    <string name="pc_log_cmd_ok">คำสั่งทำงานเสร็จแล้ว\n%s</string>
+    <string name="pc_log_cmd_exit">คำสั่งจบด้วยรหัส %1$d\n%2$s</string>
+    <string name="pc_log_cmd_failed">เรียกใช้คำสั่งไม่ได้: %s</string>
+    <string name="fire_action_cmd">เรียกใช้คำสั่งของคุณ</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="other">เขียนทับและลบ %d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="other">ไม่ได้แตะต้องโฟลเดอร์ย่อย %d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="other">ทำลายได้เพียง %d ไฟล์</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="other">หากค่า %1$d ค่าล่าสุดต่ำกว่าเกณฑ์ สัญญาณเตือนจะดังขึ้น และกลไกจะทำงานในอีก %2$d นาทีต่อมา เว้นแต่คุณกด “ฉันสบายดี” หากได้ค่าปกติหลังสัญญาณเตือน การเตือนจะถูกยกเลิก</item>
+    </plurals>
+    <string name="app_password_needed">ผู้ให้บริการนี้รับเฉพาะรหัสผ่านสำหรับแอป ซึ่งเป็นตัวอักษร 16 ตัวที่คุณสร้างสำหรับแอปนี้ รหัสผ่านปกติจะถูกปฏิเสธ</string>
+    <string name="app_password_open">สร้างรหัสผ่านสำหรับแอป</string>
+    <string name="app_password_suspicious">ดูไม่เหมือนรหัสผ่านสำหรับแอป (ตัวอักษร 16 ตัว)</string>
+    <string name="proton_token_needed">Proton ส่งผ่าน SMTP ได้เฉพาะเมื่อใช้โทเค็น SMTP ซึ่งมีให้สำหรับที่อยู่บนโดเมนของคุณเองในแพ็กเกจแบบชำระเงิน ใส่ชื่อผู้ใช้และโทเค็นที่ Proton ให้ในช่องผู้ใช้และรหัสผ่าน</string>
+    <string name="proton_token_open">เปิดคำแนะนำของ Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail และ Microsoft 365 ไม่รับรหัสผ่านสำหรับการส่งอีกแล้ว และแอปนี้ยังลงชื่อเข้าใช้ Microsoft ไม่ได้ โปรดใช้ผู้ให้บริการอื่น</string>
+    <string name="err_app_password">เซิร์ฟเวอร์ต้องการรหัสผ่านสำหรับแอป ไม่ใช่รหัสผ่านปกติ สร้างด้วยปุ่มใต้ช่องรหัสผ่านแล้ววางลงในช่องนั้น</string>
+    <string name="err_bad_login">เซิร์ฟเวอร์ไม่ยอมรับผู้ใช้หรือรหัสผ่าน ผู้ใช้ต้องเป็นที่อยู่อีเมลแบบเต็ม และสำหรับ Gmail, Yahoo หรือ iCloud รหัสผ่านต้องเป็นรหัสผ่านสำหรับแอป</string>
+    <string name="err_microsoft">Microsoft ปฏิเสธรหัสผ่าน: ไม่อนุญาตให้ส่งด้วยรหัสผ่านอีกแล้ว โปรดใช้ผู้ให้บริการอื่น</string>
+    <string name="pc_ssh_key_hint">ลงชื่อเข้าใช้ด้วยคีย์ (ปลอดภัยกว่าและไม่ต้องใช้รหัสผ่าน) หรือด้วยรหัสผ่านของผู้ใช้นั้นบน PC</string>
+    <string name="pc_ssh_key_generate">สร้างคีย์</string>
+    <string name="pc_ssh_key_copy">คัดลอกคีย์สาธารณะ</string>
+    <string name="pc_ssh_key_delete">ลบคีย์</string>
+    <string name="pc_ssh_key_copied">คัดลอกคีย์สาธารณะแล้ว</string>
+    <string name="pc_ssh_key_where_windows">บน PC ให้เพิ่มคีย์สาธารณะลงใน C:\\ProgramData\\ssh\\administrators_authorized_keys หากผู้ใช้เป็นผู้ดูแลระบบ หรือลงใน .ssh\\authorized_keys ในโฟลเดอร์ของผู้ใช้</string>
+    <string name="pc_ssh_key_where_linux">บน PC ให้เพิ่มคีย์สาธารณะลงใน ~/.ssh/authorized_keys ของผู้ใช้นั้น</string>
+</resources>

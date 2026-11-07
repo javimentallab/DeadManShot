@@ -1,0 +1,1 @@
+Primeira versão pública (beta): confirmação diária com lembretes e pausa, frequência cardíaca de um relógio com Gadgetbridge, e-mail com anexos e ações em um computador Windows ou Linux por SSH (Wake on LAN, seu próprio comando, destruir uma chave, triturar uma pasta, desligar).

@@ -1,0 +1,11 @@
+<p>Ein Totmannschalter für dein Handy. Tippe einmal am Tag (oder so oft du willst) auf „Alles gut“. Tust du es nicht mehr, sendet DeadManShot die vorbereitete E-Mail und kann Aktionen auf deinem Computer ausführen.</p>
+<ul>
+<li><b>Tägliche Bestätigung</b>: Wähle das Intervall, von 10 Minuten bis 3 Tagen, und beliebig viele Erinnerungen vor Ablauf der Frist. Jede Erinnerung hat einen eigenen „Alles gut“-Knopf. Pausiere sie bei Bedarf für eine Stunde oder einen Monat.</li>
+<li><b>Puls</b> (optional): Mit einer Uhr, die mit Gadgetbridge gekoppelt ist, löst der Schalter aus, wenn dein Puls unter einem Schwellenwert bleibt oder die Uhr ihn nicht mehr sendet. Vorher gibt es immer einen Alarm und zehn Minuten Zeit zum Antworten.</li>
+<li><b>E-Mail</b>: Empfänger, Betreff, Text und Anhänge, gesendet von deinem eigenen Konto über SMTP mit TLS. Voreinstellungen für Gmail, Yahoo, iCloud und Proton Mail sowie ein Testknopf, der die Mail an dich selbst schickt.</li>
+<li><b>Dein Computer</b>, Windows oder Linux, über SSH: ihn per Wake on LAN einschalten, einen eigenen Befehl ausführen, einen Verschlüsselungsschlüssel vernichten oder einen Ordner schreddern (zweimal an Ort und Stelle überschrieben) und ihn herunterfahren.</li>
+</ul>
+<p>Destruktive Aktionen sind abgesichert: Stammverzeichnisse von Laufwerken, ganze Benutzerordner und Systemordner werden abgelehnt; Verknüpfungen werden nicht verfolgt; was sich nicht überschreiben lässt, bleibt liegen und wird gemeldet; und das Ergebnis jeder Aktion kommt als Benachrichtigung. Mit dem Knopf „Jetzt auslösen (Test)“ kannst du die ganze Kette vorher gefahrlos ausprobieren.</p>
+<p>Es werden keine Daten gesammelt. Die App spricht nur mit dem Mailserver und dem Computer, die du einrichtest. Die Passwörter für Mail und SSH werden mit einem Schlüssel aus dem Android-Keystore verschlüsselt.</p>
+<p>Open Source unter der MIT-Lizenz.</p>
+<p>Verfügbar auf Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Italienisch, Niederländisch, Polnisch, Russisch, Ukrainisch, Chinesisch, Japanisch, Koreanisch, Thailändisch und Hindi.</p>

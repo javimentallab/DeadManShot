@@ -1,0 +1,1 @@
+Prima versione pubblica (beta): conferma quotidiana con promemoria e pausa, battito da un orologio con Gadgetbridge, email con allegati e azioni su un computer Windows o Linux tramite SSH (Wake on LAN, un tuo comando, distruggere una chiave, distruggere una cartella, spegnere).

@@ -1,0 +1,1 @@
+First public version (beta): daily check-in with reminders and pause, heart rate from a Gadgetbridge watch, email with attachments, and actions on a Windows or Linux computer over SSH (Wake on LAN, your own command, destroy a key, shred a folder, shut down).

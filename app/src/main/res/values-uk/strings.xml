@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Головна</string>
+    <string name="tab_email">Пошта</string>
+    <string name="tab_pulse">Пульс</string>
+    <string name="tab_pc">ПК</string>
+
+    <string name="status_off">Зупинено</string>
+    <string name="status_running">Працює</string>
+    <string name="status_paused">Призупинено</string>
+    <string name="status_fired">Спрацював</string>
+    <string name="detail_off">Увімкніть перемикач, щоб почати. Поки механізм зупинено, нічого не надсилається.</string>
+    <string name="detail_running">Наступний строк: %1$s (залишилося %2$s).</string>
+    <string name="detail_paused">До %1$s (залишилося %2$s). Коли пауза закінчиться, відлік почнеться знову.</string>
+    <string name="fired_deadline">Строк минув: %s.</string>
+    <string name="fired_heart_rate">Пульс упав нижче порогу: %s.</string>
+    <string name="send_pending">Надсилання листа…</string>
+    <string name="send_sent">Лист надіслано: %s.</string>
+    <string name="send_failed">Не вдалося надіслати лист (%s). Повторна спроба буде, щойно з’явиться з’єднання.</string>
+    <string name="fired_reset">Натисніть «Усе гаразд», щоб почати знову.</string>
+
+    <string name="switch_label">Працює</string>
+    <string name="cannot_enable">Перед увімкненням заповніть:</string>
+    <string name="missing_recipient">дійсного одержувача</string>
+    <string name="missing_text">тему або текст листа</string>
+    <string name="missing_account">обліковий запис для надсилання (сервер, користувача й пароль)</string>
+
+    <string name="pause">Пауза</string>
+    <string name="resume">Продовжити</string>
+    <string name="pause_title">Пауза на…</string>
+    <string name="pause_until">Призупинено до %s.</string>
+    <string name="cancel">Скасувати</string>
+
+    <string name="check_in">Усе гаразд</string>
+    <string name="last_check_in">Останнє підтвердження: %s.</string>
+    <string name="never_checked_in">Підтверджень ще не було.</string>
+
+    <string name="permissions_title">Дозволи</string>
+    <string name="perm_notifications">Сповіщення — для нагадувань і сигналів.</string>
+    <string name="perm_exact">Точні будильники — щоб строк дотримувався вчасно.</string>
+    <string name="perm_battery">Вимкніть оптимізацію батареї для цього застосунку, щоб Android його не зупиняв. У списку, що відкриється, покажіть усі застосунки, знайдіть DeadManShot і виберіть «Не оптимізувати».</string>
+    <string name="allow">Дозволити</string>
+
+    <string name="timing_title">Строк</string>
+    <string name="interval_label">Натискайте «Усе гаразд» щонайменше раз на:</string>
+    <string name="reminder_label">Нагадування до строку:</string>
+    <string name="reminder_multi_hint">Виберіть одне, кілька або жодного. Для кожного прийде сповіщення. Нагадування, що дорівнюють інтервалу або довші, не використовуються.</string>
+
+    <string name="email_title">Пошта</string>
+    <string name="recipients">Одержувачі</string>
+    <string name="recipients_hint">Кілька адрес розділяйте комами.</string>
+    <string name="subject">Тема</string>
+    <string name="body">Текст</string>
+    <string name="attachments">Вкладення</string>
+    <string name="no_attachments">Немає вкладень.</string>
+    <string name="add_attachment">Додати файл</string>
+    <string name="remove">Видалити</string>
+
+    <string name="account_title">Обліковий запис для надсилання</string>
+    <string name="account_hint">Лист надходить із вашого власного облікового запису через SMTP. Для Gmail використовуйте пароль застосунку (Обліковий запис Google, Безпека, Паролі застосунків), а не звичайний пароль.</string>
+    <string name="smtp_host">SMTP-сервер</string>
+    <string name="smtp_port">Порт</string>
+    <string name="smtp_user">Користувач (ваша адреса пошти)</string>
+    <string name="smtp_password">Пароль</string>
+    <string name="show_password">Показати пароль</string>
+    <string name="hide_password">Сховати пароль</string>
+    <string name="smtp_from">Адреса відправника</string>
+    <string name="smtp_from_hint">Залиште порожнім, щоб використати ім’я користувача.</string>
+    <string name="send_test">Надіслати тест на мою адресу</string>
+    <string name="test_ok">Тест надіслано на %s. Перевірте вхідні.</string>
+    <string name="test_skipped">Вкладення пропущено, бо їх не вдалося прочитати: %s</string>
+    <string name="test_failed">Не вдалося надіслати: %s</string>
+    <string name="test_subject_prefix">[Тест]</string>
+
+    <string name="smtp_fill_preset">Заповнити типовими…</string>
+    <string name="smtp_preset_title">Виберіть провайдера</string>
+    <string name="smtp_preset_apply">Застосувати</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Потрібен пароль застосунку.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Потрібен пароль застосунку.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Потрібен пароль застосунку.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Потрібен SMTP-токен (платний тариф, власний домен).</string>
+
+    <string name="channel_reminder">Нагадування й сигнали</string>
+    <string name="channel_result">Результати</string>
+    <string name="reminder_title">З вами все гаразд?</string>
+    <string name="reminder_text">Натисніть «Усе гаразд» до %1$s (%2$s), інакше механізм спрацює.</string>
+    <string name="sent_title">Лист надіслано</string>
+    <string name="sent_text">Лист надіслано одержувачам.</string>
+    <string name="sent_text_skipped">Лист надіслано, але без цих вкладень, які не вдалося прочитати: %s</string>
+    <string name="failed_title">Лист не надіслано</string>
+    <string name="failed_text">%s. Повторна спроба буде автоматично.</string>
+
+    <string name="pulse_title">Пульс із годинника</string>
+    <string name="pulse_enable">Спрацьовувати, коли пульс падає нижче порогу</string>
+    <string name="pulse_threshold">Поріг: %d уд/хв</string>
+    <string name="pulse_requirements_title">Що потрібно</string>
+    <string name="pulse_requirements_body">1. Годинник, що вимірює пульс, з’єднаний із Gadgetbridge на цьому телефоні, з увімкненим безперервним вимірюванням пульсу.\n2. У Gadgetbridge увімкніть автоматичний експорт бази даних і виберіть, куди його зберігати.\n3. У Gadgetbridge, Налаштування → Intent API: дозвольте запуск синхронізації активності й експорт бази даних.\n4. Нижче виберіть цей самий файл експорту.</string>
+    <string name="pulse_open_gadgetbridge">Відкрити Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge не встановлено. Спершу встановіть його з F-Droid.</string>
+    <string name="pulse_choose_file">Вибрати файл експорту</string>
+    <string name="pulse_file">Файл експорту: %s</string>
+    <string name="pulse_no_file">Файл експорту ще не вибрано.</string>
+    <string name="pulse_no_signal_label">Спрацьовувати й тоді, коли годинник не передає пульс протягом</string>
+    <string name="pulse_no_signal_off">Ніколи</string>
+    <string name="pulse_no_signal_hint">Це враховується, лише якщо Gadgetbridge нещодавно робив експорт, тому збій телефона чи застосунку ніколи не призведе до спрацювання механізму.</string>
+    <string name="pulse_interval_label">Перевіряти кожні</string>
+    <string name="pulse_status_title">Остання перевірка</string>
+    <string name="pulse_last">Останнє вимірювання: %1$d уд/хв, %2$s (перевірено: %3$s).</string>
+    <string name="pulse_never_checked">Ще не перевірялося.</string>
+    <string name="pulse_no_reading">Немає вимірювань із годинника (перевірено: %s).</string>
+    <string name="pulse_check_now">Перевірити зараз</string>
+    <string name="pulse_check_hint">Це триває близько хвилини: спершу Gadgetbridge синхронізує годинник і робить експорт.</string>
+    <string name="pulse_err_no_file">Виберіть файл експорту Gadgetbridge на вкладці «Пульс».</string>
+    <string name="pulse_err_stale">Gadgetbridge давно не робив експорт, тому пульс перевірити неможливо. Перевірте його налаштування Intent API й автоматичний експорт.</string>
+    <string name="pulse_err_read">Не вдалося прочитати експорт: %s</string>
+    <string name="pulse_problem_title">Не вдається перевірити пульс</string>
+    <string name="pulse_alert_title">Усе добре?</string>
+    <string name="pulse_alert_low">Годинник показує %1$d уд/хв. Механізм спрацює о %2$s, якщо ви не натиснете «Усе гаразд».</string>
+    <string name="pulse_alert_silent">Годинник перестав передавати ваш пульс. Механізм спрацює о %s, якщо ви не натиснете «Усе гаразд».</string>
+    <string name="fired_no_pulse">Годинник перестав передавати ваш пульс; механізм спрацював: %s.</string>
+    <string name="detail_pulse_alert">Сигнал із годинника: механізм спрацює о %s, якщо ви не натиснете «Усе гаразд».</string>
+
+    <string name="pc_warning_title">Руйнівні дії</string>
+    <string name="pc_warning_body">Ці дії виконуються на вашому ПК, коли механізм спрацьовує. Перевірте їх один раз на непотрібній папці, перш ніж на них покладатися.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Спершу розбудити ПК</string>
+    <string name="pc_mac">MAC-адреса ПК</string>
+    <string name="pc_broadcast">Широкомовна адреса</string>
+    <string name="pc_broadcast_hint">Зазвичай 255.255.255.255 або широкомовна адреса LAN (наприклад, 192.168.1.255).</string>
+    <string name="pc_wol_wait">Секунд очікування після WoL</string>
+    <string name="pc_wol_test">Надіслати WoL зараз</string>
+    <string name="pc_wol_sent">Magic packet надіслано.</string>
+    <string name="pc_wol_failed">Не вдалося надіслати magic packet: %s</string>
+
+    <string name="pc_ssh_title">Доступ через SSH</string>
+    <string name="pc_ssh_host">Хост або IP</string>
+    <string name="pc_ssh_port">Порт SSH</string>
+    <string name="pc_ssh_user">Користувач SSH</string>
+    <string name="pc_ssh_password">Пароль SSH (якщо немає ключа)</string>
+    <string name="pc_ssh_test">Перевірити SSH</string>
+    <string name="pc_ssh_ok">SSH працює (%s).</string>
+    <string name="pc_ssh_failed">Помилка SSH: %s</string>
+
+    <string name="pc_key_title">Знищити ключ</string>
+    <string name="pc_key_enable">Знищити файл або папку ключа</string>
+    <string name="pc_key_body">Тримайте важливу папку зашифрованою (VeraCrypt, LUKS, EFS, 7-Zip AES…) ключем, що лежить за вказаним нижче шляхом. Коли механізм спрацює, ключ буде двічі перезаписано й видалено, і дані залишаться заблокованими назавжди.</string>
+    <string name="pc_key_path">Шлях до файлу або папки ключа на ПК</string>
+    <string name="pc_path_hint">Повний шлях Windows, наприклад C:\\Users\\me\\Desktop\\test. Корені дисків, цілі папки користувачів і системні папки не приймаються.</string>
+
+    <string name="pc_shred_title">Знищити папку</string>
+    <string name="pc_shred_enable">Знищити папку</string>
+    <string name="pc_shred_body">Два проходи по кожному файлу із записом поверх (спершу нулі, потім випадкові дані), після чого файл видаляється. Те, що не вдається перезаписати, залишається на місці, і про це повідомляється. Папки видаляються, коли стають порожніми. На SSD мікропрограма може зберігати старі копії, тому надійніше знищити ключ (див. вище).</string>
+    <string name="pc_folder">Папка на ПК</string>
+    <string name="pc_subdirs">Разом із вкладеними папками</string>
+
+    <string name="pc_shutdown_title">Вимкнути ПК</string>
+    <string name="pc_shutdown_enable">Примусове вимкнення</string>
+    <string name="pc_shutdown_body">Після інших дій надіслати «shutdown /s /f /t 0» через SSH.</string>
+
+    <string name="pc_notification_title">Дії на ПК</string>
+    <string name="pc_log_nothing">Нічого робити.</string>
+    <string name="pc_log_wol_ok">Пакет WoL надіслано.</string>
+    <string name="pc_log_wol_failed">Помилка WoL: %s</string>
+    <string name="pc_log_ssh_missing">Не вказано хост, користувача або ключ чи пароль SSH.</string>
+    <string name="pc_log_key_ok">Ключ знищено: %1$s.</string>
+    <string name="pc_log_key_failed">Не вдалося знищити ключ: %s</string>
+    <string name="pc_log_key_unsafe">Шлях до ключа відхилено як небезпечний; нічого не зачеплено.</string>
+    <string name="pc_log_shred_ok">Папку знищено: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Не вдалося знищити папку: %s</string>
+    <string name="pc_log_shred_unsafe">Шлях до папки відхилено як небезпечний; нічого не зачеплено.</string>
+    <string name="pc_log_shutdown_ok">Команду вимкнення надіслано.</string>
+    <string name="pc_log_shutdown_failed">Помилка вимкнення: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+        <item quantity="other">%d хвилини</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+        <item quantity="other">%d години</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дні</item>
+        <item quantity="many">%d днів</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <string name="pc_log_not_found">Шлях не існує на ПК.</string>
+    <string name="pc_log_is_link">Шлях — це посилання; перехід за ним не виконувався.</string>
+    <string name="pc_log_not_folder">Шлях указує на файл, а не на папку.</string>
+    <string name="pc_log_partial">%1$s; те, що не вдалося перезаписати, залишилося на місці.\n%2$s</string>
+    <string name="fired_manual">Спрацював уручну: %s.</string>
+    <string name="fire_now">Спрацювати зараз (тест)</string>
+    <string name="fire_now_title">Спрацювати зараз?</string>
+    <string name="fire_now_body">Лист справді надійде на %1$s, а на ПК виконаються ці дії: %2$s. Усе буде так само, як коли минає строк.</string>
+    <string name="fire_now_no_pc">немає</string>
+    <string name="fire_now_confirm">Спрацювати</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">знищення ключа</string>
+    <string name="fire_action_shred">знищення папки %s</string>
+    <string name="fire_action_shutdown">вимкнення</string>
+    <string name="pc_os_title">Система ПК</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Повний шлях, наприклад /home/me/test. Корінь, цілі домашні папки й системні папки (/etc, /usr, /var…) не приймаються.</string>
+    <string name="pc_shutdown_body_linux">Після інших дій виконати «sudo -n systemctl poweroff» через SSH. Користувачеві SSH потрібен sudo без пароля для цієї команди або дозвіл polkit на вимкнення.</string>
+    <string name="pc_log_no_shred">shred не встановлено на ПК (входить до coreutils).</string>
+    <string name="pc_log_exit">команда завершилася з кодом %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Виконати команду</string>
+    <string name="pc_cmd_enable">Виконати мою команду</string>
+    <string name="pc_cmd_body_windows">Одразу після Wake on LAN це виконується на ПК через SSH, у PowerShell, від імені користувача SSH. Можна кілька рядків. Вікно не відкривається: вивід команди з’явиться в сповіщенні з результатом.</string>
+    <string name="pc_cmd_body_linux">Одразу після Wake on LAN це виконується на ПК через SSH, у bash, від імені користувача SSH. Можна кілька рядків. Вікно не відкривається: вивід команди з’явиться в сповіщенні з результатом.</string>
+    <string name="pc_cmd_field">Команда</string>
+    <string name="pc_log_cmd_ok">Команду виконано.\n%s</string>
+    <string name="pc_log_cmd_exit">Команда завершилася з кодом %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Не вдалося виконати команду: %s</string>
+    <string name="fire_action_cmd">виконання вашої команди</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d файл перезаписано й видалено</item>
+        <item quantity="few">%d файли перезаписано й видалено</item>
+        <item quantity="many">%d файлів перезаписано й видалено</item>
+        <item quantity="other">%d файлу перезаписано й видалено</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d вкладену папку не зачеплено</item>
+        <item quantity="few">%d вкладені папки не зачеплено</item>
+        <item quantity="many">%d вкладених папок не зачеплено</item>
+        <item quantity="other">%d вкладеної папки не зачеплено</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">знищено лише %d файл</item>
+        <item quantity="few">знищено лише %d файли</item>
+        <item quantity="many">знищено лише %d файлів</item>
+        <item quantity="other">знищено лише %d файлу</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Якщо останнє вимірювання нижче порогу, лунає сигнал, і через %2$d хвилин механізм спрацює, якщо ви не натиснете «Усе гаразд». Нормальне вимірювання після сигналу скасовує його.</item>
+        <item quantity="few">Якщо останні %1$d вимірювання нижчі порогу, лунає сигнал, і через %2$d хвилин механізм спрацює, якщо ви не натиснете «Усе гаразд». Нормальне вимірювання після сигналу скасовує його.</item>
+        <item quantity="many">Якщо останні %1$d вимірювань нижчі порогу, лунає сигнал, і через %2$d хвилин механізм спрацює, якщо ви не натиснете «Усе гаразд». Нормальне вимірювання після сигналу скасовує його.</item>
+        <item quantity="other">Якщо останні вимірювання (%1$d) нижчі порогу, лунає сигнал, і через %2$d хвилин механізм спрацює, якщо ви не натиснете «Усе гаразд». Нормальне вимірювання після сигналу скасовує його.</item>
+    </plurals>
+    <string name="app_password_needed">Цей поштовий сервіс приймає лише пароль застосунку: 16 літер, які ви створюєте для цього застосунку. Звичайний пароль не підійде.</string>
+    <string name="app_password_open">Створити пароль застосунку</string>
+    <string name="app_password_suspicious">Це не схоже на пароль застосунку (16 літер).</string>
+    <string name="proton_token_needed">Proton надсилає через SMTP лише з SMTP-токеном, який доступний для адрес на власному домені в платному тарифі. Укажіть у полях «Користувач» і «Пароль» ім’я користувача й токен від Proton.</string>
+    <string name="proton_token_open">Відкрити інструкцію Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail і Microsoft 365 більше не приймають пароль для надсилання, а цей застосунок поки не вміє входити в Microsoft. Скористайтеся іншим сервісом.</string>
+    <string name="err_app_password">Сервер вимагає пароль застосунку, а не звичайний пароль. Створіть його кнопкою під паролем і вставте туди.</string>
+    <string name="err_bad_login">Сервер не прийняв користувача або пароль. Користувачем має бути повна адреса пошти, а паролем для Gmail, Yahoo або iCloud — пароль застосунку.</string>
+    <string name="err_microsoft">Microsoft відхилив пароль: надсилання з паролем більше не дозволено. Скористайтеся іншим сервісом.</string>
+    <string name="pc_ssh_key_hint">Входьте за ключем (надійніше й без пароля) або з паролем цього користувача на ПК.</string>
+    <string name="pc_ssh_key_generate">Створити ключ</string>
+    <string name="pc_ssh_key_copy">Скопіювати відкритий ключ</string>
+    <string name="pc_ssh_key_delete">Видалити ключ</string>
+    <string name="pc_ssh_key_copied">Відкритий ключ скопійовано.</string>
+    <string name="pc_ssh_key_where_windows">На ПК додайте відкритий ключ до C:\\ProgramData\\ssh\\administrators_authorized_keys, якщо користувач — адміністратор, інакше до .ssh\\authorized_keys у папці користувача.</string>
+    <string name="pc_ssh_key_where_linux">На ПК додайте відкритий ключ до ~/.ssh/authorized_keys цього користувача.</string>
+</resources>

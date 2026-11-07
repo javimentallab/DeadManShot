@@ -1,0 +1,1 @@
+Eerste openbare versie (bèta): dagelijkse bevestiging met herinneringen en pauze, hartslag van een horloge via Gadgetbridge, e-mail met bijlagen en acties op een Windows- of Linux-computer via SSH (Wake on LAN, een eigen opdracht, een sleutel vernietigen, een map vernietigen, afsluiten).

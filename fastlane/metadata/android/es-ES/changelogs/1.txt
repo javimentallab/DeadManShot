@@ -1,0 +1,1 @@
+Primera versión pública (beta): confirmación diaria con recordatorios y pausa, pulso de un reloj con Gadgetbridge, correo con adjuntos y acciones en un ordenador Windows o Linux por SSH (Wake on LAN, tu propio comando, destruir una clave, borrar una carpeta a fondo y apagarlo).

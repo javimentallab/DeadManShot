@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">主页</string>
+    <string name="tab_email">邮件</string>
+    <string name="tab_pulse">心率</string>
+    <string name="tab_pc">电脑</string>
+
+    <string name="status_off">已停止</string>
+    <string name="status_running">运行中</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_fired">已触发</string>
+    <string name="detail_off">打开下方的“运行中”即可启动。停止期间不会发送任何内容。</string>
+    <string name="detail_running">下一个截止时间：%1$s（剩余 %2$s）。</string>
+    <string name="detail_paused">暂停至 %1$s（剩余 %2$s）。暂停结束后，倒计时将重新开始。</string>
+    <string name="fired_deadline">截止时间已于 %s 过去。</string>
+    <string name="fired_heart_rate">你的心率于 %s 低于阈值。</string>
+    <string name="send_pending">正在发送邮件…</string>
+    <string name="send_sent">邮件已于 %s 发送。</string>
+    <string name="send_failed">邮件无法发送（%s）。一有网络连接就会重试。</string>
+    <string name="fired_reset">按“我没事”重新开始。</string>
+
+    <string name="switch_label">运行中</string>
+    <string name="cannot_enable">开启前，请填写：</string>
+    <string name="missing_recipient">有效的收件人</string>
+    <string name="missing_text">邮件主题或正文</string>
+    <string name="missing_account">发件账户（服务器、用户名和密码）</string>
+
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="pause_title">暂停时长…</string>
+    <string name="pause_until">已暂停至 %s。</string>
+    <string name="cancel">取消</string>
+
+    <string name="check_in">我没事</string>
+    <string name="last_check_in">上次报平安：%s。</string>
+    <string name="never_checked_in">你还没有报过平安。</string>
+
+    <string name="permissions_title">权限</string>
+    <string name="perm_notifications">通知，用于提醒和警报。</string>
+    <string name="perm_exact">精确闹钟，确保截止时间准时生效。</string>
+    <string name="perm_battery">关闭此应用的电池优化，以免 Android 将其停止。在打开的列表中显示所有应用，找到 DeadManShot 并选择不优化。</string>
+    <string name="allow">允许</string>
+
+    <string name="timing_title">截止时间</string>
+    <string name="interval_label">至少每隔以下时间按一次“我没事”：</string>
+    <string name="reminder_label">截止前的提醒：</string>
+    <string name="reminder_multi_hint">可选一个、多个或不选。每个时间点都会收到一条通知。等于或长于间隔时间的提醒不会使用。</string>
+
+    <string name="email_title">邮件</string>
+    <string name="recipients">收件人</string>
+    <string name="recipients_hint">多个地址请用逗号分隔。</string>
+    <string name="subject">主题</string>
+    <string name="body">正文</string>
+    <string name="attachments">附件</string>
+    <string name="no_attachments">没有附件。</string>
+    <string name="add_attachment">添加文件</string>
+    <string name="remove">移除</string>
+
+    <string name="account_title">发件账户</string>
+    <string name="account_hint">邮件通过 SMTP 从你自己的账户发出。使用 Gmail 时，请使用应用专用密码（Google 账号、安全性、应用专用密码），而不是平时的密码。</string>
+    <string name="smtp_host">SMTP 服务器</string>
+    <string name="smtp_port">端口</string>
+    <string name="smtp_user">用户名（你的邮箱地址）</string>
+    <string name="smtp_password">密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="hide_password">隐藏密码</string>
+    <string name="smtp_from">发件人地址</string>
+    <string name="smtp_from_hint">留空则使用用户名。</string>
+    <string name="send_test">发送测试邮件到我自己的地址</string>
+    <string name="test_ok">测试邮件已发送到 %s。请查看收件箱。</string>
+    <string name="test_skipped">以下附件无法读取，未包含在内：%s</string>
+    <string name="test_failed">无法发送：%s</string>
+    <string name="test_subject_prefix">[测试]</string>
+
+    <string name="smtp_fill_preset">填入默认设置…</string>
+    <string name="smtp_preset_title">选择服务商</string>
+    <string name="smtp_preset_apply">应用</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL。需要应用专用密码。</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL。需要应用专用密码。</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS。需要应用专用密码。</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS。需要 SMTP 令牌（付费套餐、自有域名）。</string>
+
+    <string name="channel_reminder">提醒和警报</string>
+    <string name="channel_result">结果</string>
+    <string name="reminder_title">你还好吗？</string>
+    <string name="reminder_text">请在 %1$s（%2$s）前按“我没事”，否则应急开关将会触发。</string>
+    <string name="sent_title">邮件已发送</string>
+    <string name="sent_text">邮件已发送给收件人。</string>
+    <string name="sent_text_skipped">邮件已发送，但未包含以下无法读取的附件：%s</string>
+    <string name="failed_title">邮件未发送</string>
+    <string name="failed_text">%s。稍后会自动重试。</string>
+
+    <string name="pulse_title">手表心率</string>
+    <string name="pulse_enable">心率低于阈值时触发</string>
+    <string name="pulse_threshold">阈值：%d 次/分</string>
+    <string name="pulse_requirements_title">所需条件</string>
+    <string name="pulse_requirements_body">1. 一块能测量心率的手表，已在本手机上与 Gadgetbridge 配对，并已开启连续心率测量。\n2. 在 Gadgetbridge 中开启数据库自动导出，并选择导出位置。\n3. 在 Gadgetbridge 的“设置 → Intent API”中，允许活动同步触发和数据库导出。\n4. 在下方选择同一个导出文件。</string>
+    <string name="pulse_open_gadgetbridge">打开 Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">未安装 Gadgetbridge。请先从 F-Droid 安装。</string>
+    <string name="pulse_choose_file">选择导出文件</string>
+    <string name="pulse_file">导出文件：%s</string>
+    <string name="pulse_no_file">尚未选择导出文件。</string>
+    <string name="pulse_no_signal_label">手表在以下时长内未发送心率时也触发</string>
+    <string name="pulse_no_signal_off">从不</string>
+    <string name="pulse_no_signal_hint">仅在 Gadgetbridge 最近导出过数据时才计算，因此手机或应用出问题绝不会触发应急开关。</string>
+    <string name="pulse_interval_label">检查间隔</string>
+    <string name="pulse_status_title">上次检查</string>
+    <string name="pulse_last">上次读数：%1$d 次/分，%2$s（检查时间：%3$s）。</string>
+    <string name="pulse_never_checked">尚未检查。</string>
+    <string name="pulse_no_reading">手表没有读数（检查时间：%s）。</string>
+    <string name="pulse_check_now">立即检查</string>
+    <string name="pulse_check_hint">大约需要一分钟：Gadgetbridge 会先同步手表并导出数据。</string>
+    <string name="pulse_err_no_file">请在“心率”标签页中选择 Gadgetbridge 的导出文件。</string>
+    <string name="pulse_err_stale">Gadgetbridge 最近没有导出数据，因此无法检查心率。请检查它的 Intent API 设置和自动导出。</string>
+    <string name="pulse_err_read">无法读取导出文件：%s</string>
+    <string name="pulse_problem_title">无法检查心率</string>
+    <string name="pulse_alert_title">一切都好吗？</string>
+    <string name="pulse_alert_low">手表读数为 %1$d 次/分。除非你按“我没事”，应急开关将在 %2$s 触发。</string>
+    <string name="pulse_alert_silent">手表已停止发送你的心率。除非你按“我没事”，应急开关将在 %s 触发。</string>
+    <string name="fired_no_pulse">手表停止发送你的心率；应急开关已于 %s 触发。</string>
+    <string name="detail_pulse_alert">手表警报：除非你按“我没事”，应急开关将在 %s 触发。</string>
+
+    <string name="pc_warning_title">破坏性操作</string>
+    <string name="pc_warning_body">应急开关触发时，这些操作会在你的电脑上执行。在信任它们之前，请先用一个无关紧要的文件夹测试一次。</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">先唤醒电脑</string>
+    <string name="pc_mac">电脑的 MAC 地址</string>
+    <string name="pc_broadcast">广播地址</string>
+    <string name="pc_broadcast_hint">通常为 255.255.255.255，或 LAN 广播地址（例如 192.168.1.255）。</string>
+    <string name="pc_wol_wait">WoL 后等待的秒数</string>
+    <string name="pc_wol_test">立即发送 WoL</string>
+    <string name="pc_wol_sent">魔术包已发送。</string>
+    <string name="pc_wol_failed">无法发送魔术包：%s</string>
+
+    <string name="pc_ssh_title">SSH 访问</string>
+    <string name="pc_ssh_host">主机或 IP</string>
+    <string name="pc_ssh_port">SSH 端口</string>
+    <string name="pc_ssh_user">SSH 用户名</string>
+    <string name="pc_ssh_password">SSH 密码（没有密钥时）</string>
+    <string name="pc_ssh_test">测试 SSH</string>
+    <string name="pc_ssh_ok">SSH 正常（%s）。</string>
+    <string name="pc_ssh_failed">SSH 失败：%s</string>
+
+    <string name="pc_key_title">销毁密钥</string>
+    <string name="pc_key_enable">销毁密钥文件或文件夹</string>
+    <string name="pc_key_body">将敏感文件夹加密（VeraCrypt、LUKS、EFS、7-Zip AES…），并把密钥存放在下方路径中。应急开关触发时，密钥会被覆写两次后删除，数据将被永久锁定。</string>
+    <string name="pc_key_path">电脑上密钥文件或文件夹的路径</string>
+    <string name="pc_path_hint">完整的 Windows 路径，例如 C:\\Users\\me\\Desktop\\test。不接受驱动器根目录、整个用户文件夹和系统文件夹。</string>
+
+    <string name="pc_shred_title">粉碎文件夹</string>
+    <string name="pc_shred_enable">粉碎文件夹</string>
+    <string name="pc_shred_body">对每个文件原地写入两遍（先写零，再写随机数据），然后删除该文件。无法覆写的内容会保留在原处并报告。文件夹清空后会被删除。在 SSD 上，固件可能保留旧副本，因此销毁上方的密钥更安全。</string>
+    <string name="pc_folder">电脑上的文件夹</string>
+    <string name="pc_subdirs">包括子目录</string>
+
+    <string name="pc_shutdown_title">关闭电脑</string>
+    <string name="pc_shutdown_enable">强制关机</string>
+    <string name="pc_shutdown_body">完成其他操作后，通过 SSH 发送“shutdown /s /f /t 0”。</string>
+
+    <string name="pc_notification_title">电脑操作</string>
+    <string name="pc_log_nothing">无需执行任何操作。</string>
+    <string name="pc_log_wol_ok">WoL 包已发送。</string>
+    <string name="pc_log_wol_failed">WoL 失败：%s</string>
+    <string name="pc_log_ssh_missing">缺少 SSH 主机、用户名，或密钥/密码。</string>
+    <string name="pc_log_key_ok">密钥已销毁：%1$s。</string>
+    <string name="pc_log_key_failed">销毁密钥失败：%s</string>
+    <string name="pc_log_key_unsafe">密钥路径不安全，已拒绝；未做任何改动。</string>
+    <string name="pc_log_shred_ok">文件夹已销毁：%1$s；%2$s。</string>
+    <string name="pc_log_shred_failed">销毁文件夹失败：%s</string>
+    <string name="pc_log_shred_unsafe">文件夹路径不安全，已拒绝；未做任何改动。</string>
+    <string name="pc_log_shutdown_ok">关机命令已发送。</string>
+    <string name="pc_log_shutdown_failed">关机失败：%s</string>
+
+    <plurals name="minutes">
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="pc_log_not_found">该路径在电脑上不存在。</string>
+    <string name="pc_log_is_link">该路径是一个链接，未跟随。</string>
+    <string name="pc_log_not_folder">该路径是文件，不是文件夹。</string>
+    <string name="pc_log_partial">%1$s；无法覆写的内容已保留在原处。\n%2$s</string>
+    <string name="fired_manual">已于 %s 手动触发。</string>
+    <string name="fire_now">立即触发（测试）</string>
+    <string name="fire_now_title">立即触发？</string>
+    <string name="fire_now_body">邮件将真的发送给 %1$s，并会在电脑上执行以下操作：%2$s。这与截止时间已过完全相同。</string>
+    <string name="fire_now_no_pc">无</string>
+    <string name="fire_now_confirm">触发</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">销毁密钥</string>
+    <string name="fire_action_shred">销毁文件夹 %s</string>
+    <string name="fire_action_shutdown">关机</string>
+    <string name="pc_os_title">电脑系统</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">完整路径，例如 /home/me/test。不接受根目录、整个主目录和系统文件夹（/etc、/usr、/var…）。</string>
+    <string name="pc_shutdown_body_linux">完成其他操作后，通过 SSH 运行“sudo -n systemctl poweroff”。SSH 用户需要能免密码以 sudo 运行该命令，或拥有 polkit 关机权限。</string>
+    <string name="pc_log_no_shred">电脑上未安装 shred（它随 coreutils 提供）。</string>
+    <string name="pc_log_exit">命令结束，退出码为 %1$d。\n%2$s</string>
+    <string name="pc_cmd_title">运行命令</string>
+    <string name="pc_cmd_enable">运行我的命令</string>
+    <string name="pc_cmd_body_windows">在 Wake on LAN 之后立即通过 SSH 在电脑上运行，使用 PowerShell，以 SSH 用户身份执行。可以有多行。不会打开窗口：输出内容会显示在结果通知中。</string>
+    <string name="pc_cmd_body_linux">在 Wake on LAN 之后立即通过 SSH 在电脑上运行，使用 bash，以 SSH 用户身份执行。可以有多行。不会打开窗口：输出内容会显示在结果通知中。</string>
+    <string name="pc_cmd_field">命令</string>
+    <string name="pc_log_cmd_ok">命令已完成。\n%s</string>
+    <string name="pc_log_cmd_exit">命令结束，退出码为 %1$d。\n%2$s</string>
+    <string name="pc_log_cmd_failed">无法运行命令：%s</string>
+    <string name="fire_action_cmd">运行你的命令</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="other">已覆写并删除 %d 个文件</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="other">%d 个子文件夹未改动</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="other">仅销毁了 %d 个文件</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="other">如果最近 %1$d 次读数低于阈值，就会响起警报；除非你按“我没事”，应急开关将在 %2$d 分钟后触发。警报后出现一次正常读数即可取消。</item>
+    </plurals>
+    <string name="app_password_needed">该服务商只接受应用专用密码：为本应用创建的 16 个字母。普通密码会被拒绝。</string>
+    <string name="app_password_open">创建应用专用密码</string>
+    <string name="app_password_suspicious">这看起来不像应用专用密码（16 个字母）。</string>
+    <string name="proton_token_needed">Proton 只能使用 SMTP 令牌通过 SMTP 发送，该令牌仅适用于付费套餐中自有域名的地址。请将 Proton 提供的用户名和令牌填入“用户名”和“密码”。</string>
+    <string name="proton_token_open">打开 Proton 的说明</string>
+    <string name="microsoft_unsupported">Outlook、Hotmail 和 Microsoft 365 已不再接受用密码发送邮件，而本应用暂时无法登录 Microsoft。请使用其他服务商。</string>
+    <string name="err_app_password">服务器要求使用应用专用密码，而不是普通密码。请用密码下方的按钮创建一个，并粘贴到那里。</string>
+    <string name="err_bad_login">服务器未接受用户名或密码。用户名必须是完整的邮箱地址；使用 Gmail、Yahoo 或 iCloud 时，密码必须是应用专用密码。</string>
+    <string name="err_microsoft">Microsoft 拒绝了该密码：已不再允许用密码发送。请使用其他服务商。</string>
+    <string name="pc_ssh_key_hint">使用密钥登录（更安全，无需密码），或使用该用户在电脑上的密码。</string>
+    <string name="pc_ssh_key_generate">创建密钥</string>
+    <string name="pc_ssh_key_copy">复制公钥</string>
+    <string name="pc_ssh_key_delete">删除密钥</string>
+    <string name="pc_ssh_key_copied">已复制公钥。</string>
+    <string name="pc_ssh_key_where_windows">在电脑上，如果该用户是管理员，请将公钥添加到 C:\\ProgramData\\ssh\\administrators_authorized_keys，否则添加到用户文件夹中的 .ssh\\authorized_keys。</string>
+    <string name="pc_ssh_key_where_linux">在电脑上，将公钥添加到该用户的 ~/.ssh/authorized_keys。</string>
+</resources>

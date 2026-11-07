@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Start</string>
+    <string name="tab_email">E-mail</string>
+    <string name="tab_pulse">Tętno</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Zatrzymany</string>
+    <string name="status_running">Działa</string>
+    <string name="status_paused">Wstrzymany</string>
+    <string name="status_fired">Zadziałał</string>
+    <string name="detail_off">Włącz przełącznik, aby zacząć. Dopóki czuwak jest zatrzymany, nic nie zostanie wysłane.</string>
+    <string name="detail_running">Następny termin: %1$s (zostało %2$s).</string>
+    <string name="detail_paused">Do %1$s (zostało %2$s). Po zakończeniu pauzy odliczanie zacznie się od nowa.</string>
+    <string name="fired_deadline">Termin minął: %s.</string>
+    <string name="fired_heart_rate">Twoje tętno spadło poniżej progu: %s.</string>
+    <string name="send_pending">Wysyłanie e-maila…</string>
+    <string name="send_sent">E-mail wysłany: %s.</string>
+    <string name="send_failed">Nie udało się wysłać e-maila (%s). Aplikacja spróbuje ponownie, gdy tylko pojawi się połączenie.</string>
+    <string name="fired_reset">Naciśnij „Nic mi nie jest”, aby zacząć od nowa.</string>
+
+    <string name="switch_label">Działa</string>
+    <string name="cannot_enable">Przed włączeniem uzupełnij:</string>
+    <string name="missing_recipient">prawidłowego odbiorcę</string>
+    <string name="missing_text">temat lub treść e-maila</string>
+    <string name="missing_account">konto nadawcze (serwer, użytkownika i hasło)</string>
+
+    <string name="pause">Wstrzymaj</string>
+    <string name="resume">Wznów</string>
+    <string name="pause_title">Wstrzymaj na…</string>
+    <string name="pause_until">Wstrzymano do %s.</string>
+    <string name="cancel">Anuluj</string>
+
+    <string name="check_in">Nic mi nie jest</string>
+    <string name="last_check_in">Ostatnie potwierdzenie: %s.</string>
+    <string name="never_checked_in">Nie było jeszcze żadnego potwierdzenia.</string>
+
+    <string name="permissions_title">Uprawnienia</string>
+    <string name="perm_notifications">Powiadomienia, na potrzeby przypomnień i alarmów.</string>
+    <string name="perm_exact">Dokładne alarmy, aby termin był dotrzymany punktualnie.</string>
+    <string name="perm_battery">Wyłącz optymalizację baterii dla tej aplikacji, aby Android jej nie zatrzymywał. Na liście, która się otworzy, pokaż wszystkie aplikacje, znajdź DeadManShot i wybierz, by jej nie optymalizować.</string>
+    <string name="allow">Zezwól</string>
+
+    <string name="timing_title">Termin</string>
+    <string name="interval_label">Naciskaj „Nic mi nie jest” co najmniej raz na:</string>
+    <string name="reminder_label">Przypomnienia przed terminem:</string>
+    <string name="reminder_multi_hint">Wybierz jedno, kilka lub żadne. Przy każdym przyjdzie powiadomienie. Te, które są równe interwałowi lub dłuższe, nie są używane.</string>
+
+    <string name="email_title">E-mail</string>
+    <string name="recipients">Odbiorcy</string>
+    <string name="recipients_hint">Kilka adresów oddziel przecinkami.</string>
+    <string name="subject">Temat</string>
+    <string name="body">Treść</string>
+    <string name="attachments">Załączniki</string>
+    <string name="no_attachments">Brak załączników.</string>
+    <string name="add_attachment">Dodaj plik</string>
+    <string name="remove">Usuń</string>
+
+    <string name="account_title">Konto nadawcze</string>
+    <string name="account_hint">E-mail wychodzi z Twojego własnego konta przez SMTP. W Gmailu użyj hasła do aplikacji (Konto Google, Bezpieczeństwo, Hasła do aplikacji), a nie zwykłego hasła.</string>
+    <string name="smtp_host">Serwer SMTP</string>
+    <string name="smtp_port">Port</string>
+    <string name="smtp_user">Użytkownik (Twój adres e-mail)</string>
+    <string name="smtp_password">Hasło</string>
+    <string name="show_password">Pokaż hasło</string>
+    <string name="hide_password">Ukryj hasło</string>
+    <string name="smtp_from">Adres nadawcy</string>
+    <string name="smtp_from_hint">Zostaw puste, aby użyć nazwy użytkownika.</string>
+    <string name="send_test">Wyślij test na mój adres</string>
+    <string name="test_ok">Test wysłany na %s. Sprawdź skrzynkę odbiorczą.</string>
+    <string name="test_skipped">Pominięto załączniki, których nie dało się odczytać: %s</string>
+    <string name="test_failed">Nie udało się wysłać: %s</string>
+    <string name="test_subject_prefix">[Test]</string>
+
+    <string name="smtp_fill_preset">Wypełnij domyślnymi…</string>
+    <string name="smtp_preset_title">Wybierz dostawcę</string>
+    <string name="smtp_preset_apply">Zastosuj</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Wymaga hasła do aplikacji.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Wymaga hasła do aplikacji.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Wymaga hasła do aplikacji.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Wymaga tokenu SMTP (płatny plan, własna domena).</string>
+
+    <string name="channel_reminder">Przypomnienia i alarmy</string>
+    <string name="channel_result">Wyniki</string>
+    <string name="reminder_title">Wszystko w porządku?</string>
+    <string name="reminder_text">Naciśnij „Nic mi nie jest” przed %1$s (%2$s), inaczej czuwak zadziała.</string>
+    <string name="sent_title">E-mail wysłany</string>
+    <string name="sent_text">E-mail został wysłany do odbiorców.</string>
+    <string name="sent_text_skipped">E-mail został wysłany, ale bez tych załączników, których nie dało się odczytać: %s</string>
+    <string name="failed_title">E-mail niewysłany</string>
+    <string name="failed_text">%s. Aplikacja sama spróbuje ponownie.</string>
+
+    <string name="pulse_title">Tętno z zegarka</string>
+    <string name="pulse_enable">Wyzwalaj czuwak, gdy tętno spadnie poniżej progu</string>
+    <string name="pulse_threshold">Próg: %d ud./min</string>
+    <string name="pulse_requirements_title">Czego potrzebujesz</string>
+    <string name="pulse_requirements_body">1. Zegarek mierzący tętno, sparowany z Gadgetbridge na tym telefonie, z włączonym ciągłym pomiarem tętna.\n2. W Gadgetbridge włącz automatyczny eksport bazy danych i wybierz, gdzie ma trafiać.\n3. W Gadgetbridge, Ustawienia → Intent API: zezwól na wyzwalacz synchronizacji aktywności i eksport bazy danych.\n4. Poniżej wybierz ten sam plik eksportu.</string>
+    <string name="pulse_open_gadgetbridge">Otwórz Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge nie jest zainstalowany. Najpierw zainstaluj go z F-Droid.</string>
+    <string name="pulse_choose_file">Wybierz plik eksportu</string>
+    <string name="pulse_file">Plik eksportu: %s</string>
+    <string name="pulse_no_file">Nie wybrano jeszcze pliku eksportu.</string>
+    <string name="pulse_no_signal_label">Wyzwalaj czuwak także, gdy zegarek nie wysyła tętna przez</string>
+    <string name="pulse_no_signal_off">Nigdy</string>
+    <string name="pulse_no_signal_hint">Liczy się to tylko wtedy, gdy Gadgetbridge niedawno wykonał eksport, więc problem z telefonem lub aplikacją nigdy nie sprawi, że czuwak zadziała.</string>
+    <string name="pulse_interval_label">Sprawdzaj co</string>
+    <string name="pulse_status_title">Ostatnie sprawdzenie</string>
+    <string name="pulse_last">Ostatni pomiar: %1$d ud./min, %2$s (sprawdzono: %3$s).</string>
+    <string name="pulse_never_checked">Jeszcze nie sprawdzono.</string>
+    <string name="pulse_no_reading">Brak pomiaru z zegarka (sprawdzono: %s).</string>
+    <string name="pulse_check_now">Sprawdź teraz</string>
+    <string name="pulse_check_hint">Trwa to około minuty: najpierw Gadgetbridge synchronizuje zegarek i wykonuje eksport.</string>
+    <string name="pulse_err_no_file">Wybierz plik eksportu Gadgetbridge na karcie Tętno.</string>
+    <string name="pulse_err_stale">Gadgetbridge od dłuższego czasu nie wykonał eksportu, więc nie da się sprawdzić tętna. Sprawdź jego ustawienia Intent API i automatyczny eksport.</string>
+    <string name="pulse_err_read">Nie udało się odczytać eksportu: %s</string>
+    <string name="pulse_problem_title">Nie można sprawdzić tętna</string>
+    <string name="pulse_alert_title">Wszystko w porządku?</string>
+    <string name="pulse_alert_low">Zegarek pokazuje %1$d ud./min. Czuwak zadziała o %2$s, chyba że naciśniesz „Nic mi nie jest”.</string>
+    <string name="pulse_alert_silent">Zegarek przestał wysyłać Twoje tętno. Czuwak zadziała o %s, chyba że naciśniesz „Nic mi nie jest”.</string>
+    <string name="fired_no_pulse">Zegarek przestał wysyłać Twoje tętno; czuwak zadziałał: %s.</string>
+    <string name="detail_pulse_alert">Alarm z zegarka: czuwak zadziała o %s, chyba że naciśniesz „Nic mi nie jest”.</string>
+
+    <string name="pc_warning_title">Działania niszczące</string>
+    <string name="pc_warning_body">Te działania są wykonywane na Twoim PC, gdy czuwak zadziała. Przetestuj je raz na nieważnym folderze, zanim im zaufasz.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Najpierw wybudź PC</string>
+    <string name="pc_mac">Adres MAC komputera</string>
+    <string name="pc_broadcast">Adres rozgłoszeniowy</string>
+    <string name="pc_broadcast_hint">Zwykle 255.255.255.255 lub adres rozgłoszeniowy sieci LAN (np. 192.168.1.255).</string>
+    <string name="pc_wol_wait">Sekundy oczekiwania po WoL</string>
+    <string name="pc_wol_test">Wyślij WoL teraz</string>
+    <string name="pc_wol_sent">Wysłano magiczny pakiet.</string>
+    <string name="pc_wol_failed">Nie udało się wysłać magicznego pakietu: %s</string>
+
+    <string name="pc_ssh_title">Dostęp SSH</string>
+    <string name="pc_ssh_host">Host lub IP</string>
+    <string name="pc_ssh_port">Port SSH</string>
+    <string name="pc_ssh_user">Użytkownik SSH</string>
+    <string name="pc_ssh_password">Hasło SSH (jeśli nie ma klucza)</string>
+    <string name="pc_ssh_test">Testuj SSH</string>
+    <string name="pc_ssh_ok">SSH działa (%s).</string>
+    <string name="pc_ssh_failed">Błąd SSH: %s</string>
+
+    <string name="pc_key_title">Zniszcz klucz</string>
+    <string name="pc_key_enable">Zniszcz plik lub folder klucza</string>
+    <string name="pc_key_body">Trzymaj wrażliwy folder zaszyfrowany (VeraCrypt, LUKS, EFS, 7-Zip AES…) kluczem, który leży pod ścieżką poniżej. Gdy czuwak zadziała, klucz zostanie dwukrotnie nadpisany i usunięty, a dane pozostaną zablokowane na zawsze.</string>
+    <string name="pc_key_path">Ścieżka pliku lub folderu klucza na PC</string>
+    <string name="pc_path_hint">Pełna ścieżka Windows, np. C:\\Users\\ja\\Desktop\\test. Katalogi główne dysków, całe foldery użytkowników i foldery systemowe są odrzucane.</string>
+
+    <string name="pc_shred_title">Zniszcz folder</string>
+    <string name="pc_shred_enable">Zniszcz folder</string>
+    <string name="pc_shred_body">Dwa przebiegi na każdym pliku, zapisywane w miejscu (zera, potem losowe dane), a następnie plik jest usuwany. To, czego nie da się nadpisać, zostaje na miejscu i jest zgłaszane. Foldery są usuwane, gdy staną się puste. Na dysku SSD oprogramowanie układowe może przechowywać stare kopie, więc zniszczenie klucza powyżej jest bezpieczniejsze.</string>
+    <string name="pc_folder">Folder na PC</string>
+    <string name="pc_subdirs">Uwzględnij podfoldery</string>
+
+    <string name="pc_shutdown_title">Wyłącz PC</string>
+    <string name="pc_shutdown_enable">Wymuś wyłączenie</string>
+    <string name="pc_shutdown_body">Po pozostałych działaniach wyślij „shutdown /s /f /t 0” przez SSH.</string>
+
+    <string name="pc_notification_title">Działania na PC</string>
+    <string name="pc_log_nothing">Nic do zrobienia.</string>
+    <string name="pc_log_wol_ok">Wysłano pakiet WoL.</string>
+    <string name="pc_log_wol_failed">Błąd WoL: %s</string>
+    <string name="pc_log_ssh_missing">Brak hosta, użytkownika albo klucza lub hasła SSH.</string>
+    <string name="pc_log_key_ok">Klucz zniszczony: %1$s.</string>
+    <string name="pc_log_key_failed">Nie udało się zniszczyć klucza: %s</string>
+    <string name="pc_log_key_unsafe">Ścieżka klucza odrzucona jako niebezpieczna; niczego nie ruszono.</string>
+    <string name="pc_log_shred_ok">Folder zniszczony: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Nie udało się zniszczyć folderu: %s</string>
+    <string name="pc_log_shred_unsafe">Ścieżka folderu odrzucona jako niebezpieczna; niczego nie ruszono.</string>
+    <string name="pc_log_shutdown_ok">Wysłano polecenie wyłączenia.</string>
+    <string name="pc_log_shutdown_failed">Błąd wyłączania: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minuty</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+        <item quantity="other">%d godziny</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+        <item quantity="other">%d dnia</item>
+    </plurals>
+    <string name="pc_log_not_found">Ścieżka nie istnieje na PC.</string>
+    <string name="pc_log_is_link">Ścieżka jest dowiązaniem; nie podążono za nim.</string>
+    <string name="pc_log_not_folder">Ścieżka to plik, a nie folder.</string>
+    <string name="pc_log_partial">%1$s; to, czego nie dało się nadpisać, zostało na miejscu.\n%2$s</string>
+    <string name="fired_manual">Wyzwolony ręcznie: %s.</string>
+    <string name="fire_now">Wyzwól teraz (test)</string>
+    <string name="fire_now_title">Wyzwolić teraz?</string>
+    <string name="fire_now_body">E-mail naprawdę trafi do %1$s, a na PC zostaną wykonane te działania: %2$s. To dokładnie tak, jakby minął termin.</string>
+    <string name="fire_now_no_pc">żadne</string>
+    <string name="fire_now_confirm">Wyzwól</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">zniszczenie klucza</string>
+    <string name="fire_action_shred">zniszczenie folderu %s</string>
+    <string name="fire_action_shutdown">wyłączenie PC</string>
+    <string name="pc_os_title">System komputera</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Pełna ścieżka, np. /home/ja/test. Katalog główny, całe katalogi domowe i foldery systemowe (/etc, /usr, /var…) są odrzucane.</string>
+    <string name="pc_shutdown_body_linux">Po pozostałych działaniach uruchom „sudo -n systemctl poweroff” przez SSH. Użytkownik SSH musi mieć sudo bez hasła dla tego polecenia lub uprawnienie polkit do wyłączania.</string>
+    <string name="pc_log_no_shred">shred nie jest zainstalowany na PC (jest częścią coreutils).</string>
+    <string name="pc_log_exit">polecenie zakończyło się kodem %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Wykonaj polecenie</string>
+    <string name="pc_cmd_enable">Wykonaj moje polecenie</string>
+    <string name="pc_cmd_body_windows">Zaraz po Wake on LAN to polecenie jest wykonywane na PC przez SSH, w PowerShell, jako użytkownik SSH. Może mieć kilka wierszy. Nie otwiera się żadne okno: to, co wypisze, pojawi się w powiadomieniu z wynikiem.</string>
+    <string name="pc_cmd_body_linux">Zaraz po Wake on LAN to polecenie jest wykonywane na PC przez SSH, w bash, jako użytkownik SSH. Może mieć kilka wierszy. Nie otwiera się żadne okno: to, co wypisze, pojawi się w powiadomieniu z wynikiem.</string>
+    <string name="pc_cmd_field">Polecenie</string>
+    <string name="pc_log_cmd_ok">Polecenie zakończone.\n%s</string>
+    <string name="pc_log_cmd_exit">Polecenie zakończyło się kodem %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Nie udało się wykonać polecenia: %s</string>
+    <string name="fire_action_cmd">wykonanie Twojego polecenia</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d plik nadpisany i usunięty</item>
+        <item quantity="few">%d pliki nadpisane i usunięte</item>
+        <item quantity="many">%d plików nadpisanych i usuniętych</item>
+        <item quantity="other">%d pliku nadpisanego i usuniętego</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d podfolder pozostawiony bez zmian</item>
+        <item quantity="few">%d podfoldery pozostawione bez zmian</item>
+        <item quantity="many">%d podfolderów pozostawionych bez zmian</item>
+        <item quantity="other">%d podfolderu pozostawionego bez zmian</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">zniszczono tylko %d plik</item>
+        <item quantity="few">zniszczono tylko %d pliki</item>
+        <item quantity="many">zniszczono tylko %d plików</item>
+        <item quantity="other">zniszczono tylko %d pliku</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Jeśli ostatni pomiar jest poniżej progu, włącza się alarm, a czuwak zadziała %2$d minut później, chyba że naciśniesz „Nic mi nie jest”. Normalny pomiar po alarmie go odwołuje.</item>
+        <item quantity="few">Jeśli ostatnie %1$d pomiary są poniżej progu, włącza się alarm, a czuwak zadziała %2$d minut później, chyba że naciśniesz „Nic mi nie jest”. Normalny pomiar po alarmie go odwołuje.</item>
+        <item quantity="many">Jeśli ostatnich %1$d pomiarów jest poniżej progu, włącza się alarm, a czuwak zadziała %2$d minut później, chyba że naciśniesz „Nic mi nie jest”. Normalny pomiar po alarmie go odwołuje.</item>
+        <item quantity="other">Jeśli ostatnie pomiary (%1$d) są poniżej progu, włącza się alarm, a czuwak zadziała %2$d minut później, chyba że naciśniesz „Nic mi nie jest”. Normalny pomiar po alarmie go odwołuje.</item>
+    </plurals>
+    <string name="app_password_needed">Ten dostawca akceptuje tylko hasło do aplikacji: 16 liter, które tworzysz dla tej aplikacji. Zwykłe hasło zostanie odrzucone.</string>
+    <string name="app_password_open">Utwórz hasło do aplikacji</string>
+    <string name="app_password_suspicious">To nie wygląda na hasło do aplikacji (16 liter).</string>
+    <string name="proton_token_needed">Proton wysyła przez SMTP tylko z tokenem SMTP, dostępnym dla adresów we własnej domenie w płatnym planie. Wpisz w polach Użytkownik i Hasło nazwę użytkownika i token od Protona.</string>
+    <string name="proton_token_open">Otwórz instrukcje Protona</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail i Microsoft 365 nie przyjmują już hasła do wysyłania, a ta aplikacja nie umie jeszcze logować się do Microsoftu. Użyj innego dostawcy.</string>
+    <string name="err_app_password">Serwer wymaga hasła do aplikacji, a nie zwykłego hasła. Utwórz je przyciskiem pod hasłem i wklej je tam.</string>
+    <string name="err_bad_login">Serwer nie zaakceptował użytkownika lub hasła. Użytkownikiem musi być pełny adres e-mail, a hasłem w Gmailu, Yahoo lub iCloud – hasło do aplikacji.</string>
+    <string name="err_microsoft">Microsoft odrzucił hasło: nie pozwala już wysyłać z hasłem. Użyj innego dostawcy.</string>
+    <string name="pc_ssh_key_hint">Zaloguj się kluczem (bezpieczniej i bez hasła) albo hasłem tego użytkownika na komputerze.</string>
+    <string name="pc_ssh_key_generate">Utwórz klucz</string>
+    <string name="pc_ssh_key_copy">Kopiuj klucz publiczny</string>
+    <string name="pc_ssh_key_delete">Usuń klucz</string>
+    <string name="pc_ssh_key_copied">Skopiowano klucz publiczny.</string>
+    <string name="pc_ssh_key_where_windows">Na komputerze dodaj klucz publiczny do C:\\ProgramData\\ssh\\administrators_authorized_keys, jeśli użytkownik jest administratorem, a w przeciwnym razie do .ssh\\authorized_keys w folderze użytkownika.</string>
+    <string name="pc_ssh_key_where_linux">Na komputerze dodaj klucz publiczny do ~/.ssh/authorized_keys tego użytkownika.</string>
+</resources>

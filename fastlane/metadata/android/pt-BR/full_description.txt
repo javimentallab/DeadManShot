@@ -1,0 +1,11 @@
+<p>Um gatilho de homem morto para o seu celular. Toque em “Estou bem” uma vez por dia (ou com a frequência que preferir). Se você parar, o DeadManShot envia o e-mail que você preparou e pode agir no seu computador.</p>
+<ul>
+<li><b>Confirmação diária</b>: escolha o intervalo, de 10 minutos a 3 dias, e quantos lembretes quiser antes do prazo. Cada lembrete tem seu próprio botão “Estou bem”. Pause por uma hora ou um mês quando precisar.</li>
+<li><b>Frequência cardíaca</b> (opcional): com um relógio pareado ao Gadgetbridge, o gatilho dispara quando sua frequência cardíaca fica abaixo de um limite ou quando o relógio para de enviá-la. Antes, sempre toca um alarme e você tem dez minutos para responder.</li>
+<li><b>E-mail</b>: destinatários, assunto, texto e anexos, enviados da sua própria conta por SMTP com TLS. Configurações prontas para Gmail, Yahoo, iCloud e Proton Mail, e um botão de teste que envia a mensagem para você mesmo.</li>
+<li><b>Seu computador</b>, Windows ou Linux, por SSH: ligá-lo com Wake on LAN, executar um comando seu, destruir uma chave de criptografia ou triturar uma pasta (duas passadas, sobrescrevendo no próprio lugar) e desligá-lo.</li>
+</ul>
+<p>As ações destrutivas são protegidas: raízes de disco, pastas de usuário inteiras e pastas do sistema são recusadas; links não são seguidos; o que não puder ser sobrescrito fica onde está e é informado; e o resultado de cada ação chega como notificação. O botão “Disparar agora (teste)” permite testar antes toda a cadeia com segurança.</p>
+<p>Nada é coletado. O app só se comunica com o servidor de e-mail e o computador que você configurar. As senhas do e-mail e do SSH são criptografadas com uma chave guardada no keystore do Android.</p>
+<p>Código aberto sob a licença MIT.</p>
+<p>Disponível em inglês, espanhol, português, francês, alemão, italiano, holandês, polonês, russo, ucraniano, chinês, japonês, coreano, tailandês e hindi.</p>
