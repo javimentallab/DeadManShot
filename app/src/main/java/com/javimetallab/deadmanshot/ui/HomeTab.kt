@@ -109,6 +109,7 @@ fun HomeTab(
         CheckInSection(s, status)
         PermissionsCard(permissionsTick, askNotifications)
         TimingCard(s)
+        PrivacyLink()
     }
 }
 
@@ -462,3 +463,21 @@ private fun TimingCard(s: Snapshot) {
         }
     }
 }
+
+/** The privacy policy, which app stores require to be reachable from inside the app. */
+@Composable
+private fun PrivacyLink() {
+    val context = LocalContext.current
+    TextButton(
+        onClick = {
+            runCatching {
+                context.startActivity(
+                    Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_URL)).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                )
+            }
+        },
+        modifier = Modifier.fillMaxWidth(),
+    ) { Text(stringResource(R.string.privacy_policy)) }
+}
+
+private const val PRIVACY_URL = "https://github.com/javimentallab/DeadManShot/blob/main/PRIVACY.md"

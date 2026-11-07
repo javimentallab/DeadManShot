@@ -248,4 +248,5 @@
     <string name="remaining_dh">%1$d d %2$d u</string>
     <string name="remaining_hm">%1$d u %2$d min</string>
     <string name="remaining_m">%d min</string>
+    <string name="privacy_policy">Privacybeleid</string>
 </resources>

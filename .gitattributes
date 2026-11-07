@@ -1,0 +1,7 @@
+# Text files are stored with LF, whatever the machine they are edited on. The CI
+# regenerates app/gradle.lockfile on Linux and compares it byte for byte.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jar binary
+*.jks binary
