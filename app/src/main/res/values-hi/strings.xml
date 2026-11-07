@@ -245,4 +245,7 @@
     <string name="pc_ssh_key_copied">सार्वजनिक कुंजी कॉपी हो गई।</string>
     <string name="pc_ssh_key_where_windows">PC पर, अगर उपयोगकर्ता व्यवस्थापक है तो सार्वजनिक कुंजी C:\\ProgramData\\ssh\\administrators_authorized_keys में जोड़ें, नहीं तो उपयोगकर्ता के फ़ोल्डर में .ssh\\authorized_keys में।</string>
     <string name="pc_ssh_key_where_linux">PC पर, उस उपयोगकर्ता की ~/.ssh/authorized_keys में सार्वजनिक कुंजी जोड़ें।</string>
+    <string name="remaining_dh">%1$d दिन %2$d घं.</string>
+    <string name="remaining_hm">%1$d घं. %2$d मि.</string>
+    <string name="remaining_m">%d मि.</string>
 </resources>

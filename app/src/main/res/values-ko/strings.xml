@@ -238,4 +238,7 @@
     <string name="pc_ssh_key_copied">공개 키를 복사했어요.</string>
     <string name="pc_ssh_key_where_windows">PC에서 사용자가 관리자이면 C:\\ProgramData\\ssh\\administrators_authorized_keys에, 아니면 사용자 폴더의 .ssh\\authorized_keys에 공개 키를 추가하세요.</string>
     <string name="pc_ssh_key_where_linux">PC에서 해당 사용자의 ~/.ssh/authorized_keys에 공개 키를 추가하세요.</string>
+    <string name="remaining_dh">%1$d일 %2$d시간</string>
+    <string name="remaining_hm">%1$d시간 %2$d분</string>
+    <string name="remaining_m">%d분</string>
 </resources>

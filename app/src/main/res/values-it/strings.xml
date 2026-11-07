@@ -252,4 +252,7 @@
     <string name="pc_ssh_key_copied">Chiave pubblica copiata.</string>
     <string name="pc_ssh_key_where_windows">Sul PC, aggiungi la chiave pubblica a C:\\ProgramData\\ssh\\administrators_authorized_keys se l’utente è amministratore, altrimenti a .ssh\\authorized_keys nella cartella dell’utente.</string>
     <string name="pc_ssh_key_where_linux">Sul PC, aggiungi la chiave pubblica a ~/.ssh/authorized_keys di quell’utente.</string>
+    <string name="remaining_dh">%1$d g %2$d h</string>
+    <string name="remaining_hm">%1$d h %2$d min</string>
+    <string name="remaining_m">%d min</string>
 </resources>

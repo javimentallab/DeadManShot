@@ -184,7 +184,7 @@ private fun StatusCard(s: Snapshot, status: Status, now: Long, askNotifications:
                 Text(
                     stringResource(R.string.switch_label),
                     style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                 )
                 Switch(
                     checked = s.timer.enabled,

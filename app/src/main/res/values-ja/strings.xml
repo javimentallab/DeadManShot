@@ -238,4 +238,7 @@
     <string name="pc_ssh_key_copied">公開鍵をコピーしました。</string>
     <string name="pc_ssh_key_where_windows">PC で、ユーザーが管理者なら公開鍵を C:\\ProgramData\\ssh\\administrators_authorized_keys に、そうでなければユーザーフォルダーの .ssh\\authorized_keys に追加してください。</string>
     <string name="pc_ssh_key_where_linux">PC で、そのユーザーの ~/.ssh/authorized_keys に公開鍵を追加してください。</string>
+    <string name="remaining_dh">%1$d日%2$d時間</string>
+    <string name="remaining_hm">%1$d時間%2$d分</string>
+    <string name="remaining_m">%d分</string>
 </resources>

@@ -115,7 +115,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
                 Spacer(Modifier.width(12.dp))
                 Text(
                     stringResource(R.string.pc_wol_enable),
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Switch(checked = s.pc.enableWol, onCheckedChange = { Store.setPcWolEnabled(it) })
@@ -159,7 +159,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
                 Spacer(Modifier.width(12.dp))
                 Text(
                     stringResource(R.string.pc_cmd_enable),
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Switch(checked = s.pc.enableCommand, onCheckedChange = { Store.setPcCommandEnabled(it) })
@@ -235,7 +235,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     stringResource(R.string.pc_key_enable),
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Switch(checked = s.pc.enableDestroyKey, onCheckedChange = { Store.setPcKeyEnabled(it) })
@@ -256,7 +256,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     stringResource(R.string.pc_shred_enable),
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Switch(checked = s.pc.enableShred, onCheckedChange = { Store.setPcShredEnabled(it) })
@@ -287,7 +287,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
                 Spacer(Modifier.width(12.dp))
                 Text(
                     stringResource(R.string.pc_shutdown_enable),
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                     style = MaterialTheme.typography.titleMedium,
                 )
                 Switch(checked = s.pc.enableSshShutdown, onCheckedChange = { Store.setPcShutdownEnabled(it) })

@@ -245,4 +245,7 @@
     <string name="pc_ssh_key_copied">Öffentlicher Schlüssel kopiert.</string>
     <string name="pc_ssh_key_where_windows">Füge auf dem PC den öffentlichen Schlüssel zu C:\\ProgramData\\ssh\\administrators_authorized_keys hinzu, wenn der Benutzer Administrator ist, sonst zu .ssh\\authorized_keys im Benutzerordner.</string>
     <string name="pc_ssh_key_where_linux">Füge auf dem PC den öffentlichen Schlüssel zu ~/.ssh/authorized_keys dieses Benutzers hinzu.</string>
+    <string name="remaining_dh">%1$d T. %2$d Std.</string>
+    <string name="remaining_hm">%1$d Std. %2$d Min.</string>
+    <string name="remaining_m">%d Min.</string>
 </resources>

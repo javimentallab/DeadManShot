@@ -259,4 +259,7 @@
     <string name="pc_ssh_key_copied">Відкритий ключ скопійовано.</string>
     <string name="pc_ssh_key_where_windows">На ПК додайте відкритий ключ до C:\\ProgramData\\ssh\\administrators_authorized_keys, якщо користувач — адміністратор, інакше до .ssh\\authorized_keys у папці користувача.</string>
     <string name="pc_ssh_key_where_linux">На ПК додайте відкритий ключ до ~/.ssh/authorized_keys цього користувача.</string>
+    <string name="remaining_dh">%1$d д %2$d год</string>
+    <string name="remaining_hm">%1$d год %2$d хв</string>
+    <string name="remaining_m">%d хв</string>
 </resources>

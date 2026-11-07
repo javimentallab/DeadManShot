@@ -238,4 +238,7 @@
     <string name="pc_ssh_key_copied">คัดลอกคีย์สาธารณะแล้ว</string>
     <string name="pc_ssh_key_where_windows">บน PC ให้เพิ่มคีย์สาธารณะลงใน C:\\ProgramData\\ssh\\administrators_authorized_keys หากผู้ใช้เป็นผู้ดูแลระบบ หรือลงใน .ssh\\authorized_keys ในโฟลเดอร์ของผู้ใช้</string>
     <string name="pc_ssh_key_where_linux">บน PC ให้เพิ่มคีย์สาธารณะลงใน ~/.ssh/authorized_keys ของผู้ใช้นั้น</string>
+    <string name="remaining_dh">%1$d วัน %2$d ชม.</string>
+    <string name="remaining_hm">%1$d ชม. %2$d นาที</string>
+    <string name="remaining_m">%d นาที</string>
 </resources>

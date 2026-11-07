@@ -245,4 +245,7 @@
     <string name="pc_ssh_key_copied">Openbare sleutel gekopieerd.</string>
     <string name="pc_ssh_key_where_windows">Voeg op de pc de openbare sleutel toe aan C:\\ProgramData\\ssh\\administrators_authorized_keys als de gebruiker beheerder is, en anders aan .ssh\\authorized_keys in de map van de gebruiker.</string>
     <string name="pc_ssh_key_where_linux">Voeg op de pc de openbare sleutel toe aan ~/.ssh/authorized_keys van die gebruiker.</string>
+    <string name="remaining_dh">%1$d d %2$d u</string>
+    <string name="remaining_hm">%1$d u %2$d min</string>
+    <string name="remaining_m">%d min</string>
 </resources>

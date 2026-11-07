@@ -238,4 +238,7 @@
     <string name="pc_ssh_key_copied">已复制公钥。</string>
     <string name="pc_ssh_key_where_windows">在电脑上，如果该用户是管理员，请将公钥添加到 C:\\ProgramData\\ssh\\administrators_authorized_keys，否则添加到用户文件夹中的 .ssh\\authorized_keys。</string>
     <string name="pc_ssh_key_where_linux">在电脑上，将公钥添加到该用户的 ~/.ssh/authorized_keys。</string>
+    <string name="remaining_dh">%1$d天%2$d小时</string>
+    <string name="remaining_hm">%1$d小时%2$d分钟</string>
+    <string name="remaining_m">%d分钟</string>
 </resources>

@@ -259,4 +259,7 @@
     <string name="pc_ssh_key_copied">Skopiowano klucz publiczny.</string>
     <string name="pc_ssh_key_where_windows">Na komputerze dodaj klucz publiczny do C:\\ProgramData\\ssh\\administrators_authorized_keys, jeśli użytkownik jest administratorem, a w przeciwnym razie do .ssh\\authorized_keys w folderze użytkownika.</string>
     <string name="pc_ssh_key_where_linux">Na komputerze dodaj klucz publiczny do ~/.ssh/authorized_keys tego użytkownika.</string>
+    <string name="remaining_dh">%1$d d %2$d godz.</string>
+    <string name="remaining_hm">%1$d godz. %2$d min</string>
+    <string name="remaining_m">%d min</string>
 </resources>

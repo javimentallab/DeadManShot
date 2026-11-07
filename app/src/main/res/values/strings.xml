@@ -179,9 +179,6 @@
     <string name="pc_log_shutdown_ok">Shutdown command sent.</string>
     <string name="pc_log_shutdown_failed">Shutdown failed: %s</string>
 
-    <string name="remaining_dh" translatable="false">%1$d d %2$d h</string>
-    <string name="remaining_hm" translatable="false">%1$d h %2$d min</string>
-    <string name="remaining_m" translatable="false">%d min</string>
     <plurals name="minutes">
         <item quantity="one">%d minute</item>
         <item quantity="other">%d minutes</item>
@@ -256,4 +253,7 @@
     <string name="pc_ssh_key_copied">Public key copied.</string>
     <string name="pc_ssh_key_where_windows">On the PC, add the public key to C:\\ProgramData\\ssh\\administrators_authorized_keys if the user is an administrator, or else to .ssh\\authorized_keys in the user\'s folder.</string>
     <string name="pc_ssh_key_where_linux">On the PC, add the public key to ~/.ssh/authorized_keys of that user.</string>
+    <string name="remaining_dh">%1$d d %2$d h</string>
+    <string name="remaining_hm">%1$d h %2$d min</string>
+    <string name="remaining_m">%d min</string>
 </resources>

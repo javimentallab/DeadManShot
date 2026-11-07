@@ -107,7 +107,7 @@ fun PulseTab(s: Snapshot, modifier: Modifier = Modifier) {
                 Text(
                     stringResource(R.string.pulse_enable),
                     style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                 )
                 Switch(
                     checked = s.pulse.enabled,
