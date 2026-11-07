@@ -129,6 +129,10 @@ JDK 21, Android SDK 36:
 Las versiones de publicación se firman cuando un fichero `keystore.properties` (fuera del
 repositorio) apunta a la clave.
 
+## Contribuir
+
+Consulta [CONTRIBUTING](CONTRIBUTING.md), en inglés. Para avisar en privado de un problema de seguridad, consulta [SECURITY](SECURITY.md).
+
 ## Licencia
 
 [MIT](LICENSE). Las licencias de terceros están en [NOTICE](NOTICE).
