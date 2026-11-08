@@ -1,0 +1,1 @@
+Neue dunkelrote Oberfläche: Der Tab „Start“ zeigt einen Ring, der sich leert, je näher die Frist rückt, dazu ein schlagendes Herz und die Restzeit. Beim Schreddern eines Ordners und beim Vernichten eines Schlüssels werden die Daten jetzt fünfmal überschrieben (zuerst Nullen, dann viermal Zufallsdaten).

@@ -1,0 +1,1 @@
+Nouvelle interface rouge sombre : l’onglet Accueil affiche un anneau qui se vide à l’approche de l’échéance, avec un cœur qui bat et le temps restant. Broyer un dossier ou détruire une clé écrase désormais les données cinq fois (d’abord des zéros, puis quatre passes de données aléatoires).

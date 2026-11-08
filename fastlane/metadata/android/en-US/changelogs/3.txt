@@ -1,0 +1,1 @@
+New dark red interface: the Home tab shows a ring that empties as the deadline approaches, with a beating heart and the time left. Shredding a folder and destroying a key now overwrite the data five times (zeros first, then four passes of random data).

@@ -1,0 +1,1 @@
+Nieuwe donkerrode interface: het tabblad Start toont een ring die leegloopt naarmate de deadline nadert, met een kloppend hart en de resterende tijd. Bij het vernietigen van een map of sleutel worden de gegevens nu vijf keer overschreven (eerst nullen, daarna vier keer willekeurige gegevens).

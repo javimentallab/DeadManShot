@@ -1,0 +1,1 @@
+Nova interface em vermelho-escuro: a aba Início mostra um anel que se esvazia conforme o prazo se aproxima, com um coração batendo e o tempo restante. Triturar uma pasta ou destruir uma chave agora sobrescreve os dados cinco vezes (primeiro zeros e depois quatro passagens de dados aleatórios).

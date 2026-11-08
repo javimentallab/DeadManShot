@@ -1,0 +1,1 @@
+Interfaz nueva en rojo oscuro: la pestaña Inicio muestra un anillo que se vacía a medida que se acerca el plazo, con un corazón que late y el tiempo que queda. Destruir una carpeta o una clave sobrescribe ahora los datos cinco veces (primero con ceros y después cuatro pasadas con datos aleatorios).

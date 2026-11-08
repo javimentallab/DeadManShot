@@ -1,0 +1,1 @@
+Nowy ciemnoczerwony interfejs: karta Start pokazuje pierścień, który opróżnia się w miarę zbliżania się terminu, a także bijące serce i pozostały czas. Zniszczenie folderu lub klucza nadpisuje teraz dane pięć razy (najpierw zera, potem cztery przebiegi losowych danych).

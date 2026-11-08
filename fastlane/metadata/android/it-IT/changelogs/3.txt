@@ -1,0 +1,1 @@
+Nuova interfaccia rosso scuro: la scheda Home mostra un anello che si svuota con l’avvicinarsi della scadenza, con un cuore che batte e il tempo rimanente. Distruggere una cartella o una chiave ora sovrascrive i dati cinque volte (prima zeri, poi quattro passate di dati casuali).
