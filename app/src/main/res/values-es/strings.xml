@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Destruir la clave</string>
     <string name="pc_key_enable">Destruir un fichero o carpeta de clave</string>
-    <string name="pc_key_body">Mantén cifrada la carpeta sensible (VeraCrypt, LUKS, EFS, 7-Zip AES…) con una clave que viva en la ruta de abajo. Cuando salte la palanca, se sobrescribe dos veces y se borra, y los datos quedan inaccesibles.</string>
+    <string name="pc_key_body">Mantén cifrada la carpeta sensible (VeraCrypt, LUKS, EFS, 7-Zip AES…) con una clave que viva en la ruta de abajo. Cuando salte la palanca, se sobrescribe cinco veces y se borra, y los datos quedan inaccesibles.</string>
     <string name="pc_key_path">Ruta del fichero o carpeta de clave en el PC</string>
     <string name="pc_path_hint">Ruta completa de Windows, por ejemplo C:\\Users\\yo\\Desktop\\test. No se aceptan raíces de disco, carpetas de usuario enteras ni carpetas del sistema.</string>
 
     <string name="pc_shred_title">Destruir una carpeta</string>
     <string name="pc_shred_enable">Destruir una carpeta</string>
-    <string name="pc_shred_body">Dos pasadas sobre cada fichero, escritas encima (ceros y luego datos aleatorios), y después se borra. Lo que no se pueda sobrescribir se deja donde está y se avisa. Las carpetas se borran cuando quedan vacías. En un SSD el firmware puede guardar copias antiguas, así que es más seguro destruir la clave de arriba.</string>
+    <string name="pc_shred_body">Cinco pasadas sobre cada fichero, escritas encima (la primera con ceros y las otras cuatro con datos aleatorios), y después se borra. Lo que no se pueda sobrescribir se deja donde está y se avisa. Las carpetas se borran cuando quedan vacías. En un SSD el firmware puede guardar copias antiguas, así que es más seguro destruir la clave de arriba.</string>
     <string name="pc_folder">Carpeta en el PC</string>
     <string name="pc_subdirs">Incluir subdirectorios</string>
 

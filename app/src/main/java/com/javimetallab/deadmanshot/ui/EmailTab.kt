@@ -294,7 +294,7 @@ private fun AccountCard(s: Snapshot) {
             Text(stringResource(R.string.send_test))
         }
         result?.let { (ok, text) ->
-            Text(text, color = if (ok) RunningColor else MaterialTheme.colorScheme.error)
+            ResultLine(ok, text)
         }
     }
 

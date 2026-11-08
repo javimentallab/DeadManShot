@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">키 파기</string>
     <string name="pc_key_enable">키 파일 또는 폴더 파기</string>
-    <string name="pc_key_body">민감한 폴더는 아래 경로에 있는 키로 암호화해 두세요(VeraCrypt, LUKS, EFS, 7-Zip AES…). 데드맨 스위치가 작동하면 키를 두 번 덮어쓴 뒤 삭제해서, 데이터가 영구히 잠겨요.</string>
+    <string name="pc_key_body">민감한 폴더는 아래 경로에 있는 키로 암호화해 두세요(VeraCrypt, LUKS, EFS, 7-Zip AES…). 데드맨 스위치가 작동하면 키를 다섯 번 덮어쓴 뒤 삭제해서, 데이터가 영구히 잠겨요.</string>
     <string name="pc_key_path">PC의 키 파일 또는 폴더 경로</string>
     <string name="pc_path_hint">Windows 전체 경로(예: C:\\Users\\me\\Desktop\\test). 드라이브 루트, 사용자 폴더 전체, 시스템 폴더는 거부돼요.</string>
 
     <string name="pc_shred_title">폴더 완전 삭제</string>
     <string name="pc_shred_enable">폴더 완전 삭제</string>
-    <string name="pc_shred_body">모든 파일을 제자리에서 두 번 덮어쓴 뒤(0, 그다음 무작위 데이터) 삭제해요. 덮어쓸 수 없는 것은 그대로 두고 알려 줘요. 폴더는 비면 삭제돼요. SSD에서는 펌웨어가 예전 사본을 남길 수 있으니, 위의 키를 파기하는 편이 더 안전해요.</string>
+    <string name="pc_shred_body">모든 파일을 제자리에서 다섯 번 덮어쓴 뒤(먼저 0, 그다음 무작위 데이터 네 번) 삭제해요. 덮어쓸 수 없는 것은 그대로 두고 알려 줘요. 폴더는 비면 삭제돼요. SSD에서는 펌웨어가 예전 사본을 남길 수 있으니, 위의 키를 파기하는 편이 더 안전해요.</string>
     <string name="pc_folder">PC의 폴더</string>
     <string name="pc_subdirs">하위 폴더 포함</string>
 

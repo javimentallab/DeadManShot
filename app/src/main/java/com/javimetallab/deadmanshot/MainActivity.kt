@@ -2,6 +2,7 @@ package com.javimetallab.deadmanshot
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.javimetallab.deadmanshot.core.Store
@@ -18,7 +19,11 @@ class MainActivity : ComponentActivity() {
             if (intent.getBooleanExtra("demo", false)) Store.seedDemo(System.currentTimeMillis())
             startTab = intent.getIntExtra("tab", 0)
         }
-        enableEdgeToEdge()
+        // The app is always dark, whatever the system theme: light icons on the bars.
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
+        )
         setContent {
             DeadManShotTheme {
                 MainScreen(startTab)

@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Détruire la clé</string>
     <string name="pc_key_enable">Détruire un fichier ou un dossier de clé</string>
-    <string name="pc_key_body">Gardez le dossier sensible chiffré (VeraCrypt, LUKS, EFS, 7-Zip AES…) avec une clé placée au chemin ci-dessous. Quand le dispositif se déclenche, la clé est écrasée deux fois puis supprimée, et les données restent verrouillées pour de bon.</string>
+    <string name="pc_key_body">Gardez le dossier sensible chiffré (VeraCrypt, LUKS, EFS, 7-Zip AES…) avec une clé placée au chemin ci-dessous. Quand le dispositif se déclenche, la clé est écrasée cinq fois puis supprimée, et les données restent verrouillées pour de bon.</string>
     <string name="pc_key_path">Chemin du fichier ou du dossier de clé sur le PC</string>
     <string name="pc_path_hint">Chemin Windows complet, ex. C:\\Users\\moi\\Desktop\\test. Les racines de lecteur, les dossiers utilisateur entiers et les dossiers système sont refusés.</string>
 
     <string name="pc_shred_title">Broyer un dossier</string>
     <string name="pc_shred_enable">Broyer un dossier</string>
-    <string name="pc_shred_body">Deux passes sur chaque fichier, écrites sur place (des zéros, puis des données aléatoires), puis le fichier est supprimé. Ce qui ne peut pas être écrasé reste en place et est signalé. Les dossiers sont supprimés une fois vides. Sur un SSD, le micrologiciel peut garder d’anciennes copies : détruire la clé ci-dessus est donc plus sûr.</string>
+    <string name="pc_shred_body">Cinq passes sur chaque fichier, écrites sur place (d’abord des zéros, puis quatre de données aléatoires), puis le fichier est supprimé. Ce qui ne peut pas être écrasé reste en place et est signalé. Les dossiers sont supprimés une fois vides. Sur un SSD, le micrologiciel peut garder d’anciennes copies : détruire la clé ci-dessus est donc plus sûr.</string>
     <string name="pc_folder">Dossier sur le PC</string>
     <string name="pc_subdirs">Inclure les sous-dossiers</string>
 

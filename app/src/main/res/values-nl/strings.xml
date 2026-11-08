@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">De sleutel vernietigen</string>
     <string name="pc_key_enable">Een sleutelbestand of -map vernietigen</string>
-    <string name="pc_key_body">Houd de gevoelige map versleuteld (VeraCrypt, LUKS, EFS, 7-Zip AES…) met een sleutel die op het pad hieronder staat. Als de dodemansknop afgaat, wordt de sleutel twee keer overschreven en verwijderd, en blijven de gegevens voorgoed op slot.</string>
+    <string name="pc_key_body">Houd de gevoelige map versleuteld (VeraCrypt, LUKS, EFS, 7-Zip AES…) met een sleutel die op het pad hieronder staat. Als de dodemansknop afgaat, wordt de sleutel vijf keer overschreven en verwijderd, en blijven de gegevens voorgoed op slot.</string>
     <string name="pc_key_path">Pad van het sleutelbestand of de sleutelmap op de pc</string>
     <string name="pc_path_hint">Volledig Windows-pad, bijv. C:\\Users\\ik\\Desktop\\test. Stationsroots, complete gebruikersmappen en systeemmappen worden geweigerd.</string>
 
     <string name="pc_shred_title">Een map vernietigen</string>
     <string name="pc_shred_enable">Een map vernietigen</string>
-    <string name="pc_shred_body">Twee overschrijfrondes over elk bestand, ter plekke (nullen, daarna willekeurige gegevens), en daarna wordt het bestand verwijderd. Wat niet overschreven kan worden, blijft staan en wordt gemeld. Mappen worden verwijderd zodra ze leeg zijn. Op een SSD kan de firmware oude kopieën bewaren, dus de sleutel hierboven vernietigen is veiliger.</string>
+    <string name="pc_shred_body">Vijf overschrijfrondes over elk bestand, ter plekke (eerst nullen, daarna vier keer willekeurige gegevens), en daarna wordt het bestand verwijderd. Wat niet overschreven kan worden, blijft staan en wordt gemeld. Mappen worden verwijderd zodra ze leeg zijn. Op een SSD kan de firmware oude kopieën bewaren, dus de sleutel hierboven vernietigen is veiliger.</string>
     <string name="pc_folder">Map op de pc</string>
     <string name="pc_subdirs">Submappen meenemen</string>
 

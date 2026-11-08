@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Distruggi la chiave</string>
     <string name="pc_key_enable">Distruggi un file o una cartella di chiave</string>
-    <string name="pc_key_body">Tieni cifrata la cartella sensibile (VeraCrypt, LUKS, EFS, 7-Zip AES…) con una chiave che si trova nel percorso qui sotto. Quando il dispositivo scatta, la chiave viene sovrascritta due volte ed eliminata, e i dati restano bloccati per sempre.</string>
+    <string name="pc_key_body">Tieni cifrata la cartella sensibile (VeraCrypt, LUKS, EFS, 7-Zip AES…) con una chiave che si trova nel percorso qui sotto. Quando il dispositivo scatta, la chiave viene sovrascritta cinque volte ed eliminata, e i dati restano bloccati per sempre.</string>
     <string name="pc_key_path">Percorso del file o della cartella di chiave sul PC</string>
     <string name="pc_path_hint">Percorso completo di Windows, es. C:\\Users\\io\\Desktop\\test. Le radici delle unità, le cartelle utente intere e le cartelle di sistema vengono rifiutate.</string>
 
     <string name="pc_shred_title">Distruggi una cartella</string>
     <string name="pc_shred_enable">Distruggi una cartella</string>
-    <string name="pc_shred_body">Due passate su ogni file, scritte sul posto (zeri, poi dati casuali), dopodiché il file viene eliminato. Ciò che non si può sovrascrivere resta dov’è e viene segnalato. Le cartelle vengono rimosse quando sono vuote. Su un SSD il firmware può conservare vecchie copie, quindi distruggere la chiave qui sopra è più sicuro.</string>
+    <string name="pc_shred_body">Cinque passate su ogni file, scritte sul posto (prima zeri, poi quattro di dati casuali), dopodiché il file viene eliminato. Ciò che non si può sovrascrivere resta dov’è e viene segnalato. Le cartelle vengono rimosse quando sono vuote. Su un SSD il firmware può conservare vecchie copie, quindi distruggere la chiave qui sopra è più sicuro.</string>
     <string name="pc_folder">Cartella sul PC</string>
     <string name="pc_subdirs">Includi le sottocartelle</string>
 

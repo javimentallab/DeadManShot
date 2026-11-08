@@ -10,6 +10,18 @@ import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.keyframes
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -24,6 +36,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.CircleShape
@@ -168,18 +181,42 @@ private fun StatusCard(s: Snapshot, status: Status, now: Long, askNotifications:
         }
     }
 
-    Card(colors = CardDefaults.cardColors(containerColor = color.copy(alpha = 0.16f))) {
-        Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                StatusGlyph(status, color)
-                Spacer(Modifier.width(12.dp))
-                Text(
-                    stringResource(titleRes),
-                    style = MaterialTheme.typography.headlineMedium,
-                    fontWeight = FontWeight.Bold,
-                )
-            }
-            Text(detail, style = MaterialTheme.typography.bodyLarge)
+    // How much of the ring is left: the time remaining over the whole interval.
+    val progress = when (status) {
+        is Status.Running -> ((status.deadline - now).toFloat() / s.timer.intervalMs.coerceAtLeast(1L)).coerceIn(0f, 1f)
+        // Stopped: a whole red ring, dimmed (the user asked for a red circle, not a grey one).
+        is Status.Paused, is Status.Fired, Status.Off -> 1f
+    }
+    val center = when (status) {
+        is Status.Running -> formatRemaining(context, status.deadline - now)
+        is Status.Paused -> formatRemaining(context, status.until - now)
+        else -> null
+    }
+
+    Card(
+        shape = RoundedCornerShape(28.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow),
+        border = BorderStroke(1.dp, color.copy(alpha = 0.35f)),
+    ) {
+        Column(
+            Modifier.padding(20.dp).fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            StatusRing(status, color, progress, center)
+            Text(
+                stringResource(titleRes),
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold,
+                color = if (status is Status.Fired) color else MaterialTheme.colorScheme.onSurface,
+                textAlign = TextAlign.Center,
+            )
+            Text(
+                detail,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
 
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
@@ -255,32 +292,80 @@ private fun StatusCard(s: Snapshot, status: Status, now: Long, askNotifications:
     }
 }
 
+/** A ring that empties as the deadline gets closer, with the state's glyph and the time left inside. */
 @Composable
-private fun StatusGlyph(status: Status, color: Color) {
-    when (status) {
-        is Status.Running -> {
-            val transition = rememberInfiniteTransition(label = "heart")
-            val alpha by transition.animateFloat(
-                initialValue = 1f, targetValue = 0.35f,
-                animationSpec = infiniteRepeatable(tween(650), RepeatMode.Reverse),
-                label = "pulse",
+private fun StatusRing(status: Status, color: Color, progress: Float, center: String?) {
+    val transition = rememberInfiniteTransition(label = "ring")
+    val beat by transition.animateFloat(
+        initialValue = 1f, targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            keyframes {
+                durationMillis = 1100
+                1f at 0
+                1.2f at 120
+                1f at 260
+                1.12f at 380
+                1f at 560
+            }
+        ),
+        label = "beat",
+    )
+    val blink by transition.animateFloat(
+        initialValue = 1f, targetValue = 0.25f,
+        animationSpec = infiniteRepeatable(tween(500), RepeatMode.Reverse),
+        label = "blink",
+    )
+    val shown by animateFloatAsState(progress, tween(600), label = "progress")
+    val ringAlpha = when (status) {
+        is Status.Fired -> blink
+        Status.Off -> 0.45f
+        else -> 1f
+    }
+    val track = MaterialTheme.colorScheme.outlineVariant
+
+    Box(Modifier.size(212.dp), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.fillMaxSize()) {
+            val stroke = 14.dp.toPx()
+            drawCircle(
+                Brush.radialGradient(listOf(color.copy(alpha = 0.22f * ringAlpha), Color.Transparent)),
+                radius = size.minDimension / 2,
             )
-            Icon(
-                Icons.Filled.Favorite, contentDescription = null,
-                tint = color, modifier = Modifier.size(28.dp).alpha(alpha),
+            val inset = stroke / 2 + 8.dp.toPx()
+            val arc = Size(size.width - 2 * inset, size.height - 2 * inset)
+            drawArc(track, -90f, 360f, false, Offset(inset, inset), arc, style = Stroke(stroke))
+            if (shown > 0f) drawArc(
+                color.copy(alpha = ringAlpha), -90f, 360f * shown, false, Offset(inset, inset), arc,
+                style = Stroke(stroke, cap = StrokeCap.Round),
             )
         }
-        is Status.Fired -> Icon(
-            Icons.Filled.Error, contentDescription = null,
-            tint = color, modifier = Modifier.size(28.dp),
-        )
-        Status.Off -> Icon(
-            Icons.Filled.PowerSettingsNew, contentDescription = null,
-            tint = color, modifier = Modifier.size(28.dp),
-        )
-        is Status.Paused -> Box(
-            Modifier.size(20.dp).clip(CircleShape).background(color)
-        )
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            val glyph = Modifier.size(44.dp)
+            when (status) {
+                is Status.Running -> Icon(
+                    Icons.Filled.Favorite, contentDescription = null, tint = color,
+                    modifier = glyph.scale(beat),
+                )
+                is Status.Paused -> Icon(Icons.Filled.Pause, contentDescription = null, tint = color, modifier = glyph)
+                Status.Off -> Icon(Icons.Filled.PowerSettingsNew, contentDescription = null, tint = color, modifier = glyph)
+                is Status.Fired -> Icon(
+                    Icons.Filled.Error, contentDescription = null, tint = color,
+                    modifier = glyph.alpha(blink),
+                )
+            }
+            if (center != null) {
+                Spacer(Modifier.height(6.dp))
+                // Long units ("20 godz. 39 min") take a smaller size and never reach the ring.
+                Text(
+                    center,
+                    style = if (center.length > 12) MaterialTheme.typography.titleMedium
+                    else MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                    textAlign = TextAlign.Center,
+                    maxLines = 2,
+                    modifier = Modifier.widthIn(max = 150.dp),
+                )
+            }
+        }
     }
 }
 
@@ -367,15 +452,24 @@ private fun PauseDialog(now: Long, onDismiss: () -> Unit, onPick: (Long) -> Unit
 private fun CheckInSection(s: Snapshot, status: Status) {
     val context = LocalContext.current
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        val beat by rememberInfiniteTransition(label = "checkin").animateFloat(
+            initialValue = 1f, targetValue = 1.15f,
+            animationSpec = infiniteRepeatable(tween(550), RepeatMode.Reverse),
+            label = "heart",
+        )
         Button(
             onClick = { Engine.checkIn(context) },
             enabled = status != Status.Off,
             modifier = Modifier
                 .fillMaxWidth()
                 .height(76.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = RunningColor, contentColor = Color.White),
+            shape = RoundedCornerShape(24.dp),
+            colors = ButtonDefaults.buttonColors(containerColor = CheckInColor, contentColor = Color.White),
         ) {
-            Icon(Icons.Filled.Favorite, contentDescription = null)
+            Icon(
+                Icons.Filled.Favorite, contentDescription = null,
+                modifier = if (status is Status.Running) Modifier.scale(beat) else Modifier,
+            )
             Spacer(Modifier.width(12.dp))
             Text(stringResource(R.string.check_in), style = MaterialTheme.typography.titleLarge)
         }

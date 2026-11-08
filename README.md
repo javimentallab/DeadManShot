@@ -71,10 +71,10 @@ minutes to 12 hours, but never because Gadgetbridge itself stopped exporting.
 1. **Wake on LAN**, and wait a set time for the computer to boot.
 2. **Run a command**: what you type, any number of lines, in PowerShell (Windows) or bash
    (Linux), as the SSH user. No window opens; the output comes back in the result notification.
-3. **Destroy the key**: overwrite twice and delete a key file or folder. Keep the sensitive data in
+3. **Destroy the key**: overwrite five times and delete a key file or folder. Keep the sensitive data in
    an encrypted container (VeraCrypt, LUKS, EFS, 7-Zip…) whose key lives there, and the data stays
    locked for good.
-4. **Shred a folder**: every file is overwritten in place twice (zeros, then random data), flushed
+4. **Shred a folder**: every file is overwritten in place five times (zeros first, then random data), flushed
    to disk and only then deleted.
 5. **Shut it down**: `shutdown /s /f /t 0` on Windows; `sudo -n systemctl poweroff` on Linux, which
    needs passwordless sudo for that command or polkit permission to power off.

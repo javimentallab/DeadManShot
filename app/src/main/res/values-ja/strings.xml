@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">鍵を破棄</string>
     <string name="pc_key_enable">鍵ファイルまたはフォルダーを破棄</string>
-    <string name="pc_key_body">機密フォルダーは、下のパスにある鍵で暗号化しておきます（VeraCrypt、LUKS、EFS、7-Zip AES…）。デッドマンスイッチが作動すると、鍵が2回上書きされてから削除され、データは永久にロックされます。</string>
+    <string name="pc_key_body">機密フォルダーは、下のパスにある鍵で暗号化しておきます（VeraCrypt、LUKS、EFS、7-Zip AES…）。デッドマンスイッチが作動すると、鍵が5回上書きされてから削除され、データは永久にロックされます。</string>
     <string name="pc_key_path">PC 上の鍵ファイルまたはフォルダーのパス</string>
     <string name="pc_path_hint">Windows のフルパス。例：C:\\Users\\me\\Desktop\\test。ドライブのルート、ユーザー フォルダー全体、システム フォルダーは拒否されます。</string>
 
     <string name="pc_shred_title">フォルダーを完全消去</string>
     <string name="pc_shred_enable">フォルダーを完全消去</string>
-    <string name="pc_shred_body">各ファイルをその場で2回上書きし（ゼロ、次にランダムデータ）、その後ファイルを削除します。上書きできないものはそのまま残して報告します。フォルダーは空になると削除されます。SSD ではファームウェアが古いコピーを残すことがあるため、上の鍵を破棄するほうが安全です。</string>
+    <string name="pc_shred_body">各ファイルをその場で5回上書きし（最初にゼロ、次にランダムデータを4回）、その後ファイルを削除します。上書きできないものはそのまま残して報告します。フォルダーは空になると削除されます。SSD ではファームウェアが古いコピーを残すことがあるため、上の鍵を破棄するほうが安全です。</string>
     <string name="pc_folder">PC 上のフォルダー</string>
     <string name="pc_subdirs">サブフォルダーを含める</string>
 

@@ -151,13 +151,13 @@
 
     <string name="pc_key_title">Destroy the key</string>
     <string name="pc_key_enable">Destroy a key file or folder</string>
-    <string name="pc_key_body">Keep the sensitive folder encrypted (VeraCrypt, LUKS, EFS, 7-Zip AES…) with a key that lives at the path below. When the switch fires, the key is overwritten twice and deleted, leaving the data locked for good.</string>
+    <string name="pc_key_body">Keep the sensitive folder encrypted (VeraCrypt, LUKS, EFS, 7-Zip AES…) with a key that lives at the path below. When the switch fires, the key is overwritten five times and deleted, leaving the data locked for good.</string>
     <string name="pc_key_path">Key file or folder path on the PC</string>
     <string name="pc_path_hint">Full Windows path, e.g. C:\\Users\\me\\Desktop\\test. Drive roots, whole user folders and system folders are refused.</string>
 
     <string name="pc_shred_title">Shred a folder</string>
     <string name="pc_shred_enable">Shred a folder</string>
-    <string name="pc_shred_body">Two passes over every file, written in place (zeros, then random data), and then the file is deleted. Anything that cannot be overwritten is left where it is and reported. Folders are removed once empty. On an SSD the firmware may keep old copies, so destroying the key above is safer.</string>
+    <string name="pc_shred_body">Five passes over every file, written in place (zeros first, then four of random data), and then the file is deleted. Anything that cannot be overwritten is left where it is and reported. Folders are removed once empty. On an SSD the firmware may keep old copies, so destroying the key above is safer.</string>
     <string name="pc_folder">Folder on the PC</string>
     <string name="pc_subdirs">Include subdirectories</string>
 

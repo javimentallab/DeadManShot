@@ -227,7 +227,7 @@ fun PcTab(s: Snapshot, scope: CoroutineScope, modifier: Modifier = Modifier) {
                 Text(stringResource(R.string.pc_ssh_test))
             }
             result?.let { (ok, text) ->
-                Text(text, color = if (ok) RunningColor else MaterialTheme.colorScheme.error)
+                ResultLine(ok, text)
             }
         }
 

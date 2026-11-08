@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">销毁密钥</string>
     <string name="pc_key_enable">销毁密钥文件或文件夹</string>
-    <string name="pc_key_body">将敏感文件夹加密（VeraCrypt、LUKS、EFS、7-Zip AES…），并把密钥存放在下方路径中。应急开关触发时，密钥会被覆写两次后删除，数据将被永久锁定。</string>
+    <string name="pc_key_body">将敏感文件夹加密（VeraCrypt、LUKS、EFS、7-Zip AES…），并把密钥存放在下方路径中。应急开关触发时，密钥会被覆写五次后删除，数据将被永久锁定。</string>
     <string name="pc_key_path">电脑上密钥文件或文件夹的路径</string>
     <string name="pc_path_hint">完整的 Windows 路径，例如 C:\\Users\\me\\Desktop\\test。不接受驱动器根目录、整个用户文件夹和系统文件夹。</string>
 
     <string name="pc_shred_title">粉碎文件夹</string>
     <string name="pc_shred_enable">粉碎文件夹</string>
-    <string name="pc_shred_body">对每个文件原地写入两遍（先写零，再写随机数据），然后删除该文件。无法覆写的内容会保留在原处并报告。文件夹清空后会被删除。在 SSD 上，固件可能保留旧副本，因此销毁上方的密钥更安全。</string>
+    <string name="pc_shred_body">对每个文件原地写入五遍（先写一遍零，再写四遍随机数据），然后删除该文件。无法覆写的内容会保留在原处并报告。文件夹清空后会被删除。在 SSD 上，固件可能保留旧副本，因此销毁上方的密钥更安全。</string>
     <string name="pc_folder">电脑上的文件夹</string>
     <string name="pc_subdirs">包括子目录</string>
 

@@ -74,10 +74,10 @@ reloj no manda nada durante 30 minutos a 12 horas, pero nunca porque Gadgetbridg
 2. **Ejecutar un comando**: lo que escribas, con las líneas que quieras, en PowerShell (Windows) o
    bash (Linux), con el usuario SSH. No se abre ninguna ventana; la salida llega en la notificación
    del resultado.
-3. **Destruir la clave**: sobrescribir dos veces y borrar un fichero o carpeta de clave. Guarda los
+3. **Destruir la clave**: sobrescribir cinco veces y borrar un fichero o carpeta de clave. Guarda los
    datos sensibles en un contenedor cifrado (VeraCrypt, LUKS, EFS, 7-Zip…) cuya clave viva ahí, y
    los datos quedan inaccesibles para siempre.
-4. **Destruir una carpeta**: cada fichero se sobrescribe en el sitio dos veces (ceros y luego datos
+4. **Destruir una carpeta**: cada fichero se sobrescribe en el sitio cinco veces (primero ceros y luego datos
    aleatorios), se vuelca al disco y solo entonces se borra.
 5. **Apagarlo**: `shutdown /s /f /t 0` en Windows; `sudo -n systemctl poweroff` en Linux, que
    necesita sudo sin contraseña para ese comando o permiso de polkit para apagar.

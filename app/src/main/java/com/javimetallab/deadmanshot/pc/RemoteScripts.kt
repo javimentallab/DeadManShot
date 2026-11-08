@@ -9,8 +9,8 @@ enum class PcOs { WINDOWS, LINUX }
  * The commands sent over SSH, one version per system. Both wipe scripts behave
  * the same way:
  *
- * - every file is overwritten in place twice (zeros, then random data), each
- *   pass flushed to disk, and only then deleted;
+ * - every file is overwritten in place [PASSES] times (zeros first, then random
+ *   data), each pass flushed to disk, and only then deleted;
  * - a file that cannot be overwritten is left where it is and reported, never
  *   deleted unwiped;
  * - links are not followed;
@@ -27,6 +27,9 @@ object RemoteScripts {
     const val EXIT_LINK = 3
     const val EXIT_NOT_FOLDER = 4
     const val EXIT_NO_TOOL = 5
+
+    /** Overwrite passes per file: the first with zeros, the rest with random data. */
+    const val PASSES = 5
 
     // --- Path checks ---
 
@@ -100,7 +103,7 @@ object RemoteScripts {
             function WF(${'$'}x){try{
             [IO.File]::SetAttributes(${'$'}x,'Normal');${'$'}len=(New-Object IO.FileInfo ${'$'}x).Length
             ${'$'}s=[IO.File]::Open(${'$'}x,'Open','Write','None')
-            try{foreach(${'$'}k in 0,1){${'$'}s.Position=0;${'$'}d=[long]0
+            try{foreach(${'$'}k in 0..${PASSES - 1}){${'$'}s.Position=0;${'$'}d=[long]0
             while(${'$'}d -lt ${'$'}len){${'$'}n=[int][Math]::Min(${'$'}buf.Length,${'$'}len-${'$'}d)
             if(${'$'}k -eq 0){[Array]::Clear(${'$'}buf,0,${'$'}n)}else{${'$'}rng.GetBytes(${'$'}buf)}
             ${'$'}s.Write(${'$'}buf,0,${'$'}n);${'$'}d+=${'$'}n}
@@ -134,7 +137,7 @@ object RemoteScripts {
             wf() {
               chmod u+w -- "${'$'}1" 2>/dev/null
               if e=${'$'}(shred --random-source=/dev/zero -n 1 -- "${'$'}1" 2>&1 </dev/null) &&
-                 e=${'$'}(shred -n 1 -u -- "${'$'}1" 2>&1 </dev/null); then
+                 e=${'$'}(shred -n ${PASSES - 1} -u -- "${'$'}1" 2>&1 </dev/null); then
                 w=${'$'}((w+1))
               else
                 note "${'$'}1: ${'$'}e"

@@ -29,6 +29,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Slider
+import androidx.compose.material3.SliderDefaults
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.graphics.Color
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -70,7 +74,11 @@ fun PulseTab(s: Snapshot, modifier: Modifier = Modifier) {
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Card(colors = CardDefaults.cardColors(containerColor = PausedColor.copy(alpha = 0.16f))) {
+        Card(
+            shape = RoundedCornerShape(20.dp),
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh),
+            border = BorderStroke(1.dp, RunningColor.copy(alpha = 0.35f)),
+        ) {
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(
                     stringResource(R.string.pulse_requirements_title),
@@ -126,6 +134,10 @@ fun PulseTab(s: Snapshot, modifier: Modifier = Modifier) {
                 onValueChangeFinished = { Store.setPulseThreshold(value.toInt()) },
                 valueRange = 10f..40f,
                 steps = 29,
+                colors = SliderDefaults.colors(
+                    activeTickColor = Color.Transparent,
+                    inactiveTickColor = Color.Transparent,
+                ),
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(

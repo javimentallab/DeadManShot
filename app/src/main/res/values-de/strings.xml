@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Schlüssel vernichten</string>
     <string name="pc_key_enable">Schlüsseldatei oder -ordner vernichten</string>
-    <string name="pc_key_body">Halte den sensiblen Ordner verschlüsselt (VeraCrypt, LUKS, EFS, 7-Zip AES…), mit einem Schlüssel unter dem Pfad unten. Wenn der Schalter auslöst, wird der Schlüssel zweimal überschrieben und gelöscht; die Daten bleiben dann für immer gesperrt.</string>
+    <string name="pc_key_body">Halte den sensiblen Ordner verschlüsselt (VeraCrypt, LUKS, EFS, 7-Zip AES…), mit einem Schlüssel unter dem Pfad unten. Wenn der Schalter auslöst, wird der Schlüssel fünfmal überschrieben und gelöscht; die Daten bleiben dann für immer gesperrt.</string>
     <string name="pc_key_path">Pfad der Schlüsseldatei oder des -ordners auf dem PC</string>
     <string name="pc_path_hint">Vollständiger Windows-Pfad, z. B. C:\\Users\\ich\\Desktop\\test. Laufwerkswurzeln, ganze Benutzerordner und Systemordner werden abgelehnt.</string>
 
     <string name="pc_shred_title">Ordner schreddern</string>
     <string name="pc_shred_enable">Ordner schreddern</string>
-    <string name="pc_shred_body">Zwei Durchgänge über jede Datei, direkt überschrieben (Nullen, dann Zufallsdaten), danach wird die Datei gelöscht. Was nicht überschrieben werden kann, bleibt liegen und wird gemeldet. Ordner werden entfernt, sobald sie leer sind. Auf einer SSD kann die Firmware alte Kopien behalten; den Schlüssel oben zu vernichten ist daher sicherer.</string>
+    <string name="pc_shred_body">Fünf Durchgänge über jede Datei, direkt überschrieben (zuerst Nullen, dann viermal Zufallsdaten), danach wird die Datei gelöscht. Was nicht überschrieben werden kann, bleibt liegen und wird gemeldet. Ordner werden entfernt, sobald sie leer sind. Auf einer SSD kann die Firmware alte Kopien behalten; den Schlüssel oben zu vernichten ist daher sicherer.</string>
     <string name="pc_folder">Ordner auf dem PC</string>
     <string name="pc_subdirs">Unterordner einbeziehen</string>
 

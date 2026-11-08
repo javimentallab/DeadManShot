@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Zniszcz klucz</string>
     <string name="pc_key_enable">Zniszcz plik lub folder klucza</string>
-    <string name="pc_key_body">Trzymaj wrażliwy folder zaszyfrowany (VeraCrypt, LUKS, EFS, 7-Zip AES…) kluczem, który leży pod ścieżką poniżej. Gdy czuwak zadziała, klucz zostanie dwukrotnie nadpisany i usunięty, a dane pozostaną zablokowane na zawsze.</string>
+    <string name="pc_key_body">Trzymaj wrażliwy folder zaszyfrowany (VeraCrypt, LUKS, EFS, 7-Zip AES…) kluczem, który leży pod ścieżką poniżej. Gdy czuwak zadziała, klucz zostanie pięciokrotnie nadpisany i usunięty, a dane pozostaną zablokowane na zawsze.</string>
     <string name="pc_key_path">Ścieżka pliku lub folderu klucza na PC</string>
     <string name="pc_path_hint">Pełna ścieżka Windows, np. C:\\Users\\ja\\Desktop\\test. Katalogi główne dysków, całe foldery użytkowników i foldery systemowe są odrzucane.</string>
 
     <string name="pc_shred_title">Zniszcz folder</string>
     <string name="pc_shred_enable">Zniszcz folder</string>
-    <string name="pc_shred_body">Dwa przebiegi na każdym pliku, zapisywane w miejscu (zera, potem losowe dane), a następnie plik jest usuwany. To, czego nie da się nadpisać, zostaje na miejscu i jest zgłaszane. Foldery są usuwane, gdy staną się puste. Na dysku SSD oprogramowanie układowe może przechowywać stare kopie, więc zniszczenie klucza powyżej jest bezpieczniejsze.</string>
+    <string name="pc_shred_body">Pięć przebiegów na każdym pliku, zapisywanych w miejscu (najpierw zera, potem cztery razy losowe dane), a następnie plik jest usuwany. To, czego nie da się nadpisać, zostaje na miejscu i jest zgłaszane. Foldery są usuwane, gdy staną się puste. Na dysku SSD oprogramowanie układowe może przechowywać stare kopie, więc zniszczenie klucza powyżej jest bezpieczniejsze.</string>
     <string name="pc_folder">Folder na PC</string>
     <string name="pc_subdirs">Uwzględnij podfoldery</string>
 

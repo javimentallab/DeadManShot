@@ -143,13 +143,13 @@
 
     <string name="pc_key_title">Destruir a chave</string>
     <string name="pc_key_enable">Destruir um arquivo ou pasta de chave</string>
-    <string name="pc_key_body">Mantenha a pasta sensível criptografada (VeraCrypt, LUKS, EFS, 7-Zip AES…) com uma chave que fique no caminho abaixo. Quando o gatilho disparar, a chave é sobrescrita duas vezes e excluída, e os dados ficam bloqueados para sempre.</string>
+    <string name="pc_key_body">Mantenha a pasta sensível criptografada (VeraCrypt, LUKS, EFS, 7-Zip AES…) com uma chave que fique no caminho abaixo. Quando o gatilho disparar, a chave é sobrescrita cinco vezes e excluída, e os dados ficam bloqueados para sempre.</string>
     <string name="pc_key_path">Caminho do arquivo ou pasta de chave no PC</string>
     <string name="pc_path_hint">Caminho completo do Windows, ex.: C:\\Users\\eu\\Desktop\\test. Raízes de unidade, pastas de usuário inteiras e pastas do sistema são recusadas.</string>
 
     <string name="pc_shred_title">Triturar uma pasta</string>
     <string name="pc_shred_enable">Triturar uma pasta</string>
-    <string name="pc_shred_body">Duas passagens sobre cada arquivo, gravadas no lugar (zeros e depois dados aleatórios), e então o arquivo é excluído. O que não puder ser sobrescrito fica onde está e é informado. As pastas são removidas quando ficam vazias. Em um SSD, o firmware pode guardar cópias antigas, então destruir a chave acima é mais seguro.</string>
+    <string name="pc_shred_body">Cinco passagens sobre cada arquivo, gravadas no lugar (primeiro zeros e depois quatro de dados aleatórios), e então o arquivo é excluído. O que não puder ser sobrescrito fica onde está e é informado. As pastas são removidas quando ficam vazias. Em um SSD, o firmware pode guardar cópias antigas, então destruir a chave acima é mais seguro.</string>
     <string name="pc_folder">Pasta no PC</string>
     <string name="pc_subdirs">Incluir subpastas</string>
 
