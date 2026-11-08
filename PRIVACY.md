@@ -2,6 +2,9 @@
 
 *Last updated: 7 November 2026*
 
+> **Notice.** This privacy policy is under legal review. The revised version will replace this text once
+> the review is complete. Until then, this version applies.
+
 ## 1. No collection of personal data
 
 The DeadManShot application (the "App"), developed by javimentallab, does not collect personal data. It has no user accounts, advertising, analytics tools or crash reporting, and it sends nothing to the developer or to any server of the developer.
