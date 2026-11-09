@@ -1,0 +1,25 @@
+# Allgemeine Nutzungsbedingungen — DeadManShot (über Google Play vertriebene Version)
+
+*Letzte Aktualisierung: 8. November 2026*
+
+*[English](TERMS.md) · [Español](TERMS.es.md) · [Deutsch](TERMS.de.md) · [Français](TERMS.fr.md) · [Italiano](TERMS.it.md) · [Nederlands](TERMS.nl.md) · [Polski](TERMS.pl.md) · [Português](TERMS.pt.md) · [Русский](TERMS.ru.md) · [Українська](TERMS.uk.md) · [简体中文](TERMS.zh-CN.md) · [日本語](TERMS.ja.md) · [한국어](TERMS.ko.md) · [ไทย](TERMS.th.md) · [हिन्दी](TERMS.hi.md)*
+
+**1. Identität des Anbieters.** Die Anwendung DeadManShot (die „App“) wird auf Google Play von Javier Comyn Pérez, mit Anschrift calle Olivos, número 36, 28670 Villaviciosa de Odón, Madrid, España (der „Anbieter“), angeboten. Jede Mitteilung im Zusammenhang mit diesen Bedingungen kann unter jotacomyn@gmail.com oder über https://github.com/javimentallab/DeadManShot/issues an den Anbieter gerichtet werden.
+
+**2. Gegenstand und Lizenz.** Diese Bedingungen regeln die Nutzung der über Google Play vertriebenen App. Ihr Erwerb räumt dem Nutzer gegen einmalige Zahlung eine Lizenz zur Nutzung auf seinen Geräten in dem von Google Play gestatteten Umfang ein. Der Quellcode der App wird gesondert unter der MIT-Lizenz vertrieben; diese Bedingungen gelten ausschließlich für die über Google Play vertriebene Version.
+
+**3. Funktionsweise und technische Einschränkungen.** Die App sendet die E-Mail und führt die vom Nutzer eingerichteten Aktionen aus, wenn dieser nicht innerhalb der gewählten Frist bestätigt oder, falls er die Funktion *Puls* aktiviert, wenn die Messungen der Uhr einen Puls unterhalb des Schwellenwerts anzeigen oder nicht mehr empfangen werden. Ihre Funktionsweise hängt von Faktoren ab, die außerhalb des Einflussbereichs des Anbieters liegen, wie dem Android-System und der Akkuverwaltung des Geräts; der Netzwerkverbindung; dem Mailserver des Nutzers; der Uhr, die mit der Anwendung Gadgetbridge kompatibel und mit ihr gekoppelt sein muss; und dem Zugriff auf den Computer des Nutzers. Daher kann die App verzögert oder gar nicht tätig werden und auch dann tätig werden, wenn der Nutzer dies nicht wünscht, beispielsweise wenn er die Bestätigung vergisst. Die App darf nicht als einziges Mittel verwendet werden, um in einem Notfall Hilfe zu rufen.
+
+**4. Unumkehrbare Aktionen.** Die Aktionen Vernichten eines Schlüssels, Vernichten eines Ordners und Herunterfahren des Computers sind ihrer Natur nach unumkehrbar. Bevor der Nutzer sie auf echte Daten anwendet, muss er sie mit der Funktion *Jetzt auslösen (Test)* an Testdaten erproben. Bei Solid-State-Laufwerken (SSD, dem in heutigen Computern üblichen Laufwerkstyp) gewährleistet das Überschreiben nicht die Löschung früherer Kopien der Daten.
+
+**5. Funktion Puls.** Die App ist kein Medizinprodukt und dient nicht dazu, Krankheiten zu diagnostizieren, zu verhüten, zu überwachen oder zu behandeln. Die Messungen stammen über Gadgetbridge von der Uhr des Nutzers, und ihre Genauigkeit hängt von diesen beiden ab.
+
+**6. Gesetzeskonforme Nutzung.** Der Nutzer verpflichtet sich, die App im Einklang mit den geltenden Rechtsvorschriften und ausschließlich für Computer, E-Mail-Konten und Daten zu verwenden, die ihm gehören oder für die er befugt ist, und sie nicht zu verwenden, um Dritten Schaden zuzufügen oder Daten zu vernichten, zu deren Aufbewahrung er verpflichtet ist. Der Nutzer ist verantwortlich für den Inhalt der E-Mails und ihrer Anhänge, für die Rechtmäßigkeit ihres Versands an die von ihm gewählten Empfänger und für die Vernichtung jeglicher Dateien, Ordner, Schlüssel oder Daten, die sich aus den von ihm eingerichteten Aktionen ergibt, sowie für alle daraus entstehenden Folgen jeder Art.
+
+**7. Alter.** Die App ist ausschließlich für Personen bestimmt, die nach dem Recht ihres Landes volljährig sind.
+
+**8. Erstattungen und Verbraucherrechte.** Käufe und Erstattungen werden von Google Play nach seinen eigenen Richtlinien abgewickelt. Keine Bestimmung dieser Bedingungen schränkt die Rechte ein, die dem Nutzer als Verbraucher nach dem Recht seines Wohnsitzlandes zustehen, einschließlich gegebenenfalls der gesetzlichen Gewährleistung für digitale Inhalte.
+
+**9. Haftung.** Soweit gesetzlich zulässig, haftet der Anbieter weder für mittelbare Schäden noch für Schäden, die daraus entstehen, dass die App aus den in Ziffer 3 genannten Gründen tätig wird oder nicht tätig wird, noch für Datenverluste, die durch die vom Nutzer eingerichteten Aktionen verursacht werden, noch für Schäden, die der Nutzer verursacht. Der Anbieter haftet für Schäden nach den in Spanien geltenden Rechtsvorschriften, insbesondere den Artikeln 1101 und 1902 des spanischen Zivilgesetzbuchs.
+
+**10. Änderungen und anwendbares Recht.** Der Anbieter kann diese Bedingungen ändern; das Datum der letzten Aktualisierung wird am Anfang des Dokuments angegeben. Diese Bedingungen unterliegen spanischem Recht, unbeschadet der zwingenden Verbraucherschutzvorschriften des Landes, in dem der Nutzer seinen gewöhnlichen Aufenthalt hat, nach Maßgabe des anwendbaren Internationalen Privatrechts.

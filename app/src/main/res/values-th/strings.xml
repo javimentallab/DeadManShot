@@ -242,4 +242,5 @@
     <string name="remaining_hm">%1$d ชม. %2$d นาที</string>
     <string name="remaining_m">%d นาที</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_file">PRIVACY.th.md</string>
 </resources>

@@ -263,4 +263,5 @@
     <string name="remaining_hm">%1$d godz. %2$d min</string>
     <string name="remaining_m">%d min</string>
     <string name="privacy_policy">Polityka prywatności</string>
+    <string name="privacy_file">PRIVACY.pl.md</string>
 </resources>

@@ -16,8 +16,8 @@ android {
         // without a foreground service.
         minSdk = 31
         targetSdk = 36
-        versionCode = 3
-        versionName = "0.9.2"
+        versionCode = 4
+        versionName = "0.9.3"
     }
 
     // The release key lives outside the repo; keystore.properties (gitignored)

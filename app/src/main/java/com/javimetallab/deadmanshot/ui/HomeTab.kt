@@ -566,7 +566,8 @@ private fun PrivacyLink() {
         onClick = {
             runCatching {
                 context.startActivity(
-                    Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_URL)).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_BASE + context.getString(R.string.privacy_file)))
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 )
             }
         },
@@ -574,4 +575,4 @@ private fun PrivacyLink() {
     ) { Text(stringResource(R.string.privacy_policy)) }
 }
 
-private const val PRIVACY_URL = "https://github.com/javimentallab/DeadManShot/blob/main/PRIVACY.md"
+private const val PRIVACY_BASE = "https://github.com/javimentallab/DeadManShot/blob/main/"

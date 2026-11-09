@@ -1,0 +1,25 @@
+# Ogólne warunki korzystania — DeadManShot (wersja rozpowszechniana w Google Play)
+
+*Ostatnia aktualizacja: 8 listopada 2026 r.*
+
+*[English](TERMS.md) · [Español](TERMS.es.md) · [Deutsch](TERMS.de.md) · [Français](TERMS.fr.md) · [Italiano](TERMS.it.md) · [Nederlands](TERMS.nl.md) · [Polski](TERMS.pl.md) · [Português](TERMS.pt.md) · [Русский](TERMS.ru.md) · [Українська](TERMS.uk.md) · [简体中文](TERMS.zh-CN.md) · [日本語](TERMS.ja.md) · [한국어](TERMS.ko.md) · [ไทย](TERMS.th.md) · [हिन्दी](TERMS.hi.md)*
+
+**1. Identyfikacja Dostawcy.** Aplikację DeadManShot („Aplikacja”) oferuje w Google Play Javier Comyn Pérez, adres: calle Olivos, número 36, 28670 Villaviciosa de Odón, Madrid, España („Dostawca”). Wszelką korespondencję dotyczącą niniejszych warunków można kierować do Dostawcy pod adresem jotacomyn@gmail.com lub za pośrednictwem strony https://github.com/javimentallab/DeadManShot/issues.
+
+**2. Przedmiot i licencja.** Niniejsze warunki regulują korzystanie z Aplikacji rozpowszechnianej za pośrednictwem Google Play. Jej nabycie przyznaje Użytkownikowi licencję na korzystanie z niej, za jednorazową opłatą, na jego urządzeniach i w zakresie dozwolonym przez Google Play. Kod źródłowy Aplikacji jest rozpowszechniany oddzielnie na licencji MIT; niniejsze warunki mają zastosowanie wyłącznie do wersji rozpowszechnianej w Google Play.
+
+**3. Działanie i ograniczenia techniczne.** Aplikacja wysyła wiadomość e-mail i wykonuje działania skonfigurowane przez Użytkownika, gdy nie dokona on potwierdzenia w wybranym terminie lub, jeżeli włączy funkcję *Tętno*, gdy pomiary z zegarka wskazują tętno poniżej progu lub przestają napływać. Jej działanie zależy od czynników niezależnych od Dostawcy, takich jak system Android i zarządzanie baterią urządzenia; połączenie z siecią; serwer poczty Użytkownika; zegarek, który musi być zgodny z aplikacją Gadgetbridge i z nią sparowany; oraz dostęp do komputera Użytkownika. W związku z tym Aplikacja może zadziałać z opóźnieniem lub nie zadziałać, a także zadziałać wtedy, gdy Użytkownik sobie tego nie życzy, na przykład jeżeli zapomni dokonać potwierdzenia. Aplikacja nie może być używana jako jedyny sposób wezwania pomocy w sytuacji awaryjnej.
+
+**4. Działania nieodwracalne.** Działania polegające na zniszczeniu klucza, zniszczeniu folderu i wyłączeniu komputera są ze swej natury nieodwracalne. Przed zastosowaniem ich do rzeczywistych danych Użytkownik jest zobowiązany przetestować je na danych testowych za pomocą funkcji *Wyzwól teraz (test)*. W dyskach półprzewodnikowych (SSD, rodzaj dysku powszechnie stosowany w obecnych komputerach) nadpisanie nie gwarantuje usunięcia wcześniejszych kopii danych.
+
+**5. Funkcja Tętno.** Aplikacja nie jest wyrobem medycznym i nie służy do diagnozowania, zapobiegania, monitorowania ani leczenia jakiejkolwiek choroby. Pomiary pochodzą z zegarka Użytkownika za pośrednictwem Gadgetbridge, a ich dokładność zależy od zegarka i Gadgetbridge.
+
+**6. Korzystanie zgodne z prawem.** Użytkownik zobowiązuje się korzystać z Aplikacji zgodnie z obowiązującymi przepisami prawa, wyłącznie w odniesieniu do komputerów, kont pocztowych i danych, które należą do niego lub w odniesieniu do których posiada upoważnienie, oraz nie używać jej do wyrządzania szkód osobom trzecim ani do niszczenia danych, które jest zobowiązany przechowywać. Użytkownik ponosi odpowiedzialność za treść wiadomości e-mail i ich załączników, a także za zgodność z prawem ich wysłania do wybranych przez siebie odbiorców oraz za zniszczenie każdego pliku, folderu, klucza lub danych wynikające ze skonfigurowanych przez siebie działań, jak również za wszelkiego rodzaju powstałe konsekwencje.
+
+**7. Wiek.** Aplikacja jest przeznaczona wyłącznie dla osób pełnoletnich zgodnie z prawem ich kraju.
+
+**8. Zwroty i prawa konsumenta.** Zakupy i zwroty są obsługiwane przez Google Play na podstawie własnych zasad tego serwisu. Żadne z postanowień niniejszych warunków nie ogranicza praw przyznanych Użytkownikowi jako konsumentowi przez prawo kraju jego zamieszkania, w tym, w stosownych przypadkach, ustawowej gwarancji na treści cyfrowe.
+
+**9. Odpowiedzialność.** W zakresie dozwolonym przez prawo Dostawca nie ponosi odpowiedzialności za szkody pośrednie ani za szkody wynikające z tego, że Aplikacja zadziała lub nie zadziała z przyczyn wskazanych w klauzuli 3, ani za utratę danych spowodowaną działaniami skonfigurowanymi przez Użytkownika, ani za szkody przez niego wyrządzone. Dostawca ponosi odpowiedzialność za szkody zgodnie z prawem obowiązującym w Hiszpanii, w szczególności z art. 1101 i 1902 hiszpańskiego kodeksu cywilnego.
+
+**10. Zmiany i prawo właściwe.** Dostawca może zmieniać niniejsze warunki; data ostatniej aktualizacji będzie podana na początku dokumentu. Niniejsze warunki podlegają prawu hiszpańskiemu, bez uszczerbku dla bezwzględnie obowiązujących przepisów o ochronie konsumentów kraju zwykłego pobytu Użytkownika, zgodnie z mającymi zastosowanie przepisami prawa prywatnego międzynarodowego.
