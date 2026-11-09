@@ -47,6 +47,7 @@ class TranslationsTest {
         "de" to setOf("one", "other"), "nl" to setOf("one", "other"), "hi" to setOf("one", "other"),
         "pl" to setOf("one", "few", "many", "other"), "ru" to setOf("one", "few", "many", "other"),
         "uk" to setOf("one", "few", "many", "other"),
+        "ca" to setOf("one", "many", "other"), "gl" to setOf("one", "other"), "eu" to setOf("one", "other"),
         "zh-rCN" to setOf("other"), "ja" to setOf("other"), "ko" to setOf("other"), "th" to setOf("other"),
     )
 

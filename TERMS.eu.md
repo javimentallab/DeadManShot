@@ -1,0 +1,25 @@
+# Erabilera-baldintza orokorrak — DeadManShot (Google Play plataforman banatutako bertsioa)
+
+*Azken eguneratzea: 2026ko azaroaren 8a*
+
+*[English](TERMS.md) · [Español](TERMS.es.md) · [Deutsch](TERMS.de.md) · [Français](TERMS.fr.md) · [Italiano](TERMS.it.md) · [Nederlands](TERMS.nl.md) · [Polski](TERMS.pl.md) · [Português](TERMS.pt.md) · [Русский](TERMS.ru.md) · [Українська](TERMS.uk.md) · [简体中文](TERMS.zh-CN.md) · [日本語](TERMS.ja.md) · [한국어](TERMS.ko.md) · [ไทย](TERMS.th.md) · [हिन्दी](TERMS.hi.md) · [Català](TERMS.ca.md) · [Galego](TERMS.gl.md) · [Euskara](TERMS.eu.md)*
+
+**1. Hornitzailearen identifikazioa.** DeadManShot aplikazioa («Aplikazioa») Javier Comyn Pérezek («Hornitzailea») eskaintzen du Google Play plataforman; haren helbidea honako hau da: calle Olivos, número 36, 28670 Villaviciosa de Odón, Madrid, España. Baldintza hauei buruzko edozein komunikazio Hornitzaileari bidal dakioke jotacomyn@gmail.com helbidera edo https://github.com/javimentallab/DeadManShot/issues helbidearen bidez.
+
+**2. Xedea eta lizentzia.** Baldintza hauek Google Play bidez banatutako Aplikazioaren erabilera arautzen dute. Aplikazioa eskuratzeak erabilera-lizentzia bat ematen dio Erabiltzaileari, ordainketa bakar baten bidez, haren gailuetan eta Google Playk baimentzen dituen baldintzetan. Aplikazioaren iturburu-kodea bereizita banatzen da, MIT lizentziapean; baldintza hauek Google Play plataforman banatutako bertsioari soilik aplikatzen zaizkio.
+
+**3. Funtzionamendua eta muga teknikoak.** Aplikazioak mezua bidaltzen du eta Erabiltzaileak konfiguratu dituen ekintzak exekutatzen ditu, Erabiltzaileak aukeratutako epearen barruan berresten ez duenean edo, *Pultsua* funtzioa aktibatzen badu, erlojuaren neurketek atalasetik beherako pultsua adierazten dutenean edo neurketak jasotzeari uzten zaionean. Haren funtzionamendua Hornitzailearen esku ez dauden faktoreen mende dago, hala nola Android sistema eta gailuaren bateriaren kudeaketa; sareko konexioa; Erabiltzailearen posta-zerbitzaria; erlojua, Gadgetbridge aplikazioarekin bateragarria izan eta harekin parekatuta egon behar baitu; eta Erabiltzailearen ordenagailurako sarbidea. Hori dela eta, Aplikazioak berandu jardun dezake edo ez jardun, baita Erabiltzaileak nahi ez duenean jardun ere, adibidez, berrestea ahazten badu. Aplikazioa ez da erabili behar larrialdi batean laguntza eskatzeko bide bakar gisa.
+
+**4. Ekintza itzulezinak.** Gako bat suntsitzea, karpeta bat suntsitzea eta ordenagailua itzaltzea berez itzulezinak diren ekintzak dira. Benetako datuei aplikatu aurretik, Erabiltzaileak proba-datuekin probatu beharko ditu, *Abiarazi orain (proba)* funtzioaren bidez. Egoera solidoko unitateetan (SSD, gaur egungo ordenagailuetan ohikoa den disko mota), gainidazteak ez du bermatzen datuen aurreko kopiak ezabatzen direnik.
+
+**5. Pultsua funtzioa.** Aplikazioa ez da osasun-produktua, eta ez du balio inolako gaixotasunik diagnostikatzeko, prebenitzeko, monitorizatzeko ezta tratatzeko ere. Neurketak Erabiltzailearen erlojutik datoz Gadgetbridgeren bidez, eta haien zehaztasuna bi horien araberakoa da.
+
+**6. Legearen araberako erabilera.** Erabiltzaileak betebeharra hartzen du Aplikazioa indarrean dagoen legeriaren arabera erabiltzeko, bere ordenagailu, posta-kontu eta datuen gainean edo baimena duen horien gainean soilik, eta ez erabiltzeko hirugarrenei kalteak eragiteko ezta gorde behar dituen datuak suntsitzeko ere. Erabiltzailea da mezuen eta haien eranskinen edukiaren erantzule, baita aukeratzen dituen hartzaileei bidaltzearen zilegitasunaren eta konfiguratzen dituen ekintzen ondorioz edozein fitxategi, karpeta, gako edo datu suntsitzearen erantzule ere, bai eta sortzen diren era guztietako ondorioen erantzule ere.
+
+**7. Adina.** Aplikazioa beren herrialdeko legeriaren arabera adinez nagusi diren pertsonentzat soilik da.
+
+**8. Itzulketak eta kontsumitzailearen eskubideak.** Erosketak eta itzulketak Google Playk kudeatzen ditu, bere politika propioen arabera. Baldintza hauetan xedatutako ezerk ez ditu mugatzen Erabiltzailearen bizileku-herrialdeko legeriak kontsumitzaile gisa aitortzen dizkion eskubideak, horien artean, hala badagokio, eduki digitalen legezko bermea.
+
+**9. Erantzukizuna.** Legeak baimentzen duen neurrian, Hornitzailea ez da zeharkako kalteen erantzule, ezta Aplikazioak 3. klausulan adierazitako arrazoiengatik jarduteak edo jarduteari uzteak eragindako kalteen erantzule ere, ezta Erabiltzaileak konfiguratutako ekintzek eragindako datu-galeraren erantzule ere, ezta Erabiltzaileak eragiten dituen kalteen erantzule ere. Hornitzailea kalte-galeren erantzule da Espainian indarrean dagoen legeriaren arabera, bereziki Espainiako Kode Zibilaren 1101. eta 1902. artikuluen arabera.
+
+**10. Aldaketa eta aplikatu beharreko legeria.** Hornitzaileak baldintza hauek aldatu ahal izango ditu; azken eguneratzearen data dokumentuaren hasieran agertuko da. Baldintza hauek Espainiako legeriaren arabera arautzen dira, Erabiltzailearen ohiko bizilekuko herrialdeko kontsumitzaileak babesteko arau inperatiboei kalterik egin gabe, aplikatu beharreko nazioarteko zuzenbide pribatuaren arabera.

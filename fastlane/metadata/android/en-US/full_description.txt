@@ -8,4 +8,4 @@
 <p>Destructive actions are guarded: drive roots, whole user folders and system folders are refused; links are not followed; anything that cannot be overwritten is left in place and reported; and the result of every action comes back as a notification. A "Fire now (test)" button lets you try the whole chain safely first.</p>
 <p>Nothing is collected. The app talks only to the mail server and the computer you set up. The mail and SSH passwords are encrypted with a key kept in the Android keystore.</p>
 <p>Open source under the MIT licence.</p>
-<p>Available in English, Spanish, Portuguese, French, German, Italian, Dutch, Polish, Russian, Ukrainian, Chinese, Japanese, Korean, Thai and Hindi.</p>
+<p>Available in English, Spanish, Catalan, Galician, Basque, Portuguese, French, German, Italian, Dutch, Polish, Russian, Ukrainian, Chinese, Japanese, Korean, Thai and Hindi.</p>

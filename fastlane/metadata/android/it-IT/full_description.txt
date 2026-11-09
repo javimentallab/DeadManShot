@@ -8,4 +8,4 @@
 <p>Le azioni distruttive sono protette: le radici dei dischi, le intere cartelle utente e quelle di sistema vengono rifiutate; i collegamenti non vengono seguiti; ciò che non si può sovrascrivere resta dov’è e viene segnalato; e il risultato di ogni azione arriva come notifica. Il pulsante «Fai scattare ora (prova)» permette di provare prima tutta la catena in sicurezza.</p>
 <p>Non viene raccolto nulla. L’app comunica solo con il server di posta e il computer che configuri. Le password della posta e di SSH sono cifrate con una chiave conservata nel keystore di Android.</p>
 <p>Open source con licenza MIT.</p>
-<p>Disponibile in inglese, spagnolo, portoghese, francese, tedesco, italiano, olandese, polacco, russo, ucraino, cinese, giapponese, coreano, thailandese e hindi.</p>
+<p>Disponibile in italiano, inglese, spagnolo, catalano, galiziano, basco, portoghese, francese, tedesco, olandese, polacco, russo, ucraino, cinese, giapponese, coreano, thailandese e hindi.</p>

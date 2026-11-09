@@ -8,4 +8,4 @@
 <p>Les actions destructrices sont encadrées : les racines de disque, les dossiers utilisateur entiers et les dossiers système sont refusés ; les liens ne sont pas suivis ; ce qui ne peut pas être écrasé reste en place et est signalé ; et le résultat de chaque action arrive sous forme de notification. Un bouton « Déclencher maintenant (test) » permet d’abord d’essayer toute la chaîne sans risque.</p>
 <p>Aucune donnée n’est collectée. L’application ne communique qu’avec le serveur de messagerie et l’ordinateur que vous configurez. Les mots de passe de messagerie et SSH sont chiffrés avec une clé conservée dans le Keystore Android.</p>
 <p>Logiciel libre sous licence MIT.</p>
-<p>Disponible en anglais, espagnol, portugais, français, allemand, italien, néerlandais, polonais, russe, ukrainien, chinois, japonais, coréen, thaï et hindi.</p>
+<p>Disponible en français, anglais, espagnol, catalan, galicien, basque, portugais, allemand, italien, néerlandais, polonais, russe, ukrainien, chinois, japonais, coréen, thaï et hindi.</p>

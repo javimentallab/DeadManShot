@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Inici</string>
+    <string name="tab_email">Correu</string>
+    <string name="tab_pulse">Pols</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Aturada</string>
+    <string name="status_running">En funcionament</string>
+    <string name="status_paused">En pausa</string>
+    <string name="status_fired">Ha saltat</string>
+    <string name="detail_off">Activa l\'interruptor per posar-la en marxa. Mentre estigui aturada, no enviarà res.</string>
+    <string name="detail_running">Proper termini: %1$s (queden %2$s).</string>
+    <string name="detail_paused">Fins al %1$s (queden %2$s). Quan acabi la pausa, el compte enrere torna a començar.</string>
+    <string name="fired_deadline">El termini va vèncer el %s.</string>
+    <string name="fired_heart_rate">El pols va baixar del llindar el %s.</string>
+    <string name="send_pending">S\'està enviant el correu…</string>
+    <string name="send_sent">Correu enviat el %s.</string>
+    <string name="send_failed">No s\'ha pogut enviar el correu (%s). Ho tornarà a intentar tan bon punt hi hagi connexió.</string>
+    <string name="fired_reset">Prem «Estic bé» per tornar a començar.</string>
+
+    <string name="switch_label">En funcionament</string>
+    <string name="cannot_enable">Abans d\'activar-la, omple:</string>
+    <string name="missing_recipient">un destinatari vàlid</string>
+    <string name="missing_text">l\'assumpte o el text del correu</string>
+    <string name="missing_account">el compte d\'enviament (servidor, usuari i contrasenya)</string>
+
+    <string name="pause">Pausa</string>
+    <string name="resume">Reprèn</string>
+    <string name="pause_title">Pausa durant…</string>
+    <string name="pause_until">En pausa fins al %s.</string>
+    <string name="cancel">Cancel·la</string>
+
+    <string name="check_in">Estic bé</string>
+    <string name="last_check_in">Última confirmació: %s.</string>
+    <string name="never_checked_in">Encara no has confirmat cap vegada.</string>
+
+    <string name="permissions_title">Permisos</string>
+    <string name="perm_notifications">Notificacions, per als recordatoris i les alarmes.</string>
+    <string name="perm_exact">Alarmes exactes, perquè el termini es compleixi a l\'hora.</string>
+    <string name="perm_battery">Treu l\'optimització de bateria d\'aquesta aplicació, perquè Android no l\'aturi. A la llista que s\'obre, mostra totes les aplicacions, cerca DeadManShot i tria no optimitzar-la.</string>
+    <string name="allow">Permet</string>
+
+    <string name="timing_title">Termini</string>
+    <string name="interval_label">Prem «Estic bé» almenys un cop cada:</string>
+    <string name="reminder_label">Recordatoris abans del termini:</string>
+    <string name="reminder_multi_hint">Tria\'n un, diversos o cap. Arribarà una notificació a cadascun. Els que durin el mateix que l\'interval o més no es fan servir.</string>
+
+    <string name="email_title">Correu</string>
+    <string name="recipients">Destinataris</string>
+    <string name="recipients_hint">Separa diverses adreces amb comes.</string>
+    <string name="subject">Assumpte</string>
+    <string name="body">Text</string>
+    <string name="attachments">Fitxers adjunts</string>
+    <string name="no_attachments">Sense fitxers adjunts.</string>
+    <string name="add_attachment">Afegeix un fitxer</string>
+    <string name="remove">Treu</string>
+
+    <string name="account_title">Compte d\'enviament</string>
+    <string name="account_hint">El correu surt del teu propi compte per SMTP. Amb Gmail, fes servir una contrasenya d\'aplicació (Compte de Google, Seguretat, Contrasenyes d\'aplicacions), no la contrasenya de sempre.</string>
+    <string name="smtp_host">Servidor SMTP</string>
+    <string name="smtp_port">Port</string>
+    <string name="smtp_user">Usuari (la teva adreça de correu)</string>
+    <string name="smtp_password">Contrasenya</string>
+    <string name="show_password">Mostra la contrasenya</string>
+    <string name="hide_password">Amaga la contrasenya</string>
+    <string name="smtp_from">Adreça del remitent</string>
+    <string name="smtp_from_hint">Deixa-la en blanc per fer servir la de l\'usuari.</string>
+    <string name="send_test">Envia una prova a la meva adreça</string>
+    <string name="test_ok">Prova enviada a %s. Mira la safata d\'entrada.</string>
+    <string name="test_skipped">Adjunts que no s\'han pogut llegir i no s\'han enviat: %s</string>
+    <string name="test_failed">No s\'ha pogut enviar: %s</string>
+    <string name="test_subject_prefix">[Prova]</string>
+
+    <string name="smtp_fill_preset">Omple per defecte…</string>
+    <string name="smtp_preset_title">Tria un proveïdor</string>
+    <string name="smtp_preset_apply">Aplica</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Cal una contrasenya d\'aplicació.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Cal una contrasenya d\'aplicació.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Cal una contrasenya d\'aplicació.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Cal un token SMTP (pla de pagament, domini propi).</string>
+
+    <string name="channel_reminder">Recordatoris i alarmes</string>
+    <string name="channel_result">Resultats</string>
+    <string name="reminder_title">Estàs bé?</string>
+    <string name="reminder_text">Prem «Estic bé» abans del %1$s (%2$s) o la palanca saltarà.</string>
+    <string name="sent_title">Correu enviat</string>
+    <string name="sent_text">El correu s\'ha enviat als destinataris.</string>
+    <string name="sent_text_skipped">El correu s\'ha enviat, però sense aquests adjunts, que no s\'han pogut llegir: %s</string>
+    <string name="failed_title">Correu sense enviar</string>
+    <string name="failed_text">%s. Ho tornarà a intentar automàticament.</string>
+
+    <string name="pulse_title">Pols del rellotge</string>
+    <string name="pulse_enable">Disparar quan el pols baixi del llindar</string>
+    <string name="pulse_threshold">Llindar: %d ppm</string>
+    <string name="pulse_requirements_title">Què cal</string>
+    <string name="pulse_requirements_body">1. Un rellotge que mesuri el pols, vinculat a Gadgetbridge en aquest mòbil, amb el mesurament continu del pols activat.\n2. A Gadgetbridge, activa l\'exportació automàtica de la base de dades i tria on es desa.\n3. A Gadgetbridge, Configuració → Intent API: permet el disparador de sincronització d\'activitat i l\'exportació de la base de dades.\n4. Aquí sota, tria aquest mateix fitxer exportat.</string>
+    <string name="pulse_open_gadgetbridge">Obre Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge no està instal·lada. Instal·la-la abans des d\'F-Droid.</string>
+    <string name="pulse_choose_file">Tria el fitxer exportat</string>
+    <string name="pulse_file">Fitxer exportat: %s</string>
+    <string name="pulse_no_file">Encara no has triat el fitxer exportat.</string>
+    <string name="pulse_no_signal_label">Saltar també si el rellotge no envia pols durant</string>
+    <string name="pulse_no_signal_off">Mai</string>
+    <string name="pulse_no_signal_hint">Només compta si Gadgetbridge ha exportat fa poc, de manera que una fallada del mòbil o de l\'aplicació mai no fa saltar la palanca.</string>
+    <string name="pulse_interval_label">Comprovar cada</string>
+    <string name="pulse_status_title">Última comprovació</string>
+    <string name="pulse_last">Última mesura: %1$d ppm, %2$s (comprovat: %3$s).</string>
+    <string name="pulse_never_checked">Encara sense comprovar.</string>
+    <string name="pulse_no_reading">Sense mesures del rellotge (comprovat: %s).</string>
+    <string name="pulse_check_now">Comprova ara</string>
+    <string name="pulse_check_hint">Triga al voltant d\'un minut: abans, Gadgetbridge sincronitza el rellotge i exporta.</string>
+    <string name="pulse_err_no_file">Tria el fitxer exportat de Gadgetbridge a la pestanya Pols.</string>
+    <string name="pulse_err_stale">Gadgetbridge no ha exportat fa poc, de manera que no es pot comprovar el pols. Revisa la seva configuració d\'Intent API i l\'exportació automàtica.</string>
+    <string name="pulse_err_read">No s\'ha pogut llegir el fitxer exportat: %s</string>
+    <string name="pulse_problem_title">No es pot comprovar el pols</string>
+    <string name="pulse_alert_title">Va tot bé?</string>
+    <string name="pulse_alert_low">El rellotge marca %1$d ppm. La palanca salta a les %2$s tret que premis «Estic bé».</string>
+    <string name="pulse_alert_silent">El rellotge ha deixat d\'enviar el teu pols. La palanca salta a les %s tret que premis «Estic bé».</string>
+    <string name="fired_no_pulse">El rellotge va deixar d\'enviar el teu pols; la palanca va saltar el %s.</string>
+    <string name="detail_pulse_alert">Alerta del rellotge: la palanca salta a les %s tret que premis «Estic bé».</string>
+
+    <string name="pc_warning_title">Accions destructives</string>
+    <string name="pc_warning_body">Aquestes accions s\'executen al teu PC quan salta la palanca. Prova-les un cop amb una carpeta de proves abans de confiar-hi.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Encendre primer el PC</string>
+    <string name="pc_mac">Adreça MAC del PC</string>
+    <string name="pc_broadcast">Adreça de difusió</string>
+    <string name="pc_broadcast_hint">Normalment 255.255.255.255, o la de la LAN (per exemple, 192.168.1.255).</string>
+    <string name="pc_wol_wait">Segons d\'espera després del WoL</string>
+    <string name="pc_wol_test">Envia WoL ara</string>
+    <string name="pc_wol_sent">Paquet màgic enviat.</string>
+    <string name="pc_wol_failed">No s\'ha pogut enviar el paquet màgic: %s</string>
+
+    <string name="pc_ssh_title">Accés per SSH</string>
+    <string name="pc_ssh_host">Amfitrió o IP</string>
+    <string name="pc_ssh_port">Port SSH</string>
+    <string name="pc_ssh_user">Usuari SSH</string>
+    <string name="pc_ssh_password">Contrasenya SSH (si no hi ha clau)</string>
+    <string name="pc_ssh_test">Prova SSH</string>
+    <string name="pc_ssh_ok">SSH correcte (%s).</string>
+    <string name="pc_ssh_failed">L\'SSH ha fallat: %s</string>
+
+    <string name="pc_key_title">Destruir la clau</string>
+    <string name="pc_key_enable">Destruir un fitxer o carpeta de clau</string>
+    <string name="pc_key_body">Mantén xifrada la carpeta sensible (VeraCrypt, LUKS, EFS, 7-Zip AES…) amb una clau que visqui a la ruta de sota. Quan salti la palanca, se sobreescriu cinc vegades i s\'esborra, i les dades queden inaccessibles.</string>
+    <string name="pc_key_path">Ruta del fitxer o carpeta de clau al PC</string>
+    <string name="pc_path_hint">Ruta completa de Windows, per exemple C:\\Users\\jo\\Desktop\\test. No s\'accepten arrels de disc, carpetes d\'usuari senceres ni carpetes del sistema.</string>
+
+    <string name="pc_shred_title">Destruir una carpeta</string>
+    <string name="pc_shred_enable">Destruir una carpeta</string>
+    <string name="pc_shred_body">Cinc passades sobre cada fitxer, escrites a sobre (la primera amb zeros i les altres quatre amb dades aleatòries), i després s\'esborra. El que no es pugui sobreescriure es deixa on és i s\'avisa. Les carpetes s\'esborren quan queden buides. En un SSD el firmware pot conservar còpies antigues, de manera que és més segur destruir la clau de dalt.</string>
+    <string name="pc_folder">Carpeta al PC</string>
+    <string name="pc_subdirs">Incloure subdirectoris</string>
+
+    <string name="pc_shutdown_title">Apagar el PC</string>
+    <string name="pc_shutdown_enable">Forçar l\'apagada</string>
+    <string name="pc_shutdown_body">En acabar les altres accions, enviar «shutdown /s /f /t 0» per SSH.</string>
+
+    <string name="pc_notification_title">Accions del PC</string>
+    <string name="pc_log_nothing">Res a fer.</string>
+    <string name="pc_log_wol_ok">Paquet WoL enviat.</string>
+    <string name="pc_log_wol_failed">El WoL ha fallat: %s</string>
+    <string name="pc_log_ssh_missing">Falta l\'amfitrió, l\'usuari, o la clau o contrasenya SSH.</string>
+    <string name="pc_log_key_ok">Clau destruïda: %1$s.</string>
+    <string name="pc_log_key_failed">No s\'ha pogut destruir la clau: %s</string>
+    <string name="pc_log_key_unsafe">Ruta de la clau rebutjada per insegura; no s\'ha tocat res.</string>
+    <string name="pc_log_shred_ok">Carpeta destruïda: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">No s\'ha pogut destruir la carpeta: %s</string>
+    <string name="pc_log_shred_unsafe">Ruta de la carpeta rebutjada per insegura; no s\'ha tocat res.</string>
+    <string name="pc_log_shutdown_ok">Ordre d\'apagada enviada.</string>
+    <string name="pc_log_shutdown_failed">L\'apagada ha fallat: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="many">%d minuts</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d hores</item>
+        <item quantity="other">%d hores</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dia</item>
+        <item quantity="many">%d dies</item>
+        <item quantity="other">%d dies</item>
+    </plurals>
+    <string name="pc_log_not_found">La ruta no existeix al PC.</string>
+    <string name="pc_log_is_link">La ruta és un enllaç; no s\'ha seguit.</string>
+    <string name="pc_log_not_folder">La ruta és un fitxer, no una carpeta.</string>
+    <string name="pc_log_partial">%1$s; el que no s\'ha pogut sobreescriure s\'ha deixat on era.\n%2$s</string>
+    <string name="fired_manual">Disparada a mà el %s.</string>
+    <string name="fire_now">Dispara ara (prova)</string>
+    <string name="fire_now_title">Vols disparar ara?</string>
+    <string name="fire_now_body">El correu s\'enviarà de veritat a %1$s i s\'executaran aquestes accions al PC: %2$s. És igual que si vencés el termini.</string>
+    <string name="fire_now_no_pc">cap</string>
+    <string name="fire_now_confirm">Dispara</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">destruir la clau</string>
+    <string name="fire_action_shred">destruir la carpeta %s</string>
+    <string name="fire_action_shutdown">apagar el PC</string>
+    <string name="pc_os_title">Sistema del PC</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Ruta completa, per exemple /home/jo/test. No s\'accepten l\'arrel, carpetes personals senceres ni carpetes del sistema (/etc, /usr, /var…).</string>
+    <string name="pc_shutdown_body_linux">Després de les altres accions, executar «sudo -n systemctl poweroff» per SSH. L\'usuari SSH necessita sudo sense contrasenya per a aquesta ordre, o permís de polkit per apagar.</string>
+    <string name="pc_log_no_shred">shred no està instal·lat al PC (ve amb coreutils).</string>
+    <string name="pc_log_exit">l\'ordre ha acabat amb el codi %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Executar una ordre</string>
+    <string name="pc_cmd_enable">Executar la meva ordre</string>
+    <string name="pc_cmd_body_windows">Just després del Wake on LAN, s\'executa al PC per SSH, a PowerShell, amb l\'usuari SSH. Pot tenir diverses línies. No s\'obre cap finestra: el que escrigui apareix a la notificació del resultat.</string>
+    <string name="pc_cmd_body_linux">Just després del Wake on LAN, s\'executa al PC per SSH, a bash, amb l\'usuari SSH. Pot tenir diverses línies. No s\'obre cap finestra: el que escrigui apareix a la notificació del resultat.</string>
+    <string name="pc_cmd_field">Ordre</string>
+    <string name="pc_log_cmd_ok">Ordre acabada.\n%s</string>
+    <string name="pc_log_cmd_exit">L\'ordre ha acabat amb el codi %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">No s\'ha pogut executar l\'ordre: %s</string>
+    <string name="fire_action_cmd">executar la teva ordre</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d fitxer sobreescrit i esborrat</item>
+        <item quantity="many">%d fitxers sobreescrits i esborrats</item>
+        <item quantity="other">%d fitxers sobreescrits i esborrats</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d subcarpeta sense tocar</item>
+        <item quantity="many">%d subcarpetes sense tocar</item>
+        <item quantity="other">%d subcarpetes sense tocar</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">només s\'ha destruït %d fitxer</item>
+        <item quantity="many">només s\'han destruït %d fitxers</item>
+        <item quantity="other">només s\'han destruït %d fitxers</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Si l\'última mesura és per sota del llindar, sona una alarma i la palanca salta %2$d minuts després tret que premis «Estic bé». Una mesura normal després de l\'alarma l\'anul·la.</item>
+        <item quantity="many">Si les últimes %1$d mesures són per sota del llindar, sona una alarma i la palanca salta %2$d minuts després tret que premis «Estic bé». Una mesura normal després de l\'alarma l\'anul·la.</item>
+        <item quantity="other">Si les últimes %1$d mesures són per sota del llindar, sona una alarma i la palanca salta %2$d minuts després tret que premis «Estic bé». Una mesura normal després de l\'alarma l\'anul·la.</item>
+    </plurals>
+    <string name="app_password_needed">Aquest proveïdor només accepta una contrasenya d\'aplicació: 16 lletres que crees per a aquesta aplicació. La teva contrasenya de sempre la rebutja.</string>
+    <string name="app_password_open">Crea una contrasenya d\'aplicació</string>
+    <string name="app_password_suspicious">Això no sembla una contrasenya d\'aplicació (16 lletres).</string>
+    <string name="proton_token_needed">Proton només envia per SMTP amb un token SMTP, que existeix per a adreces amb domini propi en un pla de pagament. Posa a Usuari i Contrasenya l\'usuari i el token que et doni Proton.</string>
+    <string name="proton_token_open">Obre les instruccions de Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail i Microsoft 365 ja no accepten una contrasenya per enviar, i aquesta aplicació encara no pot iniciar sessió a Microsoft. Fes servir un altre proveïdor.</string>
+    <string name="err_app_password">El servidor demana una contrasenya d\'aplicació, no la de sempre. Crea-la amb el botó de sota la contrasenya i enganxa-la-hi.</string>
+    <string name="err_bad_login">El servidor no ha acceptat l\'usuari o la contrasenya. L\'usuari ha de ser la teva adreça de correu completa i la contrasenya, amb Gmail, Yahoo o iCloud, una d\'aplicació.</string>
+    <string name="err_microsoft">Microsoft ha rebutjat la contrasenya: ja no permet enviar amb contrasenya. Fes servir un altre proveïdor.</string>
+    <string name="pc_ssh_key_hint">Entra amb una clau (més segur i sense contrasenya) o amb la contrasenya d\'aquest usuari al PC.</string>
+    <string name="pc_ssh_key_generate">Crea una clau</string>
+    <string name="pc_ssh_key_copy">Copia la clau pública</string>
+    <string name="pc_ssh_key_delete">Esborra la clau</string>
+    <string name="pc_ssh_key_copied">Clau pública copiada.</string>
+    <string name="pc_ssh_key_where_windows">Al PC, afegeix la clau pública a C:\\ProgramData\\ssh\\administrators_authorized_keys si l\'usuari és administrador, o, si no, a .ssh\\authorized_keys a la carpeta de l\'usuari.</string>
+    <string name="pc_ssh_key_where_linux">Al PC, afegeix la clau pública a ~/.ssh/authorized_keys d\'aquest usuari.</string>
+    <string name="remaining_dh">%1$d d %2$d h</string>
+    <string name="remaining_hm">%1$d h %2$d min</string>
+    <string name="remaining_m">%d min</string>
+    <string name="privacy_policy">Política de privadesa</string>
+    <string name="privacy_file">PRIVACY.ca.md</string>
+</resources>

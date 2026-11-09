@@ -1,0 +1,11 @@
+<p>Una palanca de l'home mort per al mòbil. Prem «Estic bé» un cop al dia (o amb la freqüència que triïs). Si deixes de fer-ho, DeadManShot envia el correu que hagis preparat i pot actuar sobre el teu ordinador.</p>
+<ul>
+<li><b>Confirmació diària</b>: tria l'interval, de 10 minuts a 3 dies, i tants recordatoris com vulguis abans del termini. Cada recordatori porta el seu propi botó «Estic bé». La pots posar en pausa una hora o un mes quan calgui.</li>
+<li><b>Pols</b> (opcional): amb un rellotge vinculat a Gadgetbridge, salta si el pols es queda per sota d'un llindar o si el rellotge deixa d'enviar-lo. Abans sempre sona una alarma i tens deu minuts per respondre.</li>
+<li><b>Correu</b>: destinataris, assumpte, text i adjunts, enviat des del teu propi compte per SMTP amb TLS. Configuració ja preparada per a Gmail, Yahoo, iCloud i Proton Mail, i un botó per enviar-te una prova.</li>
+<li><b>El teu ordinador</b>, Windows o Linux, per SSH: encendre'l amb Wake on LAN, executar una ordre teva, destruir una clau de xifratge o esborrar a fons una carpeta (cinc passades, escrites a sobre) i apagar-lo.</li>
+</ul>
+<p>Les accions destructives van protegides: es rebutgen les arrels de disc, les carpetes d'usuari senceres i les del sistema; els enllaços no se segueixen; el que no es pugui sobreescriure es deixa on és i s'avisa; i el resultat de cada acció arriba com a notificació. El botó «Dispara ara (prova)» permet provar abans tota la cadena sense risc.</p>
+<p>No recull res. L'aplicació només parla amb el servidor de correu i l'ordinador que configuris. Les contrasenyes del correu i de l'SSH es desen xifrades amb una clau del magatzem de claus d'Android.</p>
+<p>Codi obert amb llicència MIT.</p>
+<p>Disponible en català, castellà, anglès, gallec, basc, portuguès, francès, alemany, italià, neerlandès, polonès, rus, ucraïnès, xinès, japonès, coreà, tai i hindi.</p>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_email">Correo</string>
+    <string name="tab_pulse">Pulso</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Parada</string>
+    <string name="status_running">En funcionamento</string>
+    <string name="status_paused">En pausa</string>
+    <string name="status_fired">Saltou</string>
+    <string name="detail_off">Activa o interruptor para poñela en marcha. Mentres estea parada, non enviará nada.</string>
+    <string name="detail_running">Próximo prazo: %1$s (quedan %2$s).</string>
+    <string name="detail_paused">Ata o %1$s (quedan %2$s). Cando remate a pausa, a conta atrás volve empezar.</string>
+    <string name="fired_deadline">O prazo venceu o %s.</string>
+    <string name="fired_heart_rate">O pulso baixou do limiar o %s.</string>
+    <string name="send_pending">Enviando o correo…</string>
+    <string name="send_sent">Correo enviado o %s.</string>
+    <string name="send_failed">Non se puido enviar o correo (%s). Volverá intentalo en canto haxa conexión.</string>
+    <string name="fired_reset">Preme «Estou ben» para volver empezar.</string>
+
+    <string name="switch_label">En funcionamento</string>
+    <string name="cannot_enable">Antes de activala, completa:</string>
+    <string name="missing_recipient">un destinatario válido</string>
+    <string name="missing_text">o asunto ou o texto do correo</string>
+    <string name="missing_account">a conta de envío (servidor, usuario e contrasinal)</string>
+
+    <string name="pause">Pausar</string>
+    <string name="resume">Retomar</string>
+    <string name="pause_title">Pausar durante…</string>
+    <string name="pause_until">En pausa ata o %s.</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="check_in">Estou ben</string>
+    <string name="last_check_in">Última confirmación: %s.</string>
+    <string name="never_checked_in">Aínda non confirmaches ningunha vez.</string>
+
+    <string name="permissions_title">Permisos</string>
+    <string name="perm_notifications">Notificacións, para os recordatorios e as alarmas.</string>
+    <string name="perm_exact">Alarmas exactas, para que o prazo se cumpra á súa hora.</string>
+    <string name="perm_battery">Quita a optimización de batería desta aplicación, para que Android non a deteña. Na lista que se abre, amosa todas as aplicacións, busca DeadManShot e elixe non optimizala.</string>
+    <string name="allow">Permitir</string>
+
+    <string name="timing_title">Prazo</string>
+    <string name="interval_label">Preme «Estou ben» polo menos unha vez cada:</string>
+    <string name="reminder_label">Recordatorios antes do prazo:</string>
+    <string name="reminder_multi_hint">Elixe un, varios ou ningún. Chegará unha notificación en cada un. Os que duren o mesmo que o intervalo ou máis non se usan.</string>
+
+    <string name="email_title">Correo</string>
+    <string name="recipients">Destinatarios</string>
+    <string name="recipients_hint">Separa varios enderezos con comas.</string>
+    <string name="subject">Asunto</string>
+    <string name="body">Texto</string>
+    <string name="attachments">Ficheiros adxuntos</string>
+    <string name="no_attachments">Sen ficheiros adxuntos.</string>
+    <string name="add_attachment">Engadir ficheiro</string>
+    <string name="remove">Quitar</string>
+
+    <string name="account_title">Conta de envío</string>
+    <string name="account_hint">O correo sae da túa propia conta por SMTP. Con Gmail, usa un contrasinal de aplicación (Conta de Google, Seguranza, Contrasinais de aplicacións), non o contrasinal de sempre.</string>
+    <string name="smtp_host">Servidor SMTP</string>
+    <string name="smtp_port">Porto</string>
+    <string name="smtp_user">Usuario (o teu enderezo de correo)</string>
+    <string name="smtp_password">Contrasinal</string>
+    <string name="show_password">Amosar o contrasinal</string>
+    <string name="hide_password">Agochar o contrasinal</string>
+    <string name="smtp_from">Enderezo do remitente</string>
+    <string name="smtp_from_hint">Déixao en branco para usar o do usuario.</string>
+    <string name="send_test">Enviar unha proba ao meu enderezo</string>
+    <string name="test_ok">Proba enviada a %s. Mira a caixa de entrada.</string>
+    <string name="test_skipped">Adxuntos que non se puideron ler e non se enviaron: %s</string>
+    <string name="test_failed">Non se puido enviar: %s</string>
+    <string name="test_subject_prefix">[Proba]</string>
+
+    <string name="smtp_fill_preset">Completar por defecto…</string>
+    <string name="smtp_preset_title">Elixe un provedor</string>
+    <string name="smtp_preset_apply">Aplicar</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Precisa contrasinal de aplicación.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Precisa contrasinal de aplicación.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Precisa contrasinal de aplicación.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. Precisa un token SMTP (plan de pagamento, dominio propio).</string>
+
+    <string name="channel_reminder">Recordatorios e alarmas</string>
+    <string name="channel_result">Resultados</string>
+    <string name="reminder_title">Estás ben?</string>
+    <string name="reminder_text">Preme «Estou ben» antes do %1$s (%2$s) ou a panca saltará.</string>
+    <string name="sent_title">Correo enviado</string>
+    <string name="sent_text">O correo enviouse aos destinatarios.</string>
+    <string name="sent_text_skipped">O correo enviouse, pero sen estes adxuntos, que non se puideron ler: %s</string>
+    <string name="failed_title">Correo sen enviar</string>
+    <string name="failed_text">%s. Volverá intentalo só.</string>
+
+    <string name="pulse_title">Pulso do reloxo</string>
+    <string name="pulse_enable">Disparar cando o pulso baixe do limiar</string>
+    <string name="pulse_threshold">Limiar: %d lpm</string>
+    <string name="pulse_requirements_title">Que fai falta</string>
+    <string name="pulse_requirements_body">1. Un reloxo que mida o pulso, vinculado a Gadgetbridge neste móbil, coa medición continua do pulso activada.\n2. En Gadgetbridge, activa a exportación automática da base de datos e elixe onde se garda.\n3. En Gadgetbridge, Axustes → Intent API: permite o disparador de sincronización de actividade e a exportación da base de datos.\n4. Aquí abaixo, elixe ese mesmo ficheiro exportado.</string>
+    <string name="pulse_open_gadgetbridge">Abrir Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge non está instalada. Instálaa antes desde F-Droid.</string>
+    <string name="pulse_choose_file">Elixir o ficheiro exportado</string>
+    <string name="pulse_file">Ficheiro exportado: %s</string>
+    <string name="pulse_no_file">Aínda non elixiches o ficheiro exportado.</string>
+    <string name="pulse_no_signal_label">Saltar tamén se o reloxo non manda pulso durante</string>
+    <string name="pulse_no_signal_off">Nunca</string>
+    <string name="pulse_no_signal_hint">Só conta se Gadgetbridge exportou hai pouco, así que un fallo do móbil ou da aplicación nunca fai saltar a panca.</string>
+    <string name="pulse_interval_label">Comprobar cada</string>
+    <string name="pulse_status_title">Última comprobación</string>
+    <string name="pulse_last">Última medida: %1$d lpm, %2$s (comprobado: %3$s).</string>
+    <string name="pulse_never_checked">Aínda sen comprobar.</string>
+    <string name="pulse_no_reading">Sen medidas do reloxo (comprobado: %s).</string>
+    <string name="pulse_check_now">Comprobar agora</string>
+    <string name="pulse_check_hint">Tarda arredor dun minuto: antes, Gadgetbridge sincroniza o reloxo e exporta.</string>
+    <string name="pulse_err_no_file">Elixe o ficheiro exportado de Gadgetbridge na lapela Pulso.</string>
+    <string name="pulse_err_stale">Gadgetbridge non exportou hai pouco, así que non se pode comprobar o pulso. Revisa os seus axustes de Intent API e a exportación automática.</string>
+    <string name="pulse_err_read">Non se puido ler o ficheiro exportado: %s</string>
+    <string name="pulse_problem_title">Non se pode comprobar o pulso</string>
+    <string name="pulse_alert_title">Vai todo ben?</string>
+    <string name="pulse_alert_low">O reloxo marca %1$d lpm. A panca salta ás %2$s agás que premas «Estou ben».</string>
+    <string name="pulse_alert_silent">O reloxo deixou de mandar o teu pulso. A panca salta ás %s agás que premas «Estou ben».</string>
+    <string name="fired_no_pulse">O reloxo deixou de mandar o teu pulso; a panca saltou o %s.</string>
+    <string name="detail_pulse_alert">Alerta do reloxo: a panca salta ás %s agás que premas «Estou ben».</string>
+
+    <string name="pc_warning_title">Accións destrutivas</string>
+    <string name="pc_warning_body">Estas accións execútanse no teu PC cando salta a panca. Próbaas unha vez cun cartafol de probas antes de confiar nelas.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Acender o PC primeiro</string>
+    <string name="pc_mac">Enderezo MAC do PC</string>
+    <string name="pc_broadcast">Enderezo de difusión</string>
+    <string name="pc_broadcast_hint">Normalmente 255.255.255.255, ou o da LAN (por exemplo, 192.168.1.255).</string>
+    <string name="pc_wol_wait">Segundos de espera tras o WoL</string>
+    <string name="pc_wol_test">Enviar WoL agora</string>
+    <string name="pc_wol_sent">Paquete máxico enviado.</string>
+    <string name="pc_wol_failed">Non se puido enviar o paquete máxico: %s</string>
+
+    <string name="pc_ssh_title">Acceso por SSH</string>
+    <string name="pc_ssh_host">Host ou IP</string>
+    <string name="pc_ssh_port">Porto SSH</string>
+    <string name="pc_ssh_user">Usuario SSH</string>
+    <string name="pc_ssh_password">Contrasinal SSH (se non hai chave)</string>
+    <string name="pc_ssh_test">Probar SSH</string>
+    <string name="pc_ssh_ok">SSH correcto (%s).</string>
+    <string name="pc_ssh_failed">SSH fallou: %s</string>
+
+    <string name="pc_key_title">Destruír a chave</string>
+    <string name="pc_key_enable">Destruír un ficheiro ou cartafol de chave</string>
+    <string name="pc_key_body">Mantén cifrado o cartafol sensible (VeraCrypt, LUKS, EFS, 7-Zip AES…) cunha chave que viva na ruta de abaixo. Cando salte a panca, sobrescríbese cinco veces e bórrase, e os datos quedan inaccesibles.</string>
+    <string name="pc_key_path">Ruta do ficheiro ou cartafol de chave no PC</string>
+    <string name="pc_path_hint">Ruta completa de Windows, por exemplo C:\\Users\\eu\\Desktop\\test. Non se aceptan raíces de disco, cartafoles de usuario enteiros nin cartafoles do sistema.</string>
+
+    <string name="pc_shred_title">Destruír un cartafol</string>
+    <string name="pc_shred_enable">Destruír un cartafol</string>
+    <string name="pc_shred_body">Cinco pasadas sobre cada ficheiro, escritas enriba (a primeira con ceros e as outras catro con datos aleatorios), e despois bórrase. O que non se poida sobrescribir déixase onde está e avísase. Os cartafoles bórranse cando quedan baleiros. Nun SSD o firmware pode gardar copias antigas, así que é máis seguro destruír a chave de arriba.</string>
+    <string name="pc_folder">Cartafol no PC</string>
+    <string name="pc_subdirs">Incluír subdirectorios</string>
+
+    <string name="pc_shutdown_title">Apagar o PC</string>
+    <string name="pc_shutdown_enable">Forzar o apagamento</string>
+    <string name="pc_shutdown_body">Ao rematar as demais accións, enviar «shutdown /s /f /t 0» por SSH.</string>
+
+    <string name="pc_notification_title">Accións do PC</string>
+    <string name="pc_log_nothing">Nada que facer.</string>
+    <string name="pc_log_wol_ok">Paquete WoL enviado.</string>
+    <string name="pc_log_wol_failed">Fallou o WoL: %s</string>
+    <string name="pc_log_ssh_missing">Falta o host, o usuario, ou a chave ou contrasinal SSH.</string>
+    <string name="pc_log_key_ok">Chave destruída: %1$s.</string>
+    <string name="pc_log_key_failed">Non se puido destruír a chave: %s</string>
+    <string name="pc_log_key_unsafe">Ruta da chave rexeitada por insegura; non se tocou nada.</string>
+    <string name="pc_log_shred_ok">Cartafol destruído: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Non se puido destruír o cartafol: %s</string>
+    <string name="pc_log_shred_unsafe">Ruta do cartafol rexeitada por insegura; non se tocou nada.</string>
+    <string name="pc_log_shutdown_ok">Orde de apagamento enviada.</string>
+    <string name="pc_log_shutdown_failed">Fallou o apagamento: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d día</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <string name="pc_log_not_found">A ruta non existe no PC.</string>
+    <string name="pc_log_is_link">A ruta é unha ligazón; non se seguiu.</string>
+    <string name="pc_log_not_folder">A ruta é un ficheiro, non un cartafol.</string>
+    <string name="pc_log_partial">%1$s; o que non se puido sobrescribir deixouse onde estaba.\n%2$s</string>
+    <string name="fired_manual">Disparada a man o %s.</string>
+    <string name="fire_now">Disparar agora (proba)</string>
+    <string name="fire_now_title">Disparar agora?</string>
+    <string name="fire_now_body">O correo enviarase de verdade a %1$s e executaranse estas accións no PC: %2$s. É igual que se vencese o prazo.</string>
+    <string name="fire_now_no_pc">ningunha</string>
+    <string name="fire_now_confirm">Disparar</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">destruír a chave</string>
+    <string name="fire_action_shred">destruír o cartafol %s</string>
+    <string name="fire_action_shutdown">apagar o PC</string>
+    <string name="pc_os_title">Sistema do PC</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Ruta completa, por exemplo /home/eu/test. Non se aceptan a raíz, cartafoles persoais enteiros nin cartafoles do sistema (/etc, /usr, /var…).</string>
+    <string name="pc_shutdown_body_linux">Despois das outras accións, executar «sudo -n systemctl poweroff» por SSH. O usuario SSH precisa sudo sen contrasinal para ese comando, ou permiso de polkit para apagar.</string>
+    <string name="pc_log_no_shred">shred non está instalado no PC (vén con coreutils).</string>
+    <string name="pc_log_exit">o comando rematou co código %1$d.\n%2$s</string>
+    <string name="pc_cmd_title">Executar un comando</string>
+    <string name="pc_cmd_enable">Executar o meu comando</string>
+    <string name="pc_cmd_body_windows">Xusto despois do Wake on LAN, execútase no PC por SSH, en PowerShell, co usuario SSH. Pode ter varias liñas. Non se abre ningunha xanela: o que escriba aparece na notificación do resultado.</string>
+    <string name="pc_cmd_body_linux">Xusto despois do Wake on LAN, execútase no PC por SSH, en bash, co usuario SSH. Pode ter varias liñas. Non se abre ningunha xanela: o que escriba aparece na notificación do resultado.</string>
+    <string name="pc_cmd_field">Comando</string>
+    <string name="pc_log_cmd_ok">Comando rematado.\n%s</string>
+    <string name="pc_log_cmd_exit">O comando rematou co código %1$d.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Non se puido executar o comando: %s</string>
+    <string name="fire_action_cmd">executar o teu comando</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">%d ficheiro sobrescrito e borrado</item>
+        <item quantity="other">%d ficheiros sobrescritos e borrados</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">%d subcartafol sen tocar</item>
+        <item quantity="other">%d subcartafoles sen tocar</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">só se destruíu %d ficheiro</item>
+        <item quantity="other">só se destruíron %d ficheiros</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Se a última medida está por debaixo do limiar, soa unha alarma e a panca salta %2$d minutos despois agás que premas «Estou ben». Unha medida normal despois da alarma anúlaa.</item>
+        <item quantity="other">Se as últimas %1$d medidas están por debaixo do limiar, soa unha alarma e a panca salta %2$d minutos despois agás que premas «Estou ben». Unha medida normal despois da alarma anúlaa.</item>
+    </plurals>
+    <string name="app_password_needed">Este provedor só acepta un contrasinal de aplicación: 16 letras que creas para esta aplicación. Rexeita o teu contrasinal de sempre.</string>
+    <string name="app_password_open">Crear un contrasinal de aplicación</string>
+    <string name="app_password_suspicious">Isto non parece un contrasinal de aplicación (16 letras).</string>
+    <string name="proton_token_needed">Proton só envía por SMTP cun token SMTP, que existe para enderezos con dominio propio nun plan de pagamento. Pon en Usuario e Contrasinal o usuario e o token que che dea Proton.</string>
+    <string name="proton_token_open">Abrir as instrucións de Proton</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail e Microsoft 365 xa non aceptan un contrasinal para enviar, e esta aplicación aínda non pode iniciar sesión en Microsoft. Usa outro provedor.</string>
+    <string name="err_app_password">O servidor pide un contrasinal de aplicación, non o de sempre. Créao co botón de debaixo do contrasinal e pégao aí.</string>
+    <string name="err_bad_login">O servidor non aceptou o usuario ou o contrasinal. O usuario ten que ser o teu enderezo de correo completo e o contrasinal, con Gmail, Yahoo ou iCloud, un de aplicación.</string>
+    <string name="err_microsoft">Microsoft rexeitou o contrasinal: xa non permite enviar con contrasinal. Usa outro provedor.</string>
+    <string name="pc_ssh_key_hint">Entra cunha chave (máis seguro e sen contrasinal) ou co contrasinal dese usuario no PC.</string>
+    <string name="pc_ssh_key_generate">Crear unha chave</string>
+    <string name="pc_ssh_key_copy">Copiar a chave pública</string>
+    <string name="pc_ssh_key_delete">Borrar a chave</string>
+    <string name="pc_ssh_key_copied">Chave pública copiada.</string>
+    <string name="pc_ssh_key_where_windows">No PC, engade a chave pública a C:\\ProgramData\\ssh\\administrators_authorized_keys se o usuario é administrador, ou se non a .ssh\\authorized_keys no cartafol do usuario.</string>
+    <string name="pc_ssh_key_where_linux">No PC, engade a chave pública a ~/.ssh/authorized_keys dese usuario.</string>
+    <string name="remaining_dh">%1$d d %2$d h</string>
+    <string name="remaining_hm">%1$d h %2$d min</string>
+    <string name="remaining_m">%d min</string>
+    <string name="privacy_policy">Política de privacidade</string>
+    <string name="privacy_file">PRIVACY.gl.md</string>
+</resources>

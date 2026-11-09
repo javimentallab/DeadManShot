@@ -1,0 +1,11 @@
+<p>Gizon hilaren palanka bat mugikorrerako. Sakatu «Ondo nago» egunean behin (edo nahi duzun maiztasunarekin). Uzten badiozu, DeadManShot-ek prestatu duzun mezua bidaltzen du eta zure ordenagailuan eragin dezake.</p>
+<ul>
+<li><b>Eguneroko berrespena</b>: aukeratu tartea, 10 minututik 3 egunera, eta nahi adina gogorarazpen epea amaitu aurretik. Gogorarazpen bakoitzak bere «Ondo nago» botoia du. Ordubetez edo hilabetez pausatu dezakezu behar denean.</li>
+<li><b>Pultsua</b> (aukerakoa): Gadgetbridgerekin parekatutako erloju batekin, abiarazi egiten da pultsua atalasetik behera geratzen bada edo erlojuak bidaltzeari uzten badio. Aurretik beti alarma bat entzuten da eta hamar minutu dituzu erantzuteko.</li>
+<li><b>Posta</b>: hartzaileak, gaia, testua eta eranskinak, zure kontutik bidalita SMTP bidez TLSrekin. Ezarpen prestatuak Gmail, Yahoo, iCloud eta Proton Mailerako, eta botoi bat zeure buruari proba bat bidaltzeko.</li>
+<li><b>Zure ordenagailua</b>, Windows edo Linux, SSH bidez: piztu Wake on LAN bidez, exekutatu zure komando bat, suntsitu zifratze-gako bat edo ezabatu karpeta bat sakon (bost pasaldi, gainean idatzita) eta itzali.</li>
+</ul>
+<p>Ekintza suntsitzaileak babestuta daude: diskoen erroak, erabiltzaile-karpeta osoak eta sistemaren karpetak baztertzen dira; estekei ez zaie jarraitzen; gainidatzi ezin dena dagoen lekuan uzten da eta abisua ematen da; eta ekintza bakoitzaren emaitza jakinarazpen gisa iristen da. «Abiarazi orain (proba)» botoiak kate osoa arriskurik gabe aurrez probatzeko aukera ematen du.</p>
+<p>Ez du ezer biltzen. Aplikazioak konfiguratzen dituzun posta-zerbitzariarekin eta ordenagailuarekin baino ez du hitz egiten. Postaren eta SSHren pasahitzak Androiden gako-biltegiko gako batekin zifratuta gordetzen dira.</p>
+<p>Kode irekia, MIT lizentziarekin.</p>
+<p>Euskaraz, gaztelaniaz, ingelesez, katalanez, galizieraz, portugesez, frantsesez, alemanez, italieraz, nederlanderaz, polonieraz, errusieraz, ukraineraz, txineraz, japonieraz, koreeraz, thailanderaz eta hindiz eskuragarri.</p>

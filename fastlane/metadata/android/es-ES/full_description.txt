@@ -8,4 +8,4 @@
 <p>Las acciones destructivas van protegidas: se rechazan las raíces de disco, las carpetas de usuario enteras y las del sistema; los enlaces no se siguen; lo que no se pueda sobrescribir se deja donde está y se avisa; y el resultado de cada acción llega como notificación. El botón «Disparar ahora (prueba)» deja probar antes toda la cadena sin riesgo.</p>
 <p>No recoge nada. La aplicación solo habla con el servidor de correo y el ordenador que configures. Las contraseñas del correo y del SSH se guardan cifradas con una clave del almacén de claves de Android.</p>
 <p>Código abierto con licencia MIT.</p>
-<p>Disponible en inglés, español, portugués, francés, alemán, italiano, neerlandés, polaco, ruso, ucraniano, chino, japonés, coreano, tailandés e hindi.</p>
+<p>Disponible en castellano, inglés, catalán, gallego, euskera, portugués, francés, alemán, italiano, neerlandés, polaco, ruso, ucraniano, chino, japonés, coreano, tailandés e hindi.</p>

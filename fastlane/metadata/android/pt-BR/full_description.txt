@@ -8,4 +8,4 @@
 <p>As ações destrutivas são protegidas: raízes de disco, pastas de usuário inteiras e pastas do sistema são recusadas; links não são seguidos; o que não puder ser sobrescrito fica onde está e é informado; e o resultado de cada ação chega como notificação. O botão “Disparar agora (teste)” permite testar antes toda a cadeia com segurança.</p>
 <p>Nada é coletado. O app só se comunica com o servidor de e-mail e o computador que você configurar. As senhas do e-mail e do SSH são criptografadas com uma chave guardada no keystore do Android.</p>
 <p>Código aberto sob a licença MIT.</p>
-<p>Disponível em inglês, espanhol, português, francês, alemão, italiano, holandês, polonês, russo, ucraniano, chinês, japonês, coreano, tailandês e hindi.</p>
+<p>Disponível em português, inglês, espanhol, catalão, galego, basco, francês, alemão, italiano, holandês, polonês, russo, ucraniano, chinês, japonês, coreano, tailandês e hindi.</p>

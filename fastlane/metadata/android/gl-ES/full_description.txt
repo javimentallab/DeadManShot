@@ -1,0 +1,11 @@
+<p>Unha panca do home morto para o móbil. Preme «Estou ben» unha vez ao día (ou cada canto elixas). Se deixas de facelo, DeadManShot envía o correo que teñas preparado e pode actuar sobre o teu ordenador.</p>
+<ul>
+<li><b>Confirmación diaria</b>: elixe o intervalo, de 10 minutos a 3 días, e tantos recordatorios como queiras antes do prazo. Cada recordatorio leva o seu propio botón «Estou ben». Podes pausala unha hora ou un mes cando faga falta.</li>
+<li><b>Pulso</b> (opcional): cun reloxo vinculado a Gadgetbridge, salta se o pulso queda por debaixo dun limiar ou se o reloxo deixa de mandalo. Antes sempre soa unha alarma e tes dez minutos para responder.</li>
+<li><b>Correo</b>: destinatarios, asunto, texto e adxuntos, enviado desde a túa propia conta por SMTP con TLS. Axustes xa preparados para Gmail, Yahoo, iCloud e Proton Mail, e un botón para enviarche unha proba.</li>
+<li><b>O teu ordenador</b>, Windows ou Linux, por SSH: acendelo con Wake on LAN, executar un comando teu, destruír unha chave de cifrado ou borrar un cartafol a fondo (cinco pasadas, escritas enriba) e apagalo.</li>
+</ul>
+<p>As accións destrutivas van protexidas: rexéitanse as raíces de disco, os cartafoles de usuario enteiros e os do sistema; as ligazóns non se seguen; o que non se poida sobrescribir déixase onde está e avísase; e o resultado de cada acción chega como notificación. O botón «Disparar agora (proba)» deixa probar antes toda a cadea sen risco.</p>
+<p>Non recolle nada. A aplicación só fala co servidor de correo e o ordenador que configures. Os contrasinais do correo e do SSH gárdanse cifrados cunha chave do almacén de chaves de Android.</p>
+<p>Código aberto con licenza MIT.</p>
+<p>Dispoñible en galego, castelán, inglés, catalán, éuscaro, portugués, francés, alemán, italiano, neerlandés, polaco, ruso, ucraíno, chinés, xaponés, coreano, tailandés e hindi.</p>

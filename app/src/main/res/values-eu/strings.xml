@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Hasiera</string>
+    <string name="tab_email">Posta</string>
+    <string name="tab_pulse">Pultsua</string>
+    <string name="tab_pc">PC</string>
+
+    <string name="status_off">Geldituta</string>
+    <string name="status_running">Martxan</string>
+    <string name="status_paused">Pausan</string>
+    <string name="status_fired">Abiarazi da</string>
+    <string name="detail_off">Aktibatu etengailua martxan jartzeko. Geldituta dagoen bitartean, ez du ezer bidaliko.</string>
+    <string name="detail_running">Hurrengo epea: %1$s (%2$s falta).</string>
+    <string name="detail_paused">Noiz arte: %1$s (%2$s falta). Pausa amaitzean, atzerako kontaketa berriro hasiko da.</string>
+    <string name="fired_deadline">Epea amaitu zen: %s.</string>
+    <string name="fired_heart_rate">Pultsua atalasetik behera jaitsi zen: %s.</string>
+    <string name="send_pending">Mezua bidaltzen…</string>
+    <string name="send_sent">Mezua bidalita: %s.</string>
+    <string name="send_failed">Ezin izan da mezua bidali (%s). Berriro saiatuko da konexioa dagoen bezain laster.</string>
+    <string name="fired_reset">Sakatu «Ondo nago» berriro hasteko.</string>
+
+    <string name="switch_label">Martxan</string>
+    <string name="cannot_enable">Aktibatu aurretik, bete:</string>
+    <string name="missing_recipient">hartzaile baliodun bat</string>
+    <string name="missing_text">mezuaren gaia edo testua</string>
+    <string name="missing_account">bidaltzeko kontua (zerbitzaria, erabiltzailea eta pasahitza)</string>
+
+    <string name="pause">Pausatu</string>
+    <string name="resume">Berrekin</string>
+    <string name="pause_title">Pausaren iraupena…</string>
+    <string name="pause_until">Pausan, noiz arte: %s.</string>
+    <string name="cancel">Utzi</string>
+
+    <string name="check_in">Ondo nago</string>
+    <string name="last_check_in">Azken berrespena: %s.</string>
+    <string name="never_checked_in">Oraindik ez duzu inoiz berretsi.</string>
+
+    <string name="permissions_title">Baimenak</string>
+    <string name="perm_notifications">Jakinarazpenak, gogorarazpenetarako eta alarmetarako.</string>
+    <string name="perm_exact">Alarma zehatzak, epea bere orduan bete dadin.</string>
+    <string name="perm_battery">Kendu aplikazio honi bateriaren optimizazioa, Androidek geldiaraz ez dezan. Irekitzen den zerrendan, erakutsi aplikazio guztiak, bilatu DeadManShot eta aukeratu ez optimizatzea.</string>
+    <string name="allow">Baimendu</string>
+
+    <string name="timing_title">Epea</string>
+    <string name="interval_label">Sakatu «Ondo nago» gutxienez tarte honetan behin:</string>
+    <string name="reminder_label">Gogorarazpenak epea amaitu aurretik:</string>
+    <string name="reminder_multi_hint">Aukeratu bat, batzuk edo bat ere ez. Jakinarazpen bat iritsiko da bakoitzean. Tartea bezain luzeak edo luzeagoak ez dira erabiltzen.</string>
+
+    <string name="email_title">Mezua</string>
+    <string name="recipients">Hartzaileak</string>
+    <string name="recipients_hint">Bereizi helbideak komaz.</string>
+    <string name="subject">Gaia</string>
+    <string name="body">Testua</string>
+    <string name="attachments">Eranskinak</string>
+    <string name="no_attachments">Eranskinik gabe.</string>
+    <string name="add_attachment">Gehitu fitxategia</string>
+    <string name="remove">Kendu</string>
+
+    <string name="account_title">Bidaltzeko kontua</string>
+    <string name="account_hint">Mezua zure kontutik ateratzen da SMTP bidez. Gmailekin, erabili aplikazio-pasahitz bat (Google kontua, Segurtasuna, Aplikazioen pasahitzak), ez ohiko pasahitza.</string>
+    <string name="smtp_host">SMTP zerbitzaria</string>
+    <string name="smtp_port">Ataka</string>
+    <string name="smtp_user">Erabiltzailea (zure posta-helbidea)</string>
+    <string name="smtp_password">Pasahitza</string>
+    <string name="show_password">Erakutsi pasahitza</string>
+    <string name="hide_password">Ezkutatu pasahitza</string>
+    <string name="smtp_from">Igorlearen helbidea</string>
+    <string name="smtp_from_hint">Utzi hutsik erabiltzailearena erabiltzeko.</string>
+    <string name="send_test">Bidali proba bat nire helbidera</string>
+    <string name="test_ok">Proba hona bidali da: %s. Begiratu sarrera-ontzia.</string>
+    <string name="test_skipped">Irakurri ezin izan diren eta bidali ez diren eranskinak: %s</string>
+    <string name="test_failed">Ezin izan da bidali: %s</string>
+    <string name="test_subject_prefix">[Proba]</string>
+
+    <string name="smtp_fill_preset">Bete lehenetsiekin…</string>
+    <string name="smtp_preset_title">Aukeratu hornitzaile bat</string>
+    <string name="smtp_preset_apply">Aplikatu</string>
+    <string name="preset_gmail_note">smtp.gmail.com · 465 · SSL. Aplikazio-pasahitza behar du.</string>
+    <string name="preset_yahoo_note">smtp.mail.yahoo.com · 465 · SSL. Aplikazio-pasahitza behar du.</string>
+    <string name="preset_icloud_note">smtp.mail.me.com · 587 · STARTTLS. Aplikazio-pasahitza behar du.</string>
+    <string name="preset_proton_note">smtp.protonmail.ch · 587 · STARTTLS. SMTP token bat behar du (ordainpeko plana, domeinu propioa).</string>
+
+    <string name="channel_reminder">Gogorarazpenak eta alarmak</string>
+    <string name="channel_result">Emaitzak</string>
+    <string name="reminder_title">Ondo zaude?</string>
+    <string name="reminder_text">Sakatu «Ondo nago» muga baino lehen: %1$s (%2$s); bestela, palanka abiaraziko da.</string>
+    <string name="sent_title">Mezua bidali da</string>
+    <string name="sent_text">Mezua hartzaileei bidali zaie.</string>
+    <string name="sent_text_skipped">Mezua bidali da, baina eranskin hauek gabe, ezin izan baitira irakurri: %s</string>
+    <string name="failed_title">Mezua ez da bidali</string>
+    <string name="failed_text">%s. Berriro saiatuko da bere kabuz.</string>
+
+    <string name="pulse_title">Erlojuaren pultsua</string>
+    <string name="pulse_enable">Abiarazi pultsua atalasetik behera jaisten denean</string>
+    <string name="pulse_threshold">Atalasea: %d tpm</string>
+    <string name="pulse_requirements_title">Zer behar den</string>
+    <string name="pulse_requirements_body">1. Pultsua neurtzen duen erloju bat, mugikor honetan Gadgetbridgerekin parekatuta, pultsuaren neurketa jarraitua aktibatuta duela.\n2. Gadgetbridgen, aktibatu datu-basearen esportazio automatikoa eta aukeratu non gordetzen den.\n3. Gadgetbridgen, Ezarpenak → Intent API: baimendu jarduera-sinkronizazioaren abiarazlea eta datu-basearen esportazioa.\n4. Hemen behean, aukeratu esportatutako fitxategi hori bera.</string>
+    <string name="pulse_open_gadgetbridge">Ireki Gadgetbridge</string>
+    <string name="pulse_gadgetbridge_missing">Gadgetbridge ez dago instalatuta. Instalatu lehenik F-Droidetik.</string>
+    <string name="pulse_choose_file">Aukeratu esportatutako fitxategia</string>
+    <string name="pulse_file">Esportatutako fitxategia: %s</string>
+    <string name="pulse_no_file">Oraindik ez duzu esportatutako fitxategia aukeratu.</string>
+    <string name="pulse_no_signal_label">Abiarazi, halaber, erlojuak pultsurik bidaltzen ez badu denbora honetan:</string>
+    <string name="pulse_no_signal_off">Inoiz ez</string>
+    <string name="pulse_no_signal_hint">Gadgetbridgek duela gutxi esportatu badu soilik zenbatzen da; beraz, mugikorraren edo aplikazioaren akats batek ez du inoiz palanka abiaraziko.</string>
+    <string name="pulse_interval_label">Egiaztatze-tartea</string>
+    <string name="pulse_status_title">Azken egiaztapena</string>
+    <string name="pulse_last">Azken neurketa: %1$d tpm, %2$s (egiaztatuta: %3$s).</string>
+    <string name="pulse_never_checked">Oraindik egiaztatu gabe.</string>
+    <string name="pulse_no_reading">Erlojuaren neurketarik ez (egiaztatuta: %s).</string>
+    <string name="pulse_check_now">Egiaztatu orain</string>
+    <string name="pulse_check_hint">Minutu bat inguru behar du: lehenik, Gadgetbridgek erlojua sinkronizatu eta esportatu egiten du.</string>
+    <string name="pulse_err_no_file">Aukeratu Gadgetbridgeren esportatutako fitxategia Pultsua fitxan.</string>
+    <string name="pulse_err_stale">Gadgetbridgek ez du duela gutxi esportatu; beraz, ezin da pultsua egiaztatu. Berrikusi haren Intent API ezarpenak eta esportazio automatikoa.</string>
+    <string name="pulse_err_read">Ezin izan da esportatutako fitxategia irakurri: %s</string>
+    <string name="pulse_problem_title">Ezin da pultsua egiaztatu</string>
+    <string name="pulse_alert_title">Dena ondo doa?</string>
+    <string name="pulse_alert_low">Erlojuak %1$d tpm adierazten ditu. «Ondo nago» sakatzen ez baduzu, palanka ordu honetan abiaraziko da: %2$s.</string>
+    <string name="pulse_alert_silent">Erlojuak zure pultsua bidaltzeari utzi dio. «Ondo nago» sakatzen ez baduzu, palanka ordu honetan abiaraziko da: %s.</string>
+    <string name="fired_no_pulse">Erlojuak zure pultsua bidaltzeari utzi zion; palanka abiarazi zen: %s.</string>
+    <string name="detail_pulse_alert">Erlojuaren alerta: «Ondo nago» sakatzen ez baduzu, palanka ordu honetan abiaraziko da: %s.</string>
+
+    <string name="pc_warning_title">Ekintza suntsitzaileak</string>
+    <string name="pc_warning_body">Ekintza hauek zure PCan exekutatzen dira palanka abiaraztean. Probatu behin proba-karpeta batekin, haietan fidatu aurretik.</string>
+    <string name="pc_wol_title">Wake on LAN</string>
+    <string name="pc_wol_enable">Piztu PCa lehenik</string>
+    <string name="pc_mac">PCaren MAC helbidea</string>
+    <string name="pc_broadcast">Difusio-helbidea</string>
+    <string name="pc_broadcast_hint">Normalean 255.255.255.255, edo LANekoa (adibidez, 192.168.1.255).</string>
+    <string name="pc_wol_wait">Itxaron-segundoak WoL egin ondoren</string>
+    <string name="pc_wol_test">Bidali WoL orain</string>
+    <string name="pc_wol_sent">Pakete magikoa bidali da.</string>
+    <string name="pc_wol_failed">Ezin izan da pakete magikoa bidali: %s</string>
+
+    <string name="pc_ssh_title">SSH bidezko sarbidea</string>
+    <string name="pc_ssh_host">Ostalaria edo IPa</string>
+    <string name="pc_ssh_port">SSH ataka</string>
+    <string name="pc_ssh_user">SSH erabiltzailea</string>
+    <string name="pc_ssh_password">SSH pasahitza (gakorik ez badago)</string>
+    <string name="pc_ssh_test">Probatu SSH</string>
+    <string name="pc_ssh_ok">SSH ondo dago (%s).</string>
+    <string name="pc_ssh_failed">SSHak huts egin du: %s</string>
+
+    <string name="pc_key_title">Suntsitu gakoa</string>
+    <string name="pc_key_enable">Suntsitu gako-fitxategi edo -karpeta bat</string>
+    <string name="pc_key_body">Mantendu zifratuta karpeta sentikorra (VeraCrypt, LUKS, EFS, 7-Zip AES…) beheko bidean dagoen gako batekin. Palanka abiaraztean, bost aldiz gainidatzi eta ezabatu egiten da, eta datuak eskuraezin geratzen dira.</string>
+    <string name="pc_key_path">Gako-fitxategiaren edo -karpetaren bidea PCan</string>
+    <string name="pc_path_hint">Windowsen bide osoa, adibidez C:\\Users\\ni\\Desktop\\test. Ez dira onartzen diskoen erroak, erabiltzaile-karpeta osoak ezta sistemaren karpetak ere.</string>
+
+    <string name="pc_shred_title">Suntsitu karpeta bat</string>
+    <string name="pc_shred_enable">Suntsitu karpeta bat</string>
+    <string name="pc_shred_body">Bost pasaldi fitxategi bakoitzaren gainean idatzita (lehena zeroekin eta beste lauak ausazko datuekin), eta gero ezabatu egiten da. Gainidatzi ezin dena dagoen lekuan uzten da eta abisua ematen da. Karpetak hutsik geratzen direnean ezabatzen dira. SSD batean firmwareak kopia zaharrak gorde ditzake; beraz, seguruagoa da goiko gakoa suntsitzea.</string>
+    <string name="pc_folder">Karpeta PCan</string>
+    <string name="pc_subdirs">Sartu azpidirektorioak</string>
+
+    <string name="pc_shutdown_title">Itzali PCa</string>
+    <string name="pc_shutdown_enable">Behartu itzaltzea</string>
+    <string name="pc_shutdown_body">Gainerako ekintzak amaitzean, bidali «shutdown /s /f /t 0» SSH bidez.</string>
+
+    <string name="pc_notification_title">PCko ekintzak</string>
+    <string name="pc_log_nothing">Ez dago ezer egiteko.</string>
+    <string name="pc_log_wol_ok">WoL paketea bidali da.</string>
+    <string name="pc_log_wol_failed">WoLak huts egin du: %s</string>
+    <string name="pc_log_ssh_missing">Ostalaria, erabiltzailea edo SSH gakoa edo pasahitza falta da.</string>
+    <string name="pc_log_key_ok">Gakoa suntsituta: %1$s.</string>
+    <string name="pc_log_key_failed">Ezin izan da gakoa suntsitu: %s</string>
+    <string name="pc_log_key_unsafe">Gakoaren bidea segurua ez delako baztertu da; ez da ezer ukitu.</string>
+    <string name="pc_log_shred_ok">Karpeta suntsituta: %1$s; %2$s.</string>
+    <string name="pc_log_shred_failed">Ezin izan da karpeta suntsitu: %s</string>
+    <string name="pc_log_shred_unsafe">Karpetaren bidea segurua ez delako baztertu da; ez da ezer ukitu.</string>
+    <string name="pc_log_shutdown_ok">Itzaltzeko agindua bidali da.</string>
+    <string name="pc_log_shutdown_failed">Itzaltzeak huts egin du: %s</string>
+
+    <plurals name="minutes">
+        <item quantity="one">minutu %d</item>
+        <item quantity="other">%d minutu</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">ordu %d</item>
+        <item quantity="other">%d ordu</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">egun %d</item>
+        <item quantity="other">%d egun</item>
+    </plurals>
+    <string name="pc_log_not_found">Bidea ez dago PCan.</string>
+    <string name="pc_log_is_link">Bidea esteka bat da; ez zaio jarraitu.</string>
+    <string name="pc_log_not_folder">Bidea fitxategi bat da, ez karpeta bat.</string>
+    <string name="pc_log_partial">%1$s; gainidatzi ezin izan dena zegoen lekuan utzi da.\n%2$s</string>
+    <string name="fired_manual">Eskuz abiarazi da: %s.</string>
+    <string name="fire_now">Abiarazi orain (proba)</string>
+    <string name="fire_now_title">Abiarazi orain?</string>
+    <string name="fire_now_body">Mezua benetan bidaliko da hona: %1$s; eta ekintza hauek exekutatuko dira PCan: %2$s. Epea amaitu izan balitz bezala da.</string>
+    <string name="fire_now_no_pc">bat ere ez</string>
+    <string name="fire_now_confirm">Abiarazi</string>
+    <string name="fire_action_wol">Wake on LAN</string>
+    <string name="fire_action_key">gakoa suntsitu</string>
+    <string name="fire_action_shred">karpeta hau suntsitu: %s</string>
+    <string name="fire_action_shutdown">PCa itzali</string>
+    <string name="pc_os_title">PCaren sistema</string>
+    <string name="pc_os_windows">Windows</string>
+    <string name="pc_os_linux">Linux</string>
+    <string name="pc_path_hint_linux">Bide osoa, adibidez /home/ni/test. Ez dira onartzen erroa, karpeta pertsonal osoak ezta sistemaren karpetak ere (/etc, /usr, /var…).</string>
+    <string name="pc_shutdown_body_linux">Gainerako ekintzen ondoren, exekutatu «sudo -n systemctl poweroff» SSH bidez. SSH erabiltzaileak sudo behar du pasahitzik gabe komando horretarako, edo polkit baimena itzaltzeko.</string>
+    <string name="pc_log_no_shred">shred ez dago PCan instalatuta (coreutils-ekin dator).</string>
+    <string name="pc_log_exit">komandoa %1$d kodearekin amaitu da.\n%2$s</string>
+    <string name="pc_cmd_title">Exekutatu komando bat</string>
+    <string name="pc_cmd_enable">Exekutatu nire komandoa</string>
+    <string name="pc_cmd_body_windows">Wake on LAN egin eta berehala, PCan exekutatzen da SSH bidez, PowerShellen, SSH erabiltzailearekin. Hainbat lerro izan ditzake. Ez da leihorik irekitzen: idazten duena emaitzaren jakinarazpenean agertzen da.</string>
+    <string name="pc_cmd_body_linux">Wake on LAN egin eta berehala, PCan exekutatzen da SSH bidez, bashen, SSH erabiltzailearekin. Hainbat lerro izan ditzake. Ez da leihorik irekitzen: idazten duena emaitzaren jakinarazpenean agertzen da.</string>
+    <string name="pc_cmd_field">Komandoa</string>
+    <string name="pc_log_cmd_ok">Komandoa amaitu da.\n%s</string>
+    <string name="pc_log_cmd_exit">Komandoa %1$d kodearekin amaitu da.\n%2$s</string>
+    <string name="pc_log_cmd_failed">Ezin izan da komandoa exekutatu: %s</string>
+    <string name="fire_action_cmd">zure komandoa exekutatu</string>
+    <plurals name="pc_files_wiped">
+        <item quantity="one">fitxategi %d gainidatzita eta ezabatuta</item>
+        <item quantity="other">%d fitxategi gainidatzita eta ezabatuta</item>
+    </plurals>
+    <plurals name="pc_subfolders_left">
+        <item quantity="one">azpikarpeta %d ukitu gabe</item>
+        <item quantity="other">%d azpikarpeta ukitu gabe</item>
+    </plurals>
+    <plurals name="pc_partial_files">
+        <item quantity="one">fitxategi %d baino ez da suntsitu</item>
+        <item quantity="other">%d fitxategi baino ez dira suntsitu</item>
+    </plurals>
+    <plurals name="pulse_rule">
+        <item quantity="one">Azken neurketa atalasetik behera badago, alarma bat entzuten da eta palanka %2$d minutu geroago abiarazten da, «Ondo nago» sakatzen ez baduzu. Alarmaren ondoren neurketa normal batek bertan behera uzten du.</item>
+        <item quantity="other">Azken %1$d neurketak atalasetik behera badaude, alarma bat entzuten da eta palanka %2$d minutu geroago abiarazten da, «Ondo nago» sakatzen ez baduzu. Alarmaren ondoren neurketa normal batek bertan behera uzten du.</item>
+    </plurals>
+    <string name="app_password_needed">Hornitzaile honek aplikazio-pasahitza baino ez du onartzen: aplikazio honetarako sortzen dituzun 16 letra. Zure ohiko pasahitza baztertzen du.</string>
+    <string name="app_password_open">Sortu aplikazio-pasahitz bat</string>
+    <string name="app_password_suspicious">Honek ez du aplikazio-pasahitza dirudi (16 letra).</string>
+    <string name="proton_token_needed">Protonek SMTP token batekin soilik bidaltzen du SMTP bidez; token hori domeinu propioa duten helbideentzat dago, ordainpeko plan batean. Jarri Erabiltzailea eta Pasahitza eremuetan Protonek ematen dizkizun erabiltzailea eta tokena.</string>
+    <string name="proton_token_open">Ireki Protonen argibideak</string>
+    <string name="microsoft_unsupported">Outlook, Hotmail eta Microsoft 365 zerbitzuek ez dute jada pasahitzik onartzen bidaltzeko, eta aplikazio honek oraindik ezin du Microsoften saioa hasi. Erabili beste hornitzaile bat.</string>
+    <string name="err_app_password">Zerbitzariak aplikazio-pasahitza eskatzen du, ez ohikoa. Sortu pasahitzaren azpiko botoiarekin eta itsatsi hor.</string>
+    <string name="err_bad_login">Zerbitzariak ez du onartu erabiltzailea edo pasahitza. Erabiltzaileak zure posta-helbide osoa izan behar du, eta pasahitzak, Gmail, Yahoo edo iCloudekin, aplikazio-pasahitza.</string>
+    <string name="err_microsoft">Microsoftek pasahitza baztertu du: jada ez du baimentzen pasahitz batekin bidaltzea. Erabili beste hornitzaile bat.</string>
+    <string name="pc_ssh_key_hint">Sartu gako batekin (seguruagoa eta pasahitzik gabe) edo erabiltzaile horrek PCan duen pasahitzarekin.</string>
+    <string name="pc_ssh_key_generate">Sortu gako bat</string>
+    <string name="pc_ssh_key_copy">Kopiatu gako publikoa</string>
+    <string name="pc_ssh_key_delete">Ezabatu gakoa</string>
+    <string name="pc_ssh_key_copied">Gako publikoa kopiatu da.</string>
+    <string name="pc_ssh_key_where_windows">PCan, gehitu gako publikoa C:\\ProgramData\\ssh\\administrators_authorized_keys fitxategian erabiltzailea administratzailea bada, edo, bestela, erabiltzailearen karpetako .ssh\\authorized_keys fitxategian.</string>
+    <string name="pc_ssh_key_where_linux">PCan, gehitu gako publikoa erabiltzaile horren ~/.ssh/authorized_keys fitxategian.</string>
+    <string name="remaining_dh">%1$d d %2$d h</string>
+    <string name="remaining_hm">%1$d h %2$d min</string>
+    <string name="remaining_m">%d min</string>
+    <string name="privacy_policy">Pribatutasun-politika</string>
+    <string name="privacy_file">PRIVACY.eu.md</string>
+</resources>
