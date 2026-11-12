@@ -7,5 +7,5 @@
 </ul>
 <p>Les accions destructives van protegides: es rebutgen les arrels de disc, les carpetes d'usuari senceres i les del sistema; els enllaços no se segueixen; el que no es pugui sobreescriure es deixa on és i s'avisa; i el resultat de cada acció arriba com a notificació. El botó «Dispara ara (prova)» permet provar abans tota la cadena sense risc.</p>
 <p>No recull res. L'aplicació només parla amb el servidor de correu i l'ordinador que configuris. Les contrasenyes del correu i de l'SSH es desen xifrades amb una clau del magatzem de claus d'Android.</p>
-<p>Codi obert amb llicència MIT.</p>
+<p>Codi font disponible amb llicència PolyForm Noncommercial.</p>
 <p>Disponible en català, castellà, anglès, gallec, basc, portuguès, francès, alemany, italià, neerlandès, polonès, rus, ucraïnès, xinès, japonès, coreà, tai i hindi.</p>

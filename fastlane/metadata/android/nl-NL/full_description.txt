@@ -7,5 +7,5 @@
 </ul>
 <p>Destructieve acties zijn beveiligd: de hoofdmap van een station, complete gebruikersmappen en systeemmappen worden geweigerd; koppelingen worden niet gevolgd; wat niet kan worden overschreven, blijft staan en wordt gemeld; en het resultaat van elke actie komt binnen als melding. Met de knop ‘Nu laten afgaan (test)’ kun je eerst de hele keten veilig uitproberen.</p>
 <p>Er wordt niets verzameld. De app praat alleen met de mailserver en de computer die je instelt. De wachtwoorden voor mail en SSH worden versleuteld met een sleutel die in de Android-keystore wordt bewaard.</p>
-<p>Open source onder de MIT-licentie.</p>
+<p>Broncode beschikbaar onder de PolyForm Noncommercial-licentie.</p>
 <p>Beschikbaar in het Nederlands, Engels, Spaans, Catalaans, Galicisch, Baskisch, Portugees, Frans, Duits, Italiaans, Pools, Russisch, Oekraïens, Chinees, Japans, Koreaans, Thai en Hindi.</p>

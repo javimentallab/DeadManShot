@@ -28,7 +28,7 @@ chino, japonés, coreano, tailandés e hindi.
 ## Instalación
 
 - **APK** de la [última versión](https://github.com/javimentallab/DeadManShot/releases/latest).
-- F-Droid y Google Play: en camino.
+- Google Play: en camino.
 
 Android 12 o posterior.
 
@@ -135,4 +135,4 @@ Consulta [CONTRIBUTING](CONTRIBUTING.md), en inglés. Para avisar en privado de 
 
 ## Licencia
 
-[MIT](LICENSE). Las licencias de terceros están en [NOTICE](NOTICE).
+[PolyForm Noncommercial 1.0.0](LICENSE): se permite cualquier uso no comercial; el uso comercial necesita permiso del autor. Las versiones hasta la 0.9.3 se publicaron con licencia MIT. Las licencias de terceros están en [NOTICE](NOTICE).

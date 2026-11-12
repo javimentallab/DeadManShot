@@ -7,5 +7,5 @@
 </ul>
 <p>As accións destrutivas van protexidas: rexéitanse as raíces de disco, os cartafoles de usuario enteiros e os do sistema; as ligazóns non se seguen; o que non se poida sobrescribir déixase onde está e avísase; e o resultado de cada acción chega como notificación. O botón «Disparar agora (proba)» deixa probar antes toda a cadea sen risco.</p>
 <p>Non recolle nada. A aplicación só fala co servidor de correo e o ordenador que configures. Os contrasinais do correo e do SSH gárdanse cifrados cunha chave do almacén de chaves de Android.</p>
-<p>Código aberto con licenza MIT.</p>
+<p>Código fonte dispoñible con licenza PolyForm Noncommercial.</p>
 <p>Dispoñible en galego, castelán, inglés, catalán, éuscaro, portugués, francés, alemán, italiano, neerlandés, polaco, ruso, ucraíno, chinés, xaponés, coreano, tailandés e hindi.</p>

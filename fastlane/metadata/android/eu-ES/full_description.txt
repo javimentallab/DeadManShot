@@ -7,5 +7,5 @@
 </ul>
 <p>Ekintza suntsitzaileak babestuta daude: diskoen erroak, erabiltzaile-karpeta osoak eta sistemaren karpetak baztertzen dira; estekei ez zaie jarraitzen; gainidatzi ezin dena dagoen lekuan uzten da eta abisua ematen da; eta ekintza bakoitzaren emaitza jakinarazpen gisa iristen da. «Abiarazi orain (proba)» botoiak kate osoa arriskurik gabe aurrez probatzeko aukera ematen du.</p>
 <p>Ez du ezer biltzen. Aplikazioak konfiguratzen dituzun posta-zerbitzariarekin eta ordenagailuarekin baino ez du hitz egiten. Postaren eta SSHren pasahitzak Androiden gako-biltegiko gako batekin zifratuta gordetzen dira.</p>
-<p>Kode irekia, MIT lizentziarekin.</p>
+<p>Iturburu-kodea eskuragarri, PolyForm Noncommercial lizentziarekin.</p>
 <p>Euskaraz, gaztelaniaz, ingelesez, katalanez, galizieraz, portugesez, frantsesez, alemanez, italieraz, nederlanderaz, polonieraz, errusieraz, ukraineraz, txineraz, japonieraz, koreeraz, thailanderaz eta hindiz eskuragarri.</p>

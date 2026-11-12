@@ -7,5 +7,5 @@
 </ul>
 <p>Destruktive Aktionen sind abgesichert: Stammverzeichnisse von Laufwerken, ganze Benutzerordner und Systemordner werden abgelehnt; Verknüpfungen werden nicht verfolgt; was sich nicht überschreiben lässt, bleibt liegen und wird gemeldet; und das Ergebnis jeder Aktion kommt als Benachrichtigung. Mit dem Knopf „Jetzt auslösen (Test)“ kannst du die ganze Kette vorher gefahrlos ausprobieren.</p>
 <p>Es werden keine Daten gesammelt. Die App spricht nur mit dem Mailserver und dem Computer, die du einrichtest. Die Passwörter für Mail und SSH werden mit einem Schlüssel aus dem Android-Keystore verschlüsselt.</p>
-<p>Open Source unter der MIT-Lizenz.</p>
+<p>Quellcode verfügbar unter der PolyForm-Noncommercial-Lizenz.</p>
 <p>Verfügbar auf Deutsch, Englisch, Spanisch, Katalanisch, Galicisch, Baskisch, Portugiesisch, Französisch, Italienisch, Niederländisch, Polnisch, Russisch, Ukrainisch, Chinesisch, Japanisch, Koreanisch, Thai und Hindi.</p>

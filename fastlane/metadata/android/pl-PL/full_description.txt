@@ -7,5 +7,5 @@
 </ul>
 <p>Działania niszczące są zabezpieczone: katalogi główne dysków, całe foldery użytkownika i foldery systemowe są odrzucane; dowiązania nie są śledzone; to, czego nie da się nadpisać, zostaje na miejscu i jest zgłaszane; a wynik każdego działania przychodzi jako powiadomienie. Przycisk „Wyzwól teraz (test)” pozwala najpierw bezpiecznie wypróbować cały łańcuch.</p>
 <p>Nic nie jest zbierane. Aplikacja łączy się tylko z serwerem poczty i komputerem, które skonfigurujesz. Hasła do poczty i SSH są szyfrowane kluczem przechowywanym w magazynie kluczy Androida.</p>
-<p>Otwarte oprogramowanie na licencji MIT.</p>
+<p>Kod źródłowy dostępny na licencji PolyForm Noncommercial.</p>
 <p>Dostępna po polsku, angielsku, hiszpańsku, katalońsku, galicyjsku, baskijsku, portugalsku, francusku, niemiecku, włosku, niderlandzku, rosyjsku, ukraińsku, chińsku, japońsku, koreańsku, tajsku i w hindi.</p>

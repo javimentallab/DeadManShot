@@ -6,7 +6,7 @@
 
 **1. 提供者身份。** DeadManShot 应用程序（以下简称“本应用”）由 Javier Comyn Pérez（地址：calle Olivos, número 36, 28670 Villaviciosa de Odón, Madrid, España，以下简称“提供者”）在 Google Play 上提供。有关本条款的任何通信均可通过 jotacomyn@gmail.com 或 https://github.com/javimentallab/DeadManShot/issues 向提供者发送。
 
-**2. 标的和许可。** 本条款规范通过 Google Play 分发的本应用的使用。购买本应用后，用户通过一次性付款获得在其设备上并按 Google Play 允许的条件使用本应用的许可。本应用的源代码根据 MIT 许可证单独分发；本条款仅适用于在 Google Play 上分发的版本。
+**2. 标的和许可。** 本条款规范通过 Google Play 分发的本应用的使用。购买本应用后，用户通过一次性付款获得在其设备上并按 Google Play 允许的条件使用本应用的许可。本应用的源代码根据 PolyForm Noncommercial 1.0.0 许可证单独分发；本条款仅适用于在 Google Play 上分发的版本。
 
 **3. 运行和技术限制。** 当用户未在所选截止时间之前确认时，或者在用户启用 *心率* 功能的情况下，当手表的测量值显示心率低于阈值或不再收到测量值时，本应用将发送电子邮件并执行用户配置的操作。其运行取决于提供者无法控制的因素，例如 Android 系统和设备的电池管理；网络连接；用户的邮件服务器；手表（必须与 Gadgetbridge 应用程序兼容并已与其配对）；以及对用户计算机的访问。因此，本应用可能延迟执行或不执行操作，也可能在用户不希望时执行操作，例如用户忘记确认时。本应用不得用作在紧急情况下求助的唯一手段。
 
