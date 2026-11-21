@@ -1,0 +1,1 @@
+When Gmail, Yahoo or iCloud refuse the password, the Email tab now shows how to get an app password in three steps, with a button for each. It also warns while you type if the password does not look like an app password.

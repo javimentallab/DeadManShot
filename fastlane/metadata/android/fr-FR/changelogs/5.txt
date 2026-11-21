@@ -1,0 +1,1 @@
+Si Gmail, Yahoo ou iCloud refusent le mot de passe, l'onglet E-mail explique désormais en trois étapes comment obtenir un mot de passe d'application, avec un bouton pour chacune. Il prévient aussi pendant la saisie si le mot de passe ne ressemble pas à un mot de passe d'application.

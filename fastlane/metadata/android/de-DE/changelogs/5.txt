@@ -1,0 +1,1 @@
+Wenn Gmail, Yahoo oder iCloud das Passwort ablehnen, zeigt der Tab E-Mail jetzt in drei Schritten, wie du ein App-Passwort bekommst, mit einer Schaltfläche für jeden Schritt. Außerdem warnt die App schon beim Tippen, wenn das Passwort nicht wie ein App-Passwort aussieht.

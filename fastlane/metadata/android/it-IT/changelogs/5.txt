@@ -1,0 +1,1 @@
+Se Gmail, Yahoo o iCloud rifiutano la password, la scheda Email ora spiega in tre passaggi come ottenere una password per le app, con un pulsante per ciascuno. Avvisa anche mentre scrivi se la password non sembra una password per le app.

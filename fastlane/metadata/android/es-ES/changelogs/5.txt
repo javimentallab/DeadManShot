@@ -1,0 +1,1 @@
+Si Gmail, Yahoo o iCloud rechazan la contraseña, la pestaña Correo explica ahora en tres pasos cómo conseguir una contraseña de aplicación, con un botón para cada uno. Además avisa mientras escribes si la contraseña no parece de aplicación.

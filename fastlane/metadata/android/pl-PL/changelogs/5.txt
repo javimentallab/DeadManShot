@@ -1,0 +1,1 @@
+Jeśli Gmail, Yahoo lub iCloud odrzucą hasło, karta E-mail wyjaśnia teraz w trzech krokach, jak uzyskać hasło do aplikacji, z przyciskiem dla każdego kroku. Ostrzega też podczas wpisywania, jeśli hasło nie wygląda na hasło do aplikacji.
