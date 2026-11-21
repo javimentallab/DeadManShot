@@ -4,7 +4,9 @@ import android.content.Intent
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -16,6 +18,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
@@ -44,6 +47,8 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -52,6 +57,8 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.ui.unit.dp
 import com.javimetallab.deadmanshot.R
+import com.javimetallab.deadmanshot.core.AppPasswordProvider
+import com.javimetallab.deadmanshot.core.Login
 import com.javimetallab.deadmanshot.core.Mailer
 import com.javimetallab.deadmanshot.core.Snapshot
 import com.javimetallab.deadmanshot.core.Store
@@ -165,7 +172,7 @@ private fun AccountCard(s: Snapshot) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var sending by remember { mutableStateOf(false) }
-    var result by remember { mutableStateOf<Pair<Boolean, String>?>(null) }
+    var result by remember { mutableStateOf<TestResult?>(null) }
     var port by rememberSaveable(s.smtp.port) { mutableStateOf(s.smtp.port.toString()) }
     var showPresets by rememberSaveable { mutableStateOf(false) }
 
@@ -219,6 +226,10 @@ private fun AccountCard(s: Snapshot) {
         )
         val note = Mailer.accountNote(s.smtp.host)
         var typedPassword by remember { mutableStateOf(Store.password() ?: "") }
+        // Gmail, Yahoo and iCloud refuse the account's usual password: say so under
+        // the field before the first test, but save whatever is typed.
+        val suspicious = note is Mailer.AccountNote.AppPassword &&
+            typedPassword.isNotEmpty() && !Login.looksLikeAppPassword(typedPassword)
         SavedField(
             initial = remember { Store.password() ?: "" },
             label = stringResource(R.string.smtp_password),
@@ -227,18 +238,17 @@ private fun AccountCard(s: Snapshot) {
                 Store.setPassword(it)
             },
             isPassword = true,
+            supporting = if (suspicious) stringResource(R.string.app_password_suspicious) else null,
+            isError = suspicious,
         )
         when (note) {
             is Mailer.AccountNote.AppPassword -> {
                 Text(stringResource(R.string.app_password_needed), style = MaterialTheme.typography.bodySmall)
-                if (typedPassword.isNotEmpty() && !Mailer.looksLikeAppPassword(typedPassword)) {
-                    Text(
-                        stringResource(R.string.app_password_suspicious),
-                        color = MaterialTheme.colorScheme.error,
-                        style = MaterialTheme.typography.bodySmall,
-                    )
+                // In this order: without two-step verification, there is no app password to create.
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OpenPageButton(note.provider.twoStepPage, stringResource(R.string.guide_step1_open))
+                    OpenPageButton(note.provider.appPasswordPage, stringResource(R.string.app_password_open))
                 }
-                OpenPageButton(note.page, stringResource(R.string.app_password_open))
             }
             is Mailer.AccountNote.ProtonToken -> {
                 Text(stringResource(R.string.proton_token_needed), style = MaterialTheme.typography.bodySmall)
@@ -259,32 +269,38 @@ private fun AccountCard(s: Snapshot) {
             supporting = stringResource(R.string.smtp_from_hint),
         )
 
-        Button(
-            enabled = !sending,
-            onClick = {
-                sending = true
-                result = null
-                scope.launch {
-                    val r = withContext(Dispatchers.IO) {
-                        runCatching { Mailer.send(context, Store.snapshot(), test = true) }
-                    }
-                    sending = false
-                    val from = Store.snapshot().smtp.let { it.from.ifBlank { it.user } }
-                    result = r.fold(
-                        onSuccess = { skipped ->
-                            true to (context.getString(R.string.test_ok, from) +
-                                if (skipped.isEmpty()) "" else "\n" +
-                                    context.getString(R.string.test_skipped, skipped.joinToString(", ")))
-                        },
-                        onFailure = { e ->
-                            false to context.getString(
-                                R.string.test_failed, Mailer.explain(context, e.message ?: e.javaClass.simpleName)
-                            )
-                        },
-                    )
+        val sendTest = {
+            sending = true
+            result = null
+            scope.launch {
+                val r = withContext(Dispatchers.IO) {
+                    runCatching { Mailer.send(context, Store.snapshot(), test = true) }
                 }
-            },
-        ) {
+                sending = false
+                val smtp = Store.snapshot().smtp
+                val from = smtp.from.ifBlank { smtp.user }
+                result = r.fold(
+                    onSuccess = { skipped ->
+                        TestResult(
+                            ok = true,
+                            text = context.getString(R.string.test_ok, from) +
+                                if (skipped.isEmpty()) "" else "\n" +
+                                    context.getString(R.string.test_skipped, skipped.joinToString(", ")),
+                        )
+                    },
+                    onFailure = { e ->
+                        val error = e.message ?: e.javaClass.simpleName
+                        TestResult(
+                            ok = false,
+                            text = context.getString(R.string.test_failed, Mailer.explain(context, error)),
+                            guide = Login.provider(smtp.host)?.takeIf { Login.classify(error).isLogin },
+                        )
+                    },
+                )
+            }
+            Unit
+        }
+        Button(enabled = !sending, onClick = sendTest) {
             if (sending) {
                 CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
             } else {
@@ -293,8 +309,9 @@ private fun AccountCard(s: Snapshot) {
             Spacer(Modifier.width(8.dp))
             Text(stringResource(R.string.send_test))
         }
-        result?.let { (ok, text) ->
-            ResultLine(ok, text)
+        result?.let { r ->
+            if (r.guide != null) AppPasswordGuide(r.guide, onRetry = sendTest)
+            else ResultLine(r.ok, r.text)
         }
     }
 
@@ -350,6 +367,64 @@ private fun PresetDialog(onDismiss: () -> Unit, onPick: (SmtpPreset) -> Unit) {
             TextButton(onClick = onDismiss) { Text(stringResource(R.string.cancel)) }
         },
     )
+}
+
+/** The outcome of "Send a test"; [guide] is set when Gmail, Yahoo or iCloud refused the login. */
+private data class TestResult(val ok: Boolean, val text: String, val guide: AppPasswordProvider? = null)
+
+/**
+ * What to do when Gmail, Yahoo or iCloud refuse the login: the three steps to
+ * an app password, each with its button. The app sends over SMTP and does not
+ * sign in with the provider's account, so there is no other way in.
+ */
+@Composable
+private fun AppPasswordGuide(provider: AppPasswordProvider, onRetry: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        ResultLine(false, stringResource(R.string.guide_title, provider.service))
+        GuideStep(1, stringResource(R.string.guide_step1)) {
+            OpenPageButton(provider.twoStepPage, stringResource(R.string.guide_step1_open))
+        }
+        GuideStep(2, stringResource(R.string.guide_step2)) {
+            OpenPageButton(provider.appPasswordPage, stringResource(R.string.app_password_open))
+        }
+        GuideStep(3, stringResource(R.string.guide_step3)) {
+            Button(onClick = onRetry) {
+                Icon(Icons.AutoMirrored.Filled.Send, contentDescription = null)
+                Spacer(Modifier.width(8.dp))
+                Text(stringResource(R.string.guide_retry))
+            }
+        }
+        Text(
+            stringResource(R.string.guide_note, provider.company),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
+}
+
+@Composable
+private fun GuideStep(number: Int, text: String, action: @Composable () -> Unit) {
+    Row(verticalAlignment = Alignment.Top) {
+        Box(
+            Modifier
+                .size(26.dp)
+                .clip(CircleShape)
+                .background(RunningColor),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                number.toString(),
+                color = Color.White,
+                style = MaterialTheme.typography.labelLarge,
+                fontWeight = FontWeight.Bold,
+            )
+        }
+        Spacer(Modifier.width(12.dp))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(text, style = MaterialTheme.typography.bodyMedium)
+            action()
+        }
+    }
 }
 
 @Composable

@@ -109,7 +109,11 @@ fun MainScreen(startTab: Int = 0) {
     ) { padding ->
         val mod = Modifier.fillMaxSize().padding(padding)
         when (Destination.entries[destination]) {
-            Destination.HOME -> HomeTab(s, tick, permissionsTick, askNotifications, modifier = mod)
+            Destination.HOME -> HomeTab(
+                s, tick, permissionsTick, askNotifications,
+                openEmail = { destination = Destination.EMAIL.ordinal },
+                modifier = mod,
+            )
             Destination.EMAIL -> EmailTab(s, modifier = mod)
             Destination.PULSE -> PulseTab(s, modifier = mod)
             Destination.PC -> PcTab(s, rememberCoroutineScope(), modifier = mod)

@@ -231,13 +231,21 @@
     </plurals>
     <string name="app_password_needed">Hornitzaile honek aplikazio-pasahitza baino ez du onartzen: aplikazio honetarako sortzen dituzun 16 letra. Zure ohiko pasahitza baztertzen du.</string>
     <string name="app_password_open">Sortu aplikazio-pasahitz bat</string>
-    <string name="app_password_suspicious">Honek ez du aplikazio-pasahitza dirudi (16 letra).</string>
+    <string name="app_password_suspicious">Honek ez du aplikazio-pasahitza dirudi (16 letra). Ohiko pasahitzarekin, zerbitzariak bidalketa baztertuko du.</string>
     <string name="proton_token_needed">Protonek SMTP token batekin soilik bidaltzen du SMTP bidez; token hori domeinu propioa duten helbideentzat dago, ordainpeko plan batean. Jarri Erabiltzailea eta Pasahitza eremuetan Protonek ematen dizkizun erabiltzailea eta tokena.</string>
     <string name="proton_token_open">Ireki Protonen argibideak</string>
     <string name="microsoft_unsupported">Outlook, Hotmail eta Microsoft 365 zerbitzuek ez dute jada pasahitzik onartzen bidaltzeko, eta aplikazio honek oraindik ezin du Microsoften saioa hasi. Erabili beste hornitzaile bat.</string>
     <string name="err_app_password">Zerbitzariak aplikazio-pasahitza eskatzen du, ez ohikoa. Sortu pasahitzaren azpiko botoiarekin eta itsatsi hor.</string>
     <string name="err_bad_login">Zerbitzariak ez du onartu erabiltzailea edo pasahitza. Erabiltzaileak zure posta-helbide osoa izan behar du, eta pasahitzak, Gmail, Yahoo edo iCloudekin, aplikazio-pasahitza.</string>
     <string name="err_microsoft">Microsoftek pasahitza baztertu du: jada ez du baimentzen pasahitz batekin bidaltzea. Erabili beste hornitzaile bat.</string>
+    <string name="guide_title">%s zerbitzariak ez du onartu erabiltzailea edo pasahitza. Aplikazio-pasahitza baino ez du onartzen, eta hiru urratsetan lortzen da:</string>
+    <string name="guide_step1">Aktibatu zure kontuko bi urratseko egiaztapena, oraindik aktibatuta ez badago. Hori gabe, ez da agertzen aplikazio-pasahitzak sortzeko aukera.</string>
+    <string name="guide_step1_open">Aktibatu bi urratseko egiaztapena</string>
+    <string name="guide_step2">Sortu aplikazio-pasahitz bat. Jarri nahi duzun izena, adibidez DeadManShot.</string>
+    <string name="guide_step3">Itsatsi haren 16 letrak goiko Pasahitza eremuan (zuriuneek ez dute axola), egiaztatu erabiltzailea zure helbide osoa dela eta bidali berriro proba.</string>
+    <string name="guide_retry">Bidali berriro proba</string>
+    <string name="guide_note">Zure %1$s kontuko ohiko pasahitzak ez du balio hemen, eta ez dago %1$s bidez saioa hasterik: aplikazioak SMTP bidez bidaltzen du mezua, aplikazio-pasahitzarekin.</string>
+    <string name="send_failed_fix">Berrikusi posta-kontua</string>
     <string name="pc_ssh_key_hint">Sartu gako batekin (seguruagoa eta pasahitzik gabe) edo erabiltzaile horrek PCan duen pasahitzarekin.</string>
     <string name="pc_ssh_key_generate">Sortu gako bat</string>
     <string name="pc_ssh_key_copy">Kopiatu gako publikoa</string>

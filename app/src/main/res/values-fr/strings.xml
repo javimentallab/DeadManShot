@@ -238,13 +238,21 @@
     </plurals>
     <string name="app_password_needed">Ce fournisseur n’accepte qu’un mot de passe d’application : 16 lettres que vous créez pour cette appli. Votre mot de passe habituel est refusé.</string>
     <string name="app_password_open">Créer un mot de passe d’application</string>
-    <string name="app_password_suspicious">Cela ne ressemble pas à un mot de passe d’application (16 lettres).</string>
+    <string name="app_password_suspicious">Cela ne ressemble pas à un mot de passe d’application (16 lettres). Avec votre mot de passe habituel, le serveur refusera l’envoi.</string>
     <string name="proton_token_needed">Proton n’envoie par SMTP qu’avec un jeton SMTP, disponible pour les adresses sur votre propre domaine avec une offre payante. Saisissez dans Utilisateur et Mot de passe le nom d’utilisateur et le jeton fournis par Proton.</string>
     <string name="proton_token_open">Ouvrir les instructions de Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail et Microsoft 365 n’acceptent plus de mot de passe pour l’envoi, et cette appli ne sait pas encore se connecter à Microsoft. Utilisez un autre fournisseur.</string>
     <string name="err_app_password">Le serveur demande un mot de passe d’application, pas votre mot de passe habituel. Créez-en un avec le bouton sous le mot de passe et collez-le à cet endroit.</string>
     <string name="err_bad_login">Le serveur n’a pas accepté l’utilisateur ou le mot de passe. L’utilisateur doit être votre adresse e-mail complète et, avec Gmail, Yahoo ou iCloud, le mot de passe un mot de passe d’application.</string>
     <string name="err_microsoft">Microsoft a refusé le mot de passe : l’envoi avec un mot de passe n’est plus autorisé. Utilisez un autre fournisseur.</string>
+    <string name="guide_title">%s n’a pas accepté l’utilisateur ou le mot de passe. Seul un mot de passe d’application est accepté, et il s’obtient en trois étapes :</string>
+    <string name="guide_step1">Activez la validation en deux étapes de votre compte, si ce n’est pas déjà fait. Sans elle, l’option pour créer des mots de passe d’application n’apparaît pas.</string>
+    <string name="guide_step1_open">Activer la validation en deux étapes</string>
+    <string name="guide_step2">Créez un mot de passe d’application. Donnez-lui le nom que vous voulez, par exemple DeadManShot.</string>
+    <string name="guide_step3">Collez ses 16 lettres dans Mot de passe, plus haut (les espaces n’ont pas d’importance), vérifiez que l’utilisateur est votre adresse complète et renvoyez le test.</string>
+    <string name="guide_retry">Renvoyer le test</string>
+    <string name="guide_note">Le mot de passe habituel de votre compte %1$s ne fonctionne pas ici, et il n’y a pas de connexion avec %1$s : l’appli envoie l’e-mail par SMTP, avec le mot de passe d’application.</string>
+    <string name="send_failed_fix">Vérifier le compte e-mail</string>
     <string name="pc_ssh_key_hint">Connectez-vous avec une clé (plus sûr, sans mot de passe) ou avec le mot de passe de cet utilisateur sur le PC.</string>
     <string name="pc_ssh_key_generate">Créer une clé</string>
     <string name="pc_ssh_key_copy">Copier la clé publique</string>

@@ -238,13 +238,21 @@
     </plurals>
     <string name="app_password_needed">Este provedor só aceita uma senha de app: 16 letras que você cria para este aplicativo. Sua senha normal é recusada.</string>
     <string name="app_password_open">Criar uma senha de app</string>
-    <string name="app_password_suspicious">Isso não parece uma senha de app (16 letras).</string>
+    <string name="app_password_suspicious">Isso não parece uma senha de app (16 letras). Com a sua senha normal, o servidor vai recusar o envio.</string>
     <string name="proton_token_needed">O Proton só envia por SMTP com um token SMTP, que existe para endereços com domínio próprio em um plano pago. Coloque em Usuário e Senha o usuário e o token que o Proton fornecer.</string>
     <string name="proton_token_open">Abrir as instruções do Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail e Microsoft 365 não aceitam mais senha para enviar, e este aplicativo ainda não consegue entrar na Microsoft. Use outro provedor.</string>
     <string name="err_app_password">O servidor pede uma senha de app, não a sua senha normal. Crie uma com o botão abaixo da senha e cole-a ali.</string>
     <string name="err_bad_login">O servidor não aceitou o usuário ou a senha. O usuário deve ser seu endereço de e-mail completo e a senha, no Gmail, Yahoo ou iCloud, uma senha de app.</string>
     <string name="err_microsoft">A Microsoft recusou a senha: não permite mais enviar com uma. Use outro provedor.</string>
+    <string name="guide_title">%s não aceitou o usuário ou a senha. Só é aceita uma senha de app, que você consegue em três etapas:</string>
+    <string name="guide_step1">Ative a verificação em duas etapas na sua conta, se ainda não estiver ativa. Sem ela, a opção de criar senhas de app não aparece.</string>
+    <string name="guide_step1_open">Ativar a verificação em duas etapas</string>
+    <string name="guide_step2">Crie uma senha de app. Dê o nome que quiser, por exemplo DeadManShot.</string>
+    <string name="guide_step3">Cole as 16 letras em Senha, mais acima (os espaços não importam), confira se o usuário é o seu endereço completo e envie o teste de novo.</string>
+    <string name="guide_retry">Enviar o teste de novo</string>
+    <string name="guide_note">A senha normal da sua conta %1$s não funciona aqui, e não há login com %1$s: o aplicativo envia o e-mail por SMTP, com a senha de app.</string>
+    <string name="send_failed_fix">Verificar a conta de e-mail</string>
     <string name="pc_ssh_key_hint">Entre com uma chave (mais seguro e sem senha) ou com a senha desse usuário no PC.</string>
     <string name="pc_ssh_key_generate">Criar uma chave</string>
     <string name="pc_ssh_key_copy">Copiar a chave pública</string>

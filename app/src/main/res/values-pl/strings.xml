@@ -245,13 +245,21 @@
     </plurals>
     <string name="app_password_needed">Ten dostawca akceptuje tylko hasło do aplikacji: 16 liter, które tworzysz dla tej aplikacji. Zwykłe hasło zostanie odrzucone.</string>
     <string name="app_password_open">Utwórz hasło do aplikacji</string>
-    <string name="app_password_suspicious">To nie wygląda na hasło do aplikacji (16 liter).</string>
+    <string name="app_password_suspicious">To nie wygląda na hasło do aplikacji (16 liter). Ze zwykłym hasłem serwer odmówi wysłania.</string>
     <string name="proton_token_needed">Proton wysyła przez SMTP tylko z tokenem SMTP, dostępnym dla adresów we własnej domenie w płatnym planie. Wpisz w polach Użytkownik i Hasło nazwę użytkownika i token od Protona.</string>
     <string name="proton_token_open">Otwórz instrukcje Protona</string>
     <string name="microsoft_unsupported">Outlook, Hotmail i Microsoft 365 nie przyjmują już hasła do wysyłania, a ta aplikacja nie umie jeszcze logować się do Microsoftu. Użyj innego dostawcy.</string>
     <string name="err_app_password">Serwer wymaga hasła do aplikacji, a nie zwykłego hasła. Utwórz je przyciskiem pod hasłem i wklej je tam.</string>
     <string name="err_bad_login">Serwer nie zaakceptował użytkownika lub hasła. Użytkownikiem musi być pełny adres e-mail, a hasłem w Gmailu, Yahoo lub iCloud – hasło do aplikacji.</string>
     <string name="err_microsoft">Microsoft odrzucił hasło: nie pozwala już wysyłać z hasłem. Użyj innego dostawcy.</string>
+    <string name="guide_title">Serwer %s nie zaakceptował użytkownika lub hasła. Przyjmuje tylko hasło do aplikacji, które uzyskasz w trzech krokach:</string>
+    <string name="guide_step1">Włącz weryfikację dwuetapową na swoim koncie, jeśli nie jest jeszcze włączona. Bez niej nie pojawi się opcja tworzenia haseł do aplikacji.</string>
+    <string name="guide_step1_open">Włącz weryfikację dwuetapową</string>
+    <string name="guide_step2">Utwórz hasło do aplikacji. Nazwa jest dowolna, na przykład DeadManShot.</string>
+    <string name="guide_step3">Wklej jego 16 liter w polu Hasło powyżej (spacje nie mają znaczenia), sprawdź, czy użytkownik to Twój pełny adres, i wyślij test ponownie.</string>
+    <string name="guide_retry">Wyślij test ponownie</string>
+    <string name="guide_note">Zwykłe hasło do konta %1$s tu nie zadziała i nie ma logowania przez %1$s: aplikacja wysyła e-mail przez SMTP, z hasłem do aplikacji.</string>
+    <string name="send_failed_fix">Sprawdź konto e-mail</string>
     <string name="pc_ssh_key_hint">Zaloguj się kluczem (bezpieczniej i bez hasła) albo hasłem tego użytkownika na komputerze.</string>
     <string name="pc_ssh_key_generate">Utwórz klucz</string>
     <string name="pc_ssh_key_copy">Kopiuj klucz publiczny</string>

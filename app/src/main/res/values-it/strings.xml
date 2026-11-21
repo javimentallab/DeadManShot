@@ -238,13 +238,21 @@
     </plurals>
     <string name="app_password_needed">Questo provider accetta solo una password per le app: 16 lettere che crei per questa app. La tua password abituale viene rifiutata.</string>
     <string name="app_password_open">Crea una password per le app</string>
-    <string name="app_password_suspicious">Non sembra una password per le app (16 lettere).</string>
+    <string name="app_password_suspicious">Non sembra una password per le app (16 lettere). Con la password abituale, il server rifiuterà l’invio.</string>
     <string name="proton_token_needed">Proton invia via SMTP solo con un token SMTP, disponibile per gli indirizzi con dominio proprio in un piano a pagamento. Inserisci in Utente e Password il nome utente e il token forniti da Proton.</string>
     <string name="proton_token_open">Apri le istruzioni di Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail e Microsoft 365 non accettano più una password per l’invio e questa app non sa ancora accedere a Microsoft. Usa un altro provider.</string>
     <string name="err_app_password">Il server chiede una password per le app, non quella abituale. Creala con il pulsante sotto la password e incollala lì.</string>
     <string name="err_bad_login">Il server non ha accettato l’utente o la password. L’utente deve essere il tuo indirizzo email completo e la password, con Gmail, Yahoo o iCloud, una password per le app.</string>
     <string name="err_microsoft">Microsoft ha rifiutato la password: non consente più l’invio con una password. Usa un altro provider.</string>
+    <string name="guide_title">%s non ha accettato l’utente o la password. Accetta solo una password per le app, che si ottiene in tre passaggi:</string>
+    <string name="guide_step1">Attiva la verifica in due passaggi del tuo account, se non è già attiva. Senza di essa non compare l’opzione per creare password per le app.</string>
+    <string name="guide_step1_open">Attiva la verifica in due passaggi</string>
+    <string name="guide_step2">Crea una password per le app. Dalle il nome che vuoi, per esempio DeadManShot.</string>
+    <string name="guide_step3">Incolla le sue 16 lettere in Password, più in alto (gli spazi non contano), controlla che l’utente sia il tuo indirizzo completo e invia di nuovo la prova.</string>
+    <string name="guide_retry">Invia di nuovo la prova</string>
+    <string name="guide_note">La password abituale del tuo account %1$s qui non funziona, e non c’è accesso con %1$s: l’app invia l’email tramite SMTP, con la password per le app.</string>
+    <string name="send_failed_fix">Controlla l’account email</string>
     <string name="pc_ssh_key_hint">Accedi con una chiave (più sicuro, senza password) o con la password di quell’utente sul PC.</string>
     <string name="pc_ssh_key_generate">Crea una chiave</string>
     <string name="pc_ssh_key_copy">Copia la chiave pubblica</string>

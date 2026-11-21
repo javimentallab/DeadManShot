@@ -92,6 +92,8 @@ fun SavedField(
     keyboardType: KeyboardType = KeyboardType.Text,
     isPassword: Boolean = false,
     supporting: String? = null,
+    /** Marks the field in red without stopping the save: a warning, not a block. */
+    isError: Boolean = false,
     modifier: Modifier = Modifier,
 ) {
     var text by rememberSaveable(initial) { mutableStateOf(initial) }
@@ -123,6 +125,7 @@ fun SavedField(
             }
         } else null,
         supportingText = supporting?.let { { Text(it) } },
+        isError = isError,
         modifier = modifier.fillMaxWidth(),
     )
 }

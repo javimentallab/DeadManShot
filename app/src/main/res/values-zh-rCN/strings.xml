@@ -224,13 +224,21 @@
     </plurals>
     <string name="app_password_needed">该服务商只接受应用专用密码：为本应用创建的 16 个字母。普通密码会被拒绝。</string>
     <string name="app_password_open">创建应用专用密码</string>
-    <string name="app_password_suspicious">这看起来不像应用专用密码（16 个字母）。</string>
+    <string name="app_password_suspicious">这看起来不像应用专用密码（16 个字母）。使用平时的密码，服务器会拒绝发送。</string>
     <string name="proton_token_needed">Proton 只能使用 SMTP 令牌通过 SMTP 发送，该令牌仅适用于付费套餐中自有域名的地址。请将 Proton 提供的用户名和令牌填入“用户名”和“密码”。</string>
     <string name="proton_token_open">打开 Proton 的说明</string>
     <string name="microsoft_unsupported">Outlook、Hotmail 和 Microsoft 365 已不再接受用密码发送邮件，而本应用暂时无法登录 Microsoft。请使用其他服务商。</string>
     <string name="err_app_password">服务器要求使用应用专用密码，而不是普通密码。请用密码下方的按钮创建一个，并粘贴到那里。</string>
     <string name="err_bad_login">服务器未接受用户名或密码。用户名必须是完整的邮箱地址；使用 Gmail、Yahoo 或 iCloud 时，密码必须是应用专用密码。</string>
     <string name="err_microsoft">Microsoft 拒绝了该密码：已不再允许用密码发送。请使用其他服务商。</string>
+    <string name="guide_title">%s 未接受用户名或密码。它只接受应用专用密码，可通过以下三步获取：</string>
+    <string name="guide_step1">如果尚未开启，请在账户中开启两步验证。没有两步验证，就不会出现创建应用专用密码的选项。</string>
+    <string name="guide_step1_open">开启两步验证</string>
+    <string name="guide_step2">创建一个应用专用密码。名称随意，例如 DeadManShot。</string>
+    <string name="guide_step3">把这 16 个字母粘贴到上方的“密码”中（有空格也没关系），确认“用户名”是完整的邮箱地址，然后重新发送测试。</string>
+    <string name="guide_retry">重新发送测试</string>
+    <string name="guide_note">你平时的 %1$s 账户密码在这里无效，也没有用 %1$s 登录的方式：本应用通过 SMTP 使用应用专用密码发送邮件。</string>
+    <string name="send_failed_fix">检查邮箱账户</string>
     <string name="pc_ssh_key_hint">使用密钥登录（更安全，无需密码），或使用该用户在电脑上的密码。</string>
     <string name="pc_ssh_key_generate">创建密钥</string>
     <string name="pc_ssh_key_copy">复制公钥</string>

@@ -224,13 +224,21 @@
     </plurals>
     <string name="app_password_needed">このサービスではアプリパスワードしか使えません。このアプリ用に作成する 16 文字の英字です。通常のパスワードは拒否されます。</string>
     <string name="app_password_open">アプリパスワードを作成</string>
-    <string name="app_password_suspicious">アプリパスワード（16 文字の英字）ではないようです。</string>
+    <string name="app_password_suspicious">アプリパスワード（16 文字の英字）ではないようです。通常のパスワードでは、サーバーが送信を拒否します。</string>
     <string name="proton_token_needed">Proton は SMTP トークンでのみ SMTP 送信できます。トークンは有料プランの独自ドメインのアドレスでのみ使えます。Proton が表示するユーザー名とトークンを「ユーザー」と「パスワード」に入力してください。</string>
     <string name="proton_token_open">Proton の説明を開く</string>
     <string name="microsoft_unsupported">Outlook・Hotmail・Microsoft 365 はパスワードでの送信を受け付けなくなりました。このアプリはまだ Microsoft にサインインできません。別のサービスを使ってください。</string>
     <string name="err_app_password">サーバーは通常のパスワードではなく、アプリパスワードを求めています。パスワード欄の下のボタンで作成し、そこに貼り付けてください。</string>
     <string name="err_bad_login">サーバーがユーザーまたはパスワードを受け付けませんでした。ユーザーはメールアドレス全体、パスワードは Gmail・Yahoo・iCloud の場合アプリパスワードにしてください。</string>
     <string name="err_microsoft">Microsoft がパスワードを拒否しました。パスワードでの送信はできなくなっています。別のサービスを使ってください。</string>
+    <string name="guide_title">%s がユーザーまたはパスワードを受け付けませんでした。使えるのはアプリパスワードだけで、次の 3 ステップで取得できます。</string>
+    <string name="guide_step1">アカウントの 2 段階認証プロセスを有効にします（まだの場合）。これがないと、アプリパスワードを作成する項目が表示されません。</string>
+    <string name="guide_step1_open">2 段階認証プロセスを有効にする</string>
+    <string name="guide_step2">アプリパスワードを作成します。名前は何でもかまいません（例: DeadManShot）。</string>
+    <string name="guide_step3">上の「パスワード」に 16 文字を貼り付け（スペースはあってもかまいません）、「ユーザー」が完全なメールアドレスか確認して、テストをもう一度送信します。</string>
+    <string name="guide_retry">テストをもう一度送信</string>
+    <string name="guide_note">%1$s アカウントの通常のパスワードはここでは使えません。また、%1$s でログインする機能もありません。このアプリはアプリパスワードを使い、SMTP でメールを送信します。</string>
+    <string name="send_failed_fix">メールアカウントを確認</string>
     <string name="pc_ssh_key_hint">鍵でサインイン（より安全でパスワード不要）するか、PC のそのユーザーのパスワードを使います。</string>
     <string name="pc_ssh_key_generate">鍵を作成</string>
     <string name="pc_ssh_key_copy">公開鍵をコピー</string>

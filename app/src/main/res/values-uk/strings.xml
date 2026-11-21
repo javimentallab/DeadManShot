@@ -245,13 +245,21 @@
     </plurals>
     <string name="app_password_needed">Цей поштовий сервіс приймає лише пароль застосунку: 16 літер, які ви створюєте для цього застосунку. Звичайний пароль не підійде.</string>
     <string name="app_password_open">Створити пароль застосунку</string>
-    <string name="app_password_suspicious">Це не схоже на пароль застосунку (16 літер).</string>
+    <string name="app_password_suspicious">Це не схоже на пароль застосунку (16 літер). Зі звичайним паролем сервер відмовить у надсиланні.</string>
     <string name="proton_token_needed">Proton надсилає через SMTP лише з SMTP-токеном, який доступний для адрес на власному домені в платному тарифі. Укажіть у полях «Користувач» і «Пароль» ім’я користувача й токен від Proton.</string>
     <string name="proton_token_open">Відкрити інструкцію Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail і Microsoft 365 більше не приймають пароль для надсилання, а цей застосунок поки не вміє входити в Microsoft. Скористайтеся іншим сервісом.</string>
     <string name="err_app_password">Сервер вимагає пароль застосунку, а не звичайний пароль. Створіть його кнопкою під паролем і вставте туди.</string>
     <string name="err_bad_login">Сервер не прийняв користувача або пароль. Користувачем має бути повна адреса пошти, а паролем для Gmail, Yahoo або iCloud — пароль застосунку.</string>
     <string name="err_microsoft">Microsoft відхилив пароль: надсилання з паролем більше не дозволено. Скористайтеся іншим сервісом.</string>
+    <string name="guide_title">Сервер %s не прийняв користувача або пароль. Він приймає лише пароль застосунку, який можна отримати за три кроки:</string>
+    <string name="guide_step1">Увімкніть двоетапну перевірку у своєму обліковому записі, якщо її ще не ввімкнено. Без неї можливості створити пароль застосунку немає.</string>
+    <string name="guide_step1_open">Увімкнути двоетапну перевірку</string>
+    <string name="guide_step2">Створіть пароль застосунку. Назва будь-яка, наприклад DeadManShot.</string>
+    <string name="guide_step3">Вставте його 16 літер у поле «Пароль» вище (пробіли не важливі), перевірте, що користувач — ваша повна адреса, і надішліть тест ще раз.</string>
+    <string name="guide_retry">Надіслати тест ще раз</string>
+    <string name="guide_note">Звичайний пароль облікового запису %1$s тут не підійде, і входу через %1$s немає: застосунок надсилає лист через SMTP, з паролем застосунку.</string>
+    <string name="send_failed_fix">Перевірити поштовий обліковий запис</string>
     <string name="pc_ssh_key_hint">Входьте за ключем (надійніше й без пароля) або з паролем цього користувача на ПК.</string>
     <string name="pc_ssh_key_generate">Створити ключ</string>
     <string name="pc_ssh_key_copy">Скопіювати відкритий ключ</string>

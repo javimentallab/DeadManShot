@@ -239,13 +239,21 @@
     </plurals>
     <string name="app_password_needed">This provider only accepts an app password: 16 letters that you create for this app. Your usual password is refused.</string>
     <string name="app_password_open">Create an app password</string>
-    <string name="app_password_suspicious">This does not look like an app password (16 letters).</string>
+    <string name="app_password_suspicious">This does not look like an app password (16 letters). With your usual password, the server will refuse to send.</string>
     <string name="proton_token_needed">Proton only sends over SMTP with an SMTP token, which exists for addresses on your own domain with a paid plan. Put the username and token that Proton gives you in User and Password.</string>
     <string name="proton_token_open">Open Proton\'s instructions</string>
     <string name="microsoft_unsupported">Outlook, Hotmail and Microsoft 365 no longer accept a password for sending, and this app cannot sign in to Microsoft yet. Use another provider.</string>
     <string name="err_app_password">The server asks for an app password, not your usual one. Create one with the button below the password and paste it there.</string>
     <string name="err_bad_login">The server did not accept the user or the password. The user must be your full email address and, with Gmail, Yahoo or iCloud, the password an app password.</string>
     <string name="err_microsoft">Microsoft refused the password: it no longer allows sending with one. Use another provider.</string>
+    <string name="guide_title">%s did not accept the user or the password. It only takes an app password, which you get in three steps:</string>
+    <string name="guide_step1">Turn on two-step verification in your account, if it is not on yet. Without it, there is no option to create app passwords.</string>
+    <string name="guide_step1_open">Turn on two-step verification</string>
+    <string name="guide_step2">Create an app password. Give it any name, for example DeadManShot.</string>
+    <string name="guide_step3">Paste its 16 letters in Password, above (spaces do not matter), check that User is your full address and send the test again.</string>
+    <string name="guide_retry">Send the test again</string>
+    <string name="guide_note">Your usual %1$s password does not work here, and there is no signing in with %1$s: the app sends the email over SMTP, with the app password.</string>
+    <string name="send_failed_fix">Check the email account</string>
     <string name="pc_ssh_key_hint">Sign in with a key (safer, and no password needed) or with the password of that user on the PC.</string>
     <string name="pc_ssh_key_generate">Create a key</string>
     <string name="pc_ssh_key_copy">Copy the public key</string>

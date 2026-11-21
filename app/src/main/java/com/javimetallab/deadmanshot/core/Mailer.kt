@@ -21,8 +21,8 @@ object Mailer {
 
     /** What a provider asks for instead of the account's usual password, if anything. */
     sealed interface AccountNote {
-        /** Gmail, Yahoo, iCloud: an app password, created on [page]. */
-        data class AppPassword(val page: String) : AccountNote
+        /** Gmail, Yahoo, iCloud: an app password, which needs two-step verification first. */
+        data class AppPassword(val provider: AppPasswordProvider) : AccountNote
         /** Proton: an SMTP token, only for custom-domain addresses on paid plans. */
         data class ProtonToken(val page: String) : AccountNote
         /** Outlook, Hotmail, Microsoft 365: OAuth only, which this app does not do. */
@@ -33,33 +33,21 @@ object Mailer {
         "smtp.office365.com", "smtp-mail.outlook.com", "smtp.outlook.com", "smtp.live.com", "smtp.hotmail.com",
     )
 
-    fun accountNote(host: String): AccountNote? = when (val h = host.trim().lowercase()) {
-        "smtp.gmail.com", "smtp.googlemail.com" -> AccountNote.AppPassword("https://myaccount.google.com/apppasswords")
-        "smtp.mail.yahoo.com" -> AccountNote.AppPassword("https://login.yahoo.com/account/security/app-passwords")
-        "smtp.mail.me.com" -> AccountNote.AppPassword("https://account.apple.com/account/manage/section/security")
-        "smtp.protonmail.ch", "smtp.proton.me" -> AccountNote.ProtonToken("https://proton.me/support/smtp-submission")
-        in MICROSOFT_HOSTS -> AccountNote.MicrosoftOAuth
-        else -> null
+    fun accountNote(host: String): AccountNote? {
+        Login.provider(host)?.let { return AccountNote.AppPassword(it) }
+        return when (host.trim().lowercase()) {
+            "smtp.protonmail.ch", "smtp.proton.me" -> AccountNote.ProtonToken("https://proton.me/support/smtp-submission")
+            in MICROSOFT_HOSTS -> AccountNote.MicrosoftOAuth
+            else -> null
+        }
     }
 
-    /** App passwords of those providers are 16 letters, shown in groups with spaces or hyphens. */
-    fun looksLikeAppPassword(password: String): Boolean =
-        password.filterNot { it == ' ' || it == '-' }.let { p -> p.length == 16 && p.all { it in 'a'..'z' || it in 'A'..'Z' } }
-
-    /** Google and Yahoo show app passwords with spaces, which are not part of them. */
-    fun normalisePassword(host: String, password: String): String =
-        if (host.trim().lowercase() in setOf("smtp.gmail.com", "smtp.googlemail.com", "smtp.mail.yahoo.com")) {
-            password.replace(" ", "")
-        } else password
-
     /** A sending error in words the user can act on, or the server's own words if not recognised. */
-    fun explain(context: Context, error: String): String = when {
-        "5.7.139" in error || "5.7.30" in error || "asic authentication is disabled" in error ->
-            context.getString(R.string.err_microsoft)
-        "5.7.9" in error || "pplication-specific password" in error ->
-            context.getString(R.string.err_app_password)
-        error.trimStart().startsWith("535") -> context.getString(R.string.err_bad_login)
-        else -> error
+    fun explain(context: Context, error: String): String = when (Login.classify(error)) {
+        SendFailure.MICROSOFT -> context.getString(R.string.err_microsoft)
+        SendFailure.APP_PASSWORD -> context.getString(R.string.err_app_password)
+        SendFailure.BAD_LOGIN -> context.getString(R.string.err_bad_login)
+        SendFailure.OTHER -> error
     }
 
     /** What is missing before the switch can be trusted to send; empty when ready. */
@@ -119,7 +107,7 @@ object Mailer {
             messageId = UUID.randomUUID().toString() + "@" + from.substringAfter('@'),
         )
         SmtpClient.send(
-            SmtpAccount(s.smtp.host, s.smtp.port, s.smtp.security, s.smtp.user, normalisePassword(s.smtp.host, password)),
+            SmtpAccount(s.smtp.host, s.smtp.port, s.smtp.security, s.smtp.user, Login.normalisePassword(s.smtp.host, password)),
             from, to, message
         )
         return skipped

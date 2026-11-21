@@ -43,6 +43,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bolt
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Error
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Pause
@@ -106,6 +107,7 @@ fun HomeTab(
     tick: Int,
     permissionsTick: Int,
     askNotifications: () -> Unit,
+    openEmail: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val now = remember(tick, s) { System.currentTimeMillis() }
@@ -118,7 +120,7 @@ fun HomeTab(
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        StatusCard(s, status, now, askNotifications)
+        StatusCard(s, status, now, askNotifications, openEmail)
         CheckInSection(s, status)
         PermissionsCard(permissionsTick, askNotifications)
         TimingCard(s)
@@ -127,7 +129,13 @@ fun HomeTab(
 }
 
 @Composable
-private fun StatusCard(s: Snapshot, status: Status, now: Long, askNotifications: () -> Unit) {
+private fun StatusCard(
+    s: Snapshot,
+    status: Status,
+    now: Long,
+    askNotifications: () -> Unit,
+    openEmail: () -> Unit,
+) {
     val context = LocalContext.current
     var showPause by rememberSaveable { mutableStateOf(false) }
     var showFireNow by rememberSaveable { mutableStateOf(false) }
@@ -217,6 +225,14 @@ private fun StatusCard(s: Snapshot, status: Status, now: Long, askNotifications:
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center,
             )
+            // A refused login will be refused again on every retry: point at where it is fixed.
+            if (status is Status.Fired && s.sendState == SendState.FAILED) {
+                OutlinedButton(onClick = openEmail) {
+                    Icon(Icons.Filled.Email, contentDescription = null)
+                    Spacer(Modifier.width(8.dp))
+                    Text(stringResource(R.string.send_failed_fix))
+                }
+            }
 
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(

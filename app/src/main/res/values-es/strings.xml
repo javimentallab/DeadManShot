@@ -238,13 +238,21 @@
     </plurals>
     <string name="app_password_needed">Este proveedor solo acepta una contraseña de aplicación: 16 letras que creas para esta aplicación. Tu contraseña de siempre la rechaza.</string>
     <string name="app_password_open">Crear una contraseña de aplicación</string>
-    <string name="app_password_suspicious">Esto no parece una contraseña de aplicación (16 letras).</string>
+    <string name="app_password_suspicious">Esto no parece una contraseña de aplicación (16 letras). Con la contraseña de siempre, el servidor rechazará el envío.</string>
     <string name="proton_token_needed">Proton solo envía por SMTP con un token SMTP, que existe para direcciones con dominio propio en un plan de pago. Pon en Usuario y Contraseña el usuario y el token que te dé Proton.</string>
     <string name="proton_token_open">Abrir las instrucciones de Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail y Microsoft 365 ya no aceptan una contraseña para enviar, y esta aplicación aún no puede iniciar sesión en Microsoft. Usa otro proveedor.</string>
     <string name="err_app_password">El servidor pide una contraseña de aplicación, no la de siempre. Créala con el botón de debajo de la contraseña y pégala ahí.</string>
     <string name="err_bad_login">El servidor no ha aceptado el usuario o la contraseña. El usuario tiene que ser tu dirección de correo completa y la contraseña, con Gmail, Yahoo o iCloud, una de aplicación.</string>
     <string name="err_microsoft">Microsoft ha rechazado la contraseña: ya no permite enviar con una. Usa otro proveedor.</string>
+    <string name="guide_title">%s no ha aceptado el usuario o la contraseña. Solo admite una contraseña de aplicación, que se consigue en tres pasos:</string>
+    <string name="guide_step1">Activa la verificación en dos pasos de tu cuenta, si aún no está activada. Sin ella no aparece la opción de crear contraseñas de aplicación.</string>
+    <string name="guide_step1_open">Activar la verificación en dos pasos</string>
+    <string name="guide_step2">Crea una contraseña de aplicación. Ponle el nombre que quieras, por ejemplo DeadManShot.</string>
+    <string name="guide_step3">Pega sus 16 letras en Contraseña, más arriba (los espacios dan igual), comprueba que el usuario es tu dirección completa y vuelve a enviar la prueba.</string>
+    <string name="guide_retry">Volver a enviar la prueba</string>
+    <string name="guide_note">La contraseña de siempre de tu cuenta de %1$s no sirve aquí, y no hay inicio de sesión con %1$s: la aplicación envía el correo por SMTP, con la contraseña de aplicación.</string>
+    <string name="send_failed_fix">Revisar la cuenta de correo</string>
     <string name="pc_ssh_key_hint">Entra con una clave (más seguro y sin contraseña) o con la contraseña de ese usuario en el PC.</string>
     <string name="pc_ssh_key_generate">Crear una clave</string>
     <string name="pc_ssh_key_copy">Copiar la clave pública</string>

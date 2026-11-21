@@ -238,13 +238,21 @@
     </plurals>
     <string name="app_password_needed">Aquest proveïdor només accepta una contrasenya d\'aplicació: 16 lletres que crees per a aquesta aplicació. La teva contrasenya de sempre la rebutja.</string>
     <string name="app_password_open">Crea una contrasenya d\'aplicació</string>
-    <string name="app_password_suspicious">Això no sembla una contrasenya d\'aplicació (16 lletres).</string>
+    <string name="app_password_suspicious">Això no sembla una contrasenya d\'aplicació (16 lletres). Amb la contrasenya de sempre, el servidor rebutjarà l\'enviament.</string>
     <string name="proton_token_needed">Proton només envia per SMTP amb un token SMTP, que existeix per a adreces amb domini propi en un pla de pagament. Posa a Usuari i Contrasenya l\'usuari i el token que et doni Proton.</string>
     <string name="proton_token_open">Obre les instruccions de Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail i Microsoft 365 ja no accepten una contrasenya per enviar, i aquesta aplicació encara no pot iniciar sessió a Microsoft. Fes servir un altre proveïdor.</string>
     <string name="err_app_password">El servidor demana una contrasenya d\'aplicació, no la de sempre. Crea-la amb el botó de sota la contrasenya i enganxa-la-hi.</string>
     <string name="err_bad_login">El servidor no ha acceptat l\'usuari o la contrasenya. L\'usuari ha de ser la teva adreça de correu completa i la contrasenya, amb Gmail, Yahoo o iCloud, una d\'aplicació.</string>
     <string name="err_microsoft">Microsoft ha rebutjat la contrasenya: ja no permet enviar amb contrasenya. Fes servir un altre proveïdor.</string>
+    <string name="guide_title">%s no ha acceptat l\'usuari o la contrasenya. Només admet una contrasenya d\'aplicació, que s\'obté en tres passos:</string>
+    <string name="guide_step1">Activa la verificació en dos passos del teu compte, si encara no està activada. Sense ella no apareix l\'opció de crear contrasenyes d\'aplicació.</string>
+    <string name="guide_step1_open">Activa la verificació en dos passos</string>
+    <string name="guide_step2">Crea una contrasenya d\'aplicació. Posa-li el nom que vulguis, per exemple DeadManShot.</string>
+    <string name="guide_step3">Enganxa les 16 lletres a Contrasenya, més amunt (els espais no importen), comprova que l\'usuari és la teva adreça completa i torna a enviar la prova.</string>
+    <string name="guide_retry">Torna a enviar la prova</string>
+    <string name="guide_note">La contrasenya de sempre del teu compte de %1$s no serveix aquí, i no hi ha inici de sessió amb %1$s: l\'aplicació envia el correu per SMTP, amb la contrasenya d\'aplicació.</string>
+    <string name="send_failed_fix">Revisa el compte de correu</string>
     <string name="pc_ssh_key_hint">Entra amb una clau (més segur i sense contrasenya) o amb la contrasenya d\'aquest usuari al PC.</string>
     <string name="pc_ssh_key_generate">Crea una clau</string>
     <string name="pc_ssh_key_copy">Copia la clau pública</string>

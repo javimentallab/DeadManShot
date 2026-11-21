@@ -224,13 +224,21 @@
     </plurals>
     <string name="app_password_needed">ผู้ให้บริการนี้รับเฉพาะรหัสผ่านสำหรับแอป ซึ่งเป็นตัวอักษร 16 ตัวที่คุณสร้างสำหรับแอปนี้ รหัสผ่านปกติจะถูกปฏิเสธ</string>
     <string name="app_password_open">สร้างรหัสผ่านสำหรับแอป</string>
-    <string name="app_password_suspicious">ดูไม่เหมือนรหัสผ่านสำหรับแอป (ตัวอักษร 16 ตัว)</string>
+    <string name="app_password_suspicious">ดูไม่เหมือนรหัสผ่านสำหรับแอป (ตัวอักษร 16 ตัว) หากใช้รหัสผ่านปกติ เซิร์ฟเวอร์จะปฏิเสธการส่ง</string>
     <string name="proton_token_needed">Proton ส่งผ่าน SMTP ได้เฉพาะเมื่อใช้โทเค็น SMTP ซึ่งมีให้สำหรับที่อยู่บนโดเมนของคุณเองในแพ็กเกจแบบชำระเงิน ใส่ชื่อผู้ใช้และโทเค็นที่ Proton ให้ในช่องผู้ใช้และรหัสผ่าน</string>
     <string name="proton_token_open">เปิดคำแนะนำของ Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail และ Microsoft 365 ไม่รับรหัสผ่านสำหรับการส่งอีกแล้ว และแอปนี้ยังลงชื่อเข้าใช้ Microsoft ไม่ได้ โปรดใช้ผู้ให้บริการอื่น</string>
     <string name="err_app_password">เซิร์ฟเวอร์ต้องการรหัสผ่านสำหรับแอป ไม่ใช่รหัสผ่านปกติ สร้างด้วยปุ่มใต้ช่องรหัสผ่านแล้ววางลงในช่องนั้น</string>
     <string name="err_bad_login">เซิร์ฟเวอร์ไม่ยอมรับผู้ใช้หรือรหัสผ่าน ผู้ใช้ต้องเป็นที่อยู่อีเมลแบบเต็ม และสำหรับ Gmail, Yahoo หรือ iCloud รหัสผ่านต้องเป็นรหัสผ่านสำหรับแอป</string>
     <string name="err_microsoft">Microsoft ปฏิเสธรหัสผ่าน: ไม่อนุญาตให้ส่งด้วยรหัสผ่านอีกแล้ว โปรดใช้ผู้ให้บริการอื่น</string>
+    <string name="guide_title">%s ไม่ยอมรับผู้ใช้หรือรหัสผ่าน ใช้ได้เฉพาะรหัสผ่านสำหรับแอป ซึ่งสร้างได้ใน 3 ขั้นตอน:</string>
+    <string name="guide_step1">เปิดการยืนยันแบบ 2 ขั้นตอนในบัญชีของคุณ หากยังไม่ได้เปิด เพราะถ้าไม่เปิด จะไม่มีตัวเลือกให้สร้างรหัสผ่านสำหรับแอป</string>
+    <string name="guide_step1_open">เปิดการยืนยันแบบ 2 ขั้นตอน</string>
+    <string name="guide_step2">สร้างรหัสผ่านสำหรับแอป ตั้งชื่ออะไรก็ได้ เช่น DeadManShot</string>
+    <string name="guide_step3">วางตัวอักษร 16 ตัวในช่องรหัสผ่านด้านบน (มีเว้นวรรคก็ได้) ตรวจสอบว่าผู้ใช้เป็นที่อยู่อีเมลแบบเต็ม แล้วส่งอีเมลทดสอบอีกครั้ง</string>
+    <string name="guide_retry">ส่งอีเมลทดสอบอีกครั้ง</string>
+    <string name="guide_note">รหัสผ่านปกติของบัญชี %1$s ใช้ที่นี่ไม่ได้ และไม่มีการลงชื่อเข้าใช้ด้วย %1$s แอปส่งอีเมลผ่าน SMTP โดยใช้รหัสผ่านสำหรับแอป</string>
+    <string name="send_failed_fix">ตรวจสอบบัญชีอีเมล</string>
     <string name="pc_ssh_key_hint">ลงชื่อเข้าใช้ด้วยคีย์ (ปลอดภัยกว่าและไม่ต้องใช้รหัสผ่าน) หรือด้วยรหัสผ่านของผู้ใช้นั้นบน PC</string>
     <string name="pc_ssh_key_generate">สร้างคีย์</string>
     <string name="pc_ssh_key_copy">คัดลอกคีย์สาธารณะ</string>

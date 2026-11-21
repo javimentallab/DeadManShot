@@ -231,13 +231,21 @@
     </plurals>
     <string name="app_password_needed">Dieser Anbieter akzeptiert nur ein App-Passwort: 16 Buchstaben, die du für diese App erstellst. Dein normales Passwort wird abgelehnt.</string>
     <string name="app_password_open">App-Passwort erstellen</string>
-    <string name="app_password_suspicious">Das sieht nicht nach einem App-Passwort aus (16 Buchstaben).</string>
+    <string name="app_password_suspicious">Das sieht nicht nach einem App-Passwort aus (16 Buchstaben). Mit deinem normalen Passwort verweigert der Server den Versand.</string>
     <string name="proton_token_needed">Proton sendet per SMTP nur mit einem SMTP-Token, den es für Adressen mit eigener Domain in einem kostenpflichtigen Tarif gibt. Trage Benutzername und Token von Proton unter Benutzer und Passwort ein.</string>
     <string name="proton_token_open">Anleitung von Proton öffnen</string>
     <string name="microsoft_unsupported">Outlook, Hotmail und Microsoft 365 akzeptieren zum Senden kein Passwort mehr, und diese App kann sich noch nicht bei Microsoft anmelden. Nutze einen anderen Anbieter.</string>
     <string name="err_app_password">Der Server verlangt ein App-Passwort, nicht dein normales Passwort. Erstelle eines mit der Schaltfläche unter dem Passwort und füge es dort ein.</string>
     <string name="err_bad_login">Der Server hat Benutzer oder Passwort nicht akzeptiert. Der Benutzer muss deine vollständige E-Mail-Adresse sein und das Passwort bei Gmail, Yahoo oder iCloud ein App-Passwort.</string>
     <string name="err_microsoft">Microsoft hat das Passwort abgelehnt: Senden mit Passwort ist nicht mehr erlaubt. Nutze einen anderen Anbieter.</string>
+    <string name="guide_title">%s hat Benutzer oder Passwort nicht akzeptiert. Dort geht nur ein App-Passwort, das du in drei Schritten bekommst:</string>
+    <string name="guide_step1">Aktiviere in deinem Konto die Bestätigung in zwei Schritten, falls sie noch nicht aktiv ist. Ohne sie gibt es keine Option, App-Passwörter zu erstellen.</string>
+    <string name="guide_step1_open">Bestätigung in zwei Schritten aktivieren</string>
+    <string name="guide_step2">Erstelle ein App-Passwort. Der Name ist egal, zum Beispiel DeadManShot.</string>
+    <string name="guide_step3">Füge die 16 Buchstaben oben bei Passwort ein (Leerzeichen spielen keine Rolle), prüfe, ob Benutzer deine vollständige Adresse ist, und sende den Test erneut.</string>
+    <string name="guide_retry">Test erneut senden</string>
+    <string name="guide_note">Dein normales %1$s-Passwort funktioniert hier nicht, und eine Anmeldung mit %1$s gibt es nicht: Die App sendet die E-Mail per SMTP, mit dem App-Passwort.</string>
+    <string name="send_failed_fix">E-Mail-Konto prüfen</string>
     <string name="pc_ssh_key_hint">Melde dich mit einem Schlüssel an (sicherer, ohne Passwort) oder mit dem Passwort dieses Benutzers auf dem PC.</string>
     <string name="pc_ssh_key_generate">Schlüssel erstellen</string>
     <string name="pc_ssh_key_copy">Öffentlichen Schlüssel kopieren</string>

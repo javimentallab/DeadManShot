@@ -231,13 +231,21 @@
     </plurals>
     <string name="app_password_needed">Este provedor só acepta un contrasinal de aplicación: 16 letras que creas para esta aplicación. Rexeita o teu contrasinal de sempre.</string>
     <string name="app_password_open">Crear un contrasinal de aplicación</string>
-    <string name="app_password_suspicious">Isto non parece un contrasinal de aplicación (16 letras).</string>
+    <string name="app_password_suspicious">Isto non parece un contrasinal de aplicación (16 letras). Co contrasinal de sempre, o servidor rexeitará o envío.</string>
     <string name="proton_token_needed">Proton só envía por SMTP cun token SMTP, que existe para enderezos con dominio propio nun plan de pagamento. Pon en Usuario e Contrasinal o usuario e o token que che dea Proton.</string>
     <string name="proton_token_open">Abrir as instrucións de Proton</string>
     <string name="microsoft_unsupported">Outlook, Hotmail e Microsoft 365 xa non aceptan un contrasinal para enviar, e esta aplicación aínda non pode iniciar sesión en Microsoft. Usa outro provedor.</string>
     <string name="err_app_password">O servidor pide un contrasinal de aplicación, non o de sempre. Créao co botón de debaixo do contrasinal e pégao aí.</string>
     <string name="err_bad_login">O servidor non aceptou o usuario ou o contrasinal. O usuario ten que ser o teu enderezo de correo completo e o contrasinal, con Gmail, Yahoo ou iCloud, un de aplicación.</string>
     <string name="err_microsoft">Microsoft rexeitou o contrasinal: xa non permite enviar con contrasinal. Usa outro provedor.</string>
+    <string name="guide_title">%s non aceptou o usuario ou o contrasinal. Só admite un contrasinal de aplicación, que se consegue en tres pasos:</string>
+    <string name="guide_step1">Activa a verificación en dous pasos da túa conta, se aínda non está activada. Sen ela non aparece a opción de crear contrasinais de aplicación.</string>
+    <string name="guide_step1_open">Activar a verificación en dous pasos</string>
+    <string name="guide_step2">Crea un contrasinal de aplicación. Ponlle o nome que queiras, por exemplo DeadManShot.</string>
+    <string name="guide_step3">Pega as súas 16 letras en Contrasinal, máis arriba (os espazos dan igual), comproba que o usuario é o teu enderezo completo e volve enviar a proba.</string>
+    <string name="guide_retry">Volver enviar a proba</string>
+    <string name="guide_note">O contrasinal de sempre da túa conta de %1$s non serve aquí, e non hai inicio de sesión con %1$s: a aplicación envía o correo por SMTP, co contrasinal de aplicación.</string>
+    <string name="send_failed_fix">Revisar a conta de correo</string>
     <string name="pc_ssh_key_hint">Entra cunha chave (máis seguro e sen contrasinal) ou co contrasinal dese usuario no PC.</string>
     <string name="pc_ssh_key_generate">Crear unha chave</string>
     <string name="pc_ssh_key_copy">Copiar a chave pública</string>

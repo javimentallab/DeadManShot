@@ -231,13 +231,21 @@
     </plurals>
     <string name="app_password_needed">यह सेवा केवल ऐप पासवर्ड स्वीकार करती है: 16 अक्षर, जो आप इस ऐप के लिए बनाते हैं। आपका सामान्य पासवर्ड अस्वीकार कर दिया जाता है।</string>
     <string name="app_password_open">ऐप पासवर्ड बनाएँ</string>
-    <string name="app_password_suspicious">यह ऐप पासवर्ड (16 अक्षर) जैसा नहीं लगता।</string>
+    <string name="app_password_suspicious">यह ऐप पासवर्ड (16 अक्षर) जैसा नहीं लगता। सामान्य पासवर्ड से सर्वर भेजने से मना कर देगा।</string>
     <string name="proton_token_needed">Proton केवल SMTP टोकन से SMTP द्वारा भेजता है, जो सशुल्क प्लान में अपने डोमेन वाले पतों के लिए उपलब्ध है। Proton से मिला उपयोगकर्ता नाम और टोकन उपयोगकर्ता और पासवर्ड में डालें।</string>
     <string name="proton_token_open">Proton के निर्देश खोलें</string>
     <string name="microsoft_unsupported">Outlook, Hotmail और Microsoft 365 अब भेजने के लिए पासवर्ड स्वीकार नहीं करते, और यह ऐप अभी Microsoft में साइन इन नहीं कर सकता। कोई दूसरी सेवा इस्तेमाल करें।</string>
     <string name="err_app_password">सर्वर सामान्य पासवर्ड नहीं, बल्कि ऐप पासवर्ड माँग रहा है। पासवर्ड के नीचे वाले बटन से एक बनाएँ और उसे वहीं चिपकाएँ।</string>
     <string name="err_bad_login">सर्वर ने उपयोगकर्ता या पासवर्ड स्वीकार नहीं किया। उपयोगकर्ता आपका पूरा ईमेल पता होना चाहिए, और Gmail, Yahoo या iCloud के साथ पासवर्ड ऐप पासवर्ड होना चाहिए।</string>
     <string name="err_microsoft">Microsoft ने पासवर्ड अस्वीकार कर दिया: अब पासवर्ड से भेजने की अनुमति नहीं है। कोई दूसरी सेवा इस्तेमाल करें।</string>
+    <string name="guide_title">%s ने उपयोगकर्ता या पासवर्ड स्वीकार नहीं किया। यह केवल ऐप पासवर्ड लेता है, जो तीन चरणों में मिलता है:</string>
+    <string name="guide_step1">अपने खाते में 2-चरणों में पुष्टि चालू करें, अगर वह पहले से चालू नहीं है। इसके बिना ऐप पासवर्ड बनाने का विकल्प नहीं दिखता।</string>
+    <string name="guide_step1_open">2-चरणों में पुष्टि चालू करें</string>
+    <string name="guide_step2">एक ऐप पासवर्ड बनाएँ। कोई भी नाम दें, जैसे DeadManShot।</string>
+    <string name="guide_step3">उसके 16 अक्षर ऊपर पासवर्ड में चिपकाएँ (स्पेस से फ़र्क नहीं पड़ता), जाँचें कि उपयोगकर्ता आपका पूरा पता है, और टेस्ट फिर से भेजें।</string>
+    <string name="guide_retry">टेस्ट फिर से भेजें</string>
+    <string name="guide_note">आपके %1$s खाते का सामान्य पासवर्ड यहाँ काम नहीं करता, और %1$s से साइन इन करने का कोई विकल्प नहीं है: ऐप ईमेल SMTP से, ऐप पासवर्ड के साथ भेजता है।</string>
+    <string name="send_failed_fix">ईमेल खाता जाँचें</string>
     <string name="pc_ssh_key_hint">कुंजी से साइन इन करें (ज़्यादा सुरक्षित, पासवर्ड की ज़रूरत नहीं) या PC पर उस उपयोगकर्ता के पासवर्ड से।</string>
     <string name="pc_ssh_key_generate">कुंजी बनाएँ</string>
     <string name="pc_ssh_key_copy">सार्वजनिक कुंजी कॉपी करें</string>

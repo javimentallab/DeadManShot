@@ -231,13 +231,21 @@
     </plurals>
     <string name="app_password_needed">Deze provider accepteert alleen een app-wachtwoord: 16 letters die je voor deze app aanmaakt. Je gewone wachtwoord wordt geweigerd.</string>
     <string name="app_password_open">App-wachtwoord aanmaken</string>
-    <string name="app_password_suspicious">Dit lijkt geen app-wachtwoord (16 letters).</string>
+    <string name="app_password_suspicious">Dit lijkt geen app-wachtwoord (16 letters). Met je gewone wachtwoord weigert de server te versturen.</string>
     <string name="proton_token_needed">Proton verstuurt via SMTP alleen met een SMTP-token, dat bestaat voor adressen op je eigen domein met een betaald abonnement. Vul de gebruikersnaam en het token van Proton in bij Gebruiker en Wachtwoord.</string>
     <string name="proton_token_open">Instructies van Proton openen</string>
     <string name="microsoft_unsupported">Outlook, Hotmail en Microsoft 365 accepteren geen wachtwoord meer om te verzenden, en deze app kan nog niet bij Microsoft inloggen. Gebruik een andere provider.</string>
     <string name="err_app_password">De server vraagt om een app-wachtwoord, niet je gewone wachtwoord. Maak er een aan met de knop onder het wachtwoord en plak het daar.</string>
     <string name="err_bad_login">De server heeft de gebruiker of het wachtwoord niet geaccepteerd. De gebruiker moet je volledige e-mailadres zijn en het wachtwoord bij Gmail, Yahoo of iCloud een app-wachtwoord.</string>
     <string name="err_microsoft">Microsoft heeft het wachtwoord geweigerd: verzenden met een wachtwoord mag niet meer. Gebruik een andere provider.</string>
+    <string name="guide_title">%s heeft de gebruiker of het wachtwoord niet geaccepteerd. Alleen een app-wachtwoord werkt, en dat krijg je in drie stappen:</string>
+    <string name="guide_step1">Zet verificatie in twee stappen aan in je account, als die nog niet aanstaat. Zonder die verificatie verschijnt de optie om app-wachtwoorden aan te maken niet.</string>
+    <string name="guide_step1_open">Verificatie in twee stappen aanzetten</string>
+    <string name="guide_step2">Maak een app-wachtwoord aan. De naam maakt niet uit, bijvoorbeeld DeadManShot.</string>
+    <string name="guide_step3">Plak de 16 letters hierboven bij Wachtwoord (spaties maken niet uit), controleer of Gebruiker je volledige adres is en stuur de test opnieuw.</string>
+    <string name="guide_retry">Test opnieuw sturen</string>
+    <string name="guide_note">Je gewone %1$s-wachtwoord werkt hier niet, en inloggen met %1$s bestaat niet: de app verstuurt de e-mail via SMTP, met het app-wachtwoord.</string>
+    <string name="send_failed_fix">E-mailaccount controleren</string>
     <string name="pc_ssh_key_hint">Log in met een sleutel (veiliger, zonder wachtwoord) of met het wachtwoord van die gebruiker op de pc.</string>
     <string name="pc_ssh_key_generate">Sleutel aanmaken</string>
     <string name="pc_ssh_key_copy">Openbare sleutel kopiëren</string>
